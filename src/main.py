@@ -55,13 +55,11 @@ def main() -> None:
     graphs: Dict[str, Tuple[nx.DiGraph, pd.DataFrame]] = {}
 
     in_ci = os.getenv("GITHUB_ACTIONS", "").lower() == "true"
-    range_items = (
-        [(DEFAULT_RANGE_KEY, RANGE_OPTIONS[DEFAULT_RANGE_KEY])]
-        if in_ci and DEFAULT_RANGE_KEY in RANGE_OPTIONS
-        else list(RANGE_OPTIONS.items())
-    )
+    range_items = list(RANGE_OPTIONS.items())
     if in_ci:
-        print(f"[CI] GITHUB_ACTIONS detected. Scraping only '{DEFAULT_RANGE_KEY}'.")
+        print(
+            f"[CI] GITHUB_ACTIONS detected. Scraping '{DEFAULT_RANGE_KEY}' and using cached CSVs for other ranges."
+        )
 
     for range_key, meta in range_items:
         url = _build_range_url(meta.get("path", ""))
@@ -69,7 +67,11 @@ def main() -> None:
         print(f"\n=== RANGE: {label} ({range_key}) ===")
         print(f"GET {url}")
 
-        html = fetch_html(url)
+        if in_ci and range_key != DEFAULT_RANGE_KEY:
+            print(f"[CI] Cache-only mode for range '{range_key}'. Skipping network fetch.")
+            html = None
+        else:
+            html = fetch_html(url)
         out_arch, out_match = _range_csv_paths(range_key)
         if html is None:
             print(f"[WARN] Fetch failed for {range_key}. Trying cached CSVs...")

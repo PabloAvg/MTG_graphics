@@ -14,7 +14,7 @@ from config import (
 )
 from graph_build import build_graph
 from render_html import render_pyvis
-from scrape import fetch_html, parse_page
+from scrape import build_range_url, fetch_html, parse_page
 
 
 def inspect_console(archetypes_df, matchups_df, G) -> None:
@@ -35,6 +35,9 @@ def inspect_console(archetypes_df, matchups_df, G) -> None:
 def _build_range_url(path: str) -> str:
     if not path:
         return BASE_WINRATES_URL
+    if path.startswith("range:"):
+        range_id = path.split(":", 1)[1]
+        return build_range_url(range_id)
     return f"{BASE_WINRATES_URL}/{path}"
 
 

@@ -23,7 +23,13 @@ HEADERS = {
         "Chrome/120.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
 }
+
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
 @dataclass(frozen=True)
@@ -79,12 +85,22 @@ def parse_cell(td) -> Cell:
     return Cell(winrate=wr, matches=matches, ci_low=ci_low, ci_high=ci_high)
 
 
+def build_range_url(range_id: str) -> str:
+    """
+    Build an mtgdecks range URL using encoded `range:<id>` paths, e.g.:
+    https://mtgdecks.net/Modern/winrates/range%3Alast60days
+    """
+    encoded_path = quote(f"range:{range_id}", safe="")
+    return f"{BASE_WINRATES_URL}/{encoded_path}"
+
+
 def _range_url(range_key: str = DEFAULT_RANGE_KEY) -> str:
     meta = RANGE_OPTIONS.get(range_key, {})
     path = meta.get("path", "")
     if not path:
         return BASE_WINRATES_URL
-    # URL-encode range paths like "range:last60days" -> "range%3Alast60days"
+    if path.startswith("range:"):
+        return build_range_url(path.split(":", 1)[1])
     encoded_path = quote(path, safe="")
     return f"{BASE_WINRATES_URL}/{encoded_path}"
 
@@ -107,7 +123,11 @@ def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> st
         verify = False
 
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30, verify=verify)
+        print(f"GET {url}")
+        r = SESSION.get(url, timeout=30, verify=verify)
+        if r.status_code == 403:
+            print(f"[SKIP] 403 Forbidden for {url}")
+            return None
         r.raise_for_status()
         return r.text
     except requests.HTTPError as e:

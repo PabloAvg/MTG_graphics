@@ -1,6 +1,7 @@
 ﻿from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Tuple, Any, List
 
@@ -200,6 +201,7 @@ def inject_filter_ui(
             f"default_range_key '{default_range_key}' not found in datasets_by_format[{default_format_key!r}]['ranges']"
         )
 
+    updated_at_utc = datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")
     datasets_json = json.dumps(datasets_by_format, ensure_ascii=True)
 
     format_options_html_parts: List[str] = []
@@ -360,6 +362,26 @@ def inject_filter_ui(
              .sidepanel th {
                  background: #242424;
              }
+             .graph-footer {
+                 margin-top: 10px;
+                 padding: 8px 12px;
+                 border-top: 1px solid #2a2a2a;
+                 color: #b8c0cc;
+                 font-family: Arial, sans-serif;
+                 font-size: 12px;
+                 display: flex;
+                 justify-content: space-between;
+                 gap: 12px;
+                 flex-wrap: wrap;
+             }
+             .graph-footer a {
+                 color: #93c5fd;
+                 text-decoration: none;
+             }
+             .graph-footer a:hover,
+             .graph-footer a:focus {
+                 text-decoration: underline;
+             }
     """
 
     controls_html = f"""
@@ -414,6 +436,13 @@ def inject_filter_ui(
                         <tbody id="matchupBody"></tbody>
                     </table>
                 </div>
+            </div>
+    """
+
+    footer_html = f"""
+            <div class="graph-footer">
+                <span>Data source: <a href="https://mtgdecks.net/" target="_blank" rel="noopener noreferrer">mtgdecks.net</a></span>
+                <span>Last updated: {updated_at_utc}</span>
             </div>
     """
 
@@ -1024,7 +1053,10 @@ def inject_filter_ui(
 
     html = html.replace("</head>", f"{extra_head}\n</head>")
     html = html.replace("</style>", f"{extra_css}\n        </style>")
-    html = html.replace("<div id=\"mynetwork\" class=\"card-body\"></div>", f"{controls_html}\n{sidepanel_html}")
+    html = html.replace(
+        "<div id=\"mynetwork\" class=\"card-body\"></div>",
+        f"{controls_html}\n{sidepanel_html}\n{footer_html}",
+    )
     html = html.replace("network = new vis.Network(container, data, options);", "network = new vis.Network(container, data, options);\n" + extra_js)
 
     html_path.write_text(html, encoding="utf-8")

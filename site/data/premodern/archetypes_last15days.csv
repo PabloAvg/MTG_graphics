@@ -2,9 +2,9 @@ archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_rel
 Goblins,0.47252747252747,91,0.37,0.58,/Premodern/goblins
 Stiflenought,0.58461538461538,65,0.46,0.71,/Premodern/stiflenought
 Burn,0.49056603773585,53,0.35,0.63,/Premodern/burn
-Terrageddon,0.6530612244898,49,0.5,0.78,/Premodern/terrageddon
 Enchantress,0.60869565217391,46,0.45,0.75,/Premodern/enchantress
 Devourer Combo,0.54545454545455,44,0.39,0.7,/Premodern/devourer-combo
+Terrageddon,0.69230769230769,39,0.52,0.83,/Premodern/terrageddon
 Stasis,0.5625,32,0.38,0.74,/Premodern/stasis
 Psychatog,0.26666666666667,30,0.12,0.46,/Premodern/psychatog
 Mono Black,0.63333333333333,30,0.44,0.8,/Premodern/mono-black
@@ -25,10 +25,10 @@ Survival,0.45454545454545,11,0.17,0.77,/Premodern/survival
 BUG Control,0.27272727272727,11,0.06,0.61,/Premodern/bug-control
 Gro-a-Tog,0.27272727272727,11,0.06,0.61,/Premodern/gro-a-tog
 Storm,0.27272727272727,11,0.06,0.61,/Premodern/storm
+Oath Ponza,0.81818181818182,11,0.48,0.98,/Premodern/oath-ponza
 Clerics,0.4,10,0.12,0.74,/Premodern/clerics
 Contamination,0.44444444444444,9,0.14,0.79,/Premodern/contamination
 Survival Opposition,0.71428571428571,7,0.29,0.96,/Premodern/survival-opposition
-Oath Ponza,0.71428571428571,7,0.29,0.96,/Premodern/oath-ponza
 Aluren,0.33333333333333,6,0.04,0.78,/Premodern/aluren
 Zombie Infestation,0.5,6,0.12,0.88,/Premodern/zombie-infestation
 Deadguy Ale,0.8,5,0.28,0.99,/Premodern/deadguy-ale

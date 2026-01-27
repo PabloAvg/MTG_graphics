@@ -14,7 +14,7 @@ venv/
 # Ignore html everywhere EXCEPT site/
 *.html
 !site/
-!site/**/*.html
+!site/**
 
 # OS / Editor
 .DS_Store

@@ -39,6 +39,34 @@ jobs:
         run: |
           python src/01_fetch_mtgdecks_winrates.py
 
+      - name: Ensure site/index.html exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p site
+
+          if [[ -f site/index.html ]]; then
+            echo "site/index.html already exists."
+            exit 0
+          fi
+
+          if [[ -f modern_meta_graph.html ]]; then
+            cp modern_meta_graph.html site/index.html
+            echo "Copied modern_meta_graph.html -> site/index.html"
+            exit 0
+          fi
+
+          FOUND_HTML="$(find . -maxdepth 4 -type f -name 'modern_meta_graph.html' -print -quit || true)"
+          if [[ -n "${FOUND_HTML}" ]]; then
+            cp "${FOUND_HTML}" site/index.html
+            echo "Copied ${FOUND_HTML} -> site/index.html"
+            exit 0
+          fi
+
+          echo "ERROR: Could not find a generated HTML to publish." >&2
+          find . -maxdepth 4 -type f -name '*.html' -print || true
+          exit 1
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

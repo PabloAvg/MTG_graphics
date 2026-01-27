@@ -1,0 +1,38 @@
+archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
+Boros Energy,0.62650602409639,83,0.51,0.73,/Modern/boros-energy
+Affinity,0.52941176470588,51,0.38,0.67,/Modern/affinity
+Domain Aggro,0.54,50,0.39,0.68,/Modern/domain-aggro
+Amulet Titan,0.4,30,0.23,0.59,/Modern/amulet-titan
+Neoform,0.62068965517241,29,0.42,0.79,/Modern/neoform
+Izzet Prowess,0.58620689655172,29,0.39,0.76,/Modern/izzet-prowess
+Jeskai Control,0.35714285714286,28,0.19,0.56,/Modern/jeskai-control
+Golgari Yawgmoth,0.51851851851852,27,0.32,0.71,/Modern/golgari-yawgmoth
+Esper Reanimator,0.48148148148148,27,0.29,0.68,/Modern/esper-reanimator
+Tameshi Belcher,0.62962962962963,27,0.42,0.81,/Modern/tameshi-belcher
+Eldrazi Tron,0.55,20,0.32,0.77,/Modern/eldrazi-tron
+Azorius Control,0.26315789473684,19,0.09,0.51,/Modern/azorius-control
+Esper Phelia,0.64705882352941,17,0.38,0.86,/Modern/esper-phelia
+Ruby Storm,0.38461538461538,13,0.14,0.68,/Modern/ruby-storm
+Hardened Scales,0.63636363636364,11,0.31,0.89,/Modern/hardened-scales
+Mill,0.27272727272727,11,0.06,0.61,/Modern/mill
+Eldrazi Ramp,0.7,10,0.35,0.93,/Modern/eldrazi-ramp
+Eldrazi Bloodchief Combo,0.5,10,0.19,0.81,/Modern/eldrazi-bloodchief-combo
+4 Color Ritual,0.4,10,0.12,0.74,/Modern/4-color-ritual
+Infect,0.44444444444444,9,0.14,0.79,/Modern/infect
+Burn,0.44444444444444,9,0.14,0.79,/Modern/burn
+Rakdos Burn,0.77777777777778,9,0.4,0.97,/Modern/rakdos-burn
+Thud Combo,0.44444444444444,9,0.14,0.79,/Modern/thud-combo
+Kethis Combo,0.75,8,0.35,0.97,/Modern/kethis-combo
+Temur Song,0.25,8,0.03,0.65,/Modern/temur-song
+Azorius Blink,0.57142857142857,7,0.18,0.9,/Modern/azorius-blink
+Jeskai Blink,0.57142857142857,7,0.18,0.9,/Modern/jeskai-blink
+Mono Red Prowess,0.42857142857143,7,0.1,0.82,/Modern/mono-red-prowess
+Mardu Control,0.5,6,0.12,0.88,/Modern/mardu-control
+Izzet Control,0.83333333333333,6,0.36,1.0,/Modern/izzet-control
+Eldrazi Aggro,0.4,5,0.05,0.85,/Modern/eldrazi-aggro
+Samwise Combo,0.4,5,0.05,0.85,/Modern/samwise-combo
+Grixis Frog,0.4,5,0.05,0.85,/Modern/grixis-frog
+Bant Ritual,0.4,5,0.05,0.85,/Modern/bant-ritual
+Merfolk,0.5,4,0.07,0.93,/Modern/merfolk
+Dimir Frog,0.5,4,0.07,0.93,/Modern/dimir-frog
+Esper Frog,1.0,3,0.29,1.0,/Modern/esper-frog

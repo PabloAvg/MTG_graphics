@@ -4,6 +4,7 @@ import os
 import re
 from dataclasses import dataclass
 from typing import Optional, Tuple, List, Dict
+from urllib.parse import quote
 
 import pandas as pd
 import requests
@@ -83,7 +84,9 @@ def _range_url(range_key: str = DEFAULT_RANGE_KEY) -> str:
     path = meta.get("path", "")
     if not path:
         return BASE_WINRATES_URL
-    return f"{BASE_WINRATES_URL}/{path}"
+    # URL-encode range paths like "range:last60days" -> "range%3Alast60days"
+    encoded_path = quote(path, safe="")
+    return f"{BASE_WINRATES_URL}/{encoded_path}"
 
 
 def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> str | None:

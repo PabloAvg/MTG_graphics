@@ -57,6 +57,9 @@ def main() -> None:
         print(f"GET {url}")
 
         html = fetch_html(url)
+        if html is None:
+            print(f"[SKIP] Skipping range {range_key} (fetch failed)")
+            continue
         print(f"HTML downloaded: {len(html):,} chars")
 
         archetypes_df, matchups_df = parse_page(html)
@@ -71,7 +74,14 @@ def main() -> None:
 
         graphs[range_key] = (G, archetypes_df)
 
-    render_pyvis(graphs, OUT_HTML, default_range_key=DEFAULT_RANGE_KEY)
+    if not graphs:
+        raise RuntimeError("No ranges could be fetched; aborting HTML render.")
+
+    default_key = DEFAULT_RANGE_KEY if DEFAULT_RANGE_KEY in graphs else next(iter(graphs.keys()))
+    if default_key != DEFAULT_RANGE_KEY:
+        print(f"[WARN] Default range '{DEFAULT_RANGE_KEY}' missing; using '{default_key}' instead.")
+
+    render_pyvis(graphs, OUT_HTML, default_range_key=default_key)
     print(f"\nOK: generated HTML -> {OUT_HTML}")
     print("Open it in the browser (double click).")
 

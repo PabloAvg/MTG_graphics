@@ -86,7 +86,7 @@ def _range_url(range_key: str = DEFAULT_RANGE_KEY) -> str:
     return f"{BASE_WINRATES_URL}/{path}"
 
 
-def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> str:
+def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> str | None:
     if not url:
         url = _range_url(range_key)
 
@@ -103,9 +103,16 @@ def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> st
         # Last resort: allow opting out of verification explicitly.
         verify = False
 
-    r = requests.get(url, headers=HEADERS, timeout=30, verify=verify)
-    r.raise_for_status()
-    return r.text
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30, verify=verify)
+        r.raise_for_status()
+        return r.text
+    except requests.HTTPError as e:
+        print(f"[WARN] Failed to fetch {url}: {e}")
+        return None
+    except requests.RequestException as e:
+        print(f"[WARN] Request error for {url}: {e}")
+        return None
 
 
 def parse_page(html: str) -> Tuple[pd.DataFrame, pd.DataFrame]:

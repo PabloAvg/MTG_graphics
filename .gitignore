@@ -7,10 +7,14 @@ __pycache__/
 venv/
 .env
 
-# Outputs
+# Outputs (raw data)
 *.csv
-*.html
 *.log
+
+# Ignore html everywhere EXCEPT site/
+*.html
+!site/
+!site/**/*.html
 
 # OS / Editor
 .DS_Store

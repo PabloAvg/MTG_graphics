@@ -70,17 +70,22 @@ def main() -> None:
         print(f"GET {url}")
 
         html = fetch_html(url)
-        if html is None:
-            print(f"[SKIP] Skipping range {range_key} (fetch failed)")
-            continue
-        print(f"HTML downloaded: {len(html):,} chars")
-
-        archetypes_df, matchups_df = parse_page(html)
-
         out_arch, out_match = _range_csv_paths(range_key)
-        archetypes_df.to_csv(out_arch, index=False)
-        matchups_df.to_csv(out_match, index=False)
-        print(f"Saved: {out_arch}, {out_match}")
+        if html is None:
+            print(f"[WARN] Fetch failed for {range_key}. Trying cached CSVs...")
+            try:
+                archetypes_df = pd.read_csv(out_arch)
+                matchups_df = pd.read_csv(out_match)
+                print(f"[CACHE] Loaded: {out_arch}, {out_match}")
+            except FileNotFoundError:
+                print(f"[SKIP] No cached CSVs for {range_key}. Skipping.")
+                continue
+        else:
+            print(f"HTML downloaded: {len(html):,} chars")
+            archetypes_df, matchups_df = parse_page(html)
+            archetypes_df.to_csv(out_arch, index=False)
+            matchups_df.to_csv(out_match, index=False)
+            print(f"Saved: {out_arch}, {out_match}")
 
         G = build_graph(archetypes_df, matchups_df)
         inspect_console(archetypes_df, matchups_df, G)

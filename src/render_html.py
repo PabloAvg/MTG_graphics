@@ -20,12 +20,31 @@ def _apply_visual_overrides(net: Network, G: nx.DiGraph, archetypes_df: pd.DataF
         node_id = n["id"]
         attrs = G.nodes[node_id]
 
-        n["size"] = float(attrs.get("size", 25))
-        n["title"] = attrs.get("title", node_id)
-        n["font"] = {"color": "#ffffff", "size": 16, "strokeWidth": 3, "strokeColor": "#101010"}
-        n["matches"] = int(attrs.get("matches", 0))
-
+        size_val = float(attrs.get("size", 25))
+        matches_val = int(attrs.get("matches", 0))
         ow = attrs.get("overall_winrate")
+
+        wr_txt = f"{ow * 100:.1f}%" if isinstance(ow, float) else "n/a"
+        label = f"Winrate: {wr_txt}\nMatches: {matches_val:,}"
+        # Keep text inside large nodes and readable inside small ones.
+        font_size = max(8, min(18, size_val * 0.33))
+
+        n["size"] = size_val
+        n["display_label"] = node_id
+        n["label"] = label
+        n["title"] = attrs.get("title", node_id)
+        n["shape"] = "circle"
+        n["font"] = {
+            "color": "#ffffff",
+            "size": font_size,
+            "strokeWidth": 3,
+            "strokeColor": "#101010",
+            "align": "center",
+            "vadjust": 0,
+        }
+        n["matches"] = matches_val
+        n["overall_winrate"] = float(ow) if isinstance(ow, float) else None
+
         if isinstance(ow, float):
             n["color"] = node_winrate_color(ow)
 
@@ -61,17 +80,34 @@ def _build_dataset(G: nx.DiGraph, archetypes_df: pd.DataFrame) -> Dict[str, List
     positions = compute_radial_positions(archetypes_df)
 
     nodes: List[Dict[str, Any]] = []
+    label_nodes: List[Dict[str, Any]] = []
     for node_id, attrs in G.nodes(data=True):
+        size_val = float(attrs.get("size", 25))
+        matches_val = int(attrs.get("matches", 0))
+        ow = attrs.get("overall_winrate")
+        wr_txt = f"{ow * 100:.1f}%" if isinstance(ow, float) else "n/a"
+        label = f"Winrate: {wr_txt}\nMatches: {matches_val:,}"
+        font_size = max(8, min(18, size_val * 0.33))
+
         node: Dict[str, Any] = {
             "id": node_id,
-            "label": node_id,
-            "size": float(attrs.get("size", 25)),
+            "display_label": node_id,
+            "label": label,
+            "size": size_val,
             "title": attrs.get("title", node_id),
-            "font": {"color": "#ffffff", "size": 16, "strokeWidth": 3, "strokeColor": "#101010"},
-            "matches": int(attrs.get("matches", 0)),
+            "shape": "circle",
+            "font": {
+                "color": "#ffffff",
+                "size": font_size,
+                "strokeWidth": 3,
+                "strokeColor": "#101010",
+                "align": "center",
+                "vadjust": 0,
+            },
+            "matches": matches_val,
+            "overall_winrate": float(ow) if isinstance(ow, float) else None,
         }
 
-        ow = attrs.get("overall_winrate")
         if isinstance(ow, float):
             node["color"] = node_winrate_color(ow)
 
@@ -83,6 +119,29 @@ def _build_dataset(G: nx.DiGraph, archetypes_df: pd.DataFrame) -> Dict[str, List
             node["x"] = x
             node["y"] = y
             node["fixed"] = True
+
+            # External label node (archetype name) with uniform size.
+            label_nodes.append(
+                {
+                    "id": f"label::{node_id}",
+                    "base_id": node_id,
+                    "is_label_node": True,
+                    "label": node_id,
+                    "shape": "text",
+                    "physics": False,
+                    "x": x,
+                    "y": y - (size_val * 1.15 + 28),
+                    "fixed": True,
+                    "font": {
+                        "color": "#ffffff",
+                        "size": 16,
+                        "strokeWidth": 3,
+                        "strokeColor": "#101010",
+                        "align": "center",
+                        "vadjust": 0,
+                    },
+                }
+            )
 
         nodes.append(node)
 
@@ -108,7 +167,7 @@ def _build_dataset(G: nx.DiGraph, archetypes_df: pd.DataFrame) -> Dict[str, List
 
         edges.append(edge)
 
-    return {"nodes": nodes, "edges": edges}
+    return {"nodes": nodes + label_nodes, "edges": edges}
 
 
 def render_pyvis(
@@ -126,7 +185,7 @@ def render_pyvis(
 
     default_G, default_df = graphs_by_format[default_format_key][default_range_key]
 
-    net = Network(height="850px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
+    net = Network(height="800px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
     net.from_nx(default_G)
     _apply_visual_overrides(net, default_G, default_df)
 
@@ -262,8 +321,38 @@ def inject_filter_ui(
                  margin: 0;
              }
              .graph-controls .hint {
+                 font-size: 14px;
+                 color: #e5e7eb;
+                 text-decoration: underline;
+                 font-weight: 600;
+             }
+             .graph-controls .spacer {
+                 flex: 1 1 auto;
+             }
+             .node-summary {
+                 min-width: 220px;
+                 padding: 6px 10px;
+                 border: 1px solid #2f3b4a;
+                 background: #1b2530;
+                 color: #e6e6e6;
+                 font-family: Arial, sans-serif;
                  font-size: 12px;
-                 color: #b0b0b0;
+                 line-height: 1.25;
+                 border-radius: 6px;
+             }
+             .node-summary-title {
+                 font-size: 13px;
+                 font-weight: 700;
+                 margin-bottom: 4px;
+                 color: #f3f4f6;
+             }
+             .node-summary-row {
+                 display: flex;
+                 justify-content: space-between;
+                 gap: 8px;
+             }
+             .node-summary-row strong {
+                 color: #f9fafb;
              }
              .graph-controls .btn-mini {
                  border: 1px solid #3a3a3a;
@@ -399,8 +488,15 @@ def inject_filter_ui(
                     <option value="__all__">All</option>
                 </select>
                 <button id="resetFilter" class="btn-mini" type="button">Reset</button>
+                <button id="matrixBtn" class="btn-mini" type="button">Matrix</button>
                 <button id="helpBtn" class="help-btn" type="button">Help</button>
-                <span class="hint">Click a node to show only its relations and the table</span>
+                <span class="hint">Select an archetype from the filter OR click a node to focus it, zoom to see details</span>
+                <div class="spacer"></div>
+                <div id="nodeSummary" class="node-summary">
+                    <div id="nodeSummaryTitle" class="node-summary-title">No archetype selected</div>
+                    <div class="node-summary-row"><span>Winrate</span><strong id="nodeSummaryWinrate">—</strong></div>
+                    <div class="node-summary-row"><span>Matches</span><strong id="nodeSummaryMatches">—</strong></div>
+                </div>
             </div>
             <div id="helpOverlay" class="help-overlay">
                 <div class="help-modal" role="dialog" aria-modal="true">
@@ -457,6 +553,7 @@ def inject_filter_ui(
         """
                   var filterSelect = document.getElementById('archetypeFilter');
                   var resetBtn = document.getElementById('resetFilter');
+                  var matrixBtn = document.getElementById('matrixBtn');
                   var tomSelectRef = null;
                   var panelTitle = document.getElementById('panelTitle');
                   var panelSubtitle = document.getElementById('panelSubtitle');
@@ -467,10 +564,55 @@ def inject_filter_ui(
                   var helpBtn = document.getElementById('helpBtn');
                   var helpOverlay = document.getElementById('helpOverlay');
                   var helpClose = document.getElementById('helpClose');
+                  var nodeSummaryTitle = document.getElementById('nodeSummaryTitle');
+                  var nodeSummaryWinrate = document.getElementById('nodeSummaryWinrate');
+                  var nodeSummaryMatches = document.getElementById('nodeSummaryMatches');
 
                   var baseNodeState = {};
                   var baseEdgeState = {};
                   var baseSizes = {};
+
+                  function visibleDataNodes() {
+                      return nodes.get().filter(function(n) { return !n.is_label_node; });
+                  }
+
+                  function allLabelNodes() {
+                      return nodes.get().filter(function(n) { return n.is_label_node; });
+                  }
+
+                  function clearNodeSummary() {
+                      if (nodeSummaryTitle) nodeSummaryTitle.textContent = 'No archetype selected';
+                      if (nodeSummaryWinrate) nodeSummaryWinrate.textContent = '—';
+                      if (nodeSummaryMatches) nodeSummaryMatches.textContent = '—';
+                  }
+
+                  function updateNodeSummary(nodeId) {
+                      var node = nodes.get(nodeId);
+                      if (!node) {
+                          clearNodeSummary();
+                          return;
+                      }
+                      var label = node.display_label || node.id || nodeId;
+                      var wr = (node.overall_winrate !== undefined && node.overall_winrate !== null)
+                          ? Number(node.overall_winrate)
+                          : null;
+                      var matches = (node.matches !== undefined && node.matches !== null)
+                          ? Number(node.matches)
+                          : 0;
+
+                      if (nodeSummaryTitle) nodeSummaryTitle.textContent = label;
+                      if (nodeSummaryWinrate) {
+                          nodeSummaryWinrate.textContent = (wr !== null && isFinite(wr))
+                              ? (wr * 100).toFixed(1) + '%'
+                              : 'n/a';
+                          nodeSummaryWinrate.style.color = (wr !== null && isFinite(wr))
+                              ? winrateColor(wr)
+                              : '#e5e7eb';
+                      }
+                      if (nodeSummaryMatches) {
+                          nodeSummaryMatches.textContent = (matches || 0).toLocaleString();
+                      }
+                  }
 
                   function winrateColor(wr) {
                       var x = Math.max(0, Math.min(1, wr));
@@ -518,13 +660,39 @@ def inject_filter_ui(
                   function showAll() {
                       var nodesArray = nodes.get();
                       var edgesArray = edges.get();
+                      var dataNodeIds = {};
+                      var basePos = {};
+                      for (var i0 = 0; i0 < nodesArray.length; i0++) {
+                          var nn0 = nodesArray[i0];
+                          if (!nn0.is_label_node) {
+                              dataNodeIds[nn0.id] = true;
+                          }
+                      }
                       for (var i = 0; i < nodesArray.length; i++) {
-                          nodesArray[i].hidden = false;
-                          var original = baseNodeState[nodesArray[i].id];
+                          var n0 = nodesArray[i];
+                          if (n0.is_label_node) {
+                              n0.hidden = !dataNodeIds[n0.base_id];
+                              continue;
+                          }
+                          n0.hidden = false;
+                          var original = baseNodeState[n0.id];
                           if (original) {
-                              nodesArray[i].fixed = original.fixed;
-                              nodesArray[i].x = original.x;
-                              nodesArray[i].y = original.y;
+                              n0.fixed = original.fixed;
+                              n0.x = original.x;
+                              n0.y = original.y;
+                          }
+                          basePos[n0.id] = { x: n0.x || 0, y: n0.y || 0 };
+                      }
+                      for (var i2 = 0; i2 < nodesArray.length; i2++) {
+                          var lbl = nodesArray[i2];
+                          if (!lbl.is_label_node) continue;
+                          var bp = basePos[lbl.base_id];
+                          lbl.hidden = !bp;
+                          if (bp) {
+                              var off = ((baseSizes[lbl.base_id] || 20) * 1.2 + 28);
+                              lbl.x = bp.x;
+                              lbl.y = bp.y - off;
+                              lbl.fixed = true;
                           }
                       }
                       for (var j = 0; j < edgesArray.length; j++) {
@@ -548,6 +716,7 @@ def inject_filter_ui(
                       panelTitle.textContent = 'Select an archetype';
                       panelSubtitle.textContent = 'Matchups will be shown (click headers to sort).';
                       matchupBody.innerHTML = '';
+                      clearNodeSummary();
                   }
 
                   function showRelations(nodeId) {
@@ -555,10 +724,20 @@ def inject_filter_ui(
                       var connectedEdges = network.getConnectedEdges(nodeId);
                       var nodesArray = nodes.get();
                       var edgesArray = edges.get();
+                      var keepIds = {};
+                      keepIds[nodeId] = true;
+                      for (var ci = 0; ci < connectedNodes.length; ci++) {
+                          keepIds[connectedNodes[ci]] = true;
+                      }
 
                       for (var i = 0; i < nodesArray.length; i++) {
-                          var keepNode = nodesArray[i].id === nodeId || connectedNodes.indexOf(nodesArray[i].id) !== -1;
-                          nodesArray[i].hidden = !keepNode;
+                          var n1 = nodesArray[i];
+                          if (n1.is_label_node) {
+                              n1.hidden = !keepIds[n1.base_id];
+                              continue;
+                          }
+                          var keepNode = !!keepIds[n1.id];
+                          n1.hidden = !keepNode;
                       }
 
                       for (var j = 0; j < edgesArray.length; j++) {
@@ -576,17 +755,18 @@ def inject_filter_ui(
                       applyCenterEdgeEncoding(nodeId);
                       network.fit({ animation: false });
                       renderMatchups(nodeId);
+                      updateNodeSummary(nodeId);
                   }
 
                   function rebuildArchetypeOptions() {
-                      var nodeList = nodes.get();
+                      var nodeList = visibleDataNodes();
                       nodeList.sort(function(a, b) {
-                          return String(a.label).localeCompare(String(b.label));
+                          return String(a.display_label || a.id).localeCompare(String(b.display_label || b.id));
                       });
 
                       var options = [{ value: '__all__', text: 'All' }];
                       for (var i = 0; i < nodeList.length; i++) {
-                          options.push({ value: nodeList[i].id, text: nodeList[i].label });
+                          options.push({ value: nodeList[i].id, text: (nodeList[i].display_label || nodeList[i].id) });
                       }
 
                       if (tomSelectRef) {
@@ -716,6 +896,7 @@ def inject_filter_ui(
                       initBaseState();
                       rebuildArchetypeOptions();
                       showAll();
+                      clearNodeSummary();
 
                       if (formatSelect) {
                           formatSelect.value = currentFormatKey;
@@ -757,9 +938,157 @@ def inject_filter_ui(
                       showAll();
                   });
 
+                  function clamp01(x) {
+                      return Math.max(0, Math.min(1, x));
+                  }
+
+                  function rgbTextColor(rgbStr) {
+                      var m = /rgb\\((\\d+),(\\d+),(\\d+)\\)/.exec(rgbStr || '');
+                      if (!m) return '#0b1320';
+                      var r = Number(m[1]) / 255;
+                      var g = Number(m[2]) / 255;
+                      var b = Number(m[3]) / 255;
+                      var luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+                      return luminance > 0.55 ? '#0b1320' : '#f8fafc';
+                  }
+
+                  function matchupFor(rowId, colId) {
+                      if (rowId === colId) {
+                          return { wr: 0.5, matches: 0, diag: true };
+                      }
+                      var edgeAB = edges.get({
+                          filter: function(e) { return e.from === rowId && e.to === colId; }
+                      })[0];
+                      var edgeBA = edges.get({
+                          filter: function(e) { return e.from === colId && e.to === rowId; }
+                      })[0];
+                      var edge = edgeAB || edgeBA;
+                      if (!edge) {
+                          return null;
+                      }
+                      var wrFrom = (edge.winrate_from !== undefined && edge.winrate_from !== null)
+                          ? Number(edge.winrate_from)
+                          : 0.5;
+                      var wrRow = edgeAB ? wrFrom : (1.0 - wrFrom);
+                      wrRow = clamp01(wrRow);
+                      return {
+                          wr: wrRow,
+                          matches: Number(edge.matches || 0),
+                          diag: false
+                      };
+                  }
+
+                  function openMatrixView() {
+                      var dataNodes = visibleDataNodes();
+                      if (!dataNodes.length) {
+                          return;
+                      }
+                      dataNodes.sort(function(a, b) { return (b.matches || 0) - (a.matches || 0); });
+                      var ids = dataNodes.map(function(n) { return n.id; });
+                      var labels = {};
+                      var overallWr = {};
+                      var overallMatches = {};
+                      for (var i = 0; i < dataNodes.length; i++) {
+                          var n = dataNodes[i];
+                          labels[n.id] = n.display_label || n.id;
+                          overallWr[n.id] = (n.overall_winrate !== undefined && n.overall_winrate !== null)
+                              ? Number(n.overall_winrate)
+                              : null;
+                          overallMatches[n.id] = Number(n.matches || 0);
+                      }
+
+                      var win = window.open('', '_blank');
+                      if (!win) {
+                          return;
+                      }
+
+                      var fmtLabel = (datasetsByFormat[currentFormatKey] && datasetsByFormat[currentFormatKey].label)
+                          ? datasetsByFormat[currentFormatKey].label
+                          : currentFormatKey;
+                      var rangeEntry = datasetsByFormat[currentFormatKey] && datasetsByFormat[currentFormatKey].ranges
+                          ? datasetsByFormat[currentFormatKey].ranges[currentRangeKey]
+                          : null;
+                      var rangeLabel = rangeEntry && rangeEntry.label ? rangeEntry.label : currentRangeKey;
+
+                      var htmlParts = [];
+                      htmlParts.push('<!doctype html><html><head><meta charset="utf-8" />');
+                      htmlParts.push('<title>MTG Winrate Matrix</title>');
+                      htmlParts.push('<style>');
+                      htmlParts.push('body{background:#0b0f14;color:#e5e7eb;font-family:Arial,sans-serif;margin:0;padding:12px;}');
+                      htmlParts.push('h2{margin:0 0 8px 0;font-size:18px;}');
+                      htmlParts.push('.sub{color:#9ca3af;font-size:12px;margin-bottom:10px;}');
+                      htmlParts.push('table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:11px;}');
+                      htmlParts.push('th,td{border:1px solid #1f2937;padding:4px;vertical-align:top;text-align:center;}');
+                      htmlParts.push('th{background:#111827;color:#f3f4f6;position:sticky;top:0;z-index:2;}');
+                      htmlParts.push('.rowhdr{position:sticky;left:0;z-index:1;background:#0f172a;text-align:left;font-weight:700;}');
+                      htmlParts.push('.cell{min-height:52px;display:flex;flex-direction:column;gap:2px;align-items:center;justify-content:center;}');
+                      htmlParts.push('.cell .wr{font-weight:800;font-size:12px;}');
+                      htmlParts.push('.cell .matches{font-size:10px;opacity:.9;}');
+                      htmlParts.push('.overall{background:#0f172a;}');
+                      htmlParts.push('</style></head><body>');
+                      htmlParts.push('<h2>Winrate Matrix</h2>');
+                      htmlParts.push('<div class="sub">Format: ' + fmtLabel + ' | Range: ' + rangeLabel + '</div>');
+                      htmlParts.push('<div style="overflow:auto;max-height:85vh;border:1px solid #1f2937;">');
+                      htmlParts.push('<table><thead><tr>');
+                      htmlParts.push('<th class="rowhdr">Deck</th>');
+                      htmlParts.push('<th>Overall</th>');
+                      for (var c = 0; c < ids.length; c++) {
+                          htmlParts.push('<th>' + labels[ids[c]] + '</th>');
+                      }
+                      htmlParts.push('</tr></thead><tbody>');
+
+                      for (var r = 0; r < ids.length; r++) {
+                          var rid = ids[r];
+                          htmlParts.push('<tr>');
+                          htmlParts.push('<td class="rowhdr">' + labels[rid] + '</td>');
+
+                          var owr = overallWr[rid];
+                          var oMatches = overallMatches[rid];
+                          var oBg = owr !== null ? winrateColor(owr) : 'rgb(20,20,20)';
+                          var oFg = rgbTextColor(oBg);
+                          htmlParts.push('<td class="overall" style="background:' + oBg + ';color:' + oFg + ';">');
+                          htmlParts.push('<div class="cell">');
+                          htmlParts.push('<div class="wr">' + (owr !== null ? (owr * 100).toFixed(1) + '%' : 'n/a') + '</div>');
+                          htmlParts.push('<div class="matches">' + (oMatches || 0).toLocaleString() + ' matches</div>');
+                          htmlParts.push('</div></td>');
+
+                          for (var c2 = 0; c2 < ids.length; c2++) {
+                              var cid = ids[c2];
+                              var m = matchupFor(rid, cid);
+                              if (!m) {
+                                  htmlParts.push('<td></td>');
+                                  continue;
+                              }
+                              var isDiag = rid === cid;
+                              var bg = isDiag ? '#7dd3fc' : winrateColor(m.wr);
+                              var fg = isDiag ? '#0b1320' : rgbTextColor(bg);
+                              htmlParts.push('<td style="background:' + bg + ';color:' + fg + ';">');
+                              htmlParts.push('<div class="cell">');
+                              htmlParts.push('<div class="wr">' + (isDiag ? '—' : (m.wr * 100).toFixed(1) + '%') + '</div>');
+                              htmlParts.push('<div class="matches">' + (m.matches || 0).toLocaleString() + ' matches</div>');
+                              htmlParts.push('</div></td>');
+                          }
+
+                          htmlParts.push('</tr>');
+                      }
+
+                      htmlParts.push('</tbody></table></div></body></html>');
+                      win.document.open();
+                      win.document.write(htmlParts.join(''));
+                      win.document.close();
+                  }
+
+                  if (matrixBtn) {
+                      matrixBtn.addEventListener('click', openMatrixView);
+                  }
+
                   network.on('selectNode', function(params) {
                       if (params.nodes && params.nodes.length > 0) {
                           var nodeId = params.nodes[0];
+                          var nodeObj = nodes.get(nodeId) || {};
+                          if (nodeObj.is_label_node && nodeObj.base_id) {
+                              nodeId = nodeObj.base_id;
+                          }
                           if (tomSelectRef) {
                               tomSelectRef.setValue(nodeId, true);
                           } else {
@@ -781,12 +1110,15 @@ def inject_filter_ui(
                       baseSizes = {};
                       var nodeList = nodes.get();
                       for (var i = 0; i < nodeList.length; i++) {
-                          baseNodeState[nodeList[i].id] = {
-                              x: nodeList[i].x,
-                              y: nodeList[i].y,
-                              fixed: nodeList[i].fixed
+                          var nn = nodeList[i];
+                          baseNodeState[nn.id] = {
+                              x: nn.x,
+                              y: nn.y,
+                              fixed: nn.fixed
                           };
-                          baseSizes[nodeList[i].id] = nodeList[i].size || 10;
+                          if (!nn.is_label_node) {
+                              baseSizes[nn.id] = nn.size || 10;
+                          }
                       }
                       var edgeList = edges.get();
                       for (var j = 0; j < edgeList.length; j++) {
@@ -804,8 +1136,9 @@ def inject_filter_ui(
                       var nodeList = nodes.get();
                       var visible = [];
                       for (var i = 0; i < nodeList.length; i++) {
-                          if (!nodeList[i].hidden) {
-                              visible.push(nodeList[i]);
+                          var nn = nodeList[i];
+                          if (!nn.hidden && !nn.is_label_node) {
+                              visible.push(nn);
                           }
                       }
                       if (visible.length === 0) {
@@ -832,10 +1165,18 @@ def inject_filter_ui(
                       var total = others.length;
                       var ringCount = 1;
                       var rings = [others];
-                      var baseRadius = 520;
+                      var baseRadius = 760;
                       var step = 0;
                       var updates = [];
+                      var labelUpdates = [];
                       updates.push({ id: center.id, x: 0, y: 0, fixed: true });
+                      labelUpdates.push({
+                          id: 'label::' + center.id,
+                          x: 0,
+                          y: -((baseSizes[center.id] || 20) * 1.2 + 28),
+                          fixed: true,
+                          hidden: false
+                      });
 
                       for (var ri = 0; ri < rings.length; ri++) {
                           var ringNodes = rings[ri];
@@ -844,15 +1185,26 @@ def inject_filter_ui(
                           var angleOffset = (ri * Math.PI) / Math.max(1, ringCount);
                           for (var idx = 0; idx < ringNodes.length; idx++) {
                               var angle = angleOffset + (2.0 * Math.PI * idx / ringNodes.length);
+                              var nx = Math.cos(angle) * radius;
+                              var ny = Math.sin(angle) * radius;
+                              var nid = ringNodes[idx].id;
                               updates.push({
-                                  id: ringNodes[idx].id,
-                                  x: Math.cos(angle) * radius,
-                                  y: Math.sin(angle) * radius,
+                                  id: nid,
+                                  x: nx,
+                                  y: ny,
                                   fixed: true
+                              });
+                              labelUpdates.push({
+                                  id: 'label::' + nid,
+                                  x: nx,
+                                  y: ny - ((baseSizes[nid] || 20) * 1.2 + 28),
+                                  fixed: true,
+                                  hidden: false
                               });
                           }
                       }
                       nodes.update(updates);
+                      nodes.update(labelUpdates);
                   }
 
                   function applyCenterEdgeEncoding(centerId) {
@@ -919,7 +1271,8 @@ def inject_filter_ui(
                   }
 
                   function renderMatchups(nodeId) {
-                      var nodeLabel = nodes.get(nodeId).label || nodeId;
+                      var nodeObj = nodes.get(nodeId) || {};
+                      var nodeLabel = nodeObj.display_label || nodeObj.id || nodeId;
                       panelTitle.textContent = nodeLabel;
                       updateSortSubtitle();
                       matchupBody.innerHTML = '';

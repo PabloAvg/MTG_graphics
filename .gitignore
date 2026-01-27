@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Outputs
+*.csv
+*.html
+*.log
+
+# OS / Editor
+.DS_Store
+.vscode/

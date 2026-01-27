@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+import os
 import re
 from dataclasses import dataclass
 from typing import Optional, Tuple, List, Dict
@@ -8,7 +9,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from config import URL
+from config import BASE_WINRATES_URL, DEFAULT_RANGE_KEY, RANGE_OPTIONS
 
 
 RE_MATCHES = re.compile(r"([\d,]+)\s*matches", re.IGNORECASE)
@@ -77,8 +78,32 @@ def parse_cell(td) -> Cell:
     return Cell(winrate=wr, matches=matches, ci_low=ci_low, ci_high=ci_high)
 
 
-def fetch_html(url: str = URL) -> str:
-    r = requests.get(url, headers=HEADERS, timeout=30)
+def _range_url(range_key: str = DEFAULT_RANGE_KEY) -> str:
+    meta = RANGE_OPTIONS.get(range_key, {})
+    path = meta.get("path", "")
+    if not path:
+        return BASE_WINRATES_URL
+    return f"{BASE_WINRATES_URL}/{path}"
+
+
+def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> str:
+    if not url:
+        url = _range_url(range_key)
+
+    # Corporate proxies often inject a custom root CA. Respect common env vars.
+    ca_bundle = (
+        os.environ.get("MTG_CA_BUNDLE")
+        or os.environ.get("REQUESTS_CA_BUNDLE")
+        or os.environ.get("CURL_CA_BUNDLE")
+    )
+    verify: bool | str = True
+    if ca_bundle:
+        verify = ca_bundle
+    elif os.environ.get("MTG_INSECURE_SSL") in {"1", "true", "TRUE", "yes", "YES"}:
+        # Last resort: allow opting out of verification explicitly.
+        verify = False
+
+    r = requests.get(url, headers=HEADERS, timeout=30, verify=verify)
     r.raise_for_status()
     return r.text
 

@@ -1,15 +1,37 @@
 from pathlib import Path
 
 # CONFIG
-URL = "https://mtgdecks.net/Modern/winrates"
+BASE_WINRATES_URL = "https://mtgdecks.net/Modern/winrates"
+
+# Time ranges to compare in the UI toolbar
+RANGE_OPTIONS = {
+    "last180days": {
+        "label": "Last 180 days",
+        "path": "",
+    },
+    "last60days": {
+        "label": "Last 60 days",
+        "path": "range:last60days",
+    },
+    "last30days": {
+        "label": "Last 30 days",
+        "path": "range:last30days",
+    },
+    "last15days": {
+        "label": "Last 15 days",
+        "path": "range:last15days",
+    },
+}
+DEFAULT_RANGE_KEY = "last180days"
 
 # Project root (one level above this src/ folder)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Outputs
-OUT_ARCHETYPES_CSV = str(BASE_DIR / "data" / "archetypes.csv")
-OUT_MATCHUPS_CSV = str(BASE_DIR / "data" / "matchups.csv")
-OUT_HTML = str(BASE_DIR / "modern_meta_graph.html")
+SITE_DIR = BASE_DIR / "site"
+OUT_ARCHETYPES_CSV = str(SITE_DIR / "data" / "archetypes.csv")
+OUT_MATCHUPS_CSV = str(SITE_DIR / "data" / "matchups.csv")
+OUT_HTML = str(SITE_DIR / "index.html")
 
 # Graph coverage / filtering
 MIN_MATCHES_EDGE = 1           # include more edges (can be noisy)

@@ -1,19 +1,18 @@
 ﻿from __future__ import annotations
 
+import json
 from pathlib import Path
+from typing import Dict, Tuple, Any, List
 
 import pandas as pd
 import networkx as nx
 from pyvis.network import Network
 
 from graph_build import compute_radial_positions, node_winrate_color
-from config import EMBED_ASSETS
+from config import EMBED_ASSETS, RANGE_OPTIONS
 
 
-def render_pyvis(G: nx.DiGraph, archetypes_df: pd.DataFrame, out_html: str) -> None:
-    net = Network(height="850px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
-    net.from_nx(G)
-
+def _apply_visual_overrides(net: Network, G: nx.DiGraph, archetypes_df: pd.DataFrame) -> None:
     positions = compute_radial_positions(archetypes_df)
 
     for n in net.nodes:
@@ -23,6 +22,7 @@ def render_pyvis(G: nx.DiGraph, archetypes_df: pd.DataFrame, out_html: str) -> N
         n["size"] = float(attrs.get("size", 25))
         n["title"] = attrs.get("title", node_id)
         n["font"] = {"color": "#ffffff", "size": 16, "strokeWidth": 3, "strokeColor": "#101010"}
+        n["matches"] = int(attrs.get("matches", 0))
 
         ow = attrs.get("overall_winrate")
         if isinstance(ow, float):
@@ -45,7 +45,6 @@ def render_pyvis(G: nx.DiGraph, archetypes_df: pd.DataFrame, out_html: str) -> N
         e["color"] = attrs.get("color", "#888888")
         e["label"] = ""
         e["title"] = attrs.get("title", "")
-        # expose edge data for JS filtering logic
         e["matches"] = int(attrs.get("matches", 0))
         e["winrate"] = float(attrs.get("winrate", 0.5))
         e["winrate_from"] = float(attrs.get("winrate_from", attrs.get("winrate", 0.5)))
@@ -56,13 +55,82 @@ def render_pyvis(G: nx.DiGraph, archetypes_df: pd.DataFrame, out_html: str) -> N
         if attrs.get("neutral", False):
             e["arrows"] = {"to": {"enabled": False}}
 
+
+def _build_dataset(G: nx.DiGraph, archetypes_df: pd.DataFrame) -> Dict[str, List[Dict[str, Any]]]:
+    positions = compute_radial_positions(archetypes_df)
+
+    nodes: List[Dict[str, Any]] = []
+    for node_id, attrs in G.nodes(data=True):
+        node: Dict[str, Any] = {
+            "id": node_id,
+            "label": node_id,
+            "size": float(attrs.get("size", 25)),
+            "title": attrs.get("title", node_id),
+            "font": {"color": "#ffffff", "size": 16, "strokeWidth": 3, "strokeColor": "#101010"},
+            "matches": int(attrs.get("matches", 0)),
+        }
+
+        ow = attrs.get("overall_winrate")
+        if isinstance(ow, float):
+            node["color"] = node_winrate_color(ow)
+
+        if attrs.get("url"):
+            node["url"] = attrs["url"]
+
+        if node_id in positions:
+            x, y = positions[node_id]
+            node["x"] = x
+            node["y"] = y
+            node["fixed"] = True
+
+        nodes.append(node)
+
+    edges: List[Dict[str, Any]] = []
+    for idx, (src, dst, attrs) in enumerate(G.edges(data=True)):
+        edge: Dict[str, Any] = {
+            "id": f"e{idx}_{src}__{dst}",
+            "from": src,
+            "to": dst,
+            "width": float(attrs.get("width", 2)),
+            "color": attrs.get("color", "#888888"),
+            "label": "",
+            "title": attrs.get("title", ""),
+            "matches": int(attrs.get("matches", 0)),
+            "winrate": float(attrs.get("winrate", 0.5)),
+            "winrate_from": float(attrs.get("winrate_from", attrs.get("winrate", 0.5))),
+            "neutral": bool(attrs.get("neutral", False)),
+            "arrows": attrs.get("arrows", "to"),
+        }
+
+        if edge["neutral"]:
+            edge["arrows"] = {"to": {"enabled": False}}
+
+        edges.append(edge)
+
+    return {"nodes": nodes, "edges": edges}
+
+
+def render_pyvis(
+    graphs: Dict[str, Tuple[nx.DiGraph, pd.DataFrame]],
+    out_html: str,
+    default_range_key: str,
+) -> None:
+    if default_range_key not in graphs:
+        raise KeyError(f"default_range_key '{default_range_key}' not found in graphs")
+
+    default_G, default_df = graphs[default_range_key]
+
+    net = Network(height="850px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
+    net.from_nx(default_G)
+    _apply_visual_overrides(net, default_G, default_df)
+
     net.set_options(
         """
     var options = {
       "interaction": {
         "hover": true,
         "multiselect": true,
-        "navigationButtons": true,
+        "navigationButtons": false,
         "zoomView": true,
         "dragView": true
       },
@@ -73,21 +141,48 @@ def render_pyvis(G: nx.DiGraph, archetypes_df: pd.DataFrame, out_html: str) -> N
         "font": { "align": "top" }
       }
     }
-    """
-    )
+    """)
 
     net.write_html(out_html, open_browser=False, notebook=False)
-    inject_filter_ui(out_html)
+
+    datasets_by_range: Dict[str, Dict[str, Any]] = {}
+    for range_key, (G, df) in graphs.items():
+        meta = RANGE_OPTIONS.get(range_key, {})
+        datasets_by_range[range_key] = {
+            "key": range_key,
+            "label": meta.get("label", range_key),
+            **_build_dataset(G, df),
+        }
+
+    inject_filter_ui(out_html, datasets_by_range=datasets_by_range, default_range_key=default_range_key)
     if EMBED_ASSETS:
         inline_assets(out_html)
 
 
-def inject_filter_ui(out_html: str) -> None:
+def inject_filter_ui(
+    out_html: str,
+    datasets_by_range: Dict[str, Dict[str, Any]],
+    default_range_key: str,
+) -> None:
     html_path = Path(out_html)
     html = html_path.read_text(encoding="utf-8")
 
     if "matchupBody" in html:
         return
+
+    if default_range_key not in datasets_by_range:
+        raise KeyError(f"default_range_key '{default_range_key}' not found in datasets_by_range")
+
+    datasets_json = json.dumps(datasets_by_range, ensure_ascii=True)
+
+    range_options_html_parts: List[str] = []
+    for key in RANGE_OPTIONS.keys():
+        if key not in datasets_by_range:
+            continue
+        label = datasets_by_range[key].get("label", key)
+        selected = " selected" if key == default_range_key else ""
+        range_options_html_parts.append(f'<option value="{key}"{selected}>{label}</option>')
+    range_options_html = "\n                    ".join(range_options_html_parts)
 
     extra_head = """
         <link rel="stylesheet" href="lib/vis-9.1.2/vis-network.css" />
@@ -108,6 +203,10 @@ def inject_filter_ui(out_html: str) -> None:
              #mynetwork {
                  background-color: #1f1f1f;
                  border: 1px solid #2a2a2a;
+             }
+             /* Hide vis-network navigation buttons (arrows + zoom) */
+             div.vis-network div.vis-navigation {
+                 display: none !important;
              }
              .graph-controls {
                  display: flex;
@@ -225,8 +324,12 @@ def inject_filter_ui(out_html: str) -> None:
              }
     """
 
-    controls_html = """
+    controls_html = f"""
             <div class="graph-controls">
+                <label for="rangeFilter">Time range</label>
+                <select id="rangeFilter">
+                    {range_options_html}
+                </select>
                 <label for="archetypeFilter">Archetype filter</label>
                 <select id="archetypeFilter" placeholder="All">
                     <option value="__all__">All</option>
@@ -271,7 +374,12 @@ def inject_filter_ui(out_html: str) -> None:
             </div>
     """
 
-    extra_js = """
+    extra_js = (
+        f"                  var datasetsByRange = {datasets_json};\n"
+        f"                  var defaultRangeKey = '{default_range_key}';\n"
+        "                  var currentRangeKey = defaultRangeKey;\n"
+        "                  var rangeSelect = document.getElementById('rangeFilter');\n"
+        """
                   var filterSelect = document.getElementById('archetypeFilter');
                   var resetBtn = document.getElementById('resetFilter');
                   var tomSelectRef = null;
@@ -395,15 +503,31 @@ def inject_filter_ui(out_html: str) -> None:
                       renderMatchups(nodeId);
                   }
 
-                  function buildOptions() {
+                  function rebuildArchetypeOptions() {
                       var nodeList = nodes.get();
                       nodeList.sort(function(a, b) {
                           return String(a.label).localeCompare(String(b.label));
                       });
+
+                      var options = [{ value: '__all__', text: 'All' }];
                       for (var i = 0; i < nodeList.length; i++) {
+                          options.push({ value: nodeList[i].id, text: nodeList[i].label });
+                      }
+
+                      if (tomSelectRef) {
+                          tomSelectRef.clear(true);
+                          tomSelectRef.clearOptions();
+                          tomSelectRef.addOption(options);
+                          tomSelectRef.refreshOptions(false);
+                          tomSelectRef.setValue('__all__', true);
+                          return;
+                      }
+
+                      filterSelect.innerHTML = '';
+                      for (var j = 0; j < options.length; j++) {
                           var opt = document.createElement('option');
-                          opt.value = nodeList[i].id;
-                          opt.textContent = nodeList[i].label;
+                          opt.value = options[j].value;
+                          opt.textContent = options[j].text;
                           filterSelect.appendChild(opt);
                       }
 
@@ -420,6 +544,28 @@ def inject_filter_ui(out_html: str) -> None:
                               }
                           });
                       }
+                  }
+
+                  function loadRange(rangeKey) {
+                      var dataset = datasetsByRange[rangeKey] || datasetsByRange[defaultRangeKey];
+                      if (!dataset) {
+                          return;
+                      }
+
+                      currentRangeKey = dataset.key || rangeKey;
+                      nodes = new vis.DataSet(dataset.nodes || []);
+                      edges = new vis.DataSet(dataset.edges || []);
+                      network.setData({ nodes: nodes, edges: edges });
+
+                      initBaseState();
+                      rebuildArchetypeOptions();
+                      showAll();
+                  }
+
+                  if (rangeSelect) {
+                      rangeSelect.addEventListener('change', function() {
+                          loadRange(rangeSelect.value);
+                      });
                   }
 
                   filterSelect.addEventListener('change', function() {
@@ -459,6 +605,9 @@ def inject_filter_ui(out_html: str) -> None:
                   });
 
                   function initBaseState() {
+                      baseNodeState = {};
+                      baseEdgeState = {};
+                      baseSizes = {};
                       var nodeList = nodes.get();
                       for (var i = 0; i < nodeList.length; i++) {
                           baseNodeState[nodeList[i].id] = {
@@ -708,8 +857,10 @@ def inject_filter_ui(out_html: str) -> None:
                       panelSubtitle.textContent = 'Sorted by ' + label + ' (' + dir + ')';
                   }
 
-                  initBaseState();
-                  buildOptions();
+                  if (rangeSelect) {
+                      rangeSelect.value = defaultRangeKey;
+                  }
+                  loadRange(defaultRangeKey);
 
                   function applyArrowScale() {
                       var scale = network.getScale();
@@ -726,7 +877,7 @@ def inject_filter_ui(out_html: str) -> None:
                   });
 
                   applyArrowScale();
-    """
+    """)
 
     html = html.replace("</head>", f"{extra_head}\n</head>")
     html = html.replace("</style>", f"{extra_css}\n        </style>")

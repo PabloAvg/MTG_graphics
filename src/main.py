@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 from typing import Dict, Tuple
 
@@ -53,7 +54,16 @@ def _range_csv_paths(range_key: str) -> Tuple[Path, Path]:
 def main() -> None:
     graphs: Dict[str, Tuple[nx.DiGraph, pd.DataFrame]] = {}
 
-    for range_key, meta in RANGE_OPTIONS.items():
+    in_ci = os.getenv("GITHUB_ACTIONS", "").lower() == "true"
+    range_items = (
+        [(DEFAULT_RANGE_KEY, RANGE_OPTIONS[DEFAULT_RANGE_KEY])]
+        if in_ci and DEFAULT_RANGE_KEY in RANGE_OPTIONS
+        else list(RANGE_OPTIONS.items())
+    )
+    if in_ci:
+        print(f"[CI] GITHUB_ACTIONS detected. Scraping only '{DEFAULT_RANGE_KEY}'.")
+
+    for range_key, meta in range_items:
         url = _build_range_url(meta.get("path", ""))
         label = meta.get("label", range_key)
         print(f"\n=== RANGE: {label} ({range_key}) ===")

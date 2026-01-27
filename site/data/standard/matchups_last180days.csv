@@ -1,0 +1,2315 @@
+a,b,winrate_a_vs_b,matches,ci_low,ci_high
+Simic Ouroboroid,Simic Ouroboroid,0.5,752,0.46,0.54
+Simic Ouroboroid,Izzet Lessons,0.48,667,0.44,0.52
+Simic Ouroboroid,Dimir Midrange,0.59,422,0.54,0.64
+Simic Ouroboroid,Jeskai Control,0.41,374,0.36,0.46
+Simic Ouroboroid,Sultai Reanimator,0.56,311,0.51,0.62
+Simic Ouroboroid,Bant Airbending,0.47,189,0.39,0.54
+Simic Ouroboroid,Mono-Red Aggro,0.48,194,0.41,0.55
+Simic Ouroboroid,Mono Green Landfall,0.66,173,0.59,0.73
+Simic Ouroboroid,Azorius Control,0.3,73,0.2,0.42
+Simic Ouroboroid,Izzet Looting,0.58,141,0.5,0.66
+Simic Ouroboroid,Boros Burn,0.59,104,0.49,0.68
+Simic Ouroboroid,4 Color Control,0.5,62,0.37,0.63
+Simic Ouroboroid,Golgari Ouroboroid,0.53,45,0.38,0.68
+Simic Ouroboroid,Selesnya Landfall,0.55,74,0.43,0.67
+Simic Ouroboroid,Izzet Splash,0.53,58,0.4,0.67
+Simic Ouroboroid,Jeskai Artifacts,0.63,52,0.49,0.76
+Simic Ouroboroid,Simic Omniscience,0.79,56,0.66,0.88
+Simic Ouroboroid,5 Color Allies,0.67,63,0.54,0.78
+Simic Ouroboroid,Esper Pixie,0.41,29,0.24,0.61
+Simic Ouroboroid,Temur Otters,0.47,32,0.29,0.65
+Simic Ouroboroid,Azorius Flash,0.46,37,0.29,0.63
+Simic Ouroboroid,Mono Black Midrange,0.74,31,0.55,0.88
+Simic Ouroboroid,Temur Battlecrier,0.55,20,0.32,0.77
+Simic Ouroboroid,Mono White Tokens,0.67,12,0.35,0.9
+Simic Ouroboroid,Orzhov Sacrifice,0.63,8,0.24,0.91
+Simic Ouroboroid,Dimir Bounce,0.59,22,0.36,0.79
+Simic Ouroboroid,Gruul Delirium,0.53,19,0.29,0.76
+Simic Ouroboroid,Bant Omniscience,0.5,18,0.26,0.74
+Izzet Lessons,Simic Ouroboroid,0.52,667,0.48,0.56
+Izzet Lessons,Izzet Lessons,0.5,672,0.46,0.54
+Izzet Lessons,Dimir Midrange,0.53,361,0.48,0.58
+Izzet Lessons,Jeskai Control,0.55,348,0.5,0.6
+Izzet Lessons,Sultai Reanimator,0.45,255,0.39,0.52
+Izzet Lessons,Bant Airbending,0.5,193,0.43,0.58
+Izzet Lessons,Mono-Red Aggro,0.41,175,0.34,0.49
+Izzet Lessons,Mono Green Landfall,0.44,156,0.36,0.52
+Izzet Lessons,Azorius Control,0.61,62,0.48,0.73
+Izzet Lessons,Izzet Looting,0.46,139,0.38,0.55
+Izzet Lessons,Boros Burn,0.51,107,0.42,0.61
+Izzet Lessons,4 Color Control,0.69,29,0.49,0.85
+Izzet Lessons,Golgari Ouroboroid,0.47,72,0.35,0.59
+Izzet Lessons,Selesnya Landfall,0.45,80,0.34,0.57
+Izzet Lessons,Izzet Splash,0.45,53,0.32,0.6
+Izzet Lessons,Jeskai Artifacts,0.61,49,0.46,0.75
+Izzet Lessons,Simic Omniscience,0.67,27,0.46,0.83
+Izzet Lessons,5 Color Allies,0.49,45,0.34,0.64
+Izzet Lessons,Esper Pixie,0.58,33,0.39,0.75
+Izzet Lessons,Temur Otters,0.72,43,0.56,0.85
+Izzet Lessons,Azorius Flash,0.39,38,0.24,0.57
+Izzet Lessons,Mono Black Midrange,0.69,13,0.39,0.91
+Izzet Lessons,Temur Battlecrier,0.83,6,0.36,1.0
+Izzet Lessons,Mono White Tokens,0.57,14,0.29,0.82
+Izzet Lessons,Orzhov Sacrifice,0.64,11,0.31,0.89
+Izzet Lessons,Dimir Bounce,0.56,27,0.35,0.75
+Izzet Lessons,Gruul Delirium,0.41,22,0.21,0.64
+Izzet Lessons,Bant Omniscience,0.43,21,0.22,0.66
+Dimir Midrange,Simic Ouroboroid,0.41,422,0.36,0.46
+Dimir Midrange,Izzet Lessons,0.47,361,0.42,0.52
+Dimir Midrange,Dimir Midrange,0.5,496,0.46,0.54
+Dimir Midrange,Jeskai Control,0.6,216,0.53,0.66
+Dimir Midrange,Sultai Reanimator,0.55,179,0.47,0.62
+Dimir Midrange,Bant Airbending,0.42,81,0.31,0.53
+Dimir Midrange,Mono-Red Aggro,0.46,125,0.37,0.55
+Dimir Midrange,Mono Green Landfall,0.39,118,0.3,0.48
+Dimir Midrange,Azorius Control,0.59,178,0.51,0.66
+Dimir Midrange,Izzet Looting,0.49,89,0.39,0.6
+Dimir Midrange,Boros Burn,0.44,62,0.31,0.57
+Dimir Midrange,4 Color Control,0.64,89,0.53,0.74
+Dimir Midrange,Golgari Ouroboroid,0.36,39,0.21,0.53
+Dimir Midrange,Selesnya Landfall,0.62,45,0.47,0.76
+Dimir Midrange,Izzet Splash,0.45,38,0.29,0.62
+Dimir Midrange,Jeskai Artifacts,0.62,50,0.47,0.75
+Dimir Midrange,Simic Omniscience,0.66,50,0.51,0.79
+Dimir Midrange,5 Color Allies,0.48,25,0.28,0.69
+Dimir Midrange,Esper Pixie,0.52,54,0.38,0.66
+Dimir Midrange,Temur Otters,0.38,26,0.2,0.59
+Dimir Midrange,Azorius Flash,0.54,26,0.33,0.73
+Dimir Midrange,Mono Black Midrange,0.61,33,0.42,0.77
+Dimir Midrange,Temur Battlecrier,0.64,44,0.48,0.78
+Dimir Midrange,Mono White Tokens,0.34,32,0.19,0.53
+Dimir Midrange,Orzhov Sacrifice,0.59,37,0.42,0.75
+Dimir Midrange,Dimir Bounce,0.56,18,0.31,0.78
+Dimir Midrange,Gruul Delirium,0.5,18,0.26,0.74
+Dimir Midrange,Bant Omniscience,0.39,18,0.17,0.64
+Jeskai Control,Simic Ouroboroid,0.59,374,0.54,0.64
+Jeskai Control,Izzet Lessons,0.45,348,0.4,0.5
+Jeskai Control,Dimir Midrange,0.4,216,0.34,0.47
+Jeskai Control,Jeskai Control,0.5,222,0.43,0.57
+Jeskai Control,Sultai Reanimator,0.54,146,0.46,0.62
+Jeskai Control,Bant Airbending,0.53,98,0.43,0.63
+Jeskai Control,Mono-Red Aggro,0.52,86,0.41,0.63
+Jeskai Control,Mono Green Landfall,0.24,95,0.16,0.34
+Jeskai Control,Azorius Control,0.56,43,0.4,0.71
+Jeskai Control,Izzet Looting,0.57,84,0.46,0.68
+Jeskai Control,Boros Burn,0.62,63,0.49,0.74
+Jeskai Control,4 Color Control,0.46,28,0.28,0.66
+Jeskai Control,Golgari Ouroboroid,0.62,42,0.46,0.76
+Jeskai Control,Selesnya Landfall,0.39,38,0.24,0.57
+Jeskai Control,Izzet Splash,0.54,39,0.37,0.7
+Jeskai Control,Jeskai Artifacts,0.71,31,0.52,0.86
+Jeskai Control,Simic Omniscience,0.29,28,0.13,0.49
+Jeskai Control,5 Color Allies,0.55,31,0.36,0.73
+Jeskai Control,Esper Pixie,0.5,16,0.25,0.75
+Jeskai Control,Temur Otters,0.58,26,0.37,0.77
+Jeskai Control,Azorius Flash,0.23,13,0.05,0.54
+Jeskai Control,Mono Black Midrange,0.56,9,0.21,0.86
+Jeskai Control,Temur Battlecrier,0.33,6,0.04,0.78
+Jeskai Control,Mono White Tokens,0.54,13,0.25,0.81
+Jeskai Control,Orzhov Sacrifice,0.75,8,0.35,0.97
+Jeskai Control,Dimir Bounce,0.5,12,0.21,0.79
+Jeskai Control,Gruul Delirium,0.38,13,0.14,0.68
+Jeskai Control,Bant Omniscience,0.25,8,0.03,0.65
+Sultai Reanimator,Simic Ouroboroid,0.44,311,0.38,0.49
+Sultai Reanimator,Izzet Lessons,0.55,255,0.48,0.61
+Sultai Reanimator,Dimir Midrange,0.45,179,0.38,0.53
+Sultai Reanimator,Jeskai Control,0.46,146,0.38,0.54
+Sultai Reanimator,Sultai Reanimator,0.5,152,0.42,0.58
+Sultai Reanimator,Bant Airbending,0.36,118,0.28,0.46
+Sultai Reanimator,Mono-Red Aggro,0.63,104,0.53,0.73
+Sultai Reanimator,Mono Green Landfall,0.37,68,0.25,0.49
+Sultai Reanimator,Azorius Control,0.58,43,0.42,0.73
+Sultai Reanimator,Izzet Looting,0.56,54,0.41,0.69
+Sultai Reanimator,Boros Burn,0.57,63,0.44,0.7
+Sultai Reanimator,4 Color Control,0.5,28,0.31,0.69
+Sultai Reanimator,Golgari Ouroboroid,0.57,35,0.39,0.74
+Sultai Reanimator,Selesnya Landfall,0.52,29,0.33,0.71
+Sultai Reanimator,Izzet Splash,0.51,35,0.34,0.69
+Sultai Reanimator,Jeskai Artifacts,0.73,30,0.54,0.88
+Sultai Reanimator,Simic Omniscience,0.46,26,0.27,0.67
+Sultai Reanimator,5 Color Allies,0.42,31,0.25,0.61
+Sultai Reanimator,Esper Pixie,0.79,14,0.49,0.95
+Sultai Reanimator,Temur Otters,0.46,26,0.27,0.67
+Sultai Reanimator,Azorius Flash,0.43,21,0.22,0.66
+Sultai Reanimator,Mono Black Midrange,0.67,15,0.38,0.88
+Sultai Reanimator,Temur Battlecrier,0.53,15,0.27,0.79
+Sultai Reanimator,Mono White Tokens,0.72,18,0.47,0.9
+Sultai Reanimator,Orzhov Sacrifice,0.33,3,0.01,0.91
+Sultai Reanimator,Dimir Bounce,0.44,9,0.14,0.79
+Sultai Reanimator,Gruul Delirium,0.54,13,0.25,0.81
+Sultai Reanimator,Bant Omniscience,0.62,13,0.32,0.86
+Bant Airbending,Simic Ouroboroid,0.53,189,0.46,0.61
+Bant Airbending,Izzet Lessons,0.5,193,0.42,0.57
+Bant Airbending,Dimir Midrange,0.58,81,0.47,0.69
+Bant Airbending,Jeskai Control,0.47,98,0.37,0.57
+Bant Airbending,Sultai Reanimator,0.64,118,0.54,0.72
+Bant Airbending,Bant Airbending,0.5,92,0.39,0.61
+Bant Airbending,Mono-Red Aggro,0.53,57,0.39,0.66
+Bant Airbending,Mono Green Landfall,0.69,36,0.52,0.84
+Bant Airbending,Azorius Control,0.76,25,0.55,0.91
+Bant Airbending,Izzet Looting,0.64,25,0.43,0.82
+Bant Airbending,Boros Burn,0.48,27,0.29,0.68
+Bant Airbending,4 Color Control,0.38,13,0.14,0.68
+Bant Airbending,Golgari Ouroboroid,0.58,24,0.37,0.78
+Bant Airbending,Selesnya Landfall,0.53,17,0.28,0.77
+Bant Airbending,Izzet Splash,0.56,27,0.35,0.75
+Bant Airbending,Jeskai Artifacts,0.78,9,0.4,0.97
+Bant Airbending,Simic Omniscience,0.5,16,0.25,0.75
+Bant Airbending,5 Color Allies,0.78,18,0.52,0.94
+Bant Airbending,Esper Pixie,0.56,9,0.21,0.86
+Bant Airbending,Temur Otters,0.43,28,0.24,0.63
+Bant Airbending,Azorius Flash,0.67,9,0.3,0.93
+Bant Airbending,Mono Black Midrange,0.88,8,0.47,1.0
+Bant Airbending,Temur Battlecrier,0.86,7,0.42,1.0
+Bant Airbending,Mono White Tokens,0.56,9,0.21,0.86
+Bant Airbending,Orzhov Sacrifice,0.75,8,0.35,0.97
+Bant Airbending,Dimir Bounce,0.14,7,0.0,0.58
+Bant Airbending,Gruul Delirium,0.4,5,0.05,0.85
+Bant Airbending,Bant Omniscience,0.5,8,0.16,0.84
+Mono-Red Aggro,Simic Ouroboroid,0.52,194,0.45,0.59
+Mono-Red Aggro,Izzet Lessons,0.59,175,0.51,0.66
+Mono-Red Aggro,Dimir Midrange,0.54,125,0.45,0.63
+Mono-Red Aggro,Jeskai Control,0.48,86,0.37,0.59
+Mono-Red Aggro,Sultai Reanimator,0.37,104,0.27,0.47
+Mono-Red Aggro,Bant Airbending,0.47,57,0.34,0.61
+Mono-Red Aggro,Mono-Red Aggro,0.5,58,0.37,0.63
+Mono-Red Aggro,Mono Green Landfall,0.35,54,0.23,0.49
+Mono-Red Aggro,Azorius Control,0.59,22,0.36,0.79
+Mono-Red Aggro,Izzet Looting,0.41,32,0.24,0.59
+Mono-Red Aggro,Boros Burn,0.5,34,0.32,0.68
+Mono-Red Aggro,4 Color Control,0.5,10,0.19,0.81
+Mono-Red Aggro,Golgari Ouroboroid,0.54,13,0.25,0.81
+Mono-Red Aggro,Selesnya Landfall,0.11,19,0.01,0.33
+Mono-Red Aggro,Izzet Splash,0.24,17,0.07,0.5
+Mono-Red Aggro,Jeskai Artifacts,0.33,12,0.1,0.65
+Mono-Red Aggro,Simic Omniscience,0.5,8,0.16,0.84
+Mono-Red Aggro,5 Color Allies,0.48,21,0.26,0.7
+Mono-Red Aggro,Esper Pixie,0.75,4,0.19,0.99
+Mono-Red Aggro,Temur Otters,0.6,15,0.32,0.84
+Mono-Red Aggro,Azorius Flash,0.3,10,0.07,0.65
+Mono-Red Aggro,Mono Black Midrange,0.17,6,0.0,0.64
+Mono-Red Aggro,Temur Battlecrier,1.0,4,0.4,1.0
+Mono-Red Aggro,Mono White Tokens,0.14,7,0.0,0.58
+Mono-Red Aggro,Orzhov Sacrifice,0.83,6,0.36,1.0
+Mono-Red Aggro,Dimir Bounce,0.63,8,0.24,0.91
+Mono-Red Aggro,Gruul Delirium,0.43,7,0.1,0.82
+Mono-Red Aggro,Bant Omniscience,0.14,7,0.0,0.58
+Mono Green Landfall,Simic Ouroboroid,0.34,173,0.27,0.41
+Mono Green Landfall,Izzet Lessons,0.56,156,0.48,0.64
+Mono Green Landfall,Dimir Midrange,0.61,118,0.52,0.7
+Mono Green Landfall,Jeskai Control,0.76,95,0.66,0.84
+Mono Green Landfall,Sultai Reanimator,0.63,68,0.51,0.75
+Mono Green Landfall,Bant Airbending,0.31,36,0.16,0.48
+Mono Green Landfall,Mono-Red Aggro,0.65,54,0.51,0.77
+Mono Green Landfall,Mono Green Landfall,0.5,58,0.37,0.63
+Mono Green Landfall,Azorius Control,0.52,23,0.31,0.73
+Mono Green Landfall,Izzet Looting,0.58,26,0.37,0.77
+Mono Green Landfall,Boros Burn,0.39,38,0.24,0.57
+Mono Green Landfall,4 Color Control,0.57,14,0.29,0.82
+Mono Green Landfall,Golgari Ouroboroid,0.3,20,0.12,0.54
+Mono Green Landfall,Selesnya Landfall,0.61,23,0.39,0.8
+Mono Green Landfall,Izzet Splash,0.73,15,0.45,0.92
+Mono Green Landfall,Jeskai Artifacts,0.78,9,0.4,0.97
+Mono Green Landfall,Simic Omniscience,0.54,13,0.25,0.81
+Mono Green Landfall,5 Color Allies,0.62,13,0.32,0.86
+Mono Green Landfall,Esper Pixie,0.67,9,0.3,0.93
+Mono Green Landfall,Temur Otters,0.5,4,0.07,0.93
+Mono Green Landfall,Azorius Flash,0.63,8,0.24,0.91
+Mono Green Landfall,Mono Black Midrange,0.8,5,0.28,0.99
+Mono Green Landfall,Temur Battlecrier,0.33,3,0.01,0.91
+Mono Green Landfall,Mono White Tokens,0.67,3,0.09,0.99
+Mono Green Landfall,Orzhov Sacrifice,0.75,4,0.19,0.99
+Mono Green Landfall,Dimir Bounce,1.0,2,0.16,1.0
+Mono Green Landfall,Gruul Delirium,0.83,6,0.36,1.0
+Mono Green Landfall,Bant Omniscience,0.43,7,0.1,0.82
+Azorius Control,Simic Ouroboroid,0.7,73,0.58,0.8
+Azorius Control,Izzet Lessons,0.39,62,0.27,0.52
+Azorius Control,Dimir Midrange,0.41,178,0.34,0.49
+Azorius Control,Jeskai Control,0.44,43,0.29,0.6
+Azorius Control,Sultai Reanimator,0.42,43,0.27,0.58
+Azorius Control,Bant Airbending,0.24,25,0.09,0.45
+Azorius Control,Mono-Red Aggro,0.41,22,0.21,0.64
+Azorius Control,Mono Green Landfall,0.48,23,0.27,0.69
+Azorius Control,Azorius Control,0.5,96,0.4,0.6
+Azorius Control,Izzet Looting,0.33,12,0.1,0.65
+Azorius Control,Boros Burn,0.5,8,0.16,0.84
+Azorius Control,4 Color Control,0.4,30,0.23,0.59
+Azorius Control,Golgari Ouroboroid,0.71,14,0.42,0.92
+Azorius Control,Selesnya Landfall,0.33,6,0.04,0.78
+Azorius Control,Izzet Splash,0.0,6,0.0,0.46
+Azorius Control,Jeskai Artifacts,0.63,16,0.35,0.85
+Azorius Control,Simic Omniscience,0.3,10,0.07,0.65
+Azorius Control,5 Color Allies,0.67,6,0.22,0.96
+Azorius Control,Esper Pixie,0.58,26,0.37,0.77
+Azorius Control,Temur Otters,0.4,5,0.05,0.85
+Azorius Control,Azorius Flash,1.0,1,0.02,1.0
+Azorius Control,Mono Black Midrange,0.41,17,0.18,0.67
+Azorius Control,Temur Battlecrier,0.56,16,0.3,0.8
+Azorius Control,Mono White Tokens,0.39,18,0.17,0.64
+Azorius Control,Orzhov Sacrifice,0.4,20,0.19,0.64
+Azorius Control,Dimir Bounce,1.0,2,0.16,1.0
+Azorius Control,Gruul Delirium,0.75,4,0.19,0.99
+Azorius Control,Bant Omniscience,0.67,6,0.22,0.96
+Izzet Looting,Simic Ouroboroid,0.42,141,0.34,0.5
+Izzet Looting,Izzet Lessons,0.54,139,0.45,0.62
+Izzet Looting,Dimir Midrange,0.51,89,0.4,0.61
+Izzet Looting,Jeskai Control,0.43,84,0.32,0.54
+Izzet Looting,Sultai Reanimator,0.44,54,0.31,0.59
+Izzet Looting,Bant Airbending,0.36,25,0.18,0.57
+Izzet Looting,Mono-Red Aggro,0.59,32,0.41,0.76
+Izzet Looting,Mono Green Landfall,0.42,26,0.23,0.63
+Izzet Looting,Azorius Control,0.67,12,0.35,0.9
+Izzet Looting,Izzet Looting,0.5,48,0.35,0.65
+Izzet Looting,Boros Burn,0.68,28,0.48,0.84
+Izzet Looting,4 Color Control,0.4,5,0.05,0.85
+Izzet Looting,Golgari Ouroboroid,0.38,16,0.15,0.65
+Izzet Looting,Selesnya Landfall,0.21,14,0.05,0.51
+Izzet Looting,Izzet Splash,0.47,17,0.23,0.72
+Izzet Looting,Jeskai Artifacts,0.5,12,0.21,0.79
+Izzet Looting,Simic Omniscience,0.5,6,0.12,0.88
+Izzet Looting,5 Color Allies,0.56,16,0.3,0.8
+Izzet Looting,Esper Pixie,0.5,4,0.07,0.93
+Izzet Looting,Temur Otters,0.67,21,0.43,0.85
+Izzet Looting,Azorius Flash,0.14,14,0.02,0.43
+Izzet Looting,Mono Black Midrange,0.57,7,0.18,0.9
+Izzet Looting,Temur Battlecrier,0.0,4,0.0,0.6
+Izzet Looting,Mono White Tokens,0.5,4,0.07,0.93
+Izzet Looting,Orzhov Sacrifice,0.0,1,0.0,0.98
+Izzet Looting,Dimir Bounce,0.67,15,0.38,0.88
+Izzet Looting,Gruul Delirium,0.4,5,0.05,0.85
+Izzet Looting,Bant Omniscience,0.33,3,0.01,0.91
+Boros Burn,Simic Ouroboroid,0.41,104,0.32,0.51
+Boros Burn,Izzet Lessons,0.49,107,0.39,0.58
+Boros Burn,Dimir Midrange,0.56,62,0.43,0.69
+Boros Burn,Jeskai Control,0.38,63,0.26,0.51
+Boros Burn,Sultai Reanimator,0.43,63,0.3,0.56
+Boros Burn,Bant Airbending,0.52,27,0.32,0.71
+Boros Burn,Mono-Red Aggro,0.5,34,0.32,0.68
+Boros Burn,Mono Green Landfall,0.61,38,0.43,0.76
+Boros Burn,Azorius Control,0.5,8,0.16,0.84
+Boros Burn,Izzet Looting,0.32,28,0.16,0.52
+Boros Burn,Boros Burn,0.5,26,0.3,0.7
+Boros Burn,4 Color Control,0.5,2,0.01,0.99
+Boros Burn,Golgari Ouroboroid,0.64,11,0.31,0.89
+Boros Burn,Selesnya Landfall,0.4,10,0.12,0.74
+Boros Burn,Izzet Splash,0.67,6,0.22,0.96
+Boros Burn,Jeskai Artifacts,0.25,8,0.03,0.65
+Boros Burn,Simic Omniscience,0.6,5,0.15,0.95
+Boros Burn,5 Color Allies,0.33,6,0.04,0.78
+Boros Burn,Esper Pixie,0.29,7,0.04,0.71
+Boros Burn,Temur Otters,0.67,3,0.09,0.99
+Boros Burn,Azorius Flash,0.33,3,0.01,0.91
+Boros Burn,Mono Black Midrange,0.3,10,0.07,0.65
+Boros Burn,Mono White Tokens,0.5,2,0.01,0.99
+Boros Burn,Dimir Bounce,0.5,2,0.01,0.99
+Boros Burn,Gruul Delirium,0.5,2,0.01,0.99
+Boros Burn,Bant Omniscience,1.0,1,0.02,1.0
+4 Color Control,Simic Ouroboroid,0.5,62,0.37,0.63
+4 Color Control,Izzet Lessons,0.31,29,0.15,0.51
+4 Color Control,Dimir Midrange,0.36,89,0.26,0.47
+4 Color Control,Jeskai Control,0.54,28,0.34,0.72
+4 Color Control,Sultai Reanimator,0.5,28,0.31,0.69
+4 Color Control,Bant Airbending,0.62,13,0.32,0.86
+4 Color Control,Mono-Red Aggro,0.5,10,0.19,0.81
+4 Color Control,Mono Green Landfall,0.43,14,0.18,0.71
+4 Color Control,Azorius Control,0.6,30,0.41,0.77
+4 Color Control,Izzet Looting,0.6,5,0.15,0.95
+4 Color Control,Boros Burn,0.5,2,0.01,0.99
+4 Color Control,4 Color Control,0.5,12,0.21,0.79
+4 Color Control,Golgari Ouroboroid,0.57,7,0.18,0.9
+4 Color Control,Selesnya Landfall,0.0,6,0.0,0.46
+4 Color Control,Izzet Splash,0.6,5,0.15,0.95
+4 Color Control,Jeskai Artifacts,0.88,8,0.47,1.0
+4 Color Control,Simic Omniscience,0.75,8,0.35,0.97
+4 Color Control,Esper Pixie,0.63,8,0.24,0.91
+4 Color Control,Temur Otters,1.0,1,0.02,1.0
+4 Color Control,Azorius Flash,0.0,1,0.0,0.98
+4 Color Control,Mono Black Midrange,0.4,5,0.05,0.85
+4 Color Control,Temur Battlecrier,0.42,12,0.15,0.72
+4 Color Control,Mono White Tokens,0.7,10,0.35,0.93
+4 Color Control,Orzhov Sacrifice,0.8,5,0.28,0.99
+4 Color Control,Dimir Bounce,0.33,3,0.01,0.91
+4 Color Control,Gruul Delirium,0.0,2,0.0,0.84
+4 Color Control,Bant Omniscience,0.6,5,0.15,0.95
+Golgari Ouroboroid,Simic Ouroboroid,0.47,45,0.32,0.62
+Golgari Ouroboroid,Izzet Lessons,0.53,72,0.41,0.65
+Golgari Ouroboroid,Dimir Midrange,0.64,39,0.47,0.79
+Golgari Ouroboroid,Jeskai Control,0.38,42,0.24,0.54
+Golgari Ouroboroid,Sultai Reanimator,0.43,35,0.26,0.61
+Golgari Ouroboroid,Bant Airbending,0.42,24,0.22,0.63
+Golgari Ouroboroid,Mono-Red Aggro,0.46,13,0.19,0.75
+Golgari Ouroboroid,Mono Green Landfall,0.7,20,0.46,0.88
+Golgari Ouroboroid,Azorius Control,0.29,14,0.08,0.58
+Golgari Ouroboroid,Izzet Looting,0.63,16,0.35,0.85
+Golgari Ouroboroid,Boros Burn,0.36,11,0.11,0.69
+Golgari Ouroboroid,4 Color Control,0.43,7,0.1,0.82
+Golgari Ouroboroid,Selesnya Landfall,0.67,9,0.3,0.93
+Golgari Ouroboroid,Izzet Splash,0.86,7,0.42,1.0
+Golgari Ouroboroid,Jeskai Artifacts,0.22,9,0.03,0.6
+Golgari Ouroboroid,Simic Omniscience,1.0,3,0.29,1.0
+Golgari Ouroboroid,5 Color Allies,0.5,2,0.01,0.99
+Golgari Ouroboroid,Esper Pixie,0.43,7,0.1,0.82
+Golgari Ouroboroid,Temur Otters,0.4,5,0.05,0.85
+Golgari Ouroboroid,Azorius Flash,0.2,5,0.01,0.72
+Golgari Ouroboroid,Mono Black Midrange,0.5,2,0.01,0.99
+Golgari Ouroboroid,Temur Battlecrier,1.0,1,0.02,1.0
+Golgari Ouroboroid,Mono White Tokens,0.0,4,0.0,0.6
+Golgari Ouroboroid,Orzhov Sacrifice,0.0,2,0.0,0.84
+Golgari Ouroboroid,Dimir Bounce,1.0,2,0.16,1.0
+Golgari Ouroboroid,Gruul Delirium,0.0,1,0.0,0.98
+Golgari Ouroboroid,Bant Omniscience,0.67,3,0.09,0.99
+Selesnya Landfall,Simic Ouroboroid,0.45,74,0.33,0.57
+Selesnya Landfall,Izzet Lessons,0.55,80,0.43,0.66
+Selesnya Landfall,Dimir Midrange,0.38,45,0.24,0.53
+Selesnya Landfall,Jeskai Control,0.61,38,0.43,0.76
+Selesnya Landfall,Sultai Reanimator,0.48,29,0.29,0.67
+Selesnya Landfall,Bant Airbending,0.47,17,0.23,0.72
+Selesnya Landfall,Mono-Red Aggro,0.89,19,0.67,0.99
+Selesnya Landfall,Mono Green Landfall,0.39,23,0.2,0.61
+Selesnya Landfall,Azorius Control,0.67,6,0.22,0.96
+Selesnya Landfall,Izzet Looting,0.79,14,0.49,0.95
+Selesnya Landfall,Boros Burn,0.6,10,0.26,0.88
+Selesnya Landfall,4 Color Control,1.0,6,0.54,1.0
+Selesnya Landfall,Golgari Ouroboroid,0.33,9,0.07,0.7
+Selesnya Landfall,Selesnya Landfall,0.5,10,0.19,0.81
+Selesnya Landfall,Izzet Splash,0.75,4,0.19,0.99
+Selesnya Landfall,Jeskai Artifacts,0.5,4,0.07,0.93
+Selesnya Landfall,Simic Omniscience,0.0,1,0.0,0.98
+Selesnya Landfall,5 Color Allies,0.33,6,0.04,0.78
+Selesnya Landfall,Esper Pixie,0.5,2,0.01,0.99
+Selesnya Landfall,Temur Otters,1.0,1,0.02,1.0
+Selesnya Landfall,Azorius Flash,0.67,3,0.09,0.99
+Selesnya Landfall,Mono Black Midrange,0.25,4,0.01,0.81
+Selesnya Landfall,Temur Battlecrier,1.0,1,0.02,1.0
+Selesnya Landfall,Mono White Tokens,1.0,1,0.02,1.0
+Selesnya Landfall,Orzhov Sacrifice,0.0,1,0.0,0.98
+Selesnya Landfall,Dimir Bounce,1.0,2,0.16,1.0
+Selesnya Landfall,Bant Omniscience,0.6,5,0.15,0.95
+Izzet Splash,Simic Ouroboroid,0.47,58,0.33,0.6
+Izzet Splash,Izzet Lessons,0.55,53,0.4,0.68
+Izzet Splash,Dimir Midrange,0.55,38,0.38,0.71
+Izzet Splash,Jeskai Control,0.46,39,0.3,0.63
+Izzet Splash,Sultai Reanimator,0.49,35,0.31,0.66
+Izzet Splash,Bant Airbending,0.44,27,0.25,0.65
+Izzet Splash,Mono-Red Aggro,0.76,17,0.5,0.93
+Izzet Splash,Mono Green Landfall,0.27,15,0.08,0.55
+Izzet Splash,Azorius Control,1.0,6,0.54,1.0
+Izzet Splash,Izzet Looting,0.53,17,0.28,0.77
+Izzet Splash,Boros Burn,0.33,6,0.04,0.78
+Izzet Splash,4 Color Control,0.4,5,0.05,0.85
+Izzet Splash,Golgari Ouroboroid,0.14,7,0.0,0.58
+Izzet Splash,Selesnya Landfall,0.25,4,0.01,0.81
+Izzet Splash,Izzet Splash,0.5,14,0.23,0.77
+Izzet Splash,Jeskai Artifacts,0.8,5,0.28,0.99
+Izzet Splash,Simic Omniscience,0.33,9,0.07,0.7
+Izzet Splash,5 Color Allies,0.43,7,0.1,0.82
+Izzet Splash,Esper Pixie,0.6,5,0.15,0.95
+Izzet Splash,Temur Otters,0.57,14,0.29,0.82
+Izzet Splash,Azorius Flash,0.33,3,0.01,0.91
+Izzet Splash,Mono Black Midrange,0.5,2,0.01,0.99
+Izzet Splash,Temur Battlecrier,1.0,1,0.02,1.0
+Izzet Splash,Mono White Tokens,0.0,1,0.0,0.98
+Izzet Splash,Dimir Bounce,0.0,2,0.0,0.84
+Izzet Splash,Gruul Delirium,0.71,7,0.29,0.96
+Izzet Splash,Bant Omniscience,1.0,1,0.02,1.0
+Jeskai Artifacts,Simic Ouroboroid,0.37,52,0.24,0.51
+Jeskai Artifacts,Izzet Lessons,0.39,49,0.25,0.54
+Jeskai Artifacts,Dimir Midrange,0.38,50,0.25,0.53
+Jeskai Artifacts,Jeskai Control,0.29,31,0.14,0.48
+Jeskai Artifacts,Sultai Reanimator,0.27,30,0.12,0.46
+Jeskai Artifacts,Bant Airbending,0.22,9,0.03,0.6
+Jeskai Artifacts,Mono-Red Aggro,0.67,12,0.35,0.9
+Jeskai Artifacts,Mono Green Landfall,0.22,9,0.03,0.6
+Jeskai Artifacts,Azorius Control,0.38,16,0.15,0.65
+Jeskai Artifacts,Izzet Looting,0.5,12,0.21,0.79
+Jeskai Artifacts,Boros Burn,0.75,8,0.35,0.97
+Jeskai Artifacts,4 Color Control,0.13,8,0.0,0.53
+Jeskai Artifacts,Golgari Ouroboroid,0.78,9,0.4,0.97
+Jeskai Artifacts,Selesnya Landfall,0.5,4,0.07,0.93
+Jeskai Artifacts,Izzet Splash,0.2,5,0.01,0.72
+Jeskai Artifacts,Jeskai Artifacts,0.5,4,0.07,0.93
+Jeskai Artifacts,Simic Omniscience,0.14,7,0.0,0.58
+Jeskai Artifacts,5 Color Allies,0.5,2,0.01,0.99
+Jeskai Artifacts,Esper Pixie,1.0,5,0.48,1.0
+Jeskai Artifacts,Temur Otters,0.2,5,0.01,0.72
+Jeskai Artifacts,Azorius Flash,0.33,3,0.01,0.91
+Jeskai Artifacts,Mono Black Midrange,1.0,3,0.29,1.0
+Jeskai Artifacts,Temur Battlecrier,0.38,8,0.09,0.76
+Jeskai Artifacts,Mono White Tokens,0.75,4,0.19,0.99
+Jeskai Artifacts,Orzhov Sacrifice,0.0,1,0.0,0.98
+Jeskai Artifacts,Dimir Bounce,0.5,2,0.01,0.99
+Jeskai Artifacts,Gruul Delirium,1.0,1,0.02,1.0
+Jeskai Artifacts,Bant Omniscience,0.0,3,0.0,0.71
+Simic Omniscience,Simic Ouroboroid,0.21,56,0.12,0.34
+Simic Omniscience,Izzet Lessons,0.33,27,0.17,0.54
+Simic Omniscience,Dimir Midrange,0.34,50,0.21,0.49
+Simic Omniscience,Jeskai Control,0.71,28,0.51,0.87
+Simic Omniscience,Sultai Reanimator,0.54,26,0.33,0.73
+Simic Omniscience,Bant Airbending,0.5,16,0.25,0.75
+Simic Omniscience,Mono-Red Aggro,0.5,8,0.16,0.84
+Simic Omniscience,Mono Green Landfall,0.46,13,0.19,0.75
+Simic Omniscience,Azorius Control,0.7,10,0.35,0.93
+Simic Omniscience,Izzet Looting,0.5,6,0.12,0.88
+Simic Omniscience,Boros Burn,0.4,5,0.05,0.85
+Simic Omniscience,4 Color Control,0.25,8,0.03,0.65
+Simic Omniscience,Golgari Ouroboroid,0.0,3,0.0,0.71
+Simic Omniscience,Selesnya Landfall,1.0,1,0.02,1.0
+Simic Omniscience,Izzet Splash,0.67,9,0.3,0.93
+Simic Omniscience,Jeskai Artifacts,0.86,7,0.42,1.0
+Simic Omniscience,Simic Omniscience,0.5,10,0.19,0.81
+Simic Omniscience,5 Color Allies,0.67,3,0.09,0.99
+Simic Omniscience,Esper Pixie,0.0,4,0.0,0.6
+Simic Omniscience,Temur Otters,0.6,5,0.15,0.95
+Simic Omniscience,Azorius Flash,0.67,3,0.09,0.99
+Simic Omniscience,Mono Black Midrange,0.5,6,0.12,0.88
+Simic Omniscience,Temur Battlecrier,0.4,5,0.05,0.85
+Simic Omniscience,Mono White Tokens,1.0,1,0.02,1.0
+Simic Omniscience,Orzhov Sacrifice,0.8,5,0.28,0.99
+Simic Omniscience,Dimir Bounce,0.0,1,0.0,0.98
+Simic Omniscience,Gruul Delirium,1.0,2,0.16,1.0
+Simic Omniscience,Bant Omniscience,1.0,1,0.02,1.0
+5 Color Allies,Simic Ouroboroid,0.33,63,0.22,0.46
+5 Color Allies,Izzet Lessons,0.51,45,0.36,0.66
+5 Color Allies,Dimir Midrange,0.52,25,0.31,0.72
+5 Color Allies,Jeskai Control,0.45,31,0.27,0.64
+5 Color Allies,Sultai Reanimator,0.58,31,0.39,0.75
+5 Color Allies,Bant Airbending,0.22,18,0.06,0.48
+5 Color Allies,Mono-Red Aggro,0.52,21,0.3,0.74
+5 Color Allies,Mono Green Landfall,0.38,13,0.14,0.68
+5 Color Allies,Azorius Control,0.33,6,0.04,0.78
+5 Color Allies,Izzet Looting,0.44,16,0.2,0.7
+5 Color Allies,Boros Burn,0.67,6,0.22,0.96
+5 Color Allies,Golgari Ouroboroid,0.5,2,0.01,0.99
+5 Color Allies,Selesnya Landfall,0.67,6,0.22,0.96
+5 Color Allies,Izzet Splash,0.57,7,0.18,0.9
+5 Color Allies,Jeskai Artifacts,0.5,2,0.01,0.99
+5 Color Allies,Simic Omniscience,0.33,3,0.01,0.91
+5 Color Allies,5 Color Allies,0.5,8,0.16,0.84
+5 Color Allies,Esper Pixie,1.0,2,0.16,1.0
+5 Color Allies,Temur Otters,0.63,8,0.24,0.91
+5 Color Allies,Azorius Flash,0.33,3,0.01,0.91
+5 Color Allies,Mono Black Midrange,0.0,2,0.0,0.84
+5 Color Allies,Temur Battlecrier,0.0,1,0.0,0.98
+5 Color Allies,Mono White Tokens,1.0,1,0.02,1.0
+5 Color Allies,Orzhov Sacrifice,0.0,1,0.0,0.98
+5 Color Allies,Dimir Bounce,0.0,1,0.0,0.98
+5 Color Allies,Gruul Delirium,1.0,3,0.29,1.0
+5 Color Allies,Bant Omniscience,1.0,2,0.16,1.0
+Esper Pixie,Simic Ouroboroid,0.59,29,0.39,0.76
+Esper Pixie,Izzet Lessons,0.42,33,0.25,0.61
+Esper Pixie,Dimir Midrange,0.48,54,0.34,0.62
+Esper Pixie,Jeskai Control,0.5,16,0.25,0.75
+Esper Pixie,Sultai Reanimator,0.21,14,0.05,0.51
+Esper Pixie,Bant Airbending,0.44,9,0.14,0.79
+Esper Pixie,Mono-Red Aggro,0.25,4,0.01,0.81
+Esper Pixie,Mono Green Landfall,0.33,9,0.07,0.7
+Esper Pixie,Azorius Control,0.42,26,0.23,0.63
+Esper Pixie,Izzet Looting,0.5,4,0.07,0.93
+Esper Pixie,Boros Burn,0.71,7,0.29,0.96
+Esper Pixie,4 Color Control,0.38,8,0.09,0.76
+Esper Pixie,Golgari Ouroboroid,0.57,7,0.18,0.9
+Esper Pixie,Selesnya Landfall,0.5,2,0.01,0.99
+Esper Pixie,Izzet Splash,0.4,5,0.05,0.85
+Esper Pixie,Jeskai Artifacts,0.0,5,0.0,0.52
+Esper Pixie,Simic Omniscience,1.0,4,0.4,1.0
+Esper Pixie,5 Color Allies,0.0,2,0.0,0.84
+Esper Pixie,Esper Pixie,0.5,8,0.16,0.84
+Esper Pixie,Temur Otters,0.0,1,0.0,0.98
+Esper Pixie,Azorius Flash,0.75,8,0.35,0.97
+Esper Pixie,Mono Black Midrange,1.0,2,0.16,1.0
+Esper Pixie,Temur Battlecrier,0.4,10,0.12,0.74
+Esper Pixie,Mono White Tokens,0.0,5,0.0,0.52
+Esper Pixie,Orzhov Sacrifice,0.33,3,0.01,0.91
+Esper Pixie,Dimir Bounce,1.0,1,0.02,1.0
+Esper Pixie,Gruul Delirium,1.0,1,0.02,1.0
+Esper Pixie,Bant Omniscience,1.0,1,0.02,1.0
+Temur Otters,Simic Ouroboroid,0.53,32,0.35,0.71
+Temur Otters,Izzet Lessons,0.28,43,0.15,0.44
+Temur Otters,Dimir Midrange,0.62,26,0.41,0.8
+Temur Otters,Jeskai Control,0.42,26,0.23,0.63
+Temur Otters,Sultai Reanimator,0.54,26,0.33,0.73
+Temur Otters,Bant Airbending,0.57,28,0.37,0.76
+Temur Otters,Mono-Red Aggro,0.4,15,0.16,0.68
+Temur Otters,Mono Green Landfall,0.5,4,0.07,0.93
+Temur Otters,Azorius Control,0.6,5,0.15,0.95
+Temur Otters,Izzet Looting,0.33,21,0.15,0.57
+Temur Otters,Boros Burn,0.33,3,0.01,0.91
+Temur Otters,4 Color Control,0.0,1,0.0,0.98
+Temur Otters,Golgari Ouroboroid,0.6,5,0.15,0.95
+Temur Otters,Selesnya Landfall,0.0,1,0.0,0.98
+Temur Otters,Izzet Splash,0.43,14,0.18,0.71
+Temur Otters,Jeskai Artifacts,0.8,5,0.28,0.99
+Temur Otters,Simic Omniscience,0.4,5,0.05,0.85
+Temur Otters,5 Color Allies,0.38,8,0.09,0.76
+Temur Otters,Esper Pixie,1.0,1,0.02,1.0
+Temur Otters,Temur Otters,0.5,34,0.32,0.68
+Temur Otters,Azorius Flash,1.0,1,0.02,1.0
+Temur Otters,Mono Black Midrange,0.33,3,0.01,0.91
+Temur Otters,Temur Battlecrier,1.0,1,0.02,1.0
+Temur Otters,Mono White Tokens,1.0,1,0.02,1.0
+Temur Otters,Orzhov Sacrifice,1.0,1,0.02,1.0
+Temur Otters,Dimir Bounce,0.83,6,0.36,1.0
+Temur Otters,Gruul Delirium,1.0,1,0.02,1.0
+Temur Otters,Bant Omniscience,0.0,1,0.0,0.98
+Azorius Flash,Simic Ouroboroid,0.54,37,0.37,0.71
+Azorius Flash,Izzet Lessons,0.61,38,0.43,0.76
+Azorius Flash,Dimir Midrange,0.46,26,0.27,0.67
+Azorius Flash,Jeskai Control,0.77,13,0.46,0.95
+Azorius Flash,Sultai Reanimator,0.57,21,0.34,0.78
+Azorius Flash,Bant Airbending,0.33,9,0.07,0.7
+Azorius Flash,Mono-Red Aggro,0.7,10,0.35,0.93
+Azorius Flash,Mono Green Landfall,0.38,8,0.09,0.76
+Azorius Flash,Azorius Control,0.0,1,0.0,0.98
+Azorius Flash,Izzet Looting,0.86,14,0.57,0.98
+Azorius Flash,Boros Burn,0.67,3,0.09,0.99
+Azorius Flash,4 Color Control,1.0,1,0.02,1.0
+Azorius Flash,Golgari Ouroboroid,0.8,5,0.28,0.99
+Azorius Flash,Selesnya Landfall,0.33,3,0.01,0.91
+Azorius Flash,Izzet Splash,0.67,3,0.09,0.99
+Azorius Flash,Jeskai Artifacts,0.67,3,0.09,0.99
+Azorius Flash,Simic Omniscience,0.33,3,0.01,0.91
+Azorius Flash,5 Color Allies,0.67,3,0.09,0.99
+Azorius Flash,Esper Pixie,0.25,8,0.03,0.65
+Azorius Flash,Temur Otters,0.0,1,0.0,0.98
+Azorius Flash,Azorius Flash,0.5,4,0.07,0.93
+Azorius Flash,Mono Black Midrange,1.0,2,0.16,1.0
+Azorius Flash,Temur Battlecrier,1.0,1,0.02,1.0
+Azorius Flash,Mono White Tokens,0.0,1,0.0,0.98
+Azorius Flash,Orzhov Sacrifice,1.0,2,0.16,1.0
+Azorius Flash,Dimir Bounce,0.67,3,0.09,0.99
+Azorius Flash,Gruul Delirium,0.0,2,0.0,0.84
+Azorius Flash,Bant Omniscience,0.5,2,0.01,0.99
+Mono Black Midrange,Simic Ouroboroid,0.26,31,0.12,0.45
+Mono Black Midrange,Izzet Lessons,0.31,13,0.09,0.61
+Mono Black Midrange,Dimir Midrange,0.39,33,0.23,0.58
+Mono Black Midrange,Jeskai Control,0.44,9,0.14,0.79
+Mono Black Midrange,Sultai Reanimator,0.33,15,0.12,0.62
+Mono Black Midrange,Bant Airbending,0.13,8,0.0,0.53
+Mono Black Midrange,Mono-Red Aggro,0.83,6,0.36,1.0
+Mono Black Midrange,Mono Green Landfall,0.2,5,0.01,0.72
+Mono Black Midrange,Azorius Control,0.59,17,0.33,0.82
+Mono Black Midrange,Izzet Looting,0.43,7,0.1,0.82
+Mono Black Midrange,Boros Burn,0.7,10,0.35,0.93
+Mono Black Midrange,4 Color Control,0.6,5,0.15,0.95
+Mono Black Midrange,Golgari Ouroboroid,0.5,2,0.01,0.99
+Mono Black Midrange,Selesnya Landfall,0.75,4,0.19,0.99
+Mono Black Midrange,Izzet Splash,0.5,2,0.01,0.99
+Mono Black Midrange,Jeskai Artifacts,0.0,3,0.0,0.71
+Mono Black Midrange,Simic Omniscience,0.5,6,0.12,0.88
+Mono Black Midrange,5 Color Allies,1.0,2,0.16,1.0
+Mono Black Midrange,Esper Pixie,0.0,2,0.0,0.84
+Mono Black Midrange,Temur Otters,0.67,3,0.09,0.99
+Mono Black Midrange,Azorius Flash,0.0,2,0.0,0.84
+Mono Black Midrange,Mono Black Midrange,0.5,6,0.12,0.88
+Mono Black Midrange,Temur Battlecrier,0.25,8,0.03,0.65
+Mono Black Midrange,Mono White Tokens,0.25,4,0.01,0.81
+Mono Black Midrange,Orzhov Sacrifice,0.33,3,0.01,0.91
+Mono Black Midrange,Dimir Bounce,0.0,2,0.0,0.84
+Mono Black Midrange,Gruul Delirium,0.0,3,0.0,0.71
+Mono Black Midrange,Bant Omniscience,1.0,1,0.02,1.0
+Temur Battlecrier,Simic Ouroboroid,0.45,20,0.23,0.68
+Temur Battlecrier,Izzet Lessons,0.17,6,0.0,0.64
+Temur Battlecrier,Dimir Midrange,0.36,44,0.22,0.52
+Temur Battlecrier,Jeskai Control,0.67,6,0.22,0.96
+Temur Battlecrier,Sultai Reanimator,0.47,15,0.21,0.73
+Temur Battlecrier,Bant Airbending,0.14,7,0.0,0.58
+Temur Battlecrier,Mono-Red Aggro,0.0,4,0.0,0.6
+Temur Battlecrier,Mono Green Landfall,0.67,3,0.09,0.99
+Temur Battlecrier,Azorius Control,0.44,16,0.2,0.7
+Temur Battlecrier,Izzet Looting,1.0,4,0.4,1.0
+Temur Battlecrier,4 Color Control,0.58,12,0.28,0.85
+Temur Battlecrier,Golgari Ouroboroid,0.0,1,0.0,0.98
+Temur Battlecrier,Selesnya Landfall,0.0,1,0.0,0.98
+Temur Battlecrier,Izzet Splash,0.0,1,0.0,0.98
+Temur Battlecrier,Jeskai Artifacts,0.63,8,0.24,0.91
+Temur Battlecrier,Simic Omniscience,0.6,5,0.15,0.95
+Temur Battlecrier,5 Color Allies,1.0,1,0.02,1.0
+Temur Battlecrier,Esper Pixie,0.6,10,0.26,0.88
+Temur Battlecrier,Temur Otters,0.0,1,0.0,0.98
+Temur Battlecrier,Azorius Flash,0.0,1,0.0,0.98
+Temur Battlecrier,Mono Black Midrange,0.75,8,0.35,0.97
+Temur Battlecrier,Temur Battlecrier,0.5,10,0.19,0.81
+Temur Battlecrier,Mono White Tokens,0.0,4,0.0,0.6
+Temur Battlecrier,Orzhov Sacrifice,0.33,3,0.01,0.91
+Temur Battlecrier,Gruul Delirium,0.0,1,0.0,0.98
+Temur Battlecrier,Bant Omniscience,0.0,2,0.0,0.84
+Izzet Prowess,Simic Ouroboroid,0.59,34,0.41,0.75
+Izzet Prowess,Izzet Lessons,0.67,30,0.47,0.83
+Izzet Prowess,Dimir Midrange,0.48,25,0.28,0.69
+Izzet Prowess,Jeskai Control,0.5,28,0.31,0.69
+Izzet Prowess,Sultai Reanimator,0.3,23,0.13,0.53
+Izzet Prowess,Bant Airbending,0.33,3,0.01,0.91
+Izzet Prowess,Mono-Red Aggro,0.5,16,0.25,0.75
+Izzet Prowess,Mono Green Landfall,0.38,16,0.15,0.65
+Izzet Prowess,Azorius Control,0.5,4,0.07,0.93
+Izzet Prowess,Izzet Looting,0.4,10,0.12,0.74
+Izzet Prowess,Boros Burn,0.0,3,0.0,0.71
+Izzet Prowess,4 Color Control,0.67,3,0.09,0.99
+Izzet Prowess,Golgari Ouroboroid,0.25,4,0.01,0.81
+Izzet Prowess,Selesnya Landfall,0.67,3,0.09,0.99
+Izzet Prowess,Izzet Splash,0.5,2,0.01,0.99
+Izzet Prowess,5 Color Allies,0.67,3,0.09,0.99
+Izzet Prowess,Esper Pixie,0.5,2,0.01,0.99
+Izzet Prowess,Temur Otters,0.33,3,0.01,0.91
+Izzet Prowess,Azorius Flash,0.5,2,0.01,0.99
+Izzet Prowess,Temur Battlecrier,1.0,1,0.02,1.0
+Izzet Prowess,Mono White Tokens,0.0,2,0.0,0.84
+Izzet Prowess,Orzhov Sacrifice,0.5,2,0.01,0.99
+Izzet Prowess,Gruul Delirium,0.0,1,0.0,0.98
+Izzet Prowess,Bant Omniscience,0.67,3,0.09,0.99
+Mono White Tokens,Simic Ouroboroid,0.33,12,0.1,0.65
+Mono White Tokens,Izzet Lessons,0.43,14,0.18,0.71
+Mono White Tokens,Dimir Midrange,0.66,32,0.47,0.81
+Mono White Tokens,Jeskai Control,0.46,13,0.19,0.75
+Mono White Tokens,Sultai Reanimator,0.28,18,0.1,0.53
+Mono White Tokens,Bant Airbending,0.44,9,0.14,0.79
+Mono White Tokens,Mono-Red Aggro,0.86,7,0.42,1.0
+Mono White Tokens,Mono Green Landfall,0.33,3,0.01,0.91
+Mono White Tokens,Azorius Control,0.61,18,0.36,0.83
+Mono White Tokens,Izzet Looting,0.5,4,0.07,0.93
+Mono White Tokens,Boros Burn,0.5,2,0.01,0.99
+Mono White Tokens,4 Color Control,0.3,10,0.07,0.65
+Mono White Tokens,Golgari Ouroboroid,1.0,4,0.4,1.0
+Mono White Tokens,Selesnya Landfall,0.0,1,0.0,0.98
+Mono White Tokens,Izzet Splash,1.0,1,0.02,1.0
+Mono White Tokens,Jeskai Artifacts,0.25,4,0.01,0.81
+Mono White Tokens,Simic Omniscience,0.0,1,0.0,0.98
+Mono White Tokens,5 Color Allies,0.0,1,0.0,0.98
+Mono White Tokens,Esper Pixie,1.0,5,0.48,1.0
+Mono White Tokens,Temur Otters,0.0,1,0.0,0.98
+Mono White Tokens,Azorius Flash,1.0,1,0.02,1.0
+Mono White Tokens,Mono Black Midrange,0.75,4,0.19,0.99
+Mono White Tokens,Temur Battlecrier,1.0,4,0.4,1.0
+Mono White Tokens,Mono White Tokens,0.5,2,0.01,0.99
+Mono White Tokens,Orzhov Sacrifice,0.83,6,0.36,1.0
+Mono White Tokens,Dimir Bounce,1.0,1,0.02,1.0
+Mono White Tokens,Gruul Delirium,1.0,1,0.02,1.0
+Mono White Tokens,Bant Omniscience,0.0,1,0.0,0.98
+Temur Lessons,Simic Ouroboroid,0.58,36,0.41,0.74
+Temur Lessons,Izzet Lessons,0.58,24,0.37,0.78
+Temur Lessons,Dimir Midrange,0.83,18,0.59,0.96
+Temur Lessons,Jeskai Control,0.5,20,0.27,0.73
+Temur Lessons,Sultai Reanimator,0.5,16,0.25,0.75
+Temur Lessons,Bant Airbending,0.8,5,0.28,0.99
+Temur Lessons,Mono-Red Aggro,0.38,13,0.14,0.68
+Temur Lessons,Mono Green Landfall,0.67,9,0.3,0.93
+Temur Lessons,Azorius Control,1.0,2,0.16,1.0
+Temur Lessons,Izzet Looting,0.88,8,0.47,1.0
+Temur Lessons,Boros Burn,0.5,2,0.01,0.99
+Temur Lessons,4 Color Control,0.6,5,0.15,0.95
+Temur Lessons,Golgari Ouroboroid,1.0,2,0.16,1.0
+Temur Lessons,Selesnya Landfall,0.0,4,0.0,0.6
+Temur Lessons,Izzet Splash,0.25,4,0.01,0.81
+Temur Lessons,Jeskai Artifacts,0.0,1,0.0,0.98
+Temur Lessons,Simic Omniscience,0.0,3,0.0,0.71
+Temur Lessons,Esper Pixie,0.33,3,0.01,0.91
+Temur Lessons,Temur Otters,1.0,1,0.02,1.0
+Temur Lessons,Azorius Flash,0.0,2,0.0,0.84
+Temur Lessons,Dimir Bounce,0.75,4,0.19,0.99
+Temur Lessons,Gruul Delirium,0.5,2,0.01,0.99
+Temur Lessons,Bant Omniscience,0.0,2,0.0,0.84
+Orzhov Sacrifice,Simic Ouroboroid,0.38,8,0.09,0.76
+Orzhov Sacrifice,Izzet Lessons,0.36,11,0.11,0.69
+Orzhov Sacrifice,Dimir Midrange,0.41,37,0.25,0.58
+Orzhov Sacrifice,Jeskai Control,0.25,8,0.03,0.65
+Orzhov Sacrifice,Sultai Reanimator,0.67,3,0.09,0.99
+Orzhov Sacrifice,Bant Airbending,0.25,8,0.03,0.65
+Orzhov Sacrifice,Mono-Red Aggro,0.17,6,0.0,0.64
+Orzhov Sacrifice,Mono Green Landfall,0.25,4,0.01,0.81
+Orzhov Sacrifice,Azorius Control,0.6,20,0.36,0.81
+Orzhov Sacrifice,Izzet Looting,1.0,1,0.02,1.0
+Orzhov Sacrifice,4 Color Control,0.2,5,0.01,0.72
+Orzhov Sacrifice,Golgari Ouroboroid,1.0,2,0.16,1.0
+Orzhov Sacrifice,Selesnya Landfall,1.0,1,0.02,1.0
+Orzhov Sacrifice,Jeskai Artifacts,1.0,1,0.02,1.0
+Orzhov Sacrifice,Simic Omniscience,0.2,5,0.01,0.72
+Orzhov Sacrifice,5 Color Allies,1.0,1,0.02,1.0
+Orzhov Sacrifice,Esper Pixie,0.67,3,0.09,0.99
+Orzhov Sacrifice,Temur Otters,0.0,1,0.0,0.98
+Orzhov Sacrifice,Azorius Flash,0.0,2,0.0,0.84
+Orzhov Sacrifice,Mono Black Midrange,0.67,3,0.09,0.99
+Orzhov Sacrifice,Temur Battlecrier,0.67,3,0.09,0.99
+Orzhov Sacrifice,Mono White Tokens,0.17,6,0.0,0.64
+Orzhov Sacrifice,Orzhov Sacrifice,0.5,6,0.12,0.88
+Orzhov Sacrifice,Dimir Bounce,1.0,1,0.02,1.0
+Orzhov Sacrifice,Gruul Delirium,0.0,1,0.0,0.98
+Orzhov Sacrifice,Bant Omniscience,1.0,2,0.16,1.0
+Dimir Bounce,Simic Ouroboroid,0.41,22,0.21,0.64
+Dimir Bounce,Izzet Lessons,0.44,27,0.25,0.65
+Dimir Bounce,Dimir Midrange,0.44,18,0.22,0.69
+Dimir Bounce,Jeskai Control,0.5,12,0.21,0.79
+Dimir Bounce,Sultai Reanimator,0.56,9,0.21,0.86
+Dimir Bounce,Bant Airbending,0.86,7,0.42,1.0
+Dimir Bounce,Mono-Red Aggro,0.38,8,0.09,0.76
+Dimir Bounce,Mono Green Landfall,0.0,2,0.0,0.84
+Dimir Bounce,Azorius Control,0.0,2,0.0,0.84
+Dimir Bounce,Izzet Looting,0.33,15,0.12,0.62
+Dimir Bounce,Boros Burn,0.5,2,0.01,0.99
+Dimir Bounce,4 Color Control,0.67,3,0.09,0.99
+Dimir Bounce,Golgari Ouroboroid,0.0,2,0.0,0.84
+Dimir Bounce,Selesnya Landfall,0.0,2,0.0,0.84
+Dimir Bounce,Izzet Splash,1.0,2,0.16,1.0
+Dimir Bounce,Jeskai Artifacts,0.5,2,0.01,0.99
+Dimir Bounce,Simic Omniscience,1.0,1,0.02,1.0
+Dimir Bounce,5 Color Allies,1.0,1,0.02,1.0
+Dimir Bounce,Esper Pixie,0.0,1,0.0,0.98
+Dimir Bounce,Temur Otters,0.17,6,0.0,0.64
+Dimir Bounce,Azorius Flash,0.33,3,0.01,0.91
+Dimir Bounce,Mono Black Midrange,1.0,2,0.16,1.0
+Dimir Bounce,Mono White Tokens,0.0,1,0.0,0.98
+Dimir Bounce,Orzhov Sacrifice,0.0,1,0.0,0.98
+Dimir Bounce,Dimir Bounce,0.5,2,0.01,0.99
+Dimir Bounce,Gruul Delirium,0.67,3,0.09,0.99
+Mono Red Leyline,Simic Ouroboroid,0.38,16,0.15,0.65
+Mono Red Leyline,Izzet Lessons,0.48,23,0.27,0.69
+Mono Red Leyline,Dimir Midrange,0.32,19,0.13,0.57
+Mono Red Leyline,Jeskai Control,0.38,13,0.14,0.68
+Mono Red Leyline,Sultai Reanimator,0.56,16,0.3,0.8
+Mono Red Leyline,Bant Airbending,0.3,10,0.07,0.65
+Mono Red Leyline,Mono-Red Aggro,0.38,8,0.09,0.76
+Mono Red Leyline,Mono Green Landfall,0.57,7,0.18,0.9
+Mono Red Leyline,Azorius Control,0.0,3,0.0,0.71
+Mono Red Leyline,Izzet Looting,0.4,5,0.05,0.85
+Mono Red Leyline,Boros Burn,0.33,3,0.01,0.91
+Mono Red Leyline,4 Color Control,0.5,4,0.07,0.93
+Mono Red Leyline,Golgari Ouroboroid,1.0,1,0.02,1.0
+Mono Red Leyline,Selesnya Landfall,0.0,1,0.0,0.98
+Mono Red Leyline,Jeskai Artifacts,1.0,6,0.54,1.0
+Mono Red Leyline,Simic Omniscience,0.0,1,0.0,0.98
+Mono Red Leyline,5 Color Allies,0.33,6,0.04,0.78
+Mono Red Leyline,Esper Pixie,0.0,1,0.0,0.98
+Mono Red Leyline,Temur Otters,0.0,1,0.0,0.98
+Mono Red Leyline,Azorius Flash,0.5,2,0.01,0.99
+Mono Red Leyline,Temur Battlecrier,0.0,1,0.0,0.98
+Mono Red Leyline,Dimir Bounce,0.0,1,0.0,0.98
+Mono Red Leyline,Gruul Delirium,1.0,1,0.02,1.0
+Mono Red Leyline,Bant Omniscience,1.0,1,0.02,1.0
+Gruul Delirium,Simic Ouroboroid,0.47,19,0.24,0.71
+Gruul Delirium,Izzet Lessons,0.59,22,0.36,0.79
+Gruul Delirium,Dimir Midrange,0.5,18,0.26,0.74
+Gruul Delirium,Jeskai Control,0.62,13,0.32,0.86
+Gruul Delirium,Sultai Reanimator,0.46,13,0.19,0.75
+Gruul Delirium,Bant Airbending,0.6,5,0.15,0.95
+Gruul Delirium,Mono-Red Aggro,0.57,7,0.18,0.9
+Gruul Delirium,Mono Green Landfall,0.17,6,0.0,0.64
+Gruul Delirium,Azorius Control,0.25,4,0.01,0.81
+Gruul Delirium,Izzet Looting,0.6,5,0.15,0.95
+Gruul Delirium,Boros Burn,0.5,2,0.01,0.99
+Gruul Delirium,4 Color Control,1.0,2,0.16,1.0
+Gruul Delirium,Golgari Ouroboroid,1.0,1,0.02,1.0
+Gruul Delirium,Izzet Splash,0.29,7,0.04,0.71
+Gruul Delirium,Jeskai Artifacts,0.0,1,0.0,0.98
+Gruul Delirium,Simic Omniscience,0.0,2,0.0,0.84
+Gruul Delirium,5 Color Allies,0.0,3,0.0,0.71
+Gruul Delirium,Esper Pixie,0.0,1,0.0,0.98
+Gruul Delirium,Temur Otters,0.0,1,0.0,0.98
+Gruul Delirium,Azorius Flash,1.0,2,0.16,1.0
+Gruul Delirium,Mono Black Midrange,1.0,3,0.29,1.0
+Gruul Delirium,Temur Battlecrier,1.0,1,0.02,1.0
+Gruul Delirium,Mono White Tokens,0.0,1,0.0,0.98
+Gruul Delirium,Orzhov Sacrifice,1.0,1,0.02,1.0
+Gruul Delirium,Dimir Bounce,0.33,3,0.01,0.91
+Gruul Delirium,Bant Omniscience,0.0,1,0.0,0.98
+Bant Omniscience,Simic Ouroboroid,0.5,18,0.26,0.74
+Bant Omniscience,Izzet Lessons,0.57,21,0.34,0.78
+Bant Omniscience,Dimir Midrange,0.61,18,0.36,0.83
+Bant Omniscience,Jeskai Control,0.75,8,0.35,0.97
+Bant Omniscience,Sultai Reanimator,0.38,13,0.14,0.68
+Bant Omniscience,Bant Airbending,0.5,8,0.16,0.84
+Bant Omniscience,Mono-Red Aggro,0.86,7,0.42,1.0
+Bant Omniscience,Mono Green Landfall,0.57,7,0.18,0.9
+Bant Omniscience,Azorius Control,0.33,6,0.04,0.78
+Bant Omniscience,Izzet Looting,0.67,3,0.09,0.99
+Bant Omniscience,Boros Burn,0.0,1,0.0,0.98
+Bant Omniscience,4 Color Control,0.4,5,0.05,0.85
+Bant Omniscience,Golgari Ouroboroid,0.33,3,0.01,0.91
+Bant Omniscience,Selesnya Landfall,0.4,5,0.05,0.85
+Bant Omniscience,Izzet Splash,0.0,1,0.0,0.98
+Bant Omniscience,Jeskai Artifacts,1.0,3,0.29,1.0
+Bant Omniscience,Simic Omniscience,0.0,1,0.0,0.98
+Bant Omniscience,5 Color Allies,0.0,2,0.0,0.84
+Bant Omniscience,Esper Pixie,0.0,1,0.0,0.98
+Bant Omniscience,Temur Otters,1.0,1,0.02,1.0
+Bant Omniscience,Azorius Flash,0.5,2,0.01,0.99
+Bant Omniscience,Mono Black Midrange,0.0,1,0.0,0.98
+Bant Omniscience,Temur Battlecrier,1.0,2,0.16,1.0
+Bant Omniscience,Mono White Tokens,1.0,1,0.02,1.0
+Bant Omniscience,Orzhov Sacrifice,0.0,2,0.0,0.84
+Bant Omniscience,Gruul Delirium,1.0,1,0.02,1.0
+Boros Dragons,Simic Ouroboroid,0.68,25,0.46,0.85
+Boros Dragons,Izzet Lessons,0.36,22,0.17,0.59
+Boros Dragons,Dimir Midrange,0.67,9,0.3,0.93
+Boros Dragons,Jeskai Control,0.5,18,0.26,0.74
+Boros Dragons,Sultai Reanimator,0.33,15,0.12,0.62
+Boros Dragons,Bant Airbending,0.75,4,0.19,0.99
+Boros Dragons,Mono-Red Aggro,0.56,9,0.21,0.86
+Boros Dragons,Mono Green Landfall,0.29,7,0.04,0.71
+Boros Dragons,Azorius Control,0.0,1,0.0,0.98
+Boros Dragons,Izzet Looting,0.25,4,0.01,0.81
+Boros Dragons,Boros Burn,0.4,5,0.05,0.85
+Boros Dragons,4 Color Control,0.0,1,0.0,0.98
+Boros Dragons,Golgari Ouroboroid,1.0,1,0.02,1.0
+Boros Dragons,Selesnya Landfall,0.33,3,0.01,0.91
+Boros Dragons,Izzet Splash,1.0,2,0.16,1.0
+Boros Dragons,Simic Omniscience,0.33,3,0.01,0.91
+Boros Dragons,5 Color Allies,0.0,1,0.0,0.98
+Boros Dragons,Esper Pixie,1.0,1,0.02,1.0
+Boros Dragons,Azorius Flash,0.0,2,0.0,0.84
+Orzhov Pixie,Simic Ouroboroid,0.67,9,0.3,0.93
+Orzhov Pixie,Izzet Lessons,0.0,5,0.0,0.52
+Orzhov Pixie,Dimir Midrange,0.48,23,0.27,0.69
+Orzhov Pixie,Jeskai Control,0.17,6,0.0,0.64
+Orzhov Pixie,Sultai Reanimator,0.27,11,0.06,0.61
+Orzhov Pixie,Bant Airbending,0.67,3,0.09,0.99
+Orzhov Pixie,Mono-Red Aggro,0.8,5,0.28,0.99
+Orzhov Pixie,Mono Green Landfall,0.0,1,0.0,0.98
+Orzhov Pixie,Azorius Control,0.5,10,0.19,0.81
+Orzhov Pixie,Izzet Looting,0.2,5,0.01,0.72
+Orzhov Pixie,Boros Burn,0.0,2,0.0,0.84
+Orzhov Pixie,4 Color Control,0.2,5,0.01,0.72
+Orzhov Pixie,Izzet Splash,0.0,3,0.0,0.71
+Orzhov Pixie,Jeskai Artifacts,0.0,4,0.0,0.6
+Orzhov Pixie,5 Color Allies,0.0,1,0.0,0.98
+Orzhov Pixie,Esper Pixie,0.5,2,0.01,0.99
+Orzhov Pixie,Temur Otters,0.0,2,0.0,0.84
+Orzhov Pixie,Azorius Flash,0.0,1,0.0,0.98
+Orzhov Pixie,Mono Black Midrange,0.67,3,0.09,0.99
+Orzhov Pixie,Temur Battlecrier,0.0,1,0.0,0.98
+Orzhov Pixie,Mono White Tokens,0.0,3,0.0,0.71
+Orzhov Pixie,Dimir Bounce,0.67,3,0.09,0.99
+Orzhov Pixie,Gruul Delirium,0.0,1,0.0,0.98
+Orzhov Pixie,Bant Omniscience,0.0,1,0.0,0.98
+Dimir Control,Simic Ouroboroid,0.6,5,0.15,0.95
+Dimir Control,Izzet Lessons,0.11,9,0.0,0.48
+Dimir Control,Dimir Midrange,0.35,26,0.17,0.56
+Dimir Control,Jeskai Control,0.67,9,0.3,0.93
+Dimir Control,Sultai Reanimator,0.38,8,0.09,0.76
+Dimir Control,Bant Airbending,0.67,3,0.09,0.99
+Dimir Control,Mono-Red Aggro,0.0,3,0.0,0.71
+Dimir Control,Mono Green Landfall,0.75,4,0.19,0.99
+Dimir Control,Azorius Control,0.25,4,0.01,0.81
+Dimir Control,Boros Burn,0.0,1,0.0,0.98
+Dimir Control,4 Color Control,1.0,3,0.29,1.0
+Dimir Control,Golgari Ouroboroid,0.0,3,0.0,0.71
+Dimir Control,Izzet Splash,1.0,1,0.02,1.0
+Dimir Control,Jeskai Artifacts,0.5,2,0.01,0.99
+Dimir Control,Simic Omniscience,0.25,4,0.01,0.81
+Dimir Control,Esper Pixie,0.5,2,0.01,0.99
+Dimir Control,Azorius Flash,0.0,3,0.0,0.71
+Dimir Control,Mono Black Midrange,0.0,1,0.0,0.98
+Dimir Control,Temur Battlecrier,0.33,3,0.01,0.91
+Dimir Control,Mono White Tokens,0.5,2,0.01,0.99
+Dimir Control,Orzhov Sacrifice,0.0,2,0.0,0.84
+Mono Green Ouroboroid,Simic Ouroboroid,0.08,13,0.0,0.36
+Mono Green Ouroboroid,Izzet Lessons,0.5,10,0.19,0.81
+Mono Green Ouroboroid,Dimir Midrange,0.62,13,0.32,0.86
+Mono Green Ouroboroid,Jeskai Control,0.63,8,0.24,0.91
+Mono Green Ouroboroid,Sultai Reanimator,0.3,10,0.07,0.65
+Mono Green Ouroboroid,Bant Airbending,0.33,3,0.01,0.91
+Mono Green Ouroboroid,Mono-Red Aggro,0.8,5,0.28,0.99
+Mono Green Ouroboroid,Mono Green Landfall,0.5,6,0.12,0.88
+Mono Green Ouroboroid,Azorius Control,0.0,3,0.0,0.71
+Mono Green Ouroboroid,Izzet Looting,0.5,4,0.07,0.93
+Mono Green Ouroboroid,Boros Burn,1.0,2,0.16,1.0
+Mono Green Ouroboroid,4 Color Control,0.5,2,0.01,0.99
+Mono Green Ouroboroid,Golgari Ouroboroid,0.0,1,0.0,0.98
+Mono Green Ouroboroid,Izzet Splash,0.6,5,0.15,0.95
+Mono Green Ouroboroid,Jeskai Artifacts,0.5,4,0.07,0.93
+Mono Green Ouroboroid,Esper Pixie,0.0,1,0.0,0.98
+Mono Green Ouroboroid,Azorius Flash,1.0,2,0.16,1.0
+Mono Green Ouroboroid,Mono Black Midrange,1.0,1,0.02,1.0
+Mono Green Ouroboroid,Temur Battlecrier,1.0,2,0.16,1.0
+Mono Green Ouroboroid,Mono White Tokens,0.0,1,0.0,0.98
+Mono Green Ouroboroid,Orzhov Sacrifice,1.0,1,0.02,1.0
+Golgari Roots,Simic Ouroboroid,0.43,14,0.18,0.71
+Golgari Roots,Izzet Lessons,0.55,11,0.23,0.83
+Golgari Roots,Dimir Midrange,0.78,9,0.4,0.97
+Golgari Roots,Jeskai Control,0.29,7,0.04,0.71
+Golgari Roots,Sultai Reanimator,0.75,4,0.19,0.99
+Golgari Roots,Bant Airbending,0.4,5,0.05,0.85
+Golgari Roots,Mono-Red Aggro,0.8,5,0.28,0.99
+Golgari Roots,Mono Green Landfall,0.5,6,0.12,0.88
+Golgari Roots,Azorius Control,0.25,8,0.03,0.65
+Golgari Roots,Izzet Looting,0.33,3,0.01,0.91
+Golgari Roots,Boros Burn,0.67,3,0.09,0.99
+Golgari Roots,4 Color Control,0.0,1,0.0,0.98
+Golgari Roots,Golgari Ouroboroid,1.0,1,0.02,1.0
+Golgari Roots,Selesnya Landfall,0.0,2,0.0,0.84
+Golgari Roots,Izzet Splash,1.0,1,0.02,1.0
+Golgari Roots,Jeskai Artifacts,0.67,3,0.09,0.99
+Golgari Roots,Simic Omniscience,1.0,1,0.02,1.0
+Golgari Roots,5 Color Allies,0.0,1,0.0,0.98
+Golgari Roots,Mono Black Midrange,0.0,1,0.0,0.98
+Golgari Roots,Temur Battlecrier,0.5,2,0.01,0.99
+Golgari Roots,Mono White Tokens,0.0,3,0.0,0.71
+Golgari Roots,Gruul Delirium,0.0,1,0.0,0.98
+4 Color Songcrafter,Simic Ouroboroid,0.4,15,0.16,0.68
+4 Color Songcrafter,Izzet Lessons,0.18,11,0.02,0.52
+4 Color Songcrafter,Dimir Midrange,0.5,10,0.19,0.81
+4 Color Songcrafter,Jeskai Control,0.78,9,0.4,0.97
+4 Color Songcrafter,Sultai Reanimator,0.8,5,0.28,0.99
+4 Color Songcrafter,Bant Airbending,0.4,5,0.05,0.85
+4 Color Songcrafter,Mono-Red Aggro,0.33,6,0.04,0.78
+4 Color Songcrafter,Mono Green Landfall,0.17,6,0.0,0.64
+4 Color Songcrafter,Azorius Control,1.0,1,0.02,1.0
+4 Color Songcrafter,Izzet Looting,1.0,2,0.16,1.0
+4 Color Songcrafter,Boros Burn,1.0,6,0.54,1.0
+4 Color Songcrafter,Golgari Ouroboroid,0.0,2,0.0,0.84
+4 Color Songcrafter,Jeskai Artifacts,0.0,1,0.0,0.98
+4 Color Songcrafter,Simic Omniscience,1.0,1,0.02,1.0
+4 Color Songcrafter,5 Color Allies,0.5,2,0.01,0.99
+4 Color Songcrafter,Esper Pixie,0.0,1,0.0,0.98
+4 Color Songcrafter,Azorius Flash,0.5,4,0.07,0.93
+4 Color Songcrafter,Temur Battlecrier,0.0,1,0.0,0.98
+4 Color Songcrafter,Mono White Tokens,0.0,2,0.0,0.84
+4 Color Songcrafter,Dimir Bounce,1.0,1,0.02,1.0
+4 Color Songcrafter,Gruul Delirium,0.0,1,0.0,0.98
+4 Color Songcrafter,Bant Omniscience,0.0,3,0.0,0.71
+Selesnya Gearhulk,Simic Ouroboroid,0.73,11,0.39,0.94
+Selesnya Gearhulk,Izzet Lessons,0.73,11,0.39,0.94
+Selesnya Gearhulk,Dimir Midrange,0.69,16,0.41,0.89
+Selesnya Gearhulk,Jeskai Control,0.5,6,0.12,0.88
+Selesnya Gearhulk,Sultai Reanimator,0.0,7,0.0,0.41
+Selesnya Gearhulk,Bant Airbending,0.33,3,0.01,0.91
+Selesnya Gearhulk,Mono Green Landfall,0.67,3,0.09,0.99
+Selesnya Gearhulk,Azorius Control,0.25,4,0.01,0.81
+Selesnya Gearhulk,Izzet Looting,1.0,2,0.16,1.0
+Selesnya Gearhulk,4 Color Control,0.5,6,0.12,0.88
+Selesnya Gearhulk,Golgari Ouroboroid,0.5,2,0.01,0.99
+Selesnya Gearhulk,Selesnya Landfall,0.33,3,0.01,0.91
+Selesnya Gearhulk,Izzet Splash,0.0,1,0.0,0.98
+Selesnya Gearhulk,Esper Pixie,0.0,1,0.0,0.98
+Selesnya Gearhulk,Temur Battlecrier,0.0,3,0.0,0.71
+Selesnya Gearhulk,Bant Omniscience,0.0,1,0.0,0.98
+Gruul Aggro,Simic Ouroboroid,0.33,6,0.04,0.78
+Gruul Aggro,Izzet Lessons,1.0,1,0.02,1.0
+Gruul Aggro,Dimir Midrange,0.36,14,0.13,0.65
+Gruul Aggro,Jeskai Control,0.6,10,0.26,0.88
+Gruul Aggro,Sultai Reanimator,1.0,3,0.29,1.0
+Gruul Aggro,Bant Airbending,0.0,2,0.0,0.84
+Gruul Aggro,Mono-Red Aggro,0.5,4,0.07,0.93
+Gruul Aggro,Azorius Control,0.44,9,0.14,0.79
+Gruul Aggro,Izzet Looting,1.0,1,0.02,1.0
+Gruul Aggro,Boros Burn,1.0,1,0.02,1.0
+Gruul Aggro,4 Color Control,0.25,4,0.01,0.81
+Gruul Aggro,Golgari Ouroboroid,1.0,2,0.16,1.0
+Gruul Aggro,Selesnya Landfall,1.0,1,0.02,1.0
+Gruul Aggro,Izzet Splash,1.0,2,0.16,1.0
+Gruul Aggro,Jeskai Artifacts,0.5,4,0.07,0.93
+Gruul Aggro,Simic Omniscience,0.5,2,0.01,0.99
+Gruul Aggro,Esper Pixie,1.0,3,0.29,1.0
+Gruul Aggro,Azorius Flash,0.0,2,0.0,0.84
+Gruul Aggro,Mono Black Midrange,0.5,2,0.01,0.99
+Gruul Aggro,Mono White Tokens,1.0,1,0.02,1.0
+Gruul Aggro,Orzhov Sacrifice,0.67,3,0.09,0.99
+Gruul Aggro,Bant Omniscience,1.0,1,0.02,1.0
+Boros Aggro,Simic Ouroboroid,0.38,13,0.14,0.68
+Boros Aggro,Izzet Lessons,0.3,10,0.07,0.65
+Boros Aggro,Dimir Midrange,0.27,11,0.06,0.61
+Boros Aggro,Jeskai Control,0.43,7,0.1,0.82
+Boros Aggro,Sultai Reanimator,0.67,6,0.22,0.96
+Boros Aggro,Bant Airbending,0.5,2,0.01,0.99
+Boros Aggro,Mono-Red Aggro,0.38,8,0.09,0.76
+Boros Aggro,Mono Green Landfall,0.0,4,0.0,0.6
+Boros Aggro,Azorius Control,0.0,1,0.0,0.98
+Boros Aggro,Izzet Looting,0.14,7,0.0,0.58
+Boros Aggro,4 Color Control,0.0,1,0.0,0.98
+Boros Aggro,Izzet Splash,0.5,2,0.01,0.99
+Boros Aggro,Jeskai Artifacts,0.0,1,0.0,0.98
+Boros Aggro,Simic Omniscience,1.0,2,0.16,1.0
+Boros Aggro,5 Color Allies,0.0,2,0.0,0.84
+Boros Aggro,Esper Pixie,0.5,2,0.01,0.99
+Boros Aggro,Azorius Flash,0.33,3,0.01,0.91
+Boros Aggro,Mono Black Midrange,0.5,2,0.01,0.99
+Boros Aggro,Mono White Tokens,1.0,1,0.02,1.0
+Boros Aggro,Dimir Bounce,0.0,1,0.0,0.98
+Boros Aggro,Gruul Delirium,0.0,1,0.0,0.98
+Jeskai Pixie,Simic Ouroboroid,0.82,17,0.57,0.96
+Jeskai Pixie,Izzet Lessons,0.46,13,0.19,0.75
+Jeskai Pixie,Dimir Midrange,1.0,4,0.4,1.0
+Jeskai Pixie,Jeskai Control,0.4,5,0.05,0.85
+Jeskai Pixie,Sultai Reanimator,0.43,14,0.18,0.71
+Jeskai Pixie,Bant Airbending,0.33,6,0.04,0.78
+Jeskai Pixie,Mono-Red Aggro,0.0,3,0.0,0.71
+Jeskai Pixie,Mono Green Landfall,0.0,2,0.0,0.84
+Jeskai Pixie,Azorius Control,1.0,1,0.02,1.0
+Jeskai Pixie,Izzet Looting,0.5,2,0.01,0.99
+Jeskai Pixie,Boros Burn,1.0,2,0.16,1.0
+Jeskai Pixie,Golgari Ouroboroid,0.5,2,0.01,0.99
+Jeskai Pixie,Selesnya Landfall,1.0,1,0.02,1.0
+Jeskai Pixie,5 Color Allies,0.0,1,0.0,0.98
+Jeskai Pixie,Esper Pixie,0.33,3,0.01,0.91
+Jeskai Pixie,Temur Battlecrier,1.0,1,0.02,1.0
+Jeskai Pixie,Bant Omniscience,0.5,2,0.01,0.99
+Sultai Dragons,Simic Ouroboroid,0.6,5,0.15,0.95
+Sultai Dragons,Izzet Lessons,0.17,6,0.0,0.64
+Sultai Dragons,Dimir Midrange,0.36,14,0.13,0.65
+Sultai Dragons,Jeskai Control,0.5,4,0.07,0.93
+Sultai Dragons,Sultai Reanimator,0.75,4,0.19,0.99
+Sultai Dragons,Bant Airbending,0.0,1,0.0,0.98
+Sultai Dragons,Mono-Red Aggro,0.0,2,0.0,0.84
+Sultai Dragons,Mono Green Landfall,0.0,1,0.0,0.98
+Sultai Dragons,Azorius Control,0.57,14,0.29,0.82
+Sultai Dragons,Izzet Looting,1.0,2,0.16,1.0
+Sultai Dragons,Boros Burn,0.33,3,0.01,0.91
+Sultai Dragons,4 Color Control,0.0,4,0.0,0.6
+Sultai Dragons,Selesnya Landfall,0.0,1,0.0,0.98
+Sultai Dragons,Jeskai Artifacts,0.5,2,0.01,0.99
+Sultai Dragons,Esper Pixie,1.0,2,0.16,1.0
+Sultai Dragons,Temur Otters,0.33,3,0.01,0.91
+Sultai Dragons,Mono Black Midrange,0.0,2,0.0,0.84
+Sultai Dragons,Mono White Tokens,0.5,2,0.01,0.99
+Sultai Dragons,Orzhov Sacrifice,1.0,2,0.16,1.0
+Sultai Dragons,Dimir Bounce,0.0,1,0.0,0.98
+Sultai Elementals,Simic Ouroboroid,0.67,15,0.38,0.88
+Sultai Elementals,Izzet Lessons,0.33,15,0.12,0.62
+Sultai Elementals,Dimir Midrange,0.25,4,0.01,0.81
+Sultai Elementals,Jeskai Control,0.57,7,0.18,0.9
+Sultai Elementals,Sultai Reanimator,0.43,7,0.1,0.82
+Sultai Elementals,Bant Airbending,0.43,7,0.1,0.82
+Sultai Elementals,Mono-Red Aggro,0.0,3,0.0,0.71
+Sultai Elementals,Mono Green Landfall,0.5,2,0.01,0.99
+Sultai Elementals,Azorius Control,0.5,2,0.01,0.99
+Sultai Elementals,Izzet Looting,0.67,3,0.09,0.99
+Sultai Elementals,Boros Burn,0.5,4,0.07,0.93
+Sultai Elementals,Selesnya Landfall,0.33,3,0.01,0.91
+Sultai Elementals,Simic Omniscience,0.33,3,0.01,0.91
+Sultai Elementals,5 Color Allies,1.0,1,0.02,1.0
+Sultai Elementals,Temur Otters,0.0,1,0.0,0.98
+Sultai Elementals,Azorius Flash,0.5,2,0.01,0.99
+Sultai Elementals,Gruul Delirium,0.0,2,0.0,0.84
+Orzhov Lifegain,Simic Ouroboroid,0.31,16,0.11,0.59
+Orzhov Lifegain,Izzet Lessons,0.47,15,0.21,0.73
+Orzhov Lifegain,Dimir Midrange,0.36,11,0.11,0.69
+Orzhov Lifegain,Jeskai Control,0.0,6,0.0,0.46
+Orzhov Lifegain,Sultai Reanimator,0.6,5,0.15,0.95
+Orzhov Lifegain,Bant Airbending,0.0,1,0.0,0.98
+Orzhov Lifegain,Mono-Red Aggro,0.5,4,0.07,0.93
+Orzhov Lifegain,Mono Green Landfall,1.0,1,0.02,1.0
+Orzhov Lifegain,Azorius Control,0.0,1,0.0,0.98
+Orzhov Lifegain,Izzet Looting,0.0,2,0.0,0.84
+Orzhov Lifegain,4 Color Control,0.33,3,0.01,0.91
+Orzhov Lifegain,Golgari Ouroboroid,0.0,1,0.0,0.98
+Orzhov Lifegain,Selesnya Landfall,0.5,2,0.01,0.99
+Orzhov Lifegain,Izzet Splash,1.0,1,0.02,1.0
+Orzhov Lifegain,Jeskai Artifacts,1.0,1,0.02,1.0
+Orzhov Lifegain,Simic Omniscience,0.67,3,0.09,0.99
+Orzhov Lifegain,Temur Otters,0.0,1,0.0,0.98
+Orzhov Lifegain,Azorius Flash,0.0,1,0.0,0.98
+Orzhov Lifegain,Mono Black Midrange,0.0,3,0.0,0.71
+Orzhov Lifegain,Temur Battlecrier,1.0,1,0.02,1.0
+Orzhov Lifegain,Orzhov Sacrifice,0.0,1,0.0,0.98
+Orzhov Midrange,Simic Ouroboroid,0.39,18,0.17,0.64
+Orzhov Midrange,Izzet Lessons,0.5,10,0.19,0.81
+Orzhov Midrange,Dimir Midrange,0.29,7,0.04,0.71
+Orzhov Midrange,Jeskai Control,0.6,5,0.15,0.95
+Orzhov Midrange,Sultai Reanimator,0.67,3,0.09,0.99
+Orzhov Midrange,Bant Airbending,0.25,4,0.01,0.81
+Orzhov Midrange,Mono-Red Aggro,0.83,6,0.36,1.0
+Orzhov Midrange,Mono Green Landfall,0.0,1,0.0,0.98
+Orzhov Midrange,Azorius Control,0.0,2,0.0,0.84
+Orzhov Midrange,Izzet Looting,0.33,3,0.01,0.91
+Orzhov Midrange,Boros Burn,0.0,4,0.0,0.6
+Orzhov Midrange,4 Color Control,0.0,1,0.0,0.98
+Orzhov Midrange,Izzet Splash,0.0,1,0.0,0.98
+Orzhov Midrange,Jeskai Artifacts,0.0,2,0.0,0.84
+Orzhov Midrange,Simic Omniscience,1.0,1,0.02,1.0
+Orzhov Midrange,Esper Pixie,0.0,4,0.0,0.6
+Orzhov Midrange,Azorius Flash,0.0,1,0.0,0.98
+Orzhov Midrange,Mono Black Midrange,0.0,1,0.0,0.98
+Orzhov Midrange,Dimir Bounce,1.0,1,0.02,1.0
+Orzhov Midrange,Gruul Delirium,1.0,1,0.02,1.0
+Gruul Leyline,Simic Ouroboroid,0.36,14,0.13,0.65
+Gruul Leyline,Izzet Lessons,0.0,2,0.0,0.84
+Gruul Leyline,Dimir Midrange,0.0,7,0.0,0.41
+Gruul Leyline,Jeskai Control,0.0,2,0.0,0.84
+Gruul Leyline,Sultai Reanimator,0.43,7,0.1,0.82
+Gruul Leyline,Bant Airbending,0.14,7,0.0,0.58
+Gruul Leyline,Mono-Red Aggro,0.2,5,0.01,0.72
+Gruul Leyline,Izzet Looting,0.33,3,0.01,0.91
+Gruul Leyline,Boros Burn,0.33,3,0.01,0.91
+Gruul Leyline,4 Color Control,0.0,1,0.0,0.98
+Gruul Leyline,Selesnya Landfall,0.67,3,0.09,0.99
+Gruul Leyline,Izzet Splash,0.0,2,0.0,0.84
+Gruul Leyline,Jeskai Artifacts,0.0,1,0.0,0.98
+Gruul Leyline,Simic Omniscience,0.0,1,0.0,0.98
+Gruul Leyline,5 Color Allies,0.5,2,0.01,0.99
+Gruul Leyline,Mono Black Midrange,0.0,2,0.0,0.84
+Gruul Leyline,Mono White Tokens,0.0,1,0.0,0.98
+Gruul Leyline,Orzhov Sacrifice,0.0,1,0.0,0.98
+Gruul Leyline,Dimir Bounce,0.0,1,0.0,0.98
+Gruul Leyline,Gruul Delirium,0.0,1,0.0,0.98
+Naya Yuna,Simic Ouroboroid,0.5,2,0.01,0.99
+Naya Yuna,Izzet Lessons,0.8,5,0.28,0.99
+Naya Yuna,Dimir Midrange,0.33,12,0.1,0.65
+Naya Yuna,Jeskai Control,0.0,1,0.0,0.98
+Naya Yuna,Sultai Reanimator,0.0,2,0.0,0.84
+Naya Yuna,Bant Airbending,0.33,3,0.01,0.91
+Naya Yuna,Mono-Red Aggro,0.0,1,0.0,0.98
+Naya Yuna,Mono Green Landfall,0.0,1,0.0,0.98
+Naya Yuna,Azorius Control,0.43,7,0.1,0.82
+Naya Yuna,Izzet Looting,0.0,1,0.0,0.98
+Naya Yuna,4 Color Control,0.0,1,0.0,0.98
+Naya Yuna,Golgari Ouroboroid,1.0,1,0.02,1.0
+Naya Yuna,Esper Pixie,0.25,4,0.01,0.81
+Naya Yuna,Azorius Flash,0.0,1,0.0,0.98
+Naya Yuna,Mono Black Midrange,0.0,1,0.0,0.98
+Naya Yuna,Temur Battlecrier,0.0,5,0.0,0.52
+Naya Yuna,Mono White Tokens,0.33,3,0.01,0.91
+Naya Yuna,Orzhov Sacrifice,0.75,4,0.19,0.99
+Naya Yuna,Gruul Delirium,0.0,1,0.0,0.98
+Naya Yuna,Bant Omniscience,0.0,1,0.0,0.98
+Selesnya Cage,Simic Ouroboroid,0.23,13,0.05,0.54
+Selesnya Cage,Izzet Lessons,0.5,4,0.07,0.93
+Selesnya Cage,Dimir Midrange,0.53,15,0.27,0.79
+Selesnya Cage,Jeskai Control,0.67,3,0.09,0.99
+Selesnya Cage,Sultai Reanimator,0.5,2,0.01,0.99
+Selesnya Cage,Bant Airbending,1.0,1,0.02,1.0
+Selesnya Cage,Mono-Red Aggro,0.5,2,0.01,0.99
+Selesnya Cage,Mono Green Landfall,0.6,5,0.15,0.95
+Selesnya Cage,Azorius Control,0.25,4,0.01,0.81
+Selesnya Cage,Izzet Looting,0.67,3,0.09,0.99
+Selesnya Cage,Selesnya Landfall,1.0,1,0.02,1.0
+Selesnya Cage,5 Color Allies,1.0,1,0.02,1.0
+Selesnya Cage,Esper Pixie,0.33,3,0.01,0.91
+Selesnya Cage,Azorius Flash,0.5,2,0.01,0.99
+Selesnya Cage,Mono Black Midrange,0.0,1,0.0,0.98
+Selesnya Cage,Temur Battlecrier,0.0,1,0.0,0.98
+Selesnya Cage,Dimir Bounce,0.0,1,0.0,0.98
+Selesnya Cage,Bant Omniscience,0.67,3,0.09,0.99
+Selesnya Kona,Simic Ouroboroid,0.17,6,0.0,0.64
+Selesnya Kona,Izzet Lessons,0.0,3,0.0,0.71
+Selesnya Kona,Dimir Midrange,0.3,20,0.12,0.54
+Selesnya Kona,Jeskai Control,1.0,2,0.16,1.0
+Selesnya Kona,Sultai Reanimator,0.5,2,0.01,0.99
+Selesnya Kona,Mono-Red Aggro,0.0,1,0.0,0.98
+Selesnya Kona,Azorius Control,0.33,6,0.04,0.78
+Selesnya Kona,Izzet Looting,1.0,1,0.02,1.0
+Selesnya Kona,4 Color Control,1.0,1,0.02,1.0
+Selesnya Kona,Golgari Ouroboroid,0.0,2,0.0,0.84
+Selesnya Kona,Jeskai Artifacts,0.5,2,0.01,0.99
+Selesnya Kona,Simic Omniscience,0.0,1,0.0,0.98
+Selesnya Kona,Esper Pixie,0.5,2,0.01,0.99
+Selesnya Kona,Azorius Flash,1.0,1,0.02,1.0
+Selesnya Kona,Mono Black Midrange,0.0,1,0.0,0.98
+Selesnya Kona,Temur Battlecrier,0.0,3,0.0,0.71
+Selesnya Kona,Mono White Tokens,1.0,3,0.29,1.0
+Selesnya Kona,Orzhov Sacrifice,0.67,3,0.09,0.99
+Golgari Midrange,Simic Ouroboroid,0.33,12,0.1,0.65
+Golgari Midrange,Izzet Lessons,0.63,8,0.24,0.91
+Golgari Midrange,Dimir Midrange,0.31,13,0.09,0.61
+Golgari Midrange,Jeskai Control,0.2,5,0.01,0.72
+Golgari Midrange,Sultai Reanimator,0.25,4,0.01,0.81
+Golgari Midrange,Bant Airbending,1.0,2,0.16,1.0
+Golgari Midrange,Mono Green Landfall,0.0,2,0.0,0.84
+Golgari Midrange,Azorius Control,0.2,5,0.01,0.72
+Golgari Midrange,4 Color Control,0.5,2,0.01,0.99
+Golgari Midrange,Selesnya Landfall,0.0,1,0.0,0.98
+Golgari Midrange,Jeskai Artifacts,0.5,2,0.01,0.99
+Golgari Midrange,5 Color Allies,1.0,1,0.02,1.0
+Golgari Midrange,Azorius Flash,1.0,1,0.02,1.0
+Golgari Midrange,Orzhov Sacrifice,0.75,4,0.19,0.99
+Esper Control,Simic Ouroboroid,0.13,8,0.0,0.53
+Esper Control,Izzet Lessons,0.17,6,0.0,0.64
+Esper Control,Dimir Midrange,0.2,15,0.04,0.48
+Esper Control,Jeskai Control,0.5,2,0.01,0.99
+Esper Control,Sultai Reanimator,0.5,4,0.07,0.93
+Esper Control,Bant Airbending,0.5,2,0.01,0.99
+Esper Control,Mono-Red Aggro,0.0,2,0.0,0.84
+Esper Control,Mono Green Landfall,0.0,2,0.0,0.84
+Esper Control,Azorius Control,0.75,4,0.19,0.99
+Esper Control,Izzet Looting,0.0,1,0.0,0.98
+Esper Control,Boros Burn,1.0,1,0.02,1.0
+Esper Control,4 Color Control,0.5,2,0.01,0.99
+Esper Control,Golgari Ouroboroid,0.5,2,0.01,0.99
+Esper Control,Selesnya Landfall,1.0,1,0.02,1.0
+Esper Control,Izzet Splash,0.0,1,0.0,0.98
+Esper Control,Jeskai Artifacts,0.0,1,0.0,0.98
+Esper Control,5 Color Allies,0.0,1,0.0,0.98
+Esper Control,Esper Pixie,1.0,1,0.02,1.0
+Esper Control,Mono White Tokens,1.0,1,0.02,1.0
+Esper Control,Orzhov Sacrifice,1.0,1,0.02,1.0
+Azorius Aggro,Simic Ouroboroid,0.5,8,0.16,0.84
+Azorius Aggro,Dimir Midrange,0.56,9,0.21,0.86
+Azorius Aggro,Jeskai Control,0.5,4,0.07,0.93
+Azorius Aggro,Sultai Reanimator,0.13,8,0.0,0.53
+Azorius Aggro,Bant Airbending,1.0,1,0.02,1.0
+Azorius Aggro,Mono Green Landfall,0.0,1,0.0,0.98
+Azorius Aggro,Azorius Control,0.4,5,0.05,0.85
+Azorius Aggro,Izzet Looting,0.5,2,0.01,0.99
+Azorius Aggro,4 Color Control,0.25,8,0.03,0.65
+Azorius Aggro,Izzet Splash,0.0,1,0.0,0.98
+Azorius Aggro,Jeskai Artifacts,0.0,2,0.0,0.84
+Azorius Aggro,Simic Omniscience,0.0,3,0.0,0.71
+Azorius Aggro,Temur Otters,1.0,1,0.02,1.0
+Azorius Aggro,Mono Black Midrange,0.75,4,0.19,0.99
+Azorius Aggro,Temur Battlecrier,0.5,2,0.01,0.99
+Azorius Aggro,Mono White Tokens,0.0,2,0.0,0.84
+Azorius Aggro,Orzhov Sacrifice,0.0,1,0.0,0.98
+Boros Arabella,Simic Ouroboroid,0.57,7,0.18,0.9
+Boros Arabella,Izzet Lessons,0.5,2,0.01,0.99
+Boros Arabella,Dimir Midrange,1.0,1,0.02,1.0
+Boros Arabella,Jeskai Control,0.0,2,0.0,0.84
+Boros Arabella,Sultai Reanimator,0.0,3,0.0,0.71
+Boros Arabella,Bant Airbending,0.33,3,0.01,0.91
+Boros Arabella,Mono-Red Aggro,0.5,6,0.12,0.88
+Boros Arabella,Mono Green Landfall,0.5,4,0.07,0.93
+Boros Arabella,Azorius Control,0.5,2,0.01,0.99
+Boros Arabella,Izzet Looting,0.2,5,0.01,0.72
+Boros Arabella,Boros Burn,1.0,2,0.16,1.0
+Boros Arabella,Izzet Splash,0.0,2,0.0,0.84
+Boros Arabella,Jeskai Artifacts,0.0,2,0.0,0.84
+Boros Arabella,Simic Omniscience,1.0,1,0.02,1.0
+Boros Arabella,5 Color Allies,0.0,2,0.0,0.84
+Boros Arabella,Esper Pixie,0.0,1,0.0,0.98
+Boros Arabella,Temur Otters,0.0,2,0.0,0.84
+Boros Arabella,Azorius Flash,0.5,2,0.01,0.99
+Boros Arabella,Mono Black Midrange,1.0,2,0.16,1.0
+Boros Arabella,Temur Battlecrier,0.33,3,0.01,0.91
+Boros Arabella,Orzhov Sacrifice,0.0,1,0.0,0.98
+Boros Arabella,Dimir Bounce,0.0,1,0.0,0.98
+Boros Mice,Simic Ouroboroid,0.57,14,0.29,0.82
+Boros Mice,Izzet Lessons,0.55,11,0.23,0.83
+Boros Mice,Dimir Midrange,0.67,9,0.3,0.93
+Boros Mice,Jeskai Control,0.75,4,0.19,0.99
+Boros Mice,Sultai Reanimator,0.67,3,0.09,0.99
+Boros Mice,Bant Airbending,0.5,2,0.01,0.99
+Boros Mice,Mono-Red Aggro,0.6,5,0.15,0.95
+Boros Mice,Mono Green Landfall,0.0,6,0.0,0.46
+Boros Mice,Izzet Looting,0.0,3,0.0,0.71
+Boros Mice,Boros Burn,1.0,1,0.02,1.0
+Boros Mice,4 Color Control,0.0,1,0.0,0.98
+Boros Mice,5 Color Allies,0.0,2,0.0,0.84
+Boros Mice,Esper Pixie,1.0,1,0.02,1.0
+Boros Mice,Temur Otters,0.0,1,0.0,0.98
+Boros Mice,Mono Black Midrange,1.0,1,0.02,1.0
+Boros Mice,Mono White Tokens,0.0,1,0.0,0.98
+Boros Tokens,Simic Ouroboroid,0.4,10,0.12,0.74
+Boros Tokens,Izzet Lessons,0.71,7,0.29,0.96
+Boros Tokens,Dimir Midrange,0.43,7,0.1,0.82
+Boros Tokens,Jeskai Control,0.67,3,0.09,0.99
+Boros Tokens,Sultai Reanimator,0.75,4,0.19,0.99
+Boros Tokens,Bant Airbending,0.0,1,0.0,0.98
+Boros Tokens,Mono-Red Aggro,0.33,3,0.01,0.91
+Boros Tokens,Mono Green Landfall,0.0,1,0.0,0.98
+Boros Tokens,Azorius Control,0.0,2,0.0,0.84
+Boros Tokens,Izzet Looting,1.0,1,0.02,1.0
+Boros Tokens,Boros Burn,0.0,1,0.0,0.98
+Boros Tokens,Golgari Ouroboroid,0.5,2,0.01,0.99
+Boros Tokens,Selesnya Landfall,0.0,1,0.0,0.98
+Boros Tokens,Izzet Splash,1.0,1,0.02,1.0
+Boros Tokens,Jeskai Artifacts,0.67,3,0.09,0.99
+Boros Tokens,Simic Omniscience,0.5,2,0.01,0.99
+Boros Tokens,5 Color Allies,0.0,1,0.0,0.98
+Boros Tokens,Azorius Flash,1.0,2,0.16,1.0
+Boros Tokens,Orzhov Sacrifice,0.5,2,0.01,0.99
+Boros Tokens,Dimir Bounce,0.0,1,0.0,0.98
+Boros Tokens,Gruul Delirium,0.0,1,0.0,0.98
+Orzhov Ketramose,Simic Ouroboroid,0.17,6,0.0,0.64
+Orzhov Ketramose,Izzet Lessons,0.0,1,0.0,0.98
+Orzhov Ketramose,Dimir Midrange,0.5,10,0.19,0.81
+Orzhov Ketramose,Jeskai Control,0.33,3,0.01,0.91
+Orzhov Ketramose,Sultai Reanimator,0.0,1,0.0,0.98
+Orzhov Ketramose,Bant Airbending,0.0,1,0.0,0.98
+Orzhov Ketramose,Mono-Red Aggro,1.0,1,0.02,1.0
+Orzhov Ketramose,Mono Green Landfall,1.0,1,0.02,1.0
+Orzhov Ketramose,Azorius Control,0.5,4,0.07,0.93
+Orzhov Ketramose,Izzet Looting,0.0,2,0.0,0.84
+Orzhov Ketramose,Golgari Ouroboroid,1.0,1,0.02,1.0
+Orzhov Ketramose,Selesnya Landfall,0.0,1,0.0,0.98
+Orzhov Ketramose,Jeskai Artifacts,0.0,1,0.0,0.98
+Orzhov Ketramose,Simic Omniscience,0.0,2,0.0,0.84
+Orzhov Ketramose,Esper Pixie,1.0,1,0.02,1.0
+Orzhov Ketramose,Mono Black Midrange,0.0,1,0.0,0.98
+Orzhov Ketramose,Temur Battlecrier,0.2,5,0.01,0.72
+Orzhov Ketramose,Mono White Tokens,0.0,1,0.0,0.98
+Orzhov Ketramose,Dimir Bounce,1.0,1,0.02,1.0
+Orzhov Ketramose,Bant Omniscience,1.0,1,0.02,1.0
+Mono Black Aggro,Simic Ouroboroid,0.33,3,0.01,0.91
+Mono Black Aggro,Dimir Midrange,0.63,8,0.24,0.91
+Mono Black Aggro,Mono Green Landfall,0.0,2,0.0,0.84
+Mono Black Aggro,Azorius Control,0.0,3,0.0,0.71
+Mono Black Aggro,Izzet Looting,0.0,1,0.0,0.98
+Mono Black Aggro,Boros Burn,1.0,1,0.02,1.0
+Mono Black Aggro,4 Color Control,0.6,5,0.15,0.95
+Mono Black Aggro,Golgari Ouroboroid,0.0,1,0.0,0.98
+Mono Black Aggro,Simic Omniscience,0.0,1,0.0,0.98
+Mono Black Aggro,Esper Pixie,1.0,1,0.02,1.0
+Mono Black Aggro,Azorius Flash,1.0,1,0.02,1.0
+Mono Black Aggro,Mono Black Midrange,0.0,1,0.0,0.98
+Mono Black Aggro,Temur Battlecrier,1.0,2,0.16,1.0
+Mono Black Aggro,Mono White Tokens,0.33,3,0.01,0.91
+Mono Black Aggro,Orzhov Sacrifice,1.0,1,0.02,1.0
+Mono Black Aggro,Dimir Bounce,0.5,2,0.01,0.99
+Mono Black Aggro,Gruul Delirium,0.0,1,0.0,0.98
+Golgari Graveyard,Simic Ouroboroid,0.33,9,0.07,0.7
+Golgari Graveyard,Izzet Lessons,0.67,6,0.22,0.96
+Golgari Graveyard,Dimir Midrange,0.43,7,0.1,0.82
+Golgari Graveyard,Jeskai Control,0.33,3,0.01,0.91
+Golgari Graveyard,Sultai Reanimator,1.0,2,0.16,1.0
+Golgari Graveyard,Bant Airbending,0.0,1,0.0,0.98
+Golgari Graveyard,Mono Green Landfall,0.5,4,0.07,0.93
+Golgari Graveyard,Azorius Control,0.0,1,0.0,0.98
+Golgari Graveyard,Izzet Looting,0.0,3,0.0,0.71
+Golgari Graveyard,Boros Burn,1.0,2,0.16,1.0
+Golgari Graveyard,Izzet Splash,1.0,1,0.02,1.0
+Golgari Graveyard,Jeskai Artifacts,1.0,1,0.02,1.0
+Golgari Graveyard,Simic Omniscience,1.0,1,0.02,1.0
+Golgari Graveyard,5 Color Allies,0.0,1,0.0,0.98
+Golgari Graveyard,Azorius Flash,0.0,1,0.0,0.98
+Golgari Graveyard,Temur Battlecrier,1.0,1,0.02,1.0
+Golgari Graveyard,Mono White Tokens,1.0,1,0.02,1.0
+Golgari Graveyard,Orzhov Sacrifice,1.0,1,0.02,1.0
+Golgari Graveyard,Dimir Bounce,1.0,1,0.02,1.0
+Golgari Graveyard,Gruul Delirium,0.0,1,0.0,0.98
+Azorius Flyers,Simic Ouroboroid,0.63,8,0.24,0.91
+Azorius Flyers,Izzet Lessons,0.33,9,0.07,0.7
+Azorius Flyers,Dimir Midrange,0.6,5,0.15,0.95
+Azorius Flyers,Jeskai Control,0.0,3,0.0,0.71
+Azorius Flyers,Sultai Reanimator,0.5,2,0.01,0.99
+Azorius Flyers,Bant Airbending,0.43,7,0.1,0.82
+Azorius Flyers,Mono-Red Aggro,0.0,1,0.0,0.98
+Azorius Flyers,Azorius Control,0.0,1,0.0,0.98
+Azorius Flyers,Izzet Looting,1.0,3,0.29,1.0
+Azorius Flyers,Boros Burn,0.0,1,0.0,0.98
+Azorius Flyers,Selesnya Landfall,0.67,3,0.09,0.99
+Azorius Flyers,Simic Omniscience,0.0,1,0.0,0.98
+Azorius Flyers,5 Color Allies,0.0,1,0.0,0.98
+Azorius Flyers,Esper Pixie,0.5,2,0.01,0.99
+Gruul Ouroboroid,Simic Ouroboroid,0.4,5,0.05,0.85
+Gruul Ouroboroid,Izzet Lessons,0.8,10,0.44,0.97
+Gruul Ouroboroid,Dimir Midrange,0.25,4,0.01,0.81
+Gruul Ouroboroid,Jeskai Control,0.33,6,0.04,0.78
+Gruul Ouroboroid,Sultai Reanimator,0.8,5,0.28,0.99
+Gruul Ouroboroid,Bant Airbending,0.17,6,0.0,0.64
+Gruul Ouroboroid,Mono Green Landfall,1.0,1,0.02,1.0
+Gruul Ouroboroid,Azorius Control,0.0,1,0.0,0.98
+Gruul Ouroboroid,Izzet Looting,1.0,1,0.02,1.0
+Gruul Ouroboroid,Boros Burn,1.0,2,0.16,1.0
+Gruul Ouroboroid,Golgari Ouroboroid,0.0,1,0.0,0.98
+Gruul Ouroboroid,Izzet Splash,0.0,1,0.0,0.98
+Gruul Ouroboroid,Simic Omniscience,1.0,2,0.16,1.0
+Gruul Ouroboroid,Temur Otters,1.0,1,0.02,1.0
+Gruul Ouroboroid,Mono White Tokens,1.0,1,0.02,1.0
+4 Color Elementals,Simic Ouroboroid,0.67,9,0.3,0.93
+4 Color Elementals,Izzet Lessons,0.75,8,0.35,0.97
+4 Color Elementals,Dimir Midrange,0.33,3,0.01,0.91
+4 Color Elementals,Jeskai Control,0.0,1,0.0,0.98
+4 Color Elementals,Sultai Reanimator,0.33,3,0.01,0.91
+4 Color Elementals,Bant Airbending,0.2,5,0.01,0.72
+4 Color Elementals,Mono Green Landfall,0.0,1,0.0,0.98
+4 Color Elementals,Azorius Control,1.0,1,0.02,1.0
+4 Color Elementals,Izzet Looting,1.0,1,0.02,1.0
+4 Color Elementals,Golgari Ouroboroid,1.0,2,0.16,1.0
+4 Color Elementals,Selesnya Landfall,0.5,2,0.01,0.99
+4 Color Elementals,Simic Omniscience,1.0,1,0.02,1.0
+4 Color Elementals,5 Color Allies,0.0,1,0.0,0.98
+4 Color Elementals,Temur Otters,1.0,1,0.02,1.0
+4 Color Elementals,Azorius Flash,1.0,2,0.16,1.0
+4 Color Elementals,Mono Black Midrange,1.0,1,0.02,1.0
+4 Color Elementals,Bant Omniscience,1.0,1,0.02,1.0
+Izzet Omniscience,Simic Ouroboroid,0.36,11,0.11,0.69
+Izzet Omniscience,Izzet Lessons,0.25,8,0.03,0.65
+Izzet Omniscience,Dimir Midrange,0.5,4,0.07,0.93
+Izzet Omniscience,Jeskai Control,0.67,3,0.09,0.99
+Izzet Omniscience,Sultai Reanimator,0.4,5,0.05,0.85
+Izzet Omniscience,Bant Airbending,0.75,4,0.19,0.99
+Izzet Omniscience,Mono-Red Aggro,0.0,2,0.0,0.84
+Izzet Omniscience,Izzet Looting,0.0,1,0.0,0.98
+Izzet Omniscience,Boros Burn,1.0,1,0.02,1.0
+Izzet Omniscience,4 Color Control,1.0,1,0.02,1.0
+Izzet Omniscience,Golgari Ouroboroid,0.5,2,0.01,0.99
+Izzet Omniscience,Izzet Splash,0.0,1,0.0,0.98
+Izzet Omniscience,Azorius Flash,0.0,1,0.0,0.98
+Izzet Omniscience,Gruul Delirium,1.0,1,0.02,1.0
+Boros Weapons,Simic Ouroboroid,0.71,7,0.29,0.96
+Boros Weapons,Izzet Lessons,0.45,11,0.17,0.77
+Boros Weapons,Jeskai Control,0.29,7,0.04,0.71
+Boros Weapons,Sultai Reanimator,0.33,6,0.04,0.78
+Boros Weapons,Bant Airbending,1.0,1,0.02,1.0
+Boros Weapons,Mono-Red Aggro,0.0,1,0.0,0.98
+Boros Weapons,Mono Green Landfall,0.0,2,0.0,0.84
+Boros Weapons,Azorius Control,1.0,1,0.02,1.0
+Boros Weapons,Izzet Looting,0.0,1,0.0,0.98
+Boros Weapons,Boros Burn,0.5,2,0.01,0.99
+Boros Weapons,4 Color Control,0.0,1,0.0,0.98
+Boros Weapons,Izzet Splash,1.0,1,0.02,1.0
+Boros Weapons,5 Color Allies,0.0,1,0.0,0.98
+Boros Weapons,Temur Otters,0.5,2,0.01,0.99
+Boros Weapons,Mono Black Midrange,1.0,1,0.02,1.0
+Boros Weapons,Mono White Tokens,1.0,1,0.02,1.0
+Azorius Auras,Simic Ouroboroid,0.5,6,0.12,0.88
+Azorius Auras,Izzet Lessons,0.5,4,0.07,0.93
+Azorius Auras,Dimir Midrange,0.33,3,0.01,0.91
+Azorius Auras,Jeskai Control,0.2,5,0.01,0.72
+Azorius Auras,Sultai Reanimator,0.2,5,0.01,0.72
+Azorius Auras,Bant Airbending,0.5,8,0.16,0.84
+Azorius Auras,Mono-Red Aggro,0.0,1,0.0,0.98
+Azorius Auras,Mono Green Landfall,0.0,1,0.0,0.98
+Azorius Auras,Azorius Control,0.0,2,0.0,0.84
+Azorius Auras,4 Color Control,0.0,2,0.0,0.84
+Azorius Auras,Golgari Ouroboroid,0.0,2,0.0,0.84
+Azorius Auras,Izzet Splash,0.0,1,0.0,0.98
+Azorius Auras,5 Color Allies,0.0,1,0.0,0.98
+Azorius Auras,Temur Battlecrier,0.0,1,0.0,0.98
+Azorius Auras,Dimir Bounce,0.0,1,0.0,0.98
+Azorius Auras,Gruul Delirium,1.0,1,0.02,1.0
+Sultai Control,Simic Ouroboroid,0.13,8,0.0,0.53
+Sultai Control,Izzet Lessons,0.67,3,0.09,0.99
+Sultai Control,Dimir Midrange,0.6,5,0.15,0.95
+Sultai Control,Jeskai Control,0.67,3,0.09,0.99
+Sultai Control,Sultai Reanimator,0.33,3,0.01,0.91
+Sultai Control,Bant Airbending,1.0,1,0.02,1.0
+Sultai Control,Mono-Red Aggro,1.0,4,0.4,1.0
+Sultai Control,Mono Green Landfall,0.17,6,0.0,0.64
+Sultai Control,Izzet Looting,1.0,1,0.02,1.0
+Sultai Control,Boros Burn,1.0,1,0.02,1.0
+Sultai Control,4 Color Control,0.0,1,0.0,0.98
+Sultai Control,Izzet Splash,1.0,1,0.02,1.0
+Sultai Control,Azorius Flash,0.67,3,0.09,0.99
+Sultai Control,Mono White Tokens,0.0,1,0.0,0.98
+Esper Midrange,Simic Ouroboroid,0.33,3,0.01,0.91
+Esper Midrange,Izzet Lessons,1.0,1,0.02,1.0
+Esper Midrange,Dimir Midrange,0.38,8,0.09,0.76
+Esper Midrange,Jeskai Control,0.0,2,0.0,0.84
+Esper Midrange,Sultai Reanimator,1.0,1,0.02,1.0
+Esper Midrange,Mono-Red Aggro,0.5,2,0.01,0.99
+Esper Midrange,Mono Green Landfall,0.0,1,0.0,0.98
+Esper Midrange,Azorius Control,0.25,4,0.01,0.81
+Esper Midrange,Boros Burn,1.0,1,0.02,1.0
+Esper Midrange,4 Color Control,0.33,3,0.01,0.91
+Esper Midrange,Selesnya Landfall,1.0,1,0.02,1.0
+Esper Midrange,Jeskai Artifacts,0.0,1,0.0,0.98
+Esper Midrange,Esper Pixie,1.0,1,0.02,1.0
+Esper Midrange,Orzhov Sacrifice,1.0,1,0.02,1.0
+Azorius Pixie,Simic Ouroboroid,0.5,6,0.12,0.88
+Azorius Pixie,Izzet Lessons,0.67,3,0.09,0.99
+Azorius Pixie,Dimir Midrange,0.5,6,0.12,0.88
+Azorius Pixie,Jeskai Control,0.0,4,0.0,0.6
+Azorius Pixie,Bant Airbending,0.0,2,0.0,0.84
+Azorius Pixie,Mono-Red Aggro,0.0,1,0.0,0.98
+Azorius Pixie,Mono Green Landfall,0.0,1,0.0,0.98
+Azorius Pixie,Azorius Control,0.5,2,0.01,0.99
+Azorius Pixie,Boros Burn,0.0,1,0.0,0.98
+Azorius Pixie,5 Color Allies,0.0,1,0.0,0.98
+Azorius Pixie,Azorius Flash,0.0,1,0.0,0.98
+Azorius Pixie,Mono White Tokens,0.0,1,0.0,0.98
+Azorius Pixie,Dimir Bounce,0.0,1,0.0,0.98
+Azorius Pixie,Gruul Delirium,1.0,1,0.02,1.0
+Temur Stormsplitter,Simic Ouroboroid,0.0,5,0.0,0.52
+Temur Stormsplitter,Izzet Lessons,0.0,4,0.0,0.6
+Temur Stormsplitter,Dimir Midrange,1.0,5,0.48,1.0
+Temur Stormsplitter,Mono-Red Aggro,0.0,1,0.0,0.98
+Temur Stormsplitter,Mono Green Landfall,1.0,1,0.02,1.0
+Temur Stormsplitter,Azorius Control,0.67,3,0.09,0.99
+Temur Stormsplitter,Izzet Looting,0.5,2,0.01,0.99
+Temur Stormsplitter,4 Color Control,0.0,1,0.0,0.98
+Temur Stormsplitter,Golgari Ouroboroid,0.0,1,0.0,0.98
+Temur Stormsplitter,Esper Pixie,0.0,1,0.0,0.98
+Temur Stormsplitter,Azorius Flash,0.0,1,0.0,0.98
+Temur Stormsplitter,Temur Battlecrier,1.0,1,0.02,1.0
+Temur Stormsplitter,Mono White Tokens,0.5,2,0.01,0.99
+Abzan Yuna,Simic Ouroboroid,0.0,1,0.0,0.98
+Abzan Yuna,Izzet Lessons,0.0,2,0.0,0.84
+Abzan Yuna,Dimir Midrange,0.2,5,0.01,0.72
+Abzan Yuna,Jeskai Control,0.5,4,0.07,0.93
+Abzan Yuna,Azorius Control,0.5,6,0.12,0.88
+Abzan Yuna,Golgari Ouroboroid,0.0,1,0.0,0.98
+Abzan Yuna,Selesnya Landfall,0.0,1,0.0,0.98
+Abzan Yuna,Esper Pixie,0.0,1,0.0,0.98
+Abzan Yuna,Azorius Flash,0.0,1,0.0,0.98
+Abzan Yuna,Mono White Tokens,0.0,1,0.0,0.98
+Abzan Yuna,Dimir Bounce,1.0,1,0.02,1.0
+Abzan Yuna,Gruul Delirium,0.0,1,0.0,0.98
+Temur Elementals,Simic Ouroboroid,1.0,4,0.4,1.0
+Temur Elementals,Izzet Lessons,0.83,6,0.36,1.0
+Temur Elementals,Dimir Midrange,1.0,3,0.29,1.0
+Temur Elementals,Jeskai Control,0.83,6,0.36,1.0
+Temur Elementals,Sultai Reanimator,0.67,3,0.09,0.99
+Temur Elementals,Bant Airbending,0.25,4,0.01,0.81
+Temur Elementals,Mono-Red Aggro,1.0,2,0.16,1.0
+Temur Elementals,Mono Green Landfall,0.0,4,0.0,0.6
+Temur Elementals,Izzet Looting,1.0,1,0.02,1.0
+Temur Elementals,Boros Burn,1.0,2,0.16,1.0
+Temur Elementals,Simic Omniscience,0.0,1,0.0,0.98
+Temur Elementals,Temur Battlecrier,0.0,1,0.0,0.98
+Golgari Ramp,Simic Ouroboroid,0.71,7,0.29,0.96
+Golgari Ramp,Izzet Lessons,0.33,3,0.01,0.91
+Golgari Ramp,Dimir Midrange,0.6,5,0.15,0.95
+Golgari Ramp,Jeskai Control,0.5,4,0.07,0.93
+Golgari Ramp,Sultai Reanimator,0.2,5,0.01,0.72
+Golgari Ramp,Bant Airbending,0.0,2,0.0,0.84
+Golgari Ramp,Mono-Red Aggro,1.0,1,0.02,1.0
+Golgari Ramp,Mono Green Landfall,0.5,2,0.01,0.99
+Golgari Ramp,Izzet Looting,0.0,1,0.0,0.98
+Golgari Ramp,Izzet Splash,1.0,1,0.02,1.0
+Golgari Ramp,Azorius Flash,0.0,1,0.0,0.98
+Golgari Dragons,Simic Ouroboroid,0.33,3,0.01,0.91
+Golgari Dragons,Izzet Lessons,0.43,7,0.1,0.82
+Golgari Dragons,Dimir Midrange,0.25,4,0.01,0.81
+Golgari Dragons,Jeskai Control,0.5,4,0.07,0.93
+Golgari Dragons,Sultai Reanimator,0.0,2,0.0,0.84
+Golgari Dragons,Bant Airbending,0.0,1,0.0,0.98
+Golgari Dragons,Mono Green Landfall,0.0,3,0.0,0.71
+Golgari Dragons,Boros Burn,0.0,2,0.0,0.84
+Golgari Dragons,4 Color Control,0.0,1,0.0,0.98
+Golgari Dragons,Golgari Ouroboroid,0.0,1,0.0,0.98
+Golgari Dragons,Jeskai Artifacts,0.0,4,0.0,0.6
+Golgari Dragons,Temur Otters,1.0,1,0.02,1.0
+Golgari Dragons,Dimir Bounce,1.0,1,0.02,1.0
+Goblins,Simic Ouroboroid,0.5,8,0.16,0.84
+Goblins,Izzet Lessons,0.5,6,0.12,0.88
+Goblins,Dimir Midrange,0.5,4,0.07,0.93
+Goblins,Jeskai Control,0.0,1,0.0,0.98
+Goblins,Sultai Reanimator,0.33,3,0.01,0.91
+Goblins,Bant Airbending,0.0,1,0.0,0.98
+Goblins,Mono-Red Aggro,0.5,2,0.01,0.99
+Goblins,Azorius Control,0.0,1,0.0,0.98
+Goblins,Selesnya Landfall,0.33,3,0.01,0.91
+Goblins,Jeskai Artifacts,0.0,1,0.0,0.98
+Goblins,Esper Pixie,0.0,1,0.0,0.98
+Goblins,Azorius Flash,1.0,1,0.02,1.0
+Temur Surprise,Simic Ouroboroid,0.0,2,0.0,0.84
+Temur Surprise,Izzet Lessons,0.0,1,0.0,0.98
+Temur Surprise,Dimir Midrange,0.67,9,0.3,0.93
+Temur Surprise,Sultai Reanimator,1.0,1,0.02,1.0
+Temur Surprise,Azorius Control,1.0,2,0.16,1.0
+Temur Surprise,4 Color Control,1.0,2,0.16,1.0
+Temur Surprise,Golgari Ouroboroid,1.0,2,0.16,1.0
+Temur Surprise,Esper Pixie,1.0,1,0.02,1.0
+Temur Surprise,Temur Otters,1.0,1,0.02,1.0
+Temur Surprise,Mono Black Midrange,1.0,3,0.29,1.0
+Temur Surprise,Orzhov Sacrifice,1.0,1,0.02,1.0
+Mardu Iroh,Simic Ouroboroid,0.6,10,0.26,0.88
+Mardu Iroh,Izzet Lessons,0.57,7,0.18,0.9
+Mardu Iroh,Dimir Midrange,1.0,1,0.02,1.0
+Mardu Iroh,Jeskai Control,0.43,7,0.1,0.82
+Mardu Iroh,Sultai Reanimator,0.5,4,0.07,0.93
+Mardu Iroh,Bant Airbending,1.0,1,0.02,1.0
+Mardu Iroh,Mono-Red Aggro,0.5,2,0.01,0.99
+Mardu Iroh,Mono Green Landfall,1.0,1,0.02,1.0
+Mardu Iroh,Boros Burn,1.0,1,0.02,1.0
+Mardu Iroh,Gruul Delirium,0.0,1,0.0,0.98
+Mardu Iroh,Bant Omniscience,1.0,1,0.02,1.0
+Rakdos Sacrifice,Simic Ouroboroid,0.0,2,0.0,0.84
+Rakdos Sacrifice,Izzet Lessons,0.0,3,0.0,0.71
+Rakdos Sacrifice,Dimir Midrange,1.0,1,0.02,1.0
+Rakdos Sacrifice,Jeskai Control,0.67,3,0.09,0.99
+Rakdos Sacrifice,Sultai Reanimator,0.6,5,0.15,0.95
+Rakdos Sacrifice,Azorius Control,0.67,3,0.09,0.99
+Rakdos Sacrifice,Boros Burn,1.0,1,0.02,1.0
+Rakdos Sacrifice,Golgari Ouroboroid,1.0,1,0.02,1.0
+Rakdos Sacrifice,Jeskai Artifacts,0.2,5,0.01,0.72
+Rakdos Sacrifice,5 Color Allies,0.0,1,0.0,0.98
+Rakdos Sacrifice,Mono White Tokens,0.0,1,0.0,0.98
+Rakdos Sacrifice,Bant Omniscience,0.0,1,0.0,0.98
+Grixis Reanimator,Simic Ouroboroid,0.0,2,0.0,0.84
+Grixis Reanimator,Izzet Lessons,0.33,3,0.01,0.91
+Grixis Reanimator,Dimir Midrange,0.25,4,0.01,0.81
+Grixis Reanimator,Jeskai Control,0.0,3,0.0,0.71
+Grixis Reanimator,Sultai Reanimator,0.33,3,0.01,0.91
+Grixis Reanimator,Bant Airbending,0.0,2,0.0,0.84
+Grixis Reanimator,Azorius Control,1.0,3,0.29,1.0
+Grixis Reanimator,Izzet Looting,0.0,1,0.0,0.98
+Grixis Reanimator,Boros Burn,0.5,2,0.01,0.99
+Grixis Reanimator,Izzet Splash,0.0,2,0.0,0.84
+Grixis Reanimator,Jeskai Artifacts,1.0,1,0.02,1.0
+Grixis Reanimator,Simic Omniscience,1.0,1,0.02,1.0
+Grixis Reanimator,Temur Battlecrier,0.0,2,0.0,0.84
+Grixis Reanimator,Orzhov Sacrifice,0.0,1,0.0,0.98
+Boros Midrange,Simic Ouroboroid,0.5,8,0.16,0.84
+Boros Midrange,Izzet Lessons,0.33,3,0.01,0.91
+Boros Midrange,Dimir Midrange,0.0,3,0.0,0.71
+Boros Midrange,Jeskai Control,0.5,2,0.01,0.99
+Boros Midrange,Sultai Reanimator,0.5,4,0.07,0.93
+Boros Midrange,Bant Airbending,0.33,3,0.01,0.91
+Boros Midrange,Mono-Red Aggro,0.0,1,0.0,0.98
+Boros Midrange,Azorius Control,0.0,1,0.0,0.98
+Boros Midrange,4 Color Control,0.0,1,0.0,0.98
+Boros Midrange,Golgari Ouroboroid,1.0,1,0.02,1.0
+Boros Midrange,Mono Black Midrange,0.0,2,0.0,0.84
+Temur Songcrafter,Simic Ouroboroid,0.0,1,0.0,0.98
+Temur Songcrafter,Izzet Lessons,0.67,3,0.09,0.99
+Temur Songcrafter,Dimir Midrange,0.2,5,0.01,0.72
+Temur Songcrafter,Jeskai Control,0.0,3,0.0,0.71
+Temur Songcrafter,Sultai Reanimator,0.4,5,0.05,0.85
+Temur Songcrafter,Bant Airbending,0.0,1,0.0,0.98
+Temur Songcrafter,Azorius Control,0.0,1,0.0,0.98
+Temur Songcrafter,Izzet Looting,0.0,1,0.0,0.98
+Temur Songcrafter,4 Color Control,0.0,1,0.0,0.98
+Temur Songcrafter,Golgari Ouroboroid,1.0,2,0.16,1.0
+Temur Songcrafter,Jeskai Artifacts,1.0,1,0.02,1.0
+Temur Songcrafter,Simic Omniscience,1.0,1,0.02,1.0
+Temur Songcrafter,Dimir Bounce,1.0,1,0.02,1.0
+Mono White Aggro,Simic Ouroboroid,0.25,4,0.01,0.81
+Mono White Aggro,Izzet Lessons,0.5,4,0.07,0.93
+Mono White Aggro,Dimir Midrange,0.6,5,0.15,0.95
+Mono White Aggro,Jeskai Control,0.5,6,0.12,0.88
+Mono White Aggro,Sultai Reanimator,0.0,1,0.0,0.98
+Mono White Aggro,Mono-Red Aggro,1.0,1,0.02,1.0
+Mono White Aggro,Izzet Looting,0.0,1,0.0,0.98
+Mono White Aggro,Selesnya Landfall,0.0,1,0.0,0.98
+Mono White Aggro,Izzet Splash,0.0,1,0.0,0.98
+Mono White Aggro,Jeskai Artifacts,0.0,1,0.0,0.98
+Mono White Aggro,5 Color Allies,1.0,1,0.02,1.0
+Mono White Aggro,Mono Black Midrange,1.0,1,0.02,1.0
+Mono White Aggro,Temur Battlecrier,0.0,1,0.0,0.98
+Mono White Aggro,Gruul Delirium,0.0,1,0.0,0.98
+4 Color Weapons,Simic Ouroboroid,0.0,2,0.0,0.84
+4 Color Weapons,Dimir Midrange,0.17,6,0.0,0.64
+4 Color Weapons,Sultai Reanimator,0.0,2,0.0,0.84
+4 Color Weapons,Bant Airbending,0.0,1,0.0,0.98
+4 Color Weapons,Azorius Control,0.0,4,0.0,0.6
+4 Color Weapons,Golgari Ouroboroid,0.0,1,0.0,0.98
+4 Color Weapons,Selesnya Landfall,1.0,1,0.02,1.0
+4 Color Weapons,Jeskai Artifacts,0.0,1,0.0,0.98
+4 Color Weapons,Esper Pixie,1.0,1,0.02,1.0
+4 Color Weapons,Mono Black Midrange,0.0,1,0.0,0.98
+4 Color Weapons,Orzhov Sacrifice,0.0,1,0.0,0.98
+4 Color Yuna,Simic Ouroboroid,0.4,5,0.05,0.85
+4 Color Yuna,Izzet Lessons,0.75,4,0.19,0.99
+4 Color Yuna,Dimir Midrange,0.5,2,0.01,0.99
+4 Color Yuna,Jeskai Control,1.0,1,0.02,1.0
+4 Color Yuna,Sultai Reanimator,1.0,1,0.02,1.0
+4 Color Yuna,Mono-Red Aggro,1.0,1,0.02,1.0
+4 Color Yuna,Mono Green Landfall,0.5,2,0.01,0.99
+4 Color Yuna,Azorius Control,0.5,2,0.01,0.99
+4 Color Yuna,Izzet Looting,0.0,1,0.0,0.98
+4 Color Yuna,4 Color Control,0.0,1,0.0,0.98
+4 Color Yuna,Selesnya Landfall,0.0,1,0.0,0.98
+4 Color Yuna,Esper Pixie,1.0,2,0.16,1.0
+4 Color Yuna,Temur Battlecrier,1.0,1,0.02,1.0
+4 Color Yuna,Orzhov Sacrifice,0.0,1,0.0,0.98
+Simic Otters,Simic Ouroboroid,0.33,3,0.01,0.91
+Simic Otters,Izzet Lessons,0.25,4,0.01,0.81
+Simic Otters,Jeskai Control,0.4,5,0.05,0.85
+Simic Otters,Sultai Reanimator,1.0,1,0.02,1.0
+Simic Otters,Mono-Red Aggro,0.5,2,0.01,0.99
+Simic Otters,Mono Green Landfall,0.5,2,0.01,0.99
+Simic Otters,Izzet Looting,1.0,1,0.02,1.0
+Simic Otters,Golgari Ouroboroid,1.0,1,0.02,1.0
+Simic Otters,Izzet Splash,1.0,1,0.02,1.0
+Simic Otters,5 Color Allies,1.0,1,0.02,1.0
+Simic Otters,Temur Otters,0.33,3,0.01,0.91
+Simic Otters,Azorius Flash,1.0,1,0.02,1.0
+Mono Green Stompy,Simic Ouroboroid,0.0,2,0.0,0.84
+Mono Green Stompy,Dimir Midrange,0.33,6,0.04,0.78
+Mono Green Stompy,Mono-Red Aggro,0.0,1,0.0,0.98
+Mono Green Stompy,Mono Green Landfall,0.0,1,0.0,0.98
+Mono Green Stompy,Jeskai Artifacts,0.5,2,0.01,0.99
+Mono Green Stompy,Simic Omniscience,1.0,1,0.02,1.0
+Mono Green Stompy,Esper Pixie,0.0,1,0.0,0.98
+Mono Green Stompy,Temur Battlecrier,0.0,1,0.0,0.98
+Mono Green Stompy,Orzhov Sacrifice,0.0,1,0.0,0.98
+Rakdos Monument,Simic Ouroboroid,0.25,4,0.01,0.81
+Rakdos Monument,Izzet Lessons,0.8,5,0.28,0.99
+Rakdos Monument,Dimir Midrange,0.33,3,0.01,0.91
+Rakdos Monument,Jeskai Control,0.5,4,0.07,0.93
+Rakdos Monument,Sultai Reanimator,0.0,1,0.0,0.98
+Rakdos Monument,Bant Airbending,0.5,4,0.07,0.93
+Rakdos Monument,Mono-Red Aggro,0.5,2,0.01,0.99
+Rakdos Monument,Boros Burn,1.0,1,0.02,1.0
+Rakdos Monument,Golgari Ouroboroid,0.0,1,0.0,0.98
+Rakdos Monument,Bant Omniscience,1.0,1,0.02,1.0
+Golgari Earthbend,Simic Ouroboroid,0.5,2,0.01,0.99
+Golgari Earthbend,Izzet Lessons,0.67,3,0.09,0.99
+Golgari Earthbend,Dimir Midrange,0.67,3,0.09,0.99
+Golgari Earthbend,Jeskai Control,0.0,1,0.0,0.98
+Golgari Earthbend,Sultai Reanimator,1.0,4,0.4,1.0
+Golgari Earthbend,Bant Airbending,0.5,2,0.01,0.99
+Golgari Earthbend,Mono-Red Aggro,1.0,1,0.02,1.0
+Golgari Earthbend,Mono Green Landfall,0.0,1,0.0,0.98
+Golgari Earthbend,Izzet Splash,0.5,2,0.01,0.99
+Golgari Earthbend,Azorius Flash,0.0,1,0.0,0.98
+Golgari Earthbend,Mono Black Midrange,1.0,1,0.02,1.0
+Golgari Earthbend,Temur Battlecrier,1.0,1,0.02,1.0
+Golgari Earthbend,Gruul Delirium,0.5,2,0.01,0.99
+Rakdos Lizards,Dimir Midrange,1.0,4,0.4,1.0
+Rakdos Lizards,Sultai Reanimator,1.0,2,0.16,1.0
+Rakdos Lizards,Bant Airbending,1.0,1,0.02,1.0
+Rakdos Lizards,Mono Green Landfall,0.0,1,0.0,0.98
+Rakdos Lizards,Azorius Control,1.0,3,0.29,1.0
+Rakdos Lizards,Izzet Looting,0.0,1,0.0,0.98
+Rakdos Lizards,Golgari Ouroboroid,0.0,2,0.0,0.84
+Rakdos Lizards,Izzet Splash,1.0,1,0.02,1.0
+Rakdos Lizards,Jeskai Artifacts,1.0,1,0.02,1.0
+Rakdos Lizards,5 Color Allies,1.0,1,0.02,1.0
+Rakdos Lizards,Mono Black Midrange,0.5,2,0.01,0.99
+Rakdos Lizards,Temur Battlecrier,0.5,2,0.01,0.99
+Selesnya Counters,Simic Ouroboroid,0.5,2,0.01,0.99
+Selesnya Counters,Izzet Lessons,0.57,7,0.18,0.9
+Selesnya Counters,Dimir Midrange,0.0,3,0.0,0.71
+Selesnya Counters,Bant Airbending,0.0,3,0.0,0.71
+Selesnya Counters,Mono-Red Aggro,1.0,2,0.16,1.0
+Selesnya Counters,Mono Green Landfall,0.0,1,0.0,0.98
+Selesnya Counters,Izzet Looting,1.0,1,0.02,1.0
+Selesnya Counters,4 Color Control,0.0,1,0.0,0.98
+Selesnya Counters,Jeskai Artifacts,0.0,1,0.0,0.98
+Selesnya Counters,Temur Battlecrier,1.0,1,0.02,1.0
+Bant Chocobo,Simic Ouroboroid,0.67,3,0.09,0.99
+Bant Chocobo,Izzet Lessons,0.0,1,0.0,0.98
+Bant Chocobo,Dimir Midrange,0.0,1,0.0,0.98
+Bant Chocobo,Jeskai Control,0.0,1,0.0,0.98
+Bant Chocobo,Sultai Reanimator,0.0,2,0.0,0.84
+Bant Chocobo,Bant Airbending,1.0,2,0.16,1.0
+Bant Chocobo,Mono Green Landfall,1.0,2,0.16,1.0
+Bant Chocobo,Izzet Looting,0.0,1,0.0,0.98
+Bant Chocobo,4 Color Control,0.0,1,0.0,0.98
+Bant Chocobo,Golgari Ouroboroid,0.0,1,0.0,0.98
+Bant Chocobo,Jeskai Artifacts,1.0,1,0.02,1.0
+Bant Chocobo,Esper Pixie,0.5,2,0.01,0.99
+Bant Chocobo,Temur Otters,1.0,1,0.02,1.0
+Bant Chocobo,Dimir Bounce,1.0,1,0.02,1.0
+Bant Chocobo,Gruul Delirium,1.0,1,0.02,1.0
+4 Color Rhythm,Simic Ouroboroid,0.75,8,0.35,0.97
+4 Color Rhythm,Dimir Midrange,1.0,1,0.02,1.0
+4 Color Rhythm,Jeskai Control,1.0,1,0.02,1.0
+4 Color Rhythm,Sultai Reanimator,0.75,4,0.19,0.99
+4 Color Rhythm,Bant Airbending,0.67,3,0.09,0.99
+4 Color Rhythm,Mono-Red Aggro,1.0,1,0.02,1.0
+4 Color Rhythm,Golgari Ouroboroid,1.0,1,0.02,1.0
+4 Color Rhythm,Esper Pixie,1.0,1,0.02,1.0
+4 Color Rhythm,Azorius Flash,1.0,1,0.02,1.0
+Mono Blue Flash,Simic Ouroboroid,0.5,2,0.01,0.99
+Mono Blue Flash,Izzet Lessons,0.25,4,0.01,0.81
+Mono Blue Flash,Dimir Midrange,0.5,4,0.07,0.93
+Mono Blue Flash,Sultai Reanimator,1.0,1,0.02,1.0
+Mono Blue Flash,Bant Airbending,0.0,1,0.0,0.98
+Mono Blue Flash,Azorius Control,0.0,3,0.0,0.71
+Mono Blue Flash,4 Color Control,0.0,1,0.0,0.98
+Mono Blue Flash,Izzet Splash,1.0,1,0.02,1.0
+Mono Blue Flash,Simic Omniscience,1.0,1,0.02,1.0
+Mono Blue Flash,5 Color Allies,0.0,1,0.0,0.98
+Sultai Ouroboroid,Simic Ouroboroid,0.0,2,0.0,0.84
+Sultai Ouroboroid,Izzet Lessons,0.75,4,0.19,0.99
+Sultai Ouroboroid,Dimir Midrange,0.75,4,0.19,0.99
+Sultai Ouroboroid,Jeskai Control,0.0,1,0.0,0.98
+Sultai Ouroboroid,Sultai Reanimator,0.33,3,0.01,0.91
+Sultai Ouroboroid,Bant Airbending,0.0,1,0.0,0.98
+Sultai Ouroboroid,Mono-Red Aggro,0.67,3,0.09,0.99
+Sultai Ouroboroid,Mono Green Landfall,0.0,1,0.0,0.98
+Sultai Ouroboroid,Mono Black Midrange,1.0,1,0.02,1.0
+Esper Artifacts,Simic Ouroboroid,0.6,5,0.15,0.95
+Esper Artifacts,Izzet Lessons,0.2,5,0.01,0.72
+Esper Artifacts,Dimir Midrange,0.0,1,0.0,0.98
+Esper Artifacts,Jeskai Control,0.0,2,0.0,0.84
+Esper Artifacts,Sultai Reanimator,1.0,1,0.02,1.0
+Esper Artifacts,Mono-Red Aggro,1.0,2,0.16,1.0
+Esper Artifacts,Azorius Control,0.0,1,0.0,0.98
+Esper Artifacts,Izzet Looting,0.0,1,0.0,0.98
+Esper Artifacts,Jeskai Artifacts,0.0,1,0.0,0.98
+Esper Artifacts,Esper Pixie,1.0,1,0.02,1.0
+Mono White Auras,Simic Ouroboroid,1.0,1,0.02,1.0
+Mono White Auras,Izzet Lessons,0.0,1,0.0,0.98
+Mono White Auras,Dimir Midrange,0.33,3,0.01,0.91
+Mono White Auras,Jeskai Control,0.5,4,0.07,0.93
+Mono White Auras,Sultai Reanimator,0.5,2,0.01,0.99
+Mono White Auras,Bant Airbending,0.0,1,0.0,0.98
+Mono White Auras,Mono Green Landfall,0.0,1,0.0,0.98
+Mono White Auras,Izzet Splash,1.0,1,0.02,1.0
+Izzet Aggro,Simic Ouroboroid,1.0,2,0.16,1.0
+Izzet Aggro,Izzet Lessons,1.0,1,0.02,1.0
+Izzet Aggro,Dimir Midrange,0.0,1,0.0,0.98
+Izzet Aggro,Jeskai Control,0.33,3,0.01,0.91
+Izzet Aggro,Mono-Red Aggro,0.0,1,0.0,0.98
+Izzet Aggro,Mono Green Landfall,1.0,1,0.02,1.0
+Izzet Aggro,Izzet Looting,0.5,2,0.01,0.99
+Izzet Aggro,4 Color Control,1.0,1,0.02,1.0
+Izzet Aggro,5 Color Allies,0.0,1,0.0,0.98
+Izzet Aggro,Temur Otters,1.0,1,0.02,1.0
+Izzet Aggro,Mono Black Midrange,1.0,1,0.02,1.0
+Izzet Aggro,Mono White Tokens,0.0,1,0.0,0.98
+Mardu Sacrifice,Simic Ouroboroid,0.0,2,0.0,0.84
+Mardu Sacrifice,Izzet Lessons,0.5,4,0.07,0.93
+Mardu Sacrifice,Dimir Midrange,0.5,2,0.01,0.99
+Mardu Sacrifice,Jeskai Control,0.0,1,0.0,0.98
+Mardu Sacrifice,Sultai Reanimator,0.0,1,0.0,0.98
+Mardu Sacrifice,Mono-Red Aggro,0.0,1,0.0,0.98
+Mardu Sacrifice,Azorius Control,0.5,2,0.01,0.99
+Mardu Sacrifice,Golgari Ouroboroid,0.0,1,0.0,0.98
+Mardu Sacrifice,Jeskai Artifacts,1.0,1,0.02,1.0
+Rakdos Aggro,Izzet Lessons,0.5,2,0.01,0.99
+Rakdos Aggro,Bant Airbending,0.0,1,0.0,0.98
+Rakdos Aggro,Mono-Red Aggro,0.0,2,0.0,0.84
+Rakdos Aggro,Izzet Looting,0.5,2,0.01,0.99
+Rakdos Aggro,4 Color Control,1.0,1,0.02,1.0
+Rakdos Aggro,5 Color Allies,0.0,1,0.0,0.98
+Rakdos Aggro,Mono White Tokens,0.0,1,0.0,0.98
+Mono Black Skeletons,Simic Ouroboroid,0.33,3,0.01,0.91
+Mono Black Skeletons,Izzet Lessons,0.4,5,0.05,0.85
+Mono Black Skeletons,Dimir Midrange,1.0,1,0.02,1.0
+Mono Black Skeletons,Jeskai Control,0.5,2,0.01,0.99
+Mono Black Skeletons,Sultai Reanimator,1.0,1,0.02,1.0
+Mono Black Skeletons,Mono-Red Aggro,1.0,1,0.02,1.0
+Mono Black Skeletons,Azorius Control,1.0,1,0.02,1.0
+Mono Black Skeletons,4 Color Control,1.0,1,0.02,1.0
+Mono Black Skeletons,Jeskai Artifacts,1.0,2,0.16,1.0
+Mardu Dragons,Simic Ouroboroid,0.67,3,0.09,0.99
+Mardu Dragons,Izzet Lessons,0.5,2,0.01,0.99
+Mardu Dragons,Jeskai Control,0.33,3,0.01,0.91
+Mardu Dragons,Mono Green Landfall,0.5,2,0.01,0.99
+Mardu Dragons,Boros Burn,0.0,1,0.0,0.98
+Mardu Dragons,Simic Omniscience,1.0,1,0.02,1.0
+Mardu Dragons,5 Color Allies,1.0,1,0.02,1.0
+Sultai Mill,Simic Ouroboroid,1.0,1,0.02,1.0
+Sultai Mill,Dimir Midrange,0.0,4,0.0,0.6
+Sultai Mill,Jeskai Control,0.0,1,0.0,0.98
+Sultai Mill,Bant Airbending,1.0,1,0.02,1.0
+Sultai Mill,Mono Green Landfall,1.0,1,0.02,1.0
+Sultai Mill,Azorius Control,1.0,1,0.02,1.0
+Sultai Mill,Golgari Ouroboroid,0.0,1,0.0,0.98
+Sultai Mill,Esper Pixie,0.0,1,0.0,0.98
+Sultai Mill,Dimir Bounce,0.0,1,0.0,0.98
+Simic Aggro,Simic Ouroboroid,0.5,2,0.01,0.99
+Simic Aggro,Dimir Midrange,0.33,3,0.01,0.91
+Simic Aggro,Mono Green Landfall,1.0,1,0.02,1.0
+Simic Aggro,Azorius Control,0.0,2,0.0,0.84
+Simic Aggro,Jeskai Artifacts,0.0,1,0.0,0.98
+Simic Aggro,Esper Pixie,0.33,3,0.01,0.91
+Simic Aggro,Mono Black Midrange,0.0,1,0.0,0.98
+Mono White Shepherd,Dimir Midrange,0.33,3,0.01,0.91
+Mono White Shepherd,Jeskai Control,1.0,1,0.02,1.0
+Mono White Shepherd,Mono Green Landfall,1.0,1,0.02,1.0
+Mono White Shepherd,Azorius Control,0.5,4,0.07,0.93
+Mono White Shepherd,4 Color Control,1.0,1,0.02,1.0
+Mono White Shepherd,Jeskai Artifacts,1.0,1,0.02,1.0
+Mono White Shepherd,Mono Black Midrange,0.0,1,0.0,0.98
+Mono White Shepherd,Temur Battlecrier,0.0,1,0.0,0.98
+Mono White Shepherd,Orzhov Sacrifice,0.0,1,0.0,0.98
+Mono White Pixie,Simic Ouroboroid,0.33,3,0.01,0.91
+Mono White Pixie,Izzet Lessons,1.0,1,0.02,1.0
+Mono White Pixie,Dimir Midrange,0.0,3,0.0,0.71
+Mono White Pixie,Sultai Reanimator,0.5,2,0.01,0.99
+Mono White Pixie,Bant Airbending,1.0,1,0.02,1.0
+Mono White Pixie,Mono-Red Aggro,1.0,2,0.16,1.0
+Mono White Pixie,Azorius Control,0.0,1,0.0,0.98
+Mono White Pixie,Boros Burn,1.0,1,0.02,1.0
+Mono White Pixie,Jeskai Artifacts,0.0,1,0.0,0.98
+Mono White Pixie,Esper Pixie,0.0,1,0.0,0.98
+Mono White Pixie,Temur Battlecrier,0.0,1,0.0,0.98
+Mono White Angels,Simic Ouroboroid,0.5,2,0.01,0.99
+Mono White Angels,Izzet Lessons,0.0,3,0.0,0.71
+Mono White Angels,Dimir Midrange,0.0,2,0.0,0.84
+Mono White Angels,Jeskai Control,0.0,2,0.0,0.84
+Mono White Angels,Sultai Reanimator,0.0,1,0.0,0.98
+Mono White Angels,Mono Green Landfall,1.0,1,0.02,1.0
+Mono White Angels,5 Color Allies,0.0,1,0.0,0.98
+Mono White Angels,Dimir Bounce,1.0,1,0.02,1.0
+Jeskai Duplication,Simic Ouroboroid,1.0,1,0.02,1.0
+Jeskai Duplication,Izzet Lessons,0.0,2,0.0,0.84
+Jeskai Duplication,Dimir Midrange,0.0,1,0.0,0.98
+Jeskai Duplication,Jeskai Control,0.0,1,0.0,0.98
+Jeskai Duplication,Sultai Reanimator,0.0,1,0.0,0.98
+Jeskai Duplication,Bant Airbending,0.5,2,0.01,0.99
+Jeskai Duplication,Mono-Red Aggro,0.0,1,0.0,0.98
+Jeskai Duplication,Mono Green Landfall,0.0,1,0.0,0.98
+Jeskai Duplication,Azorius Control,0.0,1,0.0,0.98
+Jeskai Duplication,Izzet Looting,1.0,1,0.02,1.0
+Jeskai Duplication,Selesnya Landfall,0.0,1,0.0,0.98
+Jeskai Duplication,Mono Black Midrange,0.0,1,0.0,0.98
+Jeskai Duplication,Mono White Tokens,1.0,1,0.02,1.0
+Grixis Control,Simic Ouroboroid,0.5,4,0.07,0.93
+Grixis Control,Izzet Lessons,0.5,2,0.01,0.99
+Grixis Control,Dimir Midrange,0.0,1,0.0,0.98
+Grixis Control,Jeskai Control,0.0,1,0.0,0.98
+Grixis Control,Sultai Reanimator,0.0,1,0.0,0.98
+Grixis Control,Azorius Control,0.0,1,0.0,0.98
+Grixis Control,Boros Burn,1.0,1,0.02,1.0
+Grixis Control,Jeskai Artifacts,0.0,1,0.0,0.98
+Grixis Control,Mono White Tokens,1.0,1,0.02,1.0
+Jeskai Dragons,Izzet Lessons,0.0,4,0.0,0.6
+Jeskai Dragons,Dimir Midrange,0.4,5,0.05,0.85
+Jeskai Dragons,Sultai Reanimator,1.0,2,0.16,1.0
+Jeskai Dragons,Bant Airbending,0.5,2,0.01,0.99
+Jeskai Dragons,Mono-Red Aggro,0.0,1,0.0,0.98
+Jeskai Dragons,Jeskai Artifacts,1.0,1,0.02,1.0
+Jeskai Dragons,Simic Omniscience,0.0,1,0.0,0.98
+Jeskai Dragons,Mono Black Midrange,1.0,1,0.02,1.0
+Mono Black Sacrifice,Simic Ouroboroid,0.0,2,0.0,0.84
+Mono Black Sacrifice,Izzet Lessons,0.33,3,0.01,0.91
+Mono Black Sacrifice,Jeskai Control,0.5,2,0.01,0.99
+Mono Black Sacrifice,Azorius Control,0.67,3,0.09,0.99
+Mono Black Sacrifice,Simic Omniscience,1.0,1,0.02,1.0
+Mono Black Sacrifice,Bant Omniscience,1.0,1,0.02,1.0
+Golgari Control,Simic Ouroboroid,0.5,2,0.01,0.99
+Golgari Control,Izzet Lessons,0.0,3,0.0,0.71
+Golgari Control,Dimir Midrange,1.0,1,0.02,1.0
+Golgari Control,Jeskai Control,0.33,3,0.01,0.91
+Golgari Control,Sultai Reanimator,0.5,2,0.01,0.99
+Golgari Control,Izzet Looting,1.0,1,0.02,1.0
+Golgari Control,Golgari Ouroboroid,0.0,1,0.0,0.98
+Golgari Control,5 Color Allies,0.5,2,0.01,0.99
+Abzan Control,Simic Ouroboroid,0.5,2,0.01,0.99
+Abzan Control,Izzet Lessons,0.5,2,0.01,0.99
+Abzan Control,Dimir Midrange,1.0,3,0.29,1.0
+Abzan Control,Jeskai Control,0.0,1,0.0,0.98
+Abzan Control,Bant Airbending,0.0,1,0.0,0.98
+Abzan Control,Boros Burn,1.0,1,0.02,1.0
+Abzan Control,Golgari Ouroboroid,1.0,1,0.02,1.0
+Abzan Control,Selesnya Landfall,0.0,1,0.0,0.98
+Abzan Control,5 Color Allies,1.0,1,0.02,1.0
+Abzan Control,Esper Pixie,1.0,1,0.02,1.0
+Abzan Control,Temur Otters,0.0,1,0.0,0.98
+Mono Blue Terror,Simic Ouroboroid,0.0,1,0.0,0.98
+Mono Blue Terror,Dimir Midrange,0.5,2,0.01,0.99
+Mono Blue Terror,Mono Green Landfall,0.0,1,0.0,0.98
+Mono Blue Terror,4 Color Control,1.0,1,0.02,1.0
+Mono Blue Terror,Esper Pixie,1.0,2,0.16,1.0
+Mono Blue Terror,Temur Battlecrier,0.0,1,0.0,0.98
+Selesnya Aggro,Simic Ouroboroid,0.0,1,0.0,0.98
+Selesnya Aggro,Izzet Lessons,1.0,1,0.02,1.0
+Selesnya Aggro,Dimir Midrange,0.0,3,0.0,0.71
+Selesnya Aggro,Izzet Looting,0.0,3,0.0,0.71
+Selesnya Aggro,Golgari Ouroboroid,1.0,1,0.02,1.0
+Selesnya Aggro,Temur Battlecrier,1.0,1,0.02,1.0
+Cats Aggro,Simic Ouroboroid,0.0,1,0.0,0.98
+Cats Aggro,Jeskai Control,0.0,1,0.0,0.98
+Cats Aggro,Sultai Reanimator,0.0,1,0.0,0.98
+Cats Aggro,Bant Airbending,0.0,1,0.0,0.98
+Cats Aggro,Mono Green Landfall,1.0,2,0.16,1.0
+Cats Aggro,Azorius Control,0.0,1,0.0,0.98
+Cats Aggro,Simic Omniscience,1.0,1,0.02,1.0
+Cats Aggro,Azorius Flash,1.0,1,0.02,1.0
+Cats Aggro,Bant Omniscience,0.0,1,0.0,0.98
+Dimir Aggro,Simic Ouroboroid,1.0,1,0.02,1.0
+Dimir Aggro,Dimir Midrange,1.0,2,0.16,1.0
+Dimir Aggro,Jeskai Control,0.5,2,0.01,0.99
+Dimir Aggro,Azorius Control,0.33,3,0.01,0.91
+Dimir Aggro,4 Color Control,0.0,1,0.0,0.98
+Mono White Lifegain,Dimir Midrange,1.0,1,0.02,1.0
+Mono White Lifegain,Azorius Control,0.0,2,0.0,0.84
+Mono White Lifegain,Jeskai Artifacts,1.0,1,0.02,1.0
+Mono White Lifegain,Esper Pixie,0.0,1,0.0,0.98
+Mono White Lifegain,Mono White Tokens,0.0,1,0.0,0.98
+Bant Landfall,Simic Ouroboroid,0.6,5,0.15,0.95
+Bant Landfall,Izzet Lessons,1.0,1,0.02,1.0
+Bant Landfall,Dimir Midrange,1.0,1,0.02,1.0
+Bant Landfall,Bant Airbending,1.0,1,0.02,1.0
+Bant Landfall,Mono-Red Aggro,1.0,1,0.02,1.0
+Bant Landfall,Mono Green Landfall,0.33,3,0.01,0.91
+Bant Landfall,Izzet Looting,1.0,1,0.02,1.0
+Bant Landfall,Simic Omniscience,1.0,1,0.02,1.0
+Esper Oculus,Simic Ouroboroid,1.0,1,0.02,1.0
+Esper Oculus,Izzet Lessons,1.0,1,0.02,1.0
+Esper Oculus,Dimir Midrange,1.0,2,0.16,1.0
+Esper Oculus,Jeskai Control,0.0,2,0.0,0.84
+Esper Oculus,Sultai Reanimator,0.0,1,0.0,0.98
+Esper Oculus,Mono-Red Aggro,1.0,1,0.02,1.0
+Esper Oculus,Azorius Control,1.0,1,0.02,1.0
+Esper Oculus,Selesnya Landfall,0.0,1,0.0,0.98
+Abzan Ketramose,Simic Ouroboroid,0.33,3,0.01,0.91
+Abzan Ketramose,Dimir Midrange,0.0,1,0.0,0.98
+Abzan Ketramose,Jeskai Control,0.0,1,0.0,0.98
+Abzan Ketramose,Sultai Reanimator,0.0,1,0.0,0.98
+Abzan Ketramose,Mono-Red Aggro,0.0,1,0.0,0.98
+Abzan Ketramose,Azorius Control,0.0,1,0.0,0.98
+Abzan Ketramose,Izzet Splash,0.0,1,0.0,0.98
+Abzan Ketramose,Jeskai Artifacts,0.0,1,0.0,0.98
+Orzhov Control,Simic Ouroboroid,0.5,2,0.01,0.99
+Orzhov Control,Jeskai Control,0.0,1,0.0,0.98
+Orzhov Control,Mono Green Landfall,0.5,2,0.01,0.99
+Orzhov Control,Azorius Control,0.0,1,0.0,0.98
+Orzhov Control,Izzet Splash,0.0,1,0.0,0.98
+Orzhov Control,Simic Omniscience,1.0,1,0.02,1.0
+Orzhov Control,Temur Otters,0.0,1,0.0,0.98
+4 Color Reanimator,Simic Ouroboroid,1.0,1,0.02,1.0
+4 Color Reanimator,Dimir Midrange,0.67,3,0.09,0.99
+4 Color Reanimator,Sultai Reanimator,0.5,2,0.01,0.99
+4 Color Reanimator,Azorius Control,0.5,2,0.01,0.99
+4 Color Reanimator,Temur Battlecrier,0.33,3,0.01,0.91
+Mono Blue Tempo,Dimir Midrange,0.33,3,0.01,0.91
+Mono Blue Tempo,Jeskai Control,1.0,1,0.02,1.0
+Mono Blue Tempo,Sultai Reanimator,0.0,2,0.0,0.84
+Mono Blue Tempo,Bant Airbending,0.5,2,0.01,0.99
+Mono Blue Tempo,5 Color Allies,0.0,1,0.0,0.98
+Mono Blue Tempo,Gruul Delirium,0.0,1,0.0,0.98
+Azorius Artifacts,Dimir Midrange,0.33,3,0.01,0.91
+Azorius Artifacts,Mono Green Landfall,1.0,1,0.02,1.0
+Azorius Artifacts,Azorius Control,0.33,3,0.01,0.91
+Random Encounter,Izzet Lessons,0.0,1,0.0,0.98
+Random Encounter,Azorius Control,0.0,1,0.0,0.98
+Random Encounter,Azorius Flash,0.0,1,0.0,0.98
+Random Encounter,Bant Omniscience,0.0,1,0.0,0.98
+Izzet Elementals,Simic Ouroboroid,1.0,1,0.02,1.0
+Izzet Elementals,Izzet Lessons,1.0,1,0.02,1.0
+Izzet Elementals,Dimir Midrange,0.0,1,0.0,0.98
+Izzet Elementals,Jeskai Control,0.0,2,0.0,0.84
+Izzet Elementals,Mono-Red Aggro,1.0,2,0.16,1.0
+Izzet Elementals,Mono Green Landfall,0.5,2,0.01,0.99
+Izzet Elementals,Izzet Splash,0.0,1,0.0,0.98
+Izzet Elementals,Azorius Flash,1.0,1,0.02,1.0
+Temur Ramp,Dimir Midrange,0.0,1,0.0,0.98
+Temur Ramp,Jeskai Control,0.0,1,0.0,0.98
+Temur Ramp,Sultai Reanimator,1.0,1,0.02,1.0
+Temur Ramp,Esper Pixie,1.0,2,0.16,1.0
+Temur Ramp,Orzhov Sacrifice,1.0,1,0.02,1.0
+Temur Ramp,Bant Omniscience,0.0,1,0.0,0.98
+Dimir Flash,Simic Ouroboroid,0.5,2,0.01,0.99
+Dimir Flash,Izzet Lessons,1.0,1,0.02,1.0
+Dimir Flash,Bant Airbending,0.0,1,0.0,0.98
+Dimir Flash,Boros Burn,1.0,1,0.02,1.0
+Dimir Flash,Orzhov Sacrifice,0.0,1,0.0,0.98
+Esper Blink,Simic Ouroboroid,0.0,1,0.0,0.98
+Esper Blink,Izzet Lessons,0.0,1,0.0,0.98
+Esper Blink,Dimir Midrange,1.0,1,0.02,1.0
+Esper Blink,Jeskai Control,0.0,1,0.0,0.98
+Esper Blink,Azorius Control,0.0,1,0.0,0.98
+Esper Blink,Temur Battlecrier,0.0,1,0.0,0.98
+Temur Landfall,Dimir Midrange,1.0,1,0.02,1.0
+Temur Landfall,Azorius Control,1.0,2,0.16,1.0
+Temur Landfall,Esper Pixie,1.0,1,0.02,1.0
+Temur Landfall,Mono Black Midrange,0.0,1,0.0,0.98
+Temur Landfall,Temur Battlecrier,0.5,2,0.01,0.99
+Temur Landfall,Mono White Tokens,1.0,2,0.16,1.0
+Orzhov Tokens,Dimir Midrange,0.0,1,0.0,0.98
+Orzhov Tokens,Sultai Reanimator,0.0,1,0.0,0.98
+Orzhov Tokens,Bant Airbending,0.0,1,0.0,0.98
+Orzhov Tokens,Mono-Red Aggro,0.0,1,0.0,0.98
+Orzhov Tokens,Azorius Control,0.5,2,0.01,0.99
+Selesnya Rabbits,Simic Ouroboroid,0.0,1,0.0,0.98
+Selesnya Rabbits,Dimir Midrange,1.0,2,0.16,1.0
+Selesnya Rabbits,4 Color Control,0.0,1,0.0,0.98
+Selesnya Rabbits,Esper Pixie,1.0,1,0.02,1.0
+Jeskai Aggro,Simic Ouroboroid,1.0,1,0.02,1.0
+Jeskai Aggro,Izzet Lessons,1.0,1,0.02,1.0
+Jeskai Aggro,Sultai Reanimator,0.0,2,0.0,0.84
+Jeskai Aggro,Bant Airbending,1.0,1,0.02,1.0
+Jeskai Aggro,Mono-Red Aggro,0.0,1,0.0,0.98
+Jeskai Aggro,Azorius Control,0.0,1,0.0,0.98
+Jeskai Aggro,Izzet Looting,1.0,1,0.02,1.0
+Jeskai Aggro,Gruul Delirium,1.0,1,0.02,1.0
+Mardu Control,Izzet Lessons,1.0,1,0.02,1.0
+Mardu Control,Dimir Midrange,0.0,1,0.0,0.98
+Mardu Control,Jeskai Control,1.0,1,0.02,1.0
+Mardu Control,Bant Airbending,1.0,1,0.02,1.0
+Mardu Control,Azorius Control,1.0,1,0.02,1.0
+Mardu Control,4 Color Control,0.0,1,0.0,0.98
+Mardu Control,Jeskai Artifacts,0.0,1,0.0,0.98
+Mardu Control,Esper Pixie,0.0,1,0.0,0.98
+Mardu Control,Temur Battlecrier,0.0,1,0.0,0.98
+Mono Blue Proft,Simic Ouroboroid,0.0,2,0.0,0.84
+Mono Blue Proft,Izzet Lessons,1.0,1,0.02,1.0
+Mono Blue Proft,Mono Green Landfall,0.5,2,0.01,0.99
+Mono Blue Proft,Azorius Control,1.0,1,0.02,1.0
+Mono Blue Proft,Izzet Looting,1.0,1,0.02,1.0
+Mono Blue Proft,Selesnya Landfall,0.0,1,0.0,0.98
+Grixis Oculus,Jeskai Control,0.0,2,0.0,0.84
+Grixis Oculus,Sultai Reanimator,0.0,2,0.0,0.84
+Grixis Oculus,Boros Burn,1.0,1,0.02,1.0
+Grixis Oculus,Bant Omniscience,0.0,1,0.0,0.98
+Golgari Landfall,Simic Ouroboroid,0.0,1,0.0,0.98
+Golgari Landfall,Izzet Lessons,0.0,1,0.0,0.98
+Golgari Landfall,Dimir Midrange,1.0,1,0.02,1.0
+Golgari Landfall,Jeskai Control,0.0,1,0.0,0.98
+Golgari Landfall,Mono-Red Aggro,0.5,2,0.01,0.99
+Golgari Landfall,Azorius Control,0.0,1,0.0,0.98
+Sultai Graveyard,Simic Ouroboroid,0.0,3,0.0,0.71
+Sultai Graveyard,Jeskai Control,0.0,1,0.0,0.98
+Sultai Graveyard,Mono Green Landfall,1.0,1,0.02,1.0
+Sultai Graveyard,Izzet Looting,1.0,2,0.16,1.0
+Mardu Midrange,Simic Ouroboroid,0.0,1,0.0,0.98
+Mardu Midrange,Dimir Midrange,1.0,2,0.16,1.0
+Mardu Midrange,Sultai Reanimator,0.0,1,0.0,0.98
+Mardu Midrange,Azorius Control,0.0,1,0.0,0.98
+Mardu Midrange,Esper Pixie,1.0,1,0.02,1.0
+Mardu Midrange,Bant Omniscience,0.0,1,0.0,0.98
+Izzet Pirates,Dimir Midrange,1.0,2,0.16,1.0
+Izzet Pirates,Bant Airbending,0.5,2,0.01,0.99
+Izzet Pirates,Dimir Bounce,1.0,1,0.02,1.0
+Izzet Pirates,Gruul Delirium,1.0,1,0.02,1.0
+Sultai Roots,Simic Ouroboroid,0.0,1,0.0,0.98
+Sultai Roots,Dimir Midrange,1.0,1,0.02,1.0
+Sultai Roots,Azorius Control,0.0,1,0.0,0.98
+Sultai Roots,Selesnya Landfall,0.0,1,0.0,0.98
+Sultai Roots,Esper Pixie,0.0,1,0.0,0.98
+Jund Surprise,Simic Ouroboroid,0.0,1,0.0,0.98
+Jund Surprise,Dimir Midrange,1.0,1,0.02,1.0
+Jund Surprise,Bant Airbending,0.5,2,0.01,0.99
+Jund Surprise,Mono-Red Aggro,1.0,1,0.02,1.0
+Jund Surprise,Mono Green Landfall,1.0,1,0.02,1.0
+Jund Surprise,Temur Otters,1.0,1,0.02,1.0
+Jund Surprise,Bant Omniscience,1.0,1,0.02,1.0
+Orzhov Cage,Dimir Midrange,0.5,4,0.07,0.93
+Orzhov Cage,Azorius Control,0.0,1,0.0,0.98
+Orzhov Cage,Mono White Tokens,1.0,1,0.02,1.0
+Rakdos Demons,Simic Ouroboroid,0.0,1,0.0,0.98
+Rakdos Demons,Izzet Lessons,1.0,1,0.02,1.0
+Rakdos Demons,Dimir Midrange,1.0,1,0.02,1.0
+Rakdos Demons,Mono Green Landfall,0.0,1,0.0,0.98
+Rakdos Demons,Azorius Control,0.0,1,0.0,0.98
+Rakdos Demons,Temur Battlecrier,0.0,1,0.0,0.98
+Bant Yuna,Simic Ouroboroid,1.0,1,0.02,1.0
+Bant Yuna,Dimir Midrange,1.0,1,0.02,1.0
+Bant Yuna,Sultai Reanimator,0.5,2,0.01,0.99
+Bant Yuna,Bant Airbending,0.5,2,0.01,0.99
+Bant Yuna,Simic Omniscience,1.0,1,0.02,1.0
+Bant Midrange,Izzet Lessons,0.0,1,0.0,0.98
+Bant Midrange,Dimir Midrange,1.0,1,0.02,1.0
+Bant Midrange,Bant Airbending,1.0,1,0.02,1.0
+Bant Midrange,Izzet Splash,0.0,1,0.0,0.98
+Bant Midrange,Jeskai Artifacts,1.0,1,0.02,1.0
+Bant Midrange,Mono Black Midrange,0.0,1,0.0,0.98
+Sultai Landfall,Simic Ouroboroid,0.5,2,0.01,0.99
+Sultai Landfall,Izzet Lessons,0.0,1,0.0,0.98
+Sultai Landfall,Mono-Red Aggro,0.0,1,0.0,0.98
+Sultai Landfall,Mono Green Landfall,0.5,2,0.01,0.99
+Sultai Landfall,Mono Black Midrange,0.0,1,0.0,0.98
+Esper Flyers,Simic Ouroboroid,1.0,1,0.02,1.0
+Esper Flyers,Jeskai Control,0.5,2,0.01,0.99
+Esper Flyers,Sultai Reanimator,0.0,1,0.0,0.98
+Esper Flyers,Bant Airbending,1.0,1,0.02,1.0
+Esper Flyers,Izzet Looting,0.0,2,0.0,0.84
+Esper Flyers,Boros Burn,1.0,1,0.02,1.0
+Dimir Elementals,Izzet Lessons,1.0,2,0.16,1.0
+Dimir Elementals,Dimir Midrange,1.0,1,0.02,1.0
+Dimir Elementals,Jeskai Control,0.0,2,0.0,0.84
+Dimir Elementals,Sultai Reanimator,0.0,1,0.0,0.98
+Grixis Elementals,Izzet Lessons,1.0,1,0.02,1.0
+Grixis Elementals,Dimir Midrange,1.0,1,0.02,1.0
+Grixis Elementals,Sultai Reanimator,0.0,1,0.0,0.98
+Grixis Elementals,Mono-Red Aggro,0.0,1,0.0,0.98
+Grixis Elementals,Mono Green Landfall,0.0,1,0.0,0.98
+Grixis Elementals,Azorius Control,1.0,1,0.02,1.0
+Grixis Elementals,Golgari Ouroboroid,0.0,1,0.0,0.98
+5 Color Legends,Simic Ouroboroid,1.0,1,0.02,1.0
+5 Color Legends,Dimir Midrange,1.0,1,0.02,1.0
+5 Color Legends,Bant Airbending,0.0,2,0.0,0.84
+5 Color Legends,Golgari Ouroboroid,1.0,1,0.02,1.0
+5 Color Legends,Azorius Flash,0.0,1,0.0,0.98
+Gruul Surprise,Boros Burn,0.67,3,0.09,0.99
+Gruul Surprise,Selesnya Landfall,1.0,1,0.02,1.0
+Gruul Surprise,5 Color Allies,1.0,1,0.02,1.0
+Dimir Reanimator,Simic Ouroboroid,1.0,1,0.02,1.0
+Dimir Reanimator,Dimir Midrange,1.0,1,0.02,1.0
+Dimir Reanimator,Sultai Reanimator,0.0,1,0.0,0.98
+Dimir Reanimator,Bant Airbending,1.0,1,0.02,1.0
+Dimir Reanimator,Mono-Red Aggro,1.0,1,0.02,1.0
+Dimir Reanimator,Gruul Delirium,1.0,1,0.02,1.0
+Abzan Lifegain,Simic Ouroboroid,0.0,1,0.0,0.98
+Abzan Lifegain,Izzet Lessons,0.0,1,0.0,0.98
+Abzan Lifegain,Jeskai Control,0.0,1,0.0,0.98
+Abzan Lifegain,Mono-Red Aggro,1.0,2,0.16,1.0
+Simic Merfolks,Simic Ouroboroid,1.0,1,0.02,1.0
+Simic Merfolks,Dimir Midrange,0.75,4,0.19,0.99
+Simic Merfolks,Azorius Control,1.0,1,0.02,1.0
+Bant Gearhulk,Simic Ouroboroid,0.0,2,0.0,0.84
+Bant Gearhulk,Azorius Control,0.0,1,0.0,0.98
+Bant Gearhulk,Bant Omniscience,1.0,1,0.02,1.0
+Izzet Artifacts,Mono Green Landfall,1.0,1,0.02,1.0
+Izzet Artifacts,Azorius Control,1.0,1,0.02,1.0
+Izzet Artifacts,Orzhov Sacrifice,0.0,1,0.0,0.98
+Golgari Kona,Dimir Midrange,0.0,1,0.0,0.98
+Golgari Kona,Jeskai Control,1.0,1,0.02,1.0
+Golgari Kona,Sultai Reanimator,0.0,1,0.0,0.98
+Golgari Kona,Azorius Control,1.0,1,0.02,1.0
+Golgari Kona,4 Color Control,0.0,1,0.0,0.98
+Rakdos Weapons,Izzet Lessons,1.0,1,0.02,1.0
+Rakdos Weapons,Dimir Midrange,0.0,2,0.0,0.84
+Rakdos Weapons,Izzet Looting,0.0,1,0.0,0.98
+Sultai Season,Dimir Midrange,0.67,3,0.09,0.99
+Sultai Season,Sultai Reanimator,1.0,2,0.16,1.0
+Bant Allies,Simic Ouroboroid,0.0,1,0.0,0.98
+Bant Allies,Izzet Lessons,0.5,2,0.01,0.99
+Bant Allies,Jeskai Control,1.0,1,0.02,1.0
+Bant Allies,4 Color Control,0.0,1,0.0,0.98
+Bant Allies,Golgari Ouroboroid,0.0,1,0.0,0.98
+Izzet Flash,Simic Ouroboroid,0.5,2,0.01,0.99
+Izzet Flash,Izzet Lessons,0.0,1,0.0,0.98
+Izzet Flash,Sultai Reanimator,0.0,1,0.0,0.98
+Izzet Flash,5 Color Allies,0.0,1,0.0,0.98
+Izzet Flash,Temur Otters,1.0,1,0.02,1.0
+Temur Ouroboroid,Jeskai Control,1.0,1,0.02,1.0
+Temur Ouroboroid,Sultai Reanimator,1.0,1,0.02,1.0
+Temur Ouroboroid,Bant Airbending,0.0,1,0.0,0.98
+Temur Ouroboroid,Mono Green Landfall,0.0,1,0.0,0.98
+Dimir Demons,Dimir Midrange,0.0,1,0.0,0.98
+Mono White Ugin,Dimir Midrange,0.5,2,0.01,0.99
+Mono White Ugin,Boros Burn,1.0,1,0.02,1.0
+Mono White Ugin,Selesnya Landfall,0.0,1,0.0,0.98
+Mono White Ugin,Jeskai Artifacts,0.0,1,0.0,0.98
+Azorius Enchantments,Simic Ouroboroid,0.0,1,0.0,0.98
+Azorius Enchantments,Sultai Reanimator,0.0,1,0.0,0.98
+Azorius Enchantments,Bant Airbending,0.0,1,0.0,0.98
+Azorius Enchantments,Selesnya Landfall,1.0,1,0.02,1.0
+Azorius Enchantments,Jeskai Artifacts,0.0,1,0.0,0.98
+Azorius Mill,Sultai Reanimator,0.0,1,0.0,0.98
+Azorius Mill,Temur Otters,0.0,1,0.0,0.98
+Azorius Mill,Bant Omniscience,0.0,2,0.0,0.84
+Dimir Conqueror,Simic Ouroboroid,0.0,1,0.0,0.98
+Dimir Conqueror,Izzet Lessons,0.33,3,0.01,0.91
+Dimir Conqueror,Azorius Control,1.0,1,0.02,1.0
+Esper Aggro,Izzet Lessons,1.0,1,0.02,1.0
+Esper Aggro,Bant Airbending,0.0,1,0.0,0.98
+Esper Aggro,4 Color Control,0.0,1,0.0,0.98
+Jund Midrange,Izzet Lessons,0.0,1,0.0,0.98
+Jund Midrange,Dimir Midrange,0.5,2,0.01,0.99
+Jund Midrange,Jeskai Control,1.0,1,0.02,1.0
+Jund Midrange,Sultai Reanimator,1.0,1,0.02,1.0
+Azorius Tempo,Sultai Reanimator,0.0,1,0.0,0.98
+Azorius Tempo,Boros Burn,1.0,1,0.02,1.0
+Azorius Tempo,Jeskai Artifacts,0.0,1,0.0,0.98
+Abzan Roots,Dimir Midrange,1.0,2,0.16,1.0
+Abzan Roots,Simic Omniscience,0.0,1,0.0,0.98
+Gruul Dragons,Dimir Midrange,0.5,2,0.01,0.99
+Gruul Dragons,Golgari Ouroboroid,0.0,1,0.0,0.98
+Gruul Dragons,Orzhov Sacrifice,0.0,1,0.0,0.98
+Orzhov Skeletons,Simic Ouroboroid,0.0,2,0.0,0.84
+Orzhov Skeletons,Mono-Red Aggro,0.0,1,0.0,0.98
+Orzhov Skeletons,Simic Omniscience,1.0,1,0.02,1.0
+Orzhov Skeletons,Temur Otters,0.0,1,0.0,0.98
+Golgari Chocobo,Simic Ouroboroid,0.0,1,0.0,0.98
+Golgari Chocobo,Izzet Lessons,0.0,1,0.0,0.98
+Golgari Chocobo,Izzet Looting,0.0,1,0.0,0.98
+Golgari Chocobo,4 Color Control,1.0,1,0.02,1.0
+Simic Landfall,Dimir Midrange,0.0,1,0.0,0.98
+Mardu Weapons,Azorius Control,0.0,1,0.0,0.98
+Mardu Weapons,4 Color Control,1.0,1,0.02,1.0
+Mardu Weapons,Esper Pixie,0.0,1,0.0,0.98
+Jund Kona,Dimir Midrange,0.5,2,0.01,0.99
+Jund Kona,Azorius Control,0.5,2,0.01,0.99
+Orzhov Artifacts,Izzet Lessons,0.0,1,0.0,0.98
+Orzhov Artifacts,Sultai Reanimator,0.5,2,0.01,0.99
+Orzhov Artifacts,Azorius Control,0.0,1,0.0,0.98
+Orzhov Artifacts,Golgari Ouroboroid,1.0,1,0.02,1.0
+Jund Roots,Esper Pixie,1.0,1,0.02,1.0
+Abzan Counters,Simic Ouroboroid,0.0,1,0.0,0.98
+Abzan Counters,Selesnya Landfall,0.0,1,0.0,0.98
+Abzan Counters,Dimir Bounce,0.0,1,0.0,0.98
+Orzhov Auras,Simic Ouroboroid,0.0,1,0.0,0.98
+Mono Black Discard,Simic Ouroboroid,0.0,1,0.0,0.98
+Mono Black Discard,Sultai Reanimator,0.0,1,0.0,0.98
+Mono Black Discard,Mono Green Landfall,0.0,1,0.0,0.98
+Mono Black Discard,Mono Black Midrange,1.0,1,0.02,1.0
+Esper Faeries,Dimir Midrange,0.0,1,0.0,0.98
+Esper Faeries,Azorius Control,0.0,1,0.0,0.98
+Esper Faeries,Jeskai Artifacts,1.0,1,0.02,1.0
+Esper Faeries,Temur Battlecrier,0.0,1,0.0,0.98
+Sultai Oculus,Azorius Control,0.33,3,0.01,0.91
+Sultai Oculus,4 Color Control,1.0,1,0.02,1.0
+Selesnya Ugin,Dimir Midrange,0.0,1,0.0,0.98
+Selesnya Ugin,Dimir Bounce,0.0,1,0.0,0.98
+Mono Black Moonshadow,Sultai Reanimator,0.0,1,0.0,0.98
+Mono Black Moonshadow,Mono Green Landfall,0.0,1,0.0,0.98
+Mono Black Moonshadow,Azorius Control,1.0,1,0.02,1.0
+Naya Aggro,Dimir Midrange,1.0,2,0.16,1.0
+Temur Midrange,Dimir Midrange,0.0,1,0.0,0.98
+Mono White Prison,Sultai Reanimator,0.5,2,0.01,0.99
+Simic Cauldron,Izzet Lessons,1.0,1,0.02,1.0
+Simic Cauldron,Boros Burn,0.0,1,0.0,0.98
+Simic Cauldron,Selesnya Landfall,0.0,1,0.0,0.98
+Selesnya Yuna,Azorius Control,0.5,2,0.01,0.99
+Selesnya Yuna,Bant Omniscience,1.0,1,0.02,1.0
+Mardu Ketramose,Dimir Midrange,0.0,1,0.0,0.98
+Mardu Ketramose,Golgari Ouroboroid,0.0,1,0.0,0.98
+Mardu Ketramose,Esper Pixie,1.0,1,0.02,1.0
+Gruul Kona,Azorius Control,0.5,2,0.01,0.99
+Elves,Azorius Flash,1.0,1,0.02,1.0
+Simic Ramp,Dimir Midrange,0.0,1,0.0,0.98
+Azorius Ugin,Dimir Midrange,1.0,1,0.02,1.0
+Mono Black Ugin,Jeskai Control,1.0,1,0.02,1.0
+Orzhov Aggro,Dimir Midrange,0.0,1,0.0,0.98
+Orzhov Aggro,Jeskai Control,1.0,1,0.02,1.0
+4 Color Midrange,Jeskai Artifacts,0.0,1,0.0,0.98
+Mono Green Ramp,Sultai Reanimator,1.0,1,0.02,1.0
+Mono White Midrange,Mono Black Midrange,1.0,1,0.02,1.0

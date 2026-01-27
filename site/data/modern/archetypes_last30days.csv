@@ -1,0 +1,67 @@
+archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
+Boros Energy,0.57198443579767,257,0.51,0.63,/Modern/boros-energy
+Affinity,0.51219512195122,164,0.43,0.59,/Modern/affinity
+Izzet Prowess,0.45138888888889,144,0.37,0.54,/Modern/izzet-prowess
+Jeskai Blink,0.53543307086614,127,0.44,0.62,/Modern/jeskai-blink
+Amulet Titan,0.43548387096774,124,0.35,0.53,/Modern/amulet-titan
+Domain Aggro,0.51923076923077,104,0.42,0.62,/Modern/domain-aggro
+Golgari Yawgmoth,0.54901960784314,102,0.45,0.65,/Modern/golgari-yawgmoth
+Ruby Storm,0.48979591836735,98,0.39,0.59,/Modern/ruby-storm
+Eldrazi Tron,0.55056179775281,89,0.44,0.66,/Modern/eldrazi-tron
+Esper Reanimator,0.44155844155844,77,0.33,0.56,/Modern/esper-reanimator
+Jeskai Control,0.42857142857143,49,0.29,0.58,/Modern/jeskai-control
+Azorius Control,0.41304347826087,46,0.27,0.57,/Modern/azorius-control
+Eldrazi Ramp,0.57142857142857,42,0.41,0.72,/Modern/eldrazi-ramp
+Tameshi Belcher,0.58536585365854,41,0.42,0.74,/Modern/tameshi-belcher
+Neoform,0.65,40,0.48,0.79,/Modern/neoform
+Simic Ritual,0.38461538461538,39,0.23,0.55,/Modern/simic-ritual
+Esper Phelia,0.66666666666667,39,0.5,0.81,/Modern/esper-phelia
+Eldrazi Bloodchief Combo,0.47222222222222,36,0.3,0.65,/Modern/eldrazi-bloodchief-combo
+Mill,0.34375,32,0.19,0.53,/Modern/mill
+4 Color Ritual,0.59375,32,0.41,0.76,/Modern/4-color-ritual
+4 Color Omnath,0.58620689655172,29,0.39,0.76,/Modern/4-color-omnath
+Samwise Combo,0.45833333333333,24,0.26,0.67,/Modern/samwise-combo
+Eldrazi Aggro,0.42857142857143,21,0.22,0.66,/Modern/eldrazi-aggro
+Grixis Frog,0.38888888888889,18,0.17,0.64,/Modern/grixis-frog
+Hardened Scales,0.5,16,0.25,0.75,/Modern/hardened-scales
+Kethis Combo,0.5625,16,0.3,0.8,/Modern/kethis-combo
+Grixis Reanimator,0.5625,16,0.3,0.8,/Modern/grixis-reanimator
+Dimir Frog,0.42857142857143,14,0.18,0.71,/Modern/dimir-frog
+Orzhov Blink,0.21428571428571,14,0.05,0.51,/Modern/orzhov-blink
+Merfolk,0.46153846153846,13,0.19,0.75,/Modern/merfolk
+Dredge,0.25,12,0.05,0.57,/Modern/dredge
+Living End,0.83333333333333,12,0.52,0.98,/Modern/living-end
+Hollow One,0.58333333333333,12,0.28,0.85,/Modern/hollow-one
+Bant Ritual,0.5,12,0.21,0.79,/Modern/bant-ritual
+Azorius Blink,0.45454545454545,11,0.17,0.77,/Modern/azorius-blink
+Jund Saga,0.36363636363636,11,0.11,0.69,/Modern/jund-saga
+Burn,0.4,10,0.12,0.74,/Modern/burn
+Soultrader,0.5,10,0.19,0.81,/Modern/soultrader
+Esper Frog,0.7,10,0.35,0.93,/Modern/esper-frog
+Infect,0.44444444444444,9,0.14,0.79,/Modern/infect
+Rakdos Burn,0.77777777777778,9,0.4,0.97,/Modern/rakdos-burn
+Izzet Murktide,0.55555555555556,9,0.21,0.86,/Modern/izzet-murktide
+Thud Combo,0.44444444444444,9,0.14,0.79,/Modern/thud-combo
+Temur Song,0.25,8,0.03,0.65,/Modern/temur-song
+Mono Green Tron,0.28571428571429,7,0.04,0.71,/Modern/mono-green-tron
+Mono Blue Eldrazi,0.71428571428571,7,0.29,0.96,/Modern/mono-blue-eldrazi
+Grixis Control,0.57142857142857,7,0.18,0.9,/Modern/grixis-control
+Gruul Ponza,0.28571428571429,7,0.04,0.71,/Modern/gruul-ponza
+Mono Red Prowess,0.42857142857143,7,0.1,0.82,/Modern/mono-red-prowess
+Mono Blue Tron,0.33333333333333,6,0.04,0.78,/Modern/mono-blue-tron
+Humans,0.66666666666667,6,0.22,0.96,/Modern/humans
+Gruul Aggro,0.5,6,0.12,0.88,/Modern/gruul-aggro
+Rakdos Channeler,0.33333333333333,6,0.04,0.78,/Modern/rakdos-channeler
+Mardu Control,0.5,6,0.12,0.88,/Modern/mardu-control
+Izzet Control,0.83333333333333,6,0.36,1.0,/Modern/izzet-control
+Mardu Energy,0.66666666666667,6,0.22,0.96,/Modern/mardu-energy
+Selesnya Ritual,0.33333333333333,6,0.04,0.78,/Modern/selesnya-ritual
+Izzet Metalcraft,0.66666666666667,6,0.22,0.96,/Modern/izzet-metalcraft
+Heliod Company,0.4,5,0.05,0.85,/Modern/heliod-company
+Jeskai Ascendancy,0.8,5,0.28,0.99,/Modern/jeskai-ascendancy
+Esper Control,0.4,5,0.05,0.85,/Modern/esper-control
+Dimir Oculus,0.2,5,0.01,0.72,/Modern/dimir-oculus
+Dimir Necrodominance,0.33333333333333,3,0.01,0.91,/Modern/dimir-necrodominance
+Red Belcher,0.66666666666667,3,0.09,0.99,/Modern/red-belcher
+Elementals,0.5,2,0.01,0.99,/Modern/elementals
+Eldrazi Breach,0.5,2,0.01,0.99,/Modern/eldrazi-breach

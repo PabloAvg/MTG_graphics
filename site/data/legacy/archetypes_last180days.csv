@@ -1,0 +1,141 @@
+archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
+Dimir Tempo,0.53089887640449,2848,0.51,0.55,/Legacy/dimir-tempo
+Izzet Cutter,0.4991532599492,2362,0.48,0.52,/Legacy/izzet-cutter
+Mystic Forge Combo,0.53747323340471,1868,0.51,0.56,/Legacy/mystic-forge-combo
+Eldrazi Stompy,0.5,1420,0.47,0.53,/Legacy/eldrazi-stompy
+Lands.dec,0.49838709677419,1240,0.47,0.53,/Legacy/lands-dec
+Sneak and Show,0.49253731343284,1072,0.46,0.52,/Legacy/sneak-and-show
+Mono Red Prison,0.46067415730337,1068,0.43,0.49,/Legacy/mono-red-prison
+Painter Grindstone,0.47954329210276,1051,0.45,0.51,/Legacy/painter-grindstone
+Show and Tell,0.51912045889101,1046,0.49,0.55,/Legacy/show-and-tell
+Doomsday,0.54437869822485,1014,0.51,0.58,/Legacy/doomsday
+Blue Cloudpost,0.54237288135593,944,0.51,0.57,/Legacy/blue-cloudpost
+UWx Control,0.46703910614525,895,0.43,0.5,/Legacy/uwx-control
+Oops! All Spells,0.54522613065327,796,0.51,0.58,/Legacy/oops-all-spells
+Affinity,0.52471482889734,789,0.49,0.56,/Legacy/affinity
+Death & Taxes,0.5366847826087,736,0.5,0.57,/Legacy/death-taxes
+Cradle Control,0.52808988764045,712,0.49,0.57,/Legacy/cradle-control
+Grixis Tempo,0.49652777777778,576,0.45,0.54,/Legacy/grixis-tempo
+Ad Nauseam Tendrils,0.5594262295082,488,0.51,0.6,/Legacy/ad-nauseam-tendrils
+UWx Stoneblade,0.53747323340471,467,0.49,0.58,/Legacy/uwx-stoneblade
+Bant Beanstalk,0.50779510022272,449,0.46,0.55,/Legacy/bant-beanstalk
+Mardu Ocelot,0.5080831408776,433,0.46,0.56,/Legacy/mardu-ocelot
+Stiflenought,0.42823529411765,425,0.38,0.48,/Legacy/stiflenought
+Reanimator,0.50714285714286,420,0.46,0.56,/Legacy/reanimator
+Cephalid Breakfast,0.49076517150396,379,0.44,0.54,/Legacy/cephalid-breakfast
+Domain Beanstalk,0.55256064690027,371,0.5,0.6,/Legacy/domain-beanstalk
+The EPIC Storm,0.45614035087719,342,0.4,0.51,/Legacy/the-epic-storm
+Green Post,0.51070336391437,327,0.46,0.57,/Legacy/green-post
+Maverick,0.50819672131148,305,0.45,0.57,/Legacy/maverick
+Sultai Beanstalk,0.46779661016949,295,0.41,0.53,/Legacy/sultai-beanstalk
+Goblins,0.40363636363636,275,0.35,0.46,/Legacy/goblins
+UR Tempo,0.47736625514403,243,0.41,0.54,/Legacy/ur-tempo
+Boros Initiative,0.49166666666667,240,0.43,0.56,/Legacy/boros-initiative
+Burn,0.38679245283019,212,0.32,0.46,/Legacy/burn
+GWx Depths,0.44067796610169,177,0.37,0.52,/Legacy/gwx-depths
+Loam Pox,0.53757225433526,173,0.46,0.61,/Legacy/loam-pox
+Dredge,0.49418604651163,172,0.42,0.57,/Legacy/dredge
+Infect,0.36046511627907,172,0.29,0.44,/Legacy/infect
+Temur Tempo,0.48538011695906,171,0.41,0.56,/Legacy/temur-tempo
+Beseech Storm,0.50898203592814,167,0.43,0.59,/Legacy/beseech-storm
+Orzhov Ozelot,0.56875,160,0.49,0.65,/Legacy/orzhov-ozelot
+Ruby Storm,0.53424657534247,146,0.45,0.62,/Legacy/ruby-storm
+Hogaak,0.51048951048951,143,0.43,0.59,/Legacy/hogaak
+Esper Vial,0.49295774647887,142,0.41,0.58,/Legacy/esper-vial
+Esper Control,0.4812030075188,133,0.39,0.57,/Legacy/esper-control
+Boros Energy,0.57142857142857,126,0.48,0.66,/Legacy/boros-energy
+Mono Black,0.41935483870968,124,0.33,0.51,/Legacy/mono-black
+Naya Initiative,0.57017543859649,114,0.47,0.66,/Legacy/naya-initiative
+Smallpox,0.36,100,0.27,0.46,/Legacy/smallpox
+Sultai Tempo,0.53535353535354,99,0.43,0.64,/Legacy/sultai-tempo
+Dark Depths,0.3469387755102,98,0.25,0.45,/Legacy/dark-depths
+Creative Technique,0.36082474226804,97,0.27,0.46,/Legacy/creative-technique
+Merfolk,0.34883720930233,86,0.25,0.46,/Legacy/merfolk
+Mono Black Helm,0.32558139534884,86,0.23,0.44,/Legacy/mono-black-helm
+Elves,0.47560975609756,82,0.36,0.59,/Legacy/elves
+Rakdos Goyfs,0.49367088607595,79,0.38,0.61,/Legacy/rakdos-goyfs
+MUD,0.53246753246753,77,0.42,0.65,/Legacy/mud
+UBx Death's Shadow,0.32467532467532,77,0.22,0.44,/Legacy/ubx-death-s-shadow
+Azorius Phelia,0.58441558441558,77,0.47,0.7,/Legacy/azorius-phelia
+Nic Fit,0.32835820895522,67,0.22,0.45,/Legacy/nic-fit
+BUG,0.6,60,0.47,0.72,/Legacy/bug
+Temur Cascade,0.54716981132075,53,0.4,0.68,/Legacy/temur-cascade
+Azorius Ocelot,0.58823529411765,51,0.44,0.72,/Legacy/azorius-ocelot
+Aluren,0.38,50,0.25,0.53,/Legacy/aluren
+Mono White Blink,0.5,50,0.36,0.64,/Legacy/mono-white-blink
+Mono Blue Tempo,0.35555555555556,45,0.22,0.51,/Legacy/mono-blue-tempo
+Golgari Yawgmoth,0.6,45,0.44,0.74,/Legacy/golgari-yawgmoth
+4 Color Control,0.58536585365854,41,0.42,0.74,/Legacy/4-color-control
+Paradoxical Outcome,0.475,40,0.32,0.64,/Legacy/paradoxical-outcome
+Food Chain,0.475,40,0.32,0.64,/Legacy/food-chain
+Mono Black Necro,0.63157894736842,38,0.46,0.78,/Legacy/mono-black-necro
+Rakdos Discard,0.33333333333333,33,0.18,0.52,/Legacy/rakdos-discard
+Jund,0.375,32,0.21,0.56,/Legacy/jund
+Enchantress,0.375,32,0.21,0.56,/Legacy/enchantress
+Mind's Desire,0.46428571428571,28,0.28,0.66,/Legacy/mind-s-desire
+Orzhov Phelia,0.57142857142857,28,0.37,0.76,/Legacy/orzhov-phelia
+Necro Storm,0.48148148148148,27,0.29,0.68,/Legacy/necro-storm
+Mono Black Dauthi,0.58333333333333,24,0.37,0.78,/Legacy/mono-black-dauthi
+Humans,0.43478260869565,23,0.23,0.66,/Legacy/humans
+Hollow Vine,0.33333333333333,21,0.15,0.57,/Legacy/hollow-vine
+Esper Tempo,0.47619047619048,21,0.26,0.7,/Legacy/esper-tempo
+Sudden Substitution,0.4,20,0.19,0.64,/Legacy/sudden-substitution
+TEG,0.65,20,0.41,0.85,/Legacy/teg
+Thassa's Paradigm,0.52631578947368,19,0.29,0.76,/Legacy/thassa-s-paradigm
+Wizard's Planisphere,0.38888888888889,18,0.17,0.64,/Legacy/wizard-s-planisphere
+5 Color Zenith,0.23529411764706,17,0.07,0.5,/Legacy/5-color-zenith
+Patchwork Stompy,0.52941176470588,17,0.28,0.77,/Legacy/patchwork-stompy
+Belcher,0.375,16,0.15,0.65,/Legacy/belcher
+Mardu Tokens,0.6,15,0.32,0.84,/Legacy/mardu-tokens
+Sultai Birds,0.53333333333333,15,0.27,0.79,/Legacy/sultai-birds
+Salvager Combo,0.42857142857143,14,0.18,0.71,/Legacy/salvager-combo
+Mono Blue Control,0.42857142857143,14,0.18,0.71,/Legacy/mono-blue-control
+Dimir Frog,0.46153846153846,13,0.19,0.75,/Legacy/dimir-frog
+Hollow Red,0.69230769230769,13,0.39,0.91,/Legacy/hollow-red
+Sneak Attack,0.25,12,0.05,0.57,/Legacy/sneak-attack
+Jeskai Tempo,0.5,12,0.21,0.79,/Legacy/jeskai-tempo
+Sultai Leovold,0.41666666666667,12,0.15,0.72,/Legacy/sultai-leovold
+Vesuvan Duelist,0.5,12,0.21,0.79,/Legacy/vesuvan-duelist
+Mono White Prison,0.27272727272727,11,0.06,0.61,/Legacy/mono-white-prison
+Echo Control,0.27272727272727,11,0.06,0.61,/Legacy/echo-control
+Stryfo Pile,0.36363636363636,11,0.11,0.69,/Legacy/stryfo-pile
+Artifacts Aggro,0.7,10,0.35,0.93,/Legacy/artifacts-aggro
+Hive Mind,0.2,10,0.03,0.56,/Legacy/hive-mind
+Gruul Initiative,0.6,10,0.26,0.88,/Legacy/gruul-initiative
+White Dreadnought,0.5,10,0.19,0.81,/Legacy/white-dreadnought
+Mono Blue Karn,0.55555555555556,9,0.21,0.86,/Legacy/mono-blue-karn
+Worldgorger,0.55555555555556,9,0.21,0.86,/Legacy/worldgorger
+Bant Order,0.22222222222222,9,0.03,0.6,/Legacy/bant-order
+4 Color Uro,0.66666666666667,9,0.3,0.93,/Legacy/4-color-uro
+Golgari Witherbloom,0.5,8,0.16,0.84,/Legacy/golgari-witherbloom
+Dimir Flash,0.25,8,0.03,0.65,/Legacy/dimir-flash
+Mono Black Demons,0.375,8,0.09,0.76,/Legacy/mono-black-demons
+Ninjas,0.57142857142857,7,0.18,0.9,/Legacy/ninjas
+Goblin Welder,0.14285714285714,7,0.0,0.58,/Legacy/goblin-welder
+Ironworks Combo,0.42857142857143,7,0.1,0.82,/Legacy/ironworks-combo
+Naya Minsc,0.71428571428571,7,0.29,0.96,/Legacy/naya-minsc
+Simic Order,0.42857142857143,7,0.1,0.82,/Legacy/simic-order
+Polymorph,0.42857142857143,7,0.1,0.82,/Legacy/polymorph
+Jeskai Vial,0.42857142857143,7,0.1,0.82,/Legacy/jeskai-vial
+Dimir Aggro,0.28571428571429,7,0.04,0.71,/Legacy/dimir-aggro
+Bant Blink,0.5,6,0.12,0.88,/Legacy/bant-blink
+Mono Blue Belcher,0.5,6,0.12,0.88,/Legacy/mono-blue-belcher
+Sultai Ritual,0.33333333333333,6,0.04,0.78,/Legacy/sultai-ritual
+Grixis Control,0.8,5,0.28,0.99,/Legacy/grixis-control
+Standstill Control,0.4,5,0.05,0.85,/Legacy/standstill-control
+Bant Control,0.8,5,0.28,0.99,/Legacy/bant-control
+Mono Red Artifacts,0.4,5,0.05,0.85,/Legacy/mono-red-artifacts
+Mono Blue Jewel,1.0,4,0.4,1.0,/Legacy/mono-blue-jewel
+Esper Stoneblade,0.66666666666667,3,0.09,0.99,/Legacy/esper-stoneblade
+UB Control,1.0,3,0.29,1.0,/Legacy/ub-control
+Mill,0.33333333333333,3,0.01,0.91,/Legacy/mill
+Bant Yorion,0.33333333333333,3,0.01,0.91,/Legacy/bant-yorion
+Rakdos Channeler,1.0,3,0.29,1.0,/Legacy/rakdos-channeler
+Simic Beanstalk,0.66666666666667,3,0.09,0.99,/Legacy/simic-beanstalk
+Mono Red Initiative,0.66666666666667,3,0.09,0.99,/Legacy/mono-red-initiative
+Mono Black Prison,0.33333333333333,3,0.01,0.91,/Legacy/mono-black-prison
+Esper Ketramose,0.33333333333333,3,0.01,0.91,/Legacy/esper-ketramose
+4 Color Beanstalk,0.66666666666667,3,0.09,0.99,/Legacy/4-color-beanstalk
+Splinter Twin,1.0,2,0.16,1.0,/Legacy/splinter-twin
+Saga Storm,0.5,2,0.01,0.99,/Legacy/saga-storm
+Mono Black Slivers,0.5,2,0.01,0.99,/Legacy/mono-black-slivers

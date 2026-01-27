@@ -85,29 +85,33 @@ def parse_cell(td) -> Cell:
     return Cell(winrate=wr, matches=matches, ci_low=ci_low, ci_high=ci_high)
 
 
-def build_range_url(range_id: str) -> str:
+def build_range_url(range_id: str, base_url: str = BASE_WINRATES_URL) -> str:
     """
     Build an mtgdecks range URL using encoded `range:<id>` paths, e.g.:
     https://mtgdecks.net/Modern/winrates/range%3Alast60days
     """
     encoded_path = quote(f"range:{range_id}", safe="")
-    return f"{BASE_WINRATES_URL}/{encoded_path}"
+    return f"{base_url}/{encoded_path}"
 
 
-def _range_url(range_key: str = DEFAULT_RANGE_KEY) -> str:
+def _range_url(range_key: str = DEFAULT_RANGE_KEY, base_url: str = BASE_WINRATES_URL) -> str:
     meta = RANGE_OPTIONS.get(range_key, {})
     path = meta.get("path", "")
     if not path:
-        return BASE_WINRATES_URL
+        return base_url
     if path.startswith("range:"):
-        return build_range_url(path.split(":", 1)[1])
+        return build_range_url(path.split(":", 1)[1], base_url=base_url)
     encoded_path = quote(path, safe="")
-    return f"{BASE_WINRATES_URL}/{encoded_path}"
+    return f"{base_url}/{encoded_path}"
 
 
-def fetch_html(url: str | None = None, range_key: str = DEFAULT_RANGE_KEY) -> str | None:
+def fetch_html(
+    url: str | None = None,
+    range_key: str = DEFAULT_RANGE_KEY,
+    base_url: str = BASE_WINRATES_URL,
+) -> str | None:
     if not url:
-        url = _range_url(range_key)
+        url = _range_url(range_key, base_url=base_url)
 
     # Corporate proxies often inject a custom root CA. Respect common env vars.
     ca_bundle = (

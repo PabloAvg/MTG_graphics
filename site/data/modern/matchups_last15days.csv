@@ -1,0 +1,350 @@
+a,b,winrate_a_vs_b,matches,ci_low,ci_high
+Boros Energy,Boros Energy,0.5,16,0.25,0.75
+Boros Energy,Affinity,0.6,5,0.15,0.95
+Boros Energy,Domain Aggro,0.5,8,0.16,0.84
+Boros Energy,Amulet Titan,1.0,3,0.29,1.0
+Boros Energy,Neoform,0.5,4,0.07,0.93
+Boros Energy,Izzet Prowess,0.5,6,0.12,0.88
+Boros Energy,Jeskai Control,0.5,4,0.07,0.93
+Boros Energy,Golgari Yawgmoth,0.33,3,0.01,0.91
+Boros Energy,Esper Reanimator,0.33,3,0.01,0.91
+Boros Energy,Azorius Control,1.0,1,0.02,1.0
+Boros Energy,Esper Phelia,0.5,2,0.01,0.99
+Boros Energy,Ruby Storm,0.75,4,0.19,0.99
+Boros Energy,Mill,1.0,2,0.16,1.0
+Boros Energy,Eldrazi Ramp,0.67,3,0.09,0.99
+Boros Energy,Eldrazi Bloodchief Combo,1.0,1,0.02,1.0
+Boros Energy,4 Color Ritual,1.0,2,0.16,1.0
+Boros Energy,Temur Song,1.0,1,0.02,1.0
+Boros Energy,Jeskai Blink,0.0,2,0.0,0.84
+Boros Energy,Mono Red Prowess,1.0,1,0.02,1.0
+Boros Energy,Mardu Control,1.0,1,0.02,1.0
+Boros Energy,Eldrazi Aggro,1.0,1,0.02,1.0
+Boros Energy,Merfolk,1.0,1,0.02,1.0
+Affinity,Boros Energy,0.4,5,0.05,0.85
+Affinity,Affinity,0.5,4,0.07,0.93
+Affinity,Domain Aggro,0.0,2,0.0,0.84
+Affinity,Amulet Titan,0.33,3,0.01,0.91
+Affinity,Neoform,0.2,5,0.01,0.72
+Affinity,Izzet Prowess,0.5,2,0.01,0.99
+Affinity,Jeskai Control,0.0,1,0.0,0.98
+Affinity,Golgari Yawgmoth,1.0,1,0.02,1.0
+Affinity,Esper Reanimator,0.75,4,0.19,0.99
+Affinity,Tameshi Belcher,1.0,2,0.16,1.0
+Affinity,Eldrazi Tron,0.0,1,0.0,0.98
+Affinity,Azorius Control,1.0,2,0.16,1.0
+Affinity,Esper Phelia,0.0,1,0.0,0.98
+Affinity,Ruby Storm,0.5,2,0.01,0.99
+Affinity,Hardened Scales,1.0,1,0.02,1.0
+Affinity,Mill,1.0,1,0.02,1.0
+Affinity,Eldrazi Bloodchief Combo,0.0,2,0.0,0.84
+Affinity,Thud Combo,0.0,1,0.0,0.98
+Affinity,Kethis Combo,0.0,1,0.0,0.98
+Affinity,Temur Song,1.0,1,0.02,1.0
+Affinity,Azorius Blink,1.0,1,0.02,1.0
+Affinity,Eldrazi Aggro,1.0,1,0.02,1.0
+Affinity,Samwise Combo,0.0,1,0.0,0.98
+Affinity,Grixis Frog,1.0,1,0.02,1.0
+Domain Aggro,Boros Energy,0.5,8,0.16,0.84
+Domain Aggro,Affinity,1.0,2,0.16,1.0
+Domain Aggro,Domain Aggro,0.5,6,0.12,0.88
+Domain Aggro,Amulet Titan,0.67,3,0.09,0.99
+Domain Aggro,Neoform,0.0,1,0.0,0.98
+Domain Aggro,Izzet Prowess,1.0,1,0.02,1.0
+Domain Aggro,Jeskai Control,0.67,3,0.09,0.99
+Domain Aggro,Golgari Yawgmoth,0.33,3,0.01,0.91
+Domain Aggro,Esper Reanimator,0.0,2,0.0,0.84
+Domain Aggro,Eldrazi Tron,1.0,4,0.4,1.0
+Domain Aggro,Azorius Control,0.0,1,0.0,0.98
+Domain Aggro,Ruby Storm,0.0,1,0.0,0.98
+Domain Aggro,Hardened Scales,0.0,1,0.0,0.98
+Domain Aggro,Eldrazi Ramp,1.0,1,0.02,1.0
+Domain Aggro,Eldrazi Bloodchief Combo,0.5,2,0.01,0.99
+Domain Aggro,Infect,0.0,1,0.0,0.98
+Domain Aggro,Rakdos Burn,0.5,2,0.01,0.99
+Domain Aggro,Thud Combo,1.0,3,0.29,1.0
+Domain Aggro,Temur Song,1.0,1,0.02,1.0
+Domain Aggro,Azorius Blink,1.0,1,0.02,1.0
+Domain Aggro,Bant Ritual,0.0,1,0.0,0.98
+Amulet Titan,Boros Energy,0.0,3,0.0,0.71
+Amulet Titan,Affinity,0.67,3,0.09,0.99
+Amulet Titan,Domain Aggro,0.33,3,0.01,0.91
+Amulet Titan,Neoform,0.0,1,0.0,0.98
+Amulet Titan,Jeskai Control,1.0,1,0.02,1.0
+Amulet Titan,Golgari Yawgmoth,1.0,2,0.16,1.0
+Amulet Titan,Esper Reanimator,0.5,2,0.01,0.99
+Amulet Titan,Tameshi Belcher,0.0,2,0.0,0.84
+Amulet Titan,Azorius Control,1.0,1,0.02,1.0
+Amulet Titan,Ruby Storm,1.0,1,0.02,1.0
+Amulet Titan,Hardened Scales,1.0,1,0.02,1.0
+Amulet Titan,Mill,0.0,1,0.0,0.98
+Amulet Titan,Eldrazi Bloodchief Combo,1.0,1,0.02,1.0
+Amulet Titan,Infect,0.0,1,0.0,0.98
+Amulet Titan,Thud Combo,0.0,1,0.0,0.98
+Amulet Titan,Kethis Combo,0.0,2,0.0,0.84
+Amulet Titan,Azorius Blink,0.0,1,0.0,0.98
+Amulet Titan,Izzet Control,0.0,2,0.0,0.84
+Neoform,Boros Energy,0.5,4,0.07,0.93
+Neoform,Affinity,0.8,5,0.28,0.99
+Neoform,Domain Aggro,1.0,1,0.02,1.0
+Neoform,Amulet Titan,1.0,1,0.02,1.0
+Neoform,Izzet Prowess,0.75,4,0.19,0.99
+Neoform,Esper Reanimator,1.0,1,0.02,1.0
+Neoform,Eldrazi Tron,0.5,2,0.01,0.99
+Neoform,Azorius Control,0.0,1,0.0,0.98
+Neoform,4 Color Ritual,0.0,1,0.0,0.98
+Neoform,Infect,0.5,2,0.01,0.99
+Neoform,Rakdos Burn,0.0,1,0.0,0.98
+Neoform,Jeskai Blink,1.0,1,0.02,1.0
+Neoform,Mono Red Prowess,0.0,1,0.0,0.98
+Neoform,Eldrazi Aggro,1.0,1,0.02,1.0
+Neoform,Merfolk,0.0,1,0.0,0.98
+Izzet Prowess,Boros Energy,0.5,6,0.12,0.88
+Izzet Prowess,Affinity,0.5,2,0.01,0.99
+Izzet Prowess,Domain Aggro,0.0,1,0.0,0.98
+Izzet Prowess,Neoform,0.25,4,0.01,0.81
+Izzet Prowess,Jeskai Control,0.75,4,0.19,0.99
+Izzet Prowess,Golgari Yawgmoth,1.0,2,0.16,1.0
+Izzet Prowess,Tameshi Belcher,1.0,2,0.16,1.0
+Izzet Prowess,Eldrazi Tron,0.5,2,0.01,0.99
+Izzet Prowess,Esper Phelia,0.5,2,0.01,0.99
+Izzet Prowess,Mill,1.0,1,0.02,1.0
+Izzet Prowess,Infect,1.0,1,0.02,1.0
+Izzet Prowess,Thud Combo,0.0,1,0.0,0.98
+Jeskai Control,Boros Energy,0.5,4,0.07,0.93
+Jeskai Control,Affinity,1.0,1,0.02,1.0
+Jeskai Control,Domain Aggro,0.33,3,0.01,0.91
+Jeskai Control,Amulet Titan,0.0,1,0.0,0.98
+Jeskai Control,Izzet Prowess,0.25,4,0.01,0.81
+Jeskai Control,Golgari Yawgmoth,0.5,2,0.01,0.99
+Jeskai Control,Tameshi Belcher,0.0,2,0.0,0.84
+Jeskai Control,Eldrazi Tron,0.0,2,0.0,0.84
+Jeskai Control,Azorius Control,0.0,1,0.0,0.98
+Jeskai Control,Rakdos Burn,0.0,1,0.0,0.98
+Jeskai Control,Temur Song,1.0,1,0.02,1.0
+Jeskai Control,Samwise Combo,1.0,1,0.02,1.0
+Jeskai Control,Bant Ritual,0.5,2,0.01,0.99
+Golgari Yawgmoth,Boros Energy,0.67,3,0.09,0.99
+Golgari Yawgmoth,Affinity,0.0,1,0.0,0.98
+Golgari Yawgmoth,Domain Aggro,0.67,3,0.09,0.99
+Golgari Yawgmoth,Amulet Titan,0.0,2,0.0,0.84
+Golgari Yawgmoth,Izzet Prowess,0.0,2,0.0,0.84
+Golgari Yawgmoth,Jeskai Control,0.5,2,0.01,0.99
+Golgari Yawgmoth,Esper Reanimator,1.0,1,0.02,1.0
+Golgari Yawgmoth,Tameshi Belcher,0.0,1,0.0,0.98
+Golgari Yawgmoth,Esper Phelia,0.0,2,0.0,0.84
+Golgari Yawgmoth,Ruby Storm,1.0,1,0.02,1.0
+Golgari Yawgmoth,Eldrazi Ramp,0.0,1,0.0,0.98
+Golgari Yawgmoth,4 Color Ritual,1.0,1,0.02,1.0
+Golgari Yawgmoth,Burn,0.0,1,0.0,0.98
+Golgari Yawgmoth,Temur Song,1.0,1,0.02,1.0
+Golgari Yawgmoth,Jeskai Blink,1.0,1,0.02,1.0
+Golgari Yawgmoth,Mono Red Prowess,1.0,1,0.02,1.0
+Golgari Yawgmoth,Grixis Frog,1.0,1,0.02,1.0
+Esper Reanimator,Boros Energy,0.67,3,0.09,0.99
+Esper Reanimator,Affinity,0.25,4,0.01,0.81
+Esper Reanimator,Domain Aggro,1.0,2,0.16,1.0
+Esper Reanimator,Amulet Titan,0.5,2,0.01,0.99
+Esper Reanimator,Neoform,0.0,1,0.0,0.98
+Esper Reanimator,Golgari Yawgmoth,0.0,1,0.0,0.98
+Esper Reanimator,Tameshi Belcher,0.0,3,0.0,0.71
+Esper Reanimator,Eldrazi Tron,0.0,1,0.0,0.98
+Esper Reanimator,Esper Phelia,0.0,1,0.0,0.98
+Esper Reanimator,Hardened Scales,1.0,1,0.02,1.0
+Esper Reanimator,Eldrazi Bloodchief Combo,0.0,1,0.0,0.98
+Esper Reanimator,4 Color Ritual,0.0,1,0.0,0.98
+Esper Reanimator,Infect,1.0,2,0.16,1.0
+Esper Reanimator,Rakdos Burn,1.0,1,0.02,1.0
+Esper Reanimator,Azorius Blink,1.0,1,0.02,1.0
+Tameshi Belcher,Affinity,0.0,2,0.0,0.84
+Tameshi Belcher,Amulet Titan,1.0,2,0.16,1.0
+Tameshi Belcher,Izzet Prowess,0.0,2,0.0,0.84
+Tameshi Belcher,Jeskai Control,1.0,2,0.16,1.0
+Tameshi Belcher,Golgari Yawgmoth,1.0,1,0.02,1.0
+Tameshi Belcher,Esper Reanimator,1.0,3,0.29,1.0
+Tameshi Belcher,Tameshi Belcher,0.5,4,0.07,0.93
+Tameshi Belcher,Eldrazi Tron,1.0,1,0.02,1.0
+Tameshi Belcher,Azorius Control,1.0,2,0.16,1.0
+Tameshi Belcher,Ruby Storm,1.0,1,0.02,1.0
+Tameshi Belcher,Hardened Scales,0.0,2,0.0,0.84
+Tameshi Belcher,Izzet Control,0.0,2,0.0,0.84
+Tameshi Belcher,Bant Ritual,1.0,1,0.02,1.0
+Tameshi Belcher,Merfolk,1.0,1,0.02,1.0
+Eldrazi Tron,Affinity,1.0,1,0.02,1.0
+Eldrazi Tron,Domain Aggro,0.0,4,0.0,0.6
+Eldrazi Tron,Neoform,0.5,2,0.01,0.99
+Eldrazi Tron,Izzet Prowess,0.5,2,0.01,0.99
+Eldrazi Tron,Jeskai Control,1.0,2,0.16,1.0
+Eldrazi Tron,Esper Reanimator,1.0,1,0.02,1.0
+Eldrazi Tron,Tameshi Belcher,0.0,1,0.0,0.98
+Eldrazi Tron,Azorius Control,1.0,1,0.02,1.0
+Eldrazi Tron,Esper Phelia,1.0,1,0.02,1.0
+Eldrazi Tron,Hardened Scales,0.0,1,0.0,0.98
+Eldrazi Tron,Burn,0.5,2,0.01,0.99
+Azorius Control,Boros Energy,0.0,1,0.0,0.98
+Azorius Control,Affinity,0.0,2,0.0,0.84
+Azorius Control,Domain Aggro,1.0,1,0.02,1.0
+Azorius Control,Amulet Titan,0.0,1,0.0,0.98
+Azorius Control,Neoform,1.0,1,0.02,1.0
+Azorius Control,Jeskai Control,1.0,1,0.02,1.0
+Azorius Control,Tameshi Belcher,0.0,2,0.0,0.84
+Azorius Control,Eldrazi Tron,0.0,1,0.0,0.98
+Azorius Control,Azorius Control,0.5,2,0.01,0.99
+Azorius Control,Rakdos Burn,0.0,1,0.0,0.98
+Azorius Control,Kethis Combo,0.0,1,0.0,0.98
+Azorius Control,Azorius Blink,0.0,1,0.0,0.98
+Azorius Control,Merfolk,0.0,1,0.0,0.98
+Esper Phelia,Boros Energy,0.5,2,0.01,0.99
+Esper Phelia,Affinity,1.0,1,0.02,1.0
+Esper Phelia,Izzet Prowess,0.5,2,0.01,0.99
+Esper Phelia,Golgari Yawgmoth,1.0,2,0.16,1.0
+Esper Phelia,Esper Reanimator,1.0,1,0.02,1.0
+Esper Phelia,Eldrazi Tron,0.0,1,0.0,0.98
+Esper Phelia,Esper Phelia,0.5,2,0.01,0.99
+Esper Phelia,4 Color Ritual,1.0,1,0.02,1.0
+Esper Phelia,Jeskai Blink,1.0,1,0.02,1.0
+Esper Phelia,Mono Red Prowess,0.0,1,0.0,0.98
+Esper Phelia,Mardu Control,1.0,1,0.02,1.0
+Esper Phelia,Izzet Control,0.0,1,0.0,0.98
+Ruby Storm,Boros Energy,0.25,4,0.01,0.81
+Ruby Storm,Affinity,0.5,2,0.01,0.99
+Ruby Storm,Domain Aggro,1.0,1,0.02,1.0
+Ruby Storm,Amulet Titan,0.0,1,0.0,0.98
+Ruby Storm,Golgari Yawgmoth,0.0,1,0.0,0.98
+Ruby Storm,Tameshi Belcher,0.0,1,0.0,0.98
+Ruby Storm,4 Color Ritual,0.0,1,0.0,0.98
+Hardened Scales,Affinity,0.0,1,0.0,0.98
+Hardened Scales,Domain Aggro,1.0,1,0.02,1.0
+Hardened Scales,Amulet Titan,0.0,1,0.0,0.98
+Hardened Scales,Esper Reanimator,0.0,1,0.0,0.98
+Hardened Scales,Tameshi Belcher,1.0,2,0.16,1.0
+Hardened Scales,Eldrazi Tron,1.0,1,0.02,1.0
+Hardened Scales,Kethis Combo,1.0,1,0.02,1.0
+Hardened Scales,Eldrazi Aggro,0.0,1,0.0,0.98
+Hardened Scales,Grixis Frog,1.0,1,0.02,1.0
+Mill,Boros Energy,0.0,2,0.0,0.84
+Mill,Affinity,0.0,1,0.0,0.98
+Mill,Amulet Titan,1.0,1,0.02,1.0
+Mill,Izzet Prowess,0.0,1,0.0,0.98
+Mill,Thud Combo,0.0,1,0.0,0.98
+Mill,Kethis Combo,1.0,1,0.02,1.0
+Mill,Mono Red Prowess,0.0,1,0.0,0.98
+Mill,Grixis Frog,0.0,1,0.0,0.98
+Eldrazi Ramp,Boros Energy,0.33,3,0.01,0.91
+Eldrazi Ramp,Domain Aggro,0.0,1,0.0,0.98
+Eldrazi Ramp,Golgari Yawgmoth,1.0,1,0.02,1.0
+Eldrazi Ramp,Infect,1.0,1,0.02,1.0
+Eldrazi Ramp,Burn,1.0,1,0.02,1.0
+Eldrazi Ramp,Thud Combo,1.0,1,0.02,1.0
+Eldrazi Ramp,Dimir Frog,1.0,1,0.02,1.0
+Eldrazi Bloodchief Combo,Boros Energy,0.0,1,0.0,0.98
+Eldrazi Bloodchief Combo,Affinity,1.0,2,0.16,1.0
+Eldrazi Bloodchief Combo,Domain Aggro,0.5,2,0.01,0.99
+Eldrazi Bloodchief Combo,Amulet Titan,0.0,1,0.0,0.98
+Eldrazi Bloodchief Combo,Esper Reanimator,1.0,1,0.02,1.0
+Eldrazi Bloodchief Combo,Rakdos Burn,0.0,1,0.0,0.98
+Eldrazi Bloodchief Combo,Eldrazi Aggro,0.0,1,0.0,0.98
+Eldrazi Bloodchief Combo,Bant Ritual,1.0,1,0.02,1.0
+4 Color Ritual,Boros Energy,0.0,2,0.0,0.84
+4 Color Ritual,Neoform,1.0,1,0.02,1.0
+4 Color Ritual,Golgari Yawgmoth,0.0,1,0.0,0.98
+4 Color Ritual,Esper Reanimator,1.0,1,0.02,1.0
+4 Color Ritual,Esper Phelia,0.0,1,0.0,0.98
+4 Color Ritual,Ruby Storm,1.0,1,0.02,1.0
+4 Color Ritual,Burn,1.0,1,0.02,1.0
+4 Color Ritual,Azorius Blink,0.0,1,0.0,0.98
+4 Color Ritual,Jeskai Blink,0.0,1,0.0,0.98
+Infect,Domain Aggro,1.0,1,0.02,1.0
+Infect,Amulet Titan,1.0,1,0.02,1.0
+Infect,Neoform,0.5,2,0.01,0.99
+Infect,Izzet Prowess,0.0,1,0.0,0.98
+Infect,Esper Reanimator,0.0,2,0.0,0.84
+Infect,Eldrazi Ramp,0.0,1,0.0,0.98
+Burn,Golgari Yawgmoth,1.0,1,0.02,1.0
+Burn,Eldrazi Tron,0.5,2,0.01,0.99
+Burn,Eldrazi Ramp,0.0,1,0.0,0.98
+Burn,4 Color Ritual,0.0,1,0.0,0.98
+Burn,Thud Combo,1.0,1,0.02,1.0
+Burn,Kethis Combo,0.0,1,0.0,0.98
+Burn,Mardu Control,0.0,1,0.0,0.98
+Burn,Izzet Control,1.0,1,0.02,1.0
+Rakdos Burn,Domain Aggro,0.5,2,0.01,0.99
+Rakdos Burn,Neoform,1.0,1,0.02,1.0
+Rakdos Burn,Jeskai Control,1.0,1,0.02,1.0
+Rakdos Burn,Esper Reanimator,0.0,1,0.0,0.98
+Rakdos Burn,Azorius Control,1.0,1,0.02,1.0
+Rakdos Burn,Eldrazi Bloodchief Combo,1.0,1,0.02,1.0
+Rakdos Burn,Mono Red Prowess,1.0,2,0.16,1.0
+Thud Combo,Affinity,1.0,1,0.02,1.0
+Thud Combo,Domain Aggro,0.0,3,0.0,0.71
+Thud Combo,Amulet Titan,1.0,1,0.02,1.0
+Thud Combo,Izzet Prowess,1.0,1,0.02,1.0
+Thud Combo,Mill,1.0,1,0.02,1.0
+Thud Combo,Eldrazi Ramp,0.0,1,0.0,0.98
+Thud Combo,Burn,0.0,1,0.0,0.98
+Kethis Combo,Affinity,1.0,1,0.02,1.0
+Kethis Combo,Amulet Titan,1.0,2,0.16,1.0
+Kethis Combo,Azorius Control,1.0,1,0.02,1.0
+Kethis Combo,Hardened Scales,0.0,1,0.0,0.98
+Kethis Combo,Mill,0.0,1,0.0,0.98
+Kethis Combo,Burn,1.0,1,0.02,1.0
+Kethis Combo,Mardu Control,1.0,1,0.02,1.0
+Temur Song,Boros Energy,0.0,1,0.0,0.98
+Temur Song,Affinity,0.0,1,0.0,0.98
+Temur Song,Domain Aggro,0.0,1,0.0,0.98
+Temur Song,Jeskai Control,0.0,1,0.0,0.98
+Temur Song,Golgari Yawgmoth,0.0,1,0.0,0.98
+Temur Song,Dimir Frog,0.0,1,0.0,0.98
+Azorius Blink,Affinity,0.0,1,0.0,0.98
+Azorius Blink,Domain Aggro,0.0,1,0.0,0.98
+Azorius Blink,Amulet Titan,1.0,1,0.02,1.0
+Azorius Blink,Esper Reanimator,0.0,1,0.0,0.98
+Azorius Blink,Azorius Control,1.0,1,0.02,1.0
+Azorius Blink,4 Color Ritual,1.0,1,0.02,1.0
+Azorius Blink,Samwise Combo,1.0,1,0.02,1.0
+Jeskai Blink,Boros Energy,1.0,2,0.16,1.0
+Jeskai Blink,Neoform,0.0,1,0.0,0.98
+Jeskai Blink,Golgari Yawgmoth,0.0,1,0.0,0.98
+Jeskai Blink,Esper Phelia,0.0,1,0.0,0.98
+Jeskai Blink,4 Color Ritual,1.0,1,0.02,1.0
+Mono Red Prowess,Boros Energy,0.0,1,0.0,0.98
+Mono Red Prowess,Neoform,1.0,1,0.02,1.0
+Mono Red Prowess,Golgari Yawgmoth,0.0,1,0.0,0.98
+Mono Red Prowess,Esper Phelia,1.0,1,0.02,1.0
+Mono Red Prowess,Mill,1.0,1,0.02,1.0
+Mono Red Prowess,Rakdos Burn,0.0,2,0.0,0.84
+Mardu Control,Boros Energy,0.0,1,0.0,0.98
+Mardu Control,Esper Phelia,0.0,1,0.0,0.98
+Mardu Control,Burn,1.0,1,0.02,1.0
+Mardu Control,Kethis Combo,0.0,1,0.0,0.98
+Mardu Control,Samwise Combo,1.0,1,0.02,1.0
+Izzet Control,Amulet Titan,1.0,2,0.16,1.0
+Izzet Control,Tameshi Belcher,1.0,2,0.16,1.0
+Izzet Control,Esper Phelia,1.0,1,0.02,1.0
+Izzet Control,Burn,0.0,1,0.0,0.98
+Eldrazi Aggro,Boros Energy,0.0,1,0.0,0.98
+Eldrazi Aggro,Affinity,0.0,1,0.0,0.98
+Eldrazi Aggro,Neoform,0.0,1,0.0,0.98
+Eldrazi Aggro,Hardened Scales,1.0,1,0.02,1.0
+Eldrazi Aggro,Eldrazi Bloodchief Combo,1.0,1,0.02,1.0
+Samwise Combo,Affinity,1.0,1,0.02,1.0
+Samwise Combo,Jeskai Control,0.0,1,0.0,0.98
+Samwise Combo,Azorius Blink,0.0,1,0.0,0.98
+Samwise Combo,Mardu Control,0.0,1,0.0,0.98
+Grixis Frog,Affinity,0.0,1,0.0,0.98
+Grixis Frog,Golgari Yawgmoth,0.0,1,0.0,0.98
+Grixis Frog,Hardened Scales,0.0,1,0.0,0.98
+Grixis Frog,Mill,1.0,1,0.02,1.0
+Bant Ritual,Domain Aggro,1.0,1,0.02,1.0
+Bant Ritual,Jeskai Control,0.5,2,0.01,0.99
+Bant Ritual,Tameshi Belcher,0.0,1,0.0,0.98
+Bant Ritual,Eldrazi Bloodchief Combo,0.0,1,0.0,0.98
+Merfolk,Boros Energy,0.0,1,0.0,0.98
+Merfolk,Neoform,1.0,1,0.02,1.0
+Merfolk,Tameshi Belcher,0.0,1,0.0,0.98
+Merfolk,Azorius Control,1.0,1,0.02,1.0
+Dimir Frog,Eldrazi Ramp,0.0,1,0.0,0.98
+Dimir Frog,Temur Song,1.0,1,0.02,1.0
+Esper Frog,Boros Energy,1.0,1,0.02,1.0
+Esper Frog,Jeskai Control,1.0,1,0.02,1.0
+Esper Frog,Dimir Frog,1.0,1,0.02,1.0

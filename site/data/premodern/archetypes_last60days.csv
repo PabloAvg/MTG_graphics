@@ -1,0 +1,71 @@
+archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
+Goblins,0.46296296296296,216,0.4,0.53,/Premodern/goblins
+Stiflenought,0.60913705583756,197,0.54,0.68,/Premodern/stiflenought
+Burn,0.5,190,0.43,0.57,/Premodern/burn
+Terrageddon,0.58119658119658,117,0.49,0.67,/Premodern/terrageddon
+Mono Black,0.54700854700855,117,0.45,0.64,/Premodern/mono-black
+Enchantress,0.56896551724138,116,0.47,0.66,/Premodern/enchantress
+Landstill,0.53684210526316,95,0.43,0.64,/Premodern/landstill
+Devourer Combo,0.51612903225806,93,0.41,0.62,/Premodern/devourer-combo
+Elves,0.6025641025641,78,0.49,0.71,/Premodern/elves
+Psychatog,0.34246575342466,73,0.24,0.46,/Premodern/psychatog
+Stasis,0.54929577464789,71,0.43,0.67,/Premodern/stasis
+Replenish,0.66666666666667,57,0.53,0.79,/Premodern/replenish
+BW Control,0.53703703703704,54,0.4,0.67,/Premodern/bw-control
+Survival,0.51923076923077,52,0.38,0.66,/Premodern/survival
+Aluren,0.50980392156863,51,0.37,0.65,/Premodern/aluren
+MUD,0.5,48,0.35,0.65,/Premodern/mud
+Madness,0.29787234042553,47,0.17,0.45,/Premodern/madness
+Pit Rack,0.5,46,0.35,0.65,/Premodern/pit-rack
+The Rock,0.42222222222222,45,0.28,0.58,/Premodern/the-rock
+Gro-a-Tog,0.44444444444444,45,0.3,0.6,/Premodern/gro-a-tog
+Reanimator,0.41463414634146,41,0.26,0.58,/Premodern/reanimator
+The Solution,0.41666666666667,36,0.26,0.59,/Premodern/the-solution
+Zoo,0.36111111111111,36,0.21,0.54,/Premodern/zoo
+Contamination,0.44444444444444,36,0.28,0.62,/Premodern/contamination
+Angry Hermit,0.57142857142857,28,0.37,0.76,/Premodern/angry-hermit
+Storm,0.25,28,0.11,0.45,/Premodern/storm
+Deadguy Ale,0.40740740740741,27,0.22,0.61,/Premodern/deadguy-ale
+Full English Breakfast,0.59259259259259,27,0.39,0.78,/Premodern/full-english-breakfast
+Tide Control,0.59259259259259,27,0.39,0.78,/Premodern/tide-control
+Oath Ponza,0.62962962962963,27,0.42,0.81,/Premodern/oath-ponza
+UW Control,0.54545454545455,22,0.32,0.76,/Premodern/uw-control
+GR Aggro,0.45454545454545,22,0.24,0.68,/Premodern/gr-aggro
+Tireless Tribe Combo,0.54545454545455,22,0.32,0.76,/Premodern/tireless-tribe-combo
+BUG Control,0.47619047619048,21,0.26,0.7,/Premodern/bug-control
+Machine Head,0.47619047619048,21,0.26,0.7,/Premodern/machine-head
+Survival Welder,0.65,20,0.41,0.85,/Premodern/survival-welder
+Ponza,0.4,20,0.19,0.64,/Premodern/ponza
+Iggy Pop,0.27777777777778,18,0.1,0.53,/Premodern/iggy-pop
+Oath Spec,0.33333333333333,18,0.13,0.59,/Premodern/oath-spec
+Fluctuator,0.4,15,0.16,0.68,/Premodern/fluctuator
+White Weenie,0.64285714285714,14,0.35,0.87,/Premodern/white-weenie
+Slivers,0.5,14,0.23,0.77,/Premodern/slivers
+Survival Opposition,0.78571428571429,14,0.49,0.95,/Premodern/survival-opposition
+Oath,0.46153846153846,13,0.19,0.75,/Premodern/oath
+Broccoli Soup,0.46153846153846,13,0.19,0.75,/Premodern/broccoli-soup
+Temping Rack,0.38461538461538,13,0.14,0.68,/Premodern/temping-rack
+Zombies,0.41666666666667,12,0.15,0.72,/Premodern/zombies
+Astral Slide,0.36363636363636,11,0.11,0.69,/Premodern/astral-slide
+Clerics,0.4,10,0.12,0.74,/Premodern/clerics
+Lands,0.4,10,0.12,0.74,/Premodern/lands
+GW Midrange,0.1,10,0.0,0.45,/Premodern/gw-midrange
+Tron,0.44444444444444,9,0.14,0.79,/Premodern/tron
+Life,0.44444444444444,9,0.14,0.79,/Premodern/life
+Sneak Attack,0.55555555555556,9,0.21,0.86,/Premodern/sneak-attack
+Pattern Combo,0.44444444444444,9,0.14,0.79,/Premodern/pattern-combo
+GW Aggro,0.55555555555556,9,0.21,0.86,/Premodern/gw-aggro
+UR Control,0.5,8,0.16,0.84,/Premodern/ur-control
+Mono Green Stompy,0.75,8,0.35,0.97,/Premodern/mono-green-stompy
+Zombie Infestation,0.5,6,0.12,0.88,/Premodern/zombie-infestation
+Jund,0.6,5,0.15,0.95,/Premodern/jund
+Survival Rock,0.5,4,0.07,0.93,/Premodern/survival-rock
+Threshold,0.25,4,0.01,0.81,/Premodern/threshold
+Mono Blue Control,0.5,4,0.07,0.93,/Premodern/mono-blue-control
+Mono Blue Flyers,0.75,4,0.19,0.99,/Premodern/mono-blue-flyers
+UWB Control,0.5,4,0.07,0.93,/Premodern/uwb-control
+5 Color Control,0.75,4,0.19,0.99,/Premodern/5-color-control
+Great Combo,1.0,3,0.29,1.0,/Premodern/great-combo
+Dream Halls,0.33333333333333,3,0.01,0.91,/Premodern/dream-halls
+Pyrostatic Oath,1.0,3,0.29,1.0,/Premodern/pyrostatic-oath
+Manabond,0.33333333333333,3,0.01,0.91,/Premodern/manabond

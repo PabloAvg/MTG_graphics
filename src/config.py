@@ -1,7 +1,33 @@
 from pathlib import Path
 
 # CONFIG
-BASE_WINRATES_URL = "https://mtgdecks.net/Modern/winrates"
+# Formats to scrape and compare in the UI toolbar
+FORMATS = {
+    "modern": {
+        "label": "Modern",
+        "base_url": "https://mtgdecks.net/Modern/winrates",
+    },
+    "standard": {
+        "label": "Standard",
+        "base_url": "https://mtgdecks.net/Standard/winrates",
+    },
+    "legacy": {
+        "label": "Legacy",
+        "base_url": "https://mtgdecks.net/Legacy/winrates",
+    },
+    "premodern": {
+        "label": "Premodern",
+        "base_url": "https://mtgdecks.net/Premodern/winrates",
+    },
+    "pauper": {
+        "label": "Pauper",
+        "base_url": "https://mtgdecks.net/Pauper/winrates",
+    },
+}
+DEFAULT_FORMAT_KEY = "modern"
+
+# Backward-compatible default base URL (Modern)
+BASE_WINRATES_URL = FORMATS[DEFAULT_FORMAT_KEY]["base_url"]
 
 # Time ranges to compare in the UI toolbar
 RANGE_OPTIONS = {

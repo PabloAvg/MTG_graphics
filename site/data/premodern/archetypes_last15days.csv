@@ -1,0 +1,46 @@
+archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
+Goblins,0.47252747252747,91,0.37,0.58,/Premodern/goblins
+Stiflenought,0.58461538461538,65,0.46,0.71,/Premodern/stiflenought
+Burn,0.49056603773585,53,0.35,0.63,/Premodern/burn
+Terrageddon,0.6530612244898,49,0.5,0.78,/Premodern/terrageddon
+Enchantress,0.60869565217391,46,0.45,0.75,/Premodern/enchantress
+Devourer Combo,0.54545454545455,44,0.39,0.7,/Premodern/devourer-combo
+Stasis,0.5625,32,0.38,0.74,/Premodern/stasis
+Psychatog,0.26666666666667,30,0.12,0.46,/Premodern/psychatog
+Mono Black,0.63333333333333,30,0.44,0.8,/Premodern/mono-black
+Landstill,0.56521739130435,23,0.34,0.77,/Premodern/landstill
+Madness,0.27272727272727,22,0.11,0.5,/Premodern/madness
+The Rock,0.52380952380952,21,0.3,0.74,/Premodern/the-rock
+Survival Welder,0.61111111111111,18,0.36,0.83,/Premodern/survival-welder
+Angry Hermit,0.77777777777778,18,0.52,0.94,/Premodern/angry-hermit
+The Solution,0.4,15,0.16,0.68,/Premodern/the-solution
+Elves,0.6,15,0.32,0.84,/Premodern/elves
+Reanimator,0.28571428571429,14,0.08,0.58,/Premodern/reanimator
+Pit Rack,0.42857142857143,14,0.18,0.71,/Premodern/pit-rack
+MUD,0.38461538461538,13,0.14,0.68,/Premodern/mud
+BW Control,0.46153846153846,13,0.19,0.75,/Premodern/bw-control
+GR Aggro,0.41666666666667,12,0.15,0.72,/Premodern/gr-aggro
+Oath Spec,0.33333333333333,12,0.1,0.65,/Premodern/oath-spec
+Survival,0.45454545454545,11,0.17,0.77,/Premodern/survival
+BUG Control,0.27272727272727,11,0.06,0.61,/Premodern/bug-control
+Gro-a-Tog,0.27272727272727,11,0.06,0.61,/Premodern/gro-a-tog
+Storm,0.27272727272727,11,0.06,0.61,/Premodern/storm
+Clerics,0.4,10,0.12,0.74,/Premodern/clerics
+Contamination,0.44444444444444,9,0.14,0.79,/Premodern/contamination
+Survival Opposition,0.71428571428571,7,0.29,0.96,/Premodern/survival-opposition
+Oath Ponza,0.71428571428571,7,0.29,0.96,/Premodern/oath-ponza
+Aluren,0.33333333333333,6,0.04,0.78,/Premodern/aluren
+Zombie Infestation,0.5,6,0.12,0.88,/Premodern/zombie-infestation
+Deadguy Ale,0.8,5,0.28,0.99,/Premodern/deadguy-ale
+Tron,0.25,4,0.01,0.81,/Premodern/tron
+Sneak Attack,0.5,4,0.07,0.93,/Premodern/sneak-attack
+UWB Control,0.5,4,0.07,0.93,/Premodern/uwb-control
+Mono Green Stompy,0.75,4,0.19,0.99,/Premodern/mono-green-stompy
+Temping Rack,0.5,4,0.07,0.93,/Premodern/temping-rack
+Great Combo,1.0,3,0.29,1.0,/Premodern/great-combo
+Machine Head,0.33333333333333,3,0.01,0.91,/Premodern/machine-head
+Replenish,0.33333333333333,3,0.01,0.91,/Premodern/replenish
+Tireless Tribe Combo,1.0,3,0.29,1.0,/Premodern/tireless-tribe-combo
+Pyrostatic Oath,1.0,3,0.29,1.0,/Premodern/pyrostatic-oath
+Iggy Pop,0.33333333333333,3,0.01,0.91,/Premodern/iggy-pop
+UW Control,1.0,2,0.16,1.0,/Premodern/uw-control

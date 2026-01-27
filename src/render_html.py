@@ -9,7 +9,7 @@ import networkx as nx
 from pyvis.network import Network
 
 from graph_build import compute_radial_positions, node_winrate_color
-from config import EMBED_ASSETS, RANGE_OPTIONS
+from config import EMBED_ASSETS, FORMATS, RANGE_OPTIONS
 
 
 def _apply_visual_overrides(net: Network, G: nx.DiGraph, archetypes_df: pd.DataFrame) -> None:
@@ -111,14 +111,19 @@ def _build_dataset(G: nx.DiGraph, archetypes_df: pd.DataFrame) -> Dict[str, List
 
 
 def render_pyvis(
-    graphs: Dict[str, Tuple[nx.DiGraph, pd.DataFrame]],
+    graphs_by_format: Dict[str, Dict[str, Tuple[nx.DiGraph, pd.DataFrame]]],
     out_html: str,
+    default_format_key: str,
     default_range_key: str,
 ) -> None:
-    if default_range_key not in graphs:
-        raise KeyError(f"default_range_key '{default_range_key}' not found in graphs")
+    if default_format_key not in graphs_by_format:
+        raise KeyError(f"default_format_key '{default_format_key}' not found in graphs_by_format")
+    if default_range_key not in graphs_by_format[default_format_key]:
+        raise KeyError(
+            f"default_range_key '{default_range_key}' not found in graphs_by_format[{default_format_key!r}]"
+        )
 
-    default_G, default_df = graphs[default_range_key]
+    default_G, default_df = graphs_by_format[default_format_key][default_range_key]
 
     net = Network(height="850px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
     net.from_nx(default_G)
@@ -145,23 +150,41 @@ def render_pyvis(
 
     net.write_html(out_html, open_browser=False, notebook=False)
 
-    datasets_by_range: Dict[str, Dict[str, Any]] = {}
-    for range_key, (G, df) in graphs.items():
-        meta = RANGE_OPTIONS.get(range_key, {})
-        datasets_by_range[range_key] = {
-            "key": range_key,
-            "label": meta.get("label", range_key),
-            **_build_dataset(G, df),
+    datasets_by_format: Dict[str, Dict[str, Any]] = {}
+    for format_key, ranges_dict in graphs_by_format.items():
+        format_meta = FORMATS.get(format_key, {})
+        ranges_payload: Dict[str, Dict[str, Any]] = {}
+        for range_key, (G, df) in ranges_dict.items():
+            range_meta = RANGE_OPTIONS.get(range_key, {})
+            ranges_payload[range_key] = {
+                "key": range_key,
+                "label": range_meta.get("label", range_key),
+                **_build_dataset(G, df),
+            }
+
+        if not ranges_payload:
+            continue
+
+        datasets_by_format[format_key] = {
+            "key": format_key,
+            "label": format_meta.get("label", format_key),
+            "ranges": ranges_payload,
         }
 
-    inject_filter_ui(out_html, datasets_by_range=datasets_by_range, default_range_key=default_range_key)
+    inject_filter_ui(
+        out_html,
+        datasets_by_format=datasets_by_format,
+        default_format_key=default_format_key,
+        default_range_key=default_range_key,
+    )
     if EMBED_ASSETS:
         inline_assets(out_html)
 
 
 def inject_filter_ui(
     out_html: str,
-    datasets_by_range: Dict[str, Dict[str, Any]],
+    datasets_by_format: Dict[str, Dict[str, Any]],
+    default_format_key: str,
     default_range_key: str,
 ) -> None:
     html_path = Path(out_html)
@@ -170,16 +193,30 @@ def inject_filter_ui(
     if "matchupBody" in html:
         return
 
-    if default_range_key not in datasets_by_range:
-        raise KeyError(f"default_range_key '{default_range_key}' not found in datasets_by_range")
+    if default_format_key not in datasets_by_format:
+        raise KeyError(f"default_format_key '{default_format_key}' not found in datasets_by_format")
+    if default_range_key not in datasets_by_format[default_format_key].get("ranges", {}):
+        raise KeyError(
+            f"default_range_key '{default_range_key}' not found in datasets_by_format[{default_format_key!r}]['ranges']"
+        )
 
-    datasets_json = json.dumps(datasets_by_range, ensure_ascii=True)
+    datasets_json = json.dumps(datasets_by_format, ensure_ascii=True)
 
+    format_options_html_parts: List[str] = []
+    for key in FORMATS.keys():
+        if key not in datasets_by_format:
+            continue
+        label = datasets_by_format[key].get("label", key)
+        selected = " selected" if key == default_format_key else ""
+        format_options_html_parts.append(f'<option value="{key}"{selected}>{label}</option>')
+    format_options_html = "\n                    ".join(format_options_html_parts)
+
+    default_ranges = datasets_by_format[default_format_key].get("ranges", {})
     range_options_html_parts: List[str] = []
     for key in RANGE_OPTIONS.keys():
-        if key not in datasets_by_range:
+        if key not in default_ranges:
             continue
-        label = datasets_by_range[key].get("label", key)
+        label = default_ranges[key].get("label", key)
         selected = " selected" if key == default_range_key else ""
         range_options_html_parts.append(f'<option value="{key}"{selected}>{label}</option>')
     range_options_html = "\n                    ".join(range_options_html_parts)
@@ -235,11 +272,12 @@ def inject_filter_ui(
                  cursor: pointer;
              }
              .help-btn {
-                 border: 1px solid #3a3a3a;
-                 background: #2a2a2a;
-                 color: #e6e6e6;
+                 border: 1px solid #38bdf8;
+                 background: #7dd3fc;
+                 color: #0f172a;
                  padding: 4px 10px;
                  font-size: 12px;
+                 font-weight: 600;
                  cursor: pointer;
              }
              .help-overlay {
@@ -326,6 +364,10 @@ def inject_filter_ui(
 
     controls_html = f"""
             <div class="graph-controls">
+                <label for="formatFilter">Format</label>
+                <select id="formatFilter">
+                    {format_options_html}
+                </select>
                 <label for="rangeFilter">Time range</label>
                 <select id="rangeFilter">
                     {range_options_html}
@@ -348,6 +390,7 @@ def inject_filter_ui(
                         <li><strong>Edge direction</strong> = which deck wins the matchup.</li>
                         <li><strong>Edge color</strong> = winrate (greener = better for the winner, redder = worse).</li>
                         <li><strong>Edge width</strong> = number of matches (thicker = more data).</li>
+                        <li><strong>Format</strong> lets you switch between Modern, Standard, Legacy, Premodern, and Pauper.</li>
                         <li>When a deck is selected, it moves to the center and all colors/arrows are shown from its point of view.</li>
                     </ul>
                 </div>
@@ -375,9 +418,12 @@ def inject_filter_ui(
     """
 
     extra_js = (
-        f"                  var datasetsByRange = {datasets_json};\n"
+        f"                  var datasetsByFormat = {datasets_json};\n"
+        f"                  var defaultFormatKey = '{default_format_key}';\n"
         f"                  var defaultRangeKey = '{default_range_key}';\n"
+        "                  var currentFormatKey = defaultFormatKey;\n"
         "                  var currentRangeKey = defaultRangeKey;\n"
+        "                  var formatSelect = document.getElementById('formatFilter');\n"
         "                  var rangeSelect = document.getElementById('rangeFilter');\n"
         """
                   var filterSelect = document.getElementById('archetypeFilter');
@@ -546,13 +592,94 @@ def inject_filter_ui(
                       }
                   }
 
-                  function loadRange(rangeKey) {
-                      var dataset = datasetsByRange[rangeKey] || datasetsByRange[defaultRangeKey];
+                  var rangeOrder = rangeSelect
+                      ? Array.from(rangeSelect.options || []).map(function(opt) { return opt.value; })
+                      : [];
+
+                  function getFormatEntry(formatKey) {
+                      return datasetsByFormat[formatKey] || datasetsByFormat[defaultFormatKey];
+                  }
+
+                  function orderedRangeKeys(rangeKeys) {
+                      var seen = {};
+                      var ordered = [];
+                      for (var i = 0; i < rangeOrder.length; i++) {
+                          var rk = rangeOrder[i];
+                          if (rangeKeys.indexOf(rk) !== -1 && !seen[rk]) {
+                              ordered.push(rk);
+                              seen[rk] = true;
+                          }
+                      }
+                      for (var j = 0; j < rangeKeys.length; j++) {
+                          var rk2 = rangeKeys[j];
+                          if (!seen[rk2]) {
+                              ordered.push(rk2);
+                              seen[rk2] = true;
+                          }
+                      }
+                      return ordered;
+                  }
+
+                  function chooseRangeKey(formatKey, preferredRangeKey) {
+                      var entry = getFormatEntry(formatKey);
+                      var ranges = (entry && entry.ranges) ? entry.ranges : {};
+                      if (ranges[preferredRangeKey]) {
+                          return preferredRangeKey;
+                      }
+                      if (ranges[defaultRangeKey]) {
+                          return defaultRangeKey;
+                      }
+                      var keys = Object.keys(ranges);
+                      return keys.length > 0 ? keys[0] : preferredRangeKey;
+                  }
+
+                  function rebuildRangeOptions(formatKey, preferredRangeKey) {
+                      if (!rangeSelect) {
+                          return preferredRangeKey;
+                      }
+                      var entry = getFormatEntry(formatKey);
+                      var ranges = (entry && entry.ranges) ? entry.ranges : {};
+                      var keys = orderedRangeKeys(Object.keys(ranges));
+                      var selectedKey = chooseRangeKey(formatKey, preferredRangeKey);
+
+                      rangeSelect.innerHTML = '';
+                      for (var i = 0; i < keys.length; i++) {
+                          var k = keys[i];
+                          var opt = document.createElement('option');
+                          opt.value = k;
+                          opt.textContent = (ranges[k] && ranges[k].label) ? ranges[k].label : k;
+                          if (k === selectedKey) {
+                              opt.selected = true;
+                          }
+                          rangeSelect.appendChild(opt);
+                      }
+
+                      if (rangeSelect.options.length === 0) {
+                          var fallback = document.createElement('option');
+                          fallback.value = selectedKey;
+                          fallback.textContent = selectedKey;
+                          fallback.selected = true;
+                          rangeSelect.appendChild(fallback);
+                      }
+
+                      rangeSelect.value = selectedKey;
+                      return selectedKey;
+                  }
+
+                  function loadDataset(formatKey, rangeKey) {
+                      var entry = getFormatEntry(formatKey);
+                      if (!entry) {
+                          return;
+                      }
+                      var selectedRangeKey = chooseRangeKey(formatKey, rangeKey);
+                      var dataset = (entry.ranges && entry.ranges[selectedRangeKey]) ? entry.ranges[selectedRangeKey] : null;
                       if (!dataset) {
                           return;
                       }
 
-                      currentRangeKey = dataset.key || rangeKey;
+                      currentFormatKey = entry.key || formatKey;
+                      currentRangeKey = dataset.key || selectedRangeKey;
+
                       nodes = new vis.DataSet(dataset.nodes || []);
                       edges = new vis.DataSet(dataset.edges || []);
                       network.setData({ nodes: nodes, edges: edges });
@@ -560,11 +687,26 @@ def inject_filter_ui(
                       initBaseState();
                       rebuildArchetypeOptions();
                       showAll();
+
+                      if (formatSelect) {
+                          formatSelect.value = currentFormatKey;
+                      }
+                      if (rangeSelect) {
+                          rangeSelect.value = currentRangeKey;
+                      }
+                  }
+
+                  if (formatSelect) {
+                      formatSelect.addEventListener('change', function() {
+                          var fmt = formatSelect.value || defaultFormatKey;
+                          var rng = rebuildRangeOptions(fmt, defaultRangeKey);
+                          loadDataset(fmt, rng);
+                      });
                   }
 
                   if (rangeSelect) {
                       rangeSelect.addEventListener('change', function() {
-                          loadRange(rangeSelect.value);
+                          loadDataset(currentFormatKey, rangeSelect.value);
                       });
                   }
 
@@ -857,10 +999,11 @@ def inject_filter_ui(
                       panelSubtitle.textContent = 'Sorted by ' + label + ' (' + dir + ')';
                   }
 
-                  if (rangeSelect) {
-                      rangeSelect.value = defaultRangeKey;
+                  if (formatSelect) {
+                      formatSelect.value = defaultFormatKey;
                   }
-                  loadRange(defaultRangeKey);
+                  var initialRangeKey = rebuildRangeOptions(defaultFormatKey, defaultRangeKey);
+                  loadDataset(defaultFormatKey, initialRangeKey);
 
                   function applyArrowScale() {
                       var scale = network.getScale();

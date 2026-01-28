@@ -1,29 +1,29 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
 Goblins,0.50186335403727,805,0.47,0.54,/Premodern/goblins
-Stiflenought,0.54361370716511,642,0.5,0.58,/Premodern/stiflenought
+Stiflenought,0.54460093896714,639,0.51,0.58,/Premodern/stiflenought
 Burn,0.48031496062992,635,0.44,0.52,/Premodern/burn
 Landstill,0.5045045045045,444,0.46,0.55,/Premodern/landstill
 Enchantress,0.61953727506427,389,0.57,0.67,/Premodern/enchantress
-Terrageddon,0.596875,320,0.54,0.65,/Premodern/terrageddon
+Terrageddon,0.5974025974026,308,0.54,0.65,/Premodern/terrageddon
 Stasis,0.50384615384615,260,0.44,0.57,/Premodern/stasis
 Elves,0.57976653696498,257,0.52,0.64,/Premodern/elves
-Tide Control,0.62352941176471,255,0.56,0.68,/Premodern/tide-control
 Mono Black,0.50787401574803,254,0.44,0.57,/Premodern/mono-black
+Tide Control,0.62,250,0.56,0.68,/Premodern/tide-control
 Replenish,0.61290322580645,248,0.55,0.67,/Premodern/replenish
 Survival,0.51867219917012,241,0.45,0.58,/Premodern/survival
 Devourer Combo,0.55982905982906,234,0.49,0.62,/Premodern/devourer-combo
-Madness,0.36909871244635,233,0.31,0.43,/Premodern/madness
+Madness,0.3695652173913,230,0.31,0.44,/Premodern/madness
 BW Control,0.51428571428571,210,0.44,0.58,/Premodern/bw-control
 Psychatog,0.40886699507389,203,0.34,0.48,/Premodern/psychatog
 Pit Rack,0.50769230769231,195,0.44,0.58,/Premodern/pit-rack
 Reanimator,0.4020618556701,194,0.33,0.47,/Premodern/reanimator
 The Rock,0.42937853107345,177,0.36,0.51,/Premodern/the-rock
-Oath Ponza,0.52727272727273,165,0.45,0.61,/Premodern/oath-ponza
-Zoo,0.43537414965986,147,0.35,0.52,/Premodern/zoo
+Oath Ponza,0.53846153846154,169,0.46,0.62,/Premodern/oath-ponza
+Zoo,0.44444444444444,144,0.36,0.53,/Premodern/zoo
 Gro-a-Tog,0.48507462686567,134,0.4,0.57,/Premodern/gro-a-tog
 Aluren,0.51162790697674,129,0.42,0.6,/Premodern/aluren
-Contamination,0.53125,128,0.44,0.62,/Premodern/contamination
 Deadguy Ale,0.37007874015748,127,0.29,0.46,/Premodern/deadguy-ale
+Contamination,0.536,125,0.44,0.63,/Premodern/contamination
 MUD,0.5,118,0.41,0.59,/Premodern/mud
 The Solution,0.46666666666667,105,0.37,0.57,/Premodern/the-solution
 White Weenie,0.5,98,0.4,0.6,/Premodern/white-weenie
@@ -70,11 +70,11 @@ Merfolks,0.1875,16,0.04,0.46,/Premodern/merfolks
 UWG Control,0.46666666666667,15,0.21,0.73,/Premodern/uwg-control
 Fires,0.5,14,0.23,0.77,/Premodern/fires
 Doomsday,0.35714285714286,14,0.13,0.65,/Premodern/doomsday
-RW Aggro,0.46153846153846,13,0.19,0.75,/Premodern/rw-aggro
 Pyrostatic Oath,0.69230769230769,13,0.39,0.91,/Premodern/pyrostatic-oath
 Jund,0.58333333333333,12,0.28,0.85,/Premodern/jund
 GWR Aggro,0.5,12,0.21,0.79,/Premodern/gwr-aggro
 Balancing Tings,0.27272727272727,11,0.06,0.61,/Premodern/balancing-tings
+RW Aggro,0.4,10,0.12,0.74,/Premodern/rw-aggro
 Mono White Control,0.6,10,0.26,0.88,/Premodern/mono-white-control
 Mono Blue Flyers,0.5,10,0.19,0.81,/Premodern/mono-blue-flyers
 UWB Control,0.33333333333333,9,0.07,0.7,/Premodern/uwb-control

@@ -1,13 +1,13 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
 Simic Ouroboroid,0.52757894736842,4750,0.51,0.54,/Standard/simic-ouroboroid
-Izzet Lessons,0.50970306289455,4277,0.49,0.52,/Standard/izzet-lessons
-Dimir Midrange,0.50855745721271,3681,0.49,0.52,/Standard/dimir-midrange
-Jeskai Control,0.51125148045795,2533,0.49,0.53,/Standard/jeskai-control
+Izzet Lessons,0.51015643240719,4283,0.5,0.53,/Standard/izzet-lessons
+Dimir Midrange,0.50868621064061,3684,0.49,0.52,/Standard/dimir-midrange
+Jeskai Control,0.51142631993696,2538,0.49,0.53,/Standard/jeskai-control
 Sultai Reanimator,0.51516503122212,2242,0.49,0.54,/Standard/sultai-reanimator
 Bant Airbending,0.56046343229544,1381,0.53,0.59,/Standard/bant-airbending
 Mono-Red Aggro,0.49097744360902,1330,0.46,0.52,/Standard/mono-red-aggro
 Mono Green Landfall,0.56056808688388,1197,0.53,0.59,/Standard/mono-green-landfall
-Azorius Control,0.50662878787879,1056,0.48,0.54,/Standard/azorius-control
+Azorius Control,0.50567107750473,1058,0.48,0.54,/Standard/azorius-control
 Izzet Looting,0.4903748733536,987,0.46,0.52,/Standard/izzet-looting
 Boros Burn,0.45566166439291,733,0.42,0.49,/Standard/boros-burn
 4 Color Control,0.51224105461394,531,0.47,0.56,/Standard/4-color-control
@@ -32,7 +32,7 @@ Gruul Delirium,0.51704545454545,176,0.44,0.59,/Standard/gruul-delirium
 Bant Omniscience,0.53409090909091,176,0.46,0.61,/Standard/bant-omniscience
 Boros Dragons,0.47904191616766,167,0.4,0.56,/Standard/boros-dragons
 Orzhov Pixie,0.41610738255034,149,0.34,0.5,/Standard/orzhov-pixie
-Dimir Control,0.41353383458647,133,0.33,0.5,/Standard/dimir-control
+Dimir Control,0.40441176470588,136,0.32,0.49,/Standard/dimir-control
 Mono Green Ouroboroid,0.47619047619048,126,0.39,0.57,/Standard/mono-green-ouroboroid
 Golgari Roots,0.424,125,0.34,0.52,/Standard/golgari-roots
 4 Color Songcrafter,0.53225806451613,124,0.44,0.62,/Standard/4-color-songcrafter
@@ -85,10 +85,10 @@ Simic Otters,0.51724137931034,29,0.33,0.71,/Standard/simic-otters
 Mono Green Stompy,0.25925925925926,27,0.11,0.46,/Standard/mono-green-stompy
 Rakdos Monument,0.51851851851852,27,0.32,0.71,/Standard/rakdos-monument
 Golgari Earthbend,0.59259259259259,27,0.39,0.78,/Standard/golgari-earthbend
+4 Color Rhythm,0.77777777777778,27,0.58,0.91,/Standard/4-color-rhythm
 Rakdos Lizards,0.69230769230769,26,0.48,0.86,/Standard/rakdos-lizards
 Selesnya Counters,0.38461538461538,26,0.2,0.59,/Standard/selesnya-counters
 Bant Chocobo,0.48,25,0.28,0.69,/Standard/bant-chocobo
-4 Color Rhythm,0.83333333333333,24,0.63,0.95,/Standard/4-color-rhythm
 Mono Blue Flash,0.43478260869565,23,0.23,0.66,/Standard/mono-blue-flash
 Sultai Ouroboroid,0.52173913043478,23,0.31,0.73,/Standard/sultai-ouroboroid
 Esper Artifacts,0.36363636363636,22,0.17,0.59,/Standard/esper-artifacts

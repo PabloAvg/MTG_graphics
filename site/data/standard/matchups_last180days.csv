@@ -29,13 +29,13 @@ Simic Ouroboroid,Gruul Delirium,0.53,19,0.29,0.76
 Simic Ouroboroid,Bant Omniscience,0.5,18,0.26,0.74
 Izzet Lessons,Simic Ouroboroid,0.52,667,0.48,0.56
 Izzet Lessons,Izzet Lessons,0.5,672,0.46,0.54
-Izzet Lessons,Dimir Midrange,0.53,361,0.48,0.58
-Izzet Lessons,Jeskai Control,0.55,348,0.5,0.6
+Izzet Lessons,Dimir Midrange,0.53,362,0.48,0.58
+Izzet Lessons,Jeskai Control,0.55,350,0.5,0.6
 Izzet Lessons,Sultai Reanimator,0.45,255,0.39,0.52
 Izzet Lessons,Bant Airbending,0.5,193,0.43,0.58
 Izzet Lessons,Mono-Red Aggro,0.41,175,0.34,0.49
 Izzet Lessons,Mono Green Landfall,0.44,156,0.36,0.52
-Izzet Lessons,Azorius Control,0.61,62,0.48,0.73
+Izzet Lessons,Azorius Control,0.63,64,0.5,0.74
 Izzet Lessons,Izzet Looting,0.46,139,0.38,0.55
 Izzet Lessons,Boros Burn,0.51,107,0.42,0.61
 Izzet Lessons,4 Color Control,0.69,29,0.49,0.85
@@ -56,9 +56,9 @@ Izzet Lessons,Dimir Bounce,0.56,27,0.35,0.75
 Izzet Lessons,Gruul Delirium,0.41,22,0.21,0.64
 Izzet Lessons,Bant Omniscience,0.43,21,0.22,0.66
 Dimir Midrange,Simic Ouroboroid,0.41,422,0.36,0.46
-Dimir Midrange,Izzet Lessons,0.47,361,0.42,0.52
+Dimir Midrange,Izzet Lessons,0.47,362,0.42,0.52
 Dimir Midrange,Dimir Midrange,0.5,496,0.46,0.54
-Dimir Midrange,Jeskai Control,0.6,216,0.53,0.66
+Dimir Midrange,Jeskai Control,0.6,217,0.53,0.66
 Dimir Midrange,Sultai Reanimator,0.55,179,0.47,0.62
 Dimir Midrange,Bant Airbending,0.42,81,0.31,0.53
 Dimir Midrange,Mono-Red Aggro,0.46,125,0.37,0.55
@@ -84,8 +84,8 @@ Dimir Midrange,Dimir Bounce,0.56,18,0.31,0.78
 Dimir Midrange,Gruul Delirium,0.5,18,0.26,0.74
 Dimir Midrange,Bant Omniscience,0.39,18,0.17,0.64
 Jeskai Control,Simic Ouroboroid,0.59,374,0.54,0.64
-Jeskai Control,Izzet Lessons,0.45,348,0.4,0.5
-Jeskai Control,Dimir Midrange,0.4,216,0.34,0.47
+Jeskai Control,Izzet Lessons,0.45,350,0.4,0.5
+Jeskai Control,Dimir Midrange,0.4,217,0.34,0.47
 Jeskai Control,Jeskai Control,0.5,222,0.43,0.57
 Jeskai Control,Sultai Reanimator,0.54,146,0.46,0.62
 Jeskai Control,Bant Airbending,0.53,98,0.43,0.63
@@ -224,7 +224,7 @@ Mono Green Landfall,Dimir Bounce,1.0,2,0.16,1.0
 Mono Green Landfall,Gruul Delirium,0.83,6,0.36,1.0
 Mono Green Landfall,Bant Omniscience,0.43,7,0.1,0.82
 Azorius Control,Simic Ouroboroid,0.7,73,0.58,0.8
-Azorius Control,Izzet Lessons,0.39,62,0.27,0.52
+Azorius Control,Izzet Lessons,0.38,64,0.26,0.5
 Azorius Control,Dimir Midrange,0.41,178,0.34,0.49
 Azorius Control,Jeskai Control,0.44,43,0.29,0.6
 Azorius Control,Sultai Reanimator,0.42,43,0.27,0.58
@@ -881,8 +881,8 @@ Orzhov Pixie,Dimir Bounce,0.67,3,0.09,0.99
 Orzhov Pixie,Gruul Delirium,0.0,1,0.0,0.98
 Orzhov Pixie,Bant Omniscience,0.0,1,0.0,0.98
 Dimir Control,Simic Ouroboroid,0.6,5,0.15,0.95
-Dimir Control,Izzet Lessons,0.11,9,0.0,0.48
-Dimir Control,Dimir Midrange,0.35,26,0.17,0.56
+Dimir Control,Izzet Lessons,0.1,10,0.0,0.45
+Dimir Control,Dimir Midrange,0.33,27,0.17,0.54
 Dimir Control,Jeskai Control,0.67,9,0.3,0.93
 Dimir Control,Sultai Reanimator,0.38,8,0.09,0.76
 Dimir Control,Bant Airbending,0.67,3,0.09,0.99
@@ -1725,6 +1725,15 @@ Golgari Earthbend,Azorius Flash,0.0,1,0.0,0.98
 Golgari Earthbend,Mono Black Midrange,1.0,1,0.02,1.0
 Golgari Earthbend,Temur Battlecrier,1.0,1,0.02,1.0
 Golgari Earthbend,Gruul Delirium,0.5,2,0.01,0.99
+4 Color Rhythm,Simic Ouroboroid,0.75,8,0.35,0.97
+4 Color Rhythm,Dimir Midrange,1.0,1,0.02,1.0
+4 Color Rhythm,Jeskai Control,0.33,3,0.01,0.91
+4 Color Rhythm,Sultai Reanimator,0.75,4,0.19,0.99
+4 Color Rhythm,Bant Airbending,0.67,3,0.09,0.99
+4 Color Rhythm,Mono-Red Aggro,1.0,1,0.02,1.0
+4 Color Rhythm,Golgari Ouroboroid,1.0,1,0.02,1.0
+4 Color Rhythm,Esper Pixie,1.0,1,0.02,1.0
+4 Color Rhythm,Azorius Flash,1.0,1,0.02,1.0
 Rakdos Lizards,Dimir Midrange,1.0,4,0.4,1.0
 Rakdos Lizards,Sultai Reanimator,1.0,2,0.16,1.0
 Rakdos Lizards,Bant Airbending,1.0,1,0.02,1.0
@@ -1762,15 +1771,6 @@ Bant Chocobo,Esper Pixie,0.5,2,0.01,0.99
 Bant Chocobo,Temur Otters,1.0,1,0.02,1.0
 Bant Chocobo,Dimir Bounce,1.0,1,0.02,1.0
 Bant Chocobo,Gruul Delirium,1.0,1,0.02,1.0
-4 Color Rhythm,Simic Ouroboroid,0.75,8,0.35,0.97
-4 Color Rhythm,Dimir Midrange,1.0,1,0.02,1.0
-4 Color Rhythm,Jeskai Control,1.0,1,0.02,1.0
-4 Color Rhythm,Sultai Reanimator,0.75,4,0.19,0.99
-4 Color Rhythm,Bant Airbending,0.67,3,0.09,0.99
-4 Color Rhythm,Mono-Red Aggro,1.0,1,0.02,1.0
-4 Color Rhythm,Golgari Ouroboroid,1.0,1,0.02,1.0
-4 Color Rhythm,Esper Pixie,1.0,1,0.02,1.0
-4 Color Rhythm,Azorius Flash,1.0,1,0.02,1.0
 Mono Blue Flash,Simic Ouroboroid,0.5,2,0.01,0.99
 Mono Blue Flash,Izzet Lessons,0.25,4,0.01,0.81
 Mono Blue Flash,Dimir Midrange,0.5,4,0.07,0.93

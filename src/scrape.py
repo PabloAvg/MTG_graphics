@@ -1,7 +1,9 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import os
 import re
+import time
+import random
 from dataclasses import dataclass
 from typing import Optional, Tuple, List, Dict
 from urllib.parse import quote
@@ -24,12 +26,45 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "Upgrade-Insecure-Requests": "1",
 }
 
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
+
+_LAST_REQUEST_TS = 0.0
+_COOKIES_INITIALIZED = False
+
+
+def _maybe_load_browser_cookies() -> requests.cookies.RequestsCookieJar | None:
+    if os.environ.get("MTG_USE_BROWSER_COOKIES", "0") not in {"1", "true", "TRUE", "yes", "YES"}:
+        return None
+    try:
+        import browser_cookie3  # type: ignore
+    except Exception as e:
+        print(f"[INFO] browser_cookie3 not available; skipping browser cookies. ({e})")
+        return None
+
+    try:
+        return browser_cookie3.load(domain_name="mtgdecks.net")
+    except Exception as e:
+        msg = str(e)
+        if "admin" in msg.lower():
+            print("[INFO] Browser cookie access requires admin rights. Run elevated or set MTG_USE_BROWSER_COOKIES=0.")
+        else:
+            print(f"[INFO] Could not load browser cookies: {e}")
+        return None
+
+
+def _rate_limit_wait(min_interval_sec: float) -> None:
+    global _LAST_REQUEST_TS
+    now = time.time()
+    elapsed = now - _LAST_REQUEST_TS
+    if elapsed < min_interval_sec:
+        time.sleep(min_interval_sec - elapsed)
+    _LAST_REQUEST_TS = time.time()
 
 
 @dataclass(frozen=True)
@@ -126,20 +161,46 @@ def fetch_html(
         # Last resort: allow opting out of verification explicitly.
         verify = False
 
-    try:
-        print(f"GET {url}")
-        r = SESSION.get(url, timeout=30, verify=verify)
-        if r.status_code == 403:
-            print(f"[SKIP] 403 Forbidden for {url}")
-            return None
-        r.raise_for_status()
-        return r.text
-    except requests.HTTPError as e:
-        print(f"[WARN] Failed to fetch {url}: {e}")
-        return None
-    except requests.RequestException as e:
-        print(f"[WARN] Request error for {url}: {e}")
-        return None
+    min_interval_sec = float(os.environ.get("MTG_REQUEST_DELAY", "1.0"))
+    max_retries = int(os.environ.get("MTG_MAX_RETRIES", "1"))
+    base_delay = float(os.environ.get("MTG_RETRY_BASE_DELAY", "1.5"))
+    jitter = float(os.environ.get("MTG_RETRY_JITTER", "0.5"))
+
+    global _COOKIES_INITIALIZED
+    if not _COOKIES_INITIALIZED:
+        jar = _maybe_load_browser_cookies()
+        if jar:
+            SESSION.cookies.update(jar)
+            print("[INFO] Loaded browser cookies for mtgdecks.net")
+        _COOKIES_INITIALIZED = True
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            _rate_limit_wait(min_interval_sec)
+            headers = {
+                "Referer": base_url,
+                "Origin": "https://mtgdecks.net",
+            }
+            print(f"GET {url}")
+            r = SESSION.get(url, timeout=30, verify=verify, headers=headers)
+            if r.status_code == 403:
+                print(f"[SKIP] 403 Forbidden for {url}")
+                if attempt >= max_retries:
+                    return None
+            else:
+                r.raise_for_status()
+                return r.text
+        except requests.HTTPError as e:
+            print(f"[WARN] Failed to fetch {url}: {e}")
+        except requests.RequestException as e:
+            print(f"[WARN] Request error for {url}: {e}")
+
+        if attempt < max_retries:
+            sleep_for = base_delay * (2 ** (attempt - 1)) + random.uniform(0, jitter)
+            print(f"[RETRY] Waiting {sleep_for:.1f}s before retry {attempt + 1}/{max_retries}...")
+            time.sleep(sleep_for)
+
+    return None
 
 
 def parse_page(html: str) -> Tuple[pd.DataFrame, pd.DataFrame]:

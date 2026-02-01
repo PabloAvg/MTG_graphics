@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 
 import pandas as pd
 import networkx as nx
@@ -52,12 +52,23 @@ def _range_csv_paths(format_key: str, range_key: str) -> Tuple[Path, Path]:
     )
 
 
+def _progress_line(current: int, total: int, label: str) -> str:
+    bar_len = 24
+    filled = int(bar_len * current / total) if total else bar_len
+    bar = "#" * filled + "-" * (bar_len - filled)
+    return f"[PROGRESS] [{bar}] {current}/{total} {label}"
+
+
 def main() -> None:
     graphs_by_format: Dict[str, Dict[str, Tuple[nx.DiGraph, pd.DataFrame]]] = {}
+    summary_rows: List[Dict[str, str]] = []
 
     in_ci = os.getenv("GITHUB_ACTIONS", "").lower() == "true"
     range_items = list(RANGE_OPTIONS.items())
     format_items = list(FORMATS.items())
+    total_jobs = len(range_items) * len(format_items)
+    current_job = 0
+
     if in_ci:
         print(
             "[CI] GITHUB_ACTIONS detected. Scraping only the default "
@@ -70,16 +81,16 @@ def main() -> None:
         graphs_for_format: Dict[str, Tuple[nx.DiGraph, pd.DataFrame]] = {}
 
         for range_key, range_meta in range_items:
-            url = _build_range_url(base_url, range_meta.get("path", ""))
+            current_job += 1
             range_label = range_meta.get("label", range_key)
-            print(f"\n=== FORMAT: {format_label} ({format_key}) | RANGE: {range_label} ({range_key}) ===")
-            print(f"GET {url}")
+            url = _build_range_url(base_url, range_meta.get("path", ""))
+
+            print("\n" + _progress_line(current_job, total_jobs, f"{format_label}/{range_label}"))
+            print(f"=== FORMAT: {format_label} ({format_key}) | RANGE: {range_label} ({range_key}) ===")
 
             cache_only = in_ci and (format_key != DEFAULT_FORMAT_KEY or range_key != DEFAULT_RANGE_KEY)
             if cache_only:
-                print(
-                    f"[CI] Cache-only mode for {format_key}/{range_key}. Skipping network fetch."
-                )
+                print(f"[CI] Cache-only mode for {format_key}/{range_key}. Skipping network fetch.")
                 html = None
             else:
                 html = fetch_html(url, base_url=base_url)
@@ -91,20 +102,72 @@ def main() -> None:
                     archetypes_df = pd.read_csv(out_arch)
                     matchups_df = pd.read_csv(out_match)
                     print(f"[CACHE] Loaded: {out_arch}, {out_match}")
+                    summary_rows.append(
+                        {
+                            "format": format_key,
+                            "range": range_key,
+                            "status": "cached",
+                            "source": "cache",
+                            "details": "used local CSVs",
+                        }
+                    )
                 except FileNotFoundError:
                     print(f"[SKIP] No cached CSVs for {format_key}/{range_key}. Skipping.")
+                    summary_rows.append(
+                        {
+                            "format": format_key,
+                            "range": range_key,
+                            "status": "skipped",
+                            "source": "none",
+                            "details": "no cache available",
+                        }
+                    )
                     continue
             else:
                 print(f"HTML downloaded: {len(html):,} chars")
-                archetypes_df, matchups_df = parse_page(html)
+                try:
+                    archetypes_df, matchups_df = parse_page(html)
+                except Exception as e:
+                    print(f"[FAIL] Parse error for {format_key}/{range_key}: {e}")
+                    summary_rows.append(
+                        {
+                            "format": format_key,
+                            "range": range_key,
+                            "status": "failed",
+                            "source": "network",
+                            "details": "parse failed",
+                        }
+                    )
+                    continue
+
                 archetypes_df.to_csv(out_arch, index=False)
                 matchups_df.to_csv(out_match, index=False)
                 print(f"Saved: {out_arch}, {out_match}")
+                summary_rows.append(
+                    {
+                        "format": format_key,
+                        "range": range_key,
+                        "status": "updated",
+                        "source": "network",
+                        "details": "saved CSVs",
+                    }
+                )
 
-            G = build_graph(archetypes_df, matchups_df)
-            inspect_console(archetypes_df, matchups_df, G)
-
-            graphs_for_format[range_key] = (G, archetypes_df)
+            try:
+                G = build_graph(archetypes_df, matchups_df)
+                inspect_console(archetypes_df, matchups_df, G)
+                graphs_for_format[range_key] = (G, archetypes_df)
+            except Exception as e:
+                print(f"[FAIL] Graph build failed for {format_key}/{range_key}: {e}")
+                summary_rows.append(
+                    {
+                        "format": format_key,
+                        "range": range_key,
+                        "status": "failed",
+                        "source": "graph",
+                        "details": "graph build failed",
+                    }
+                )
 
         if graphs_for_format:
             graphs_by_format[format_key] = graphs_for_format
@@ -131,6 +194,11 @@ def main() -> None:
     )
     print(f"\nOK: generated HTML -> {OUT_HTML}")
     print("Open it in the browser (double click).")
+
+    if summary_rows:
+        print("\n=== SUMMARY ===")
+        df = pd.DataFrame(summary_rows)
+        print(df.to_string(index=False))
 
 
 if __name__ == "__main__":

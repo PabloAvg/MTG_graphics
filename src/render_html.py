@@ -471,6 +471,61 @@ def inject_filter_ui(
              .graph-footer a:focus {
                  text-decoration: underline;
              }
+             @media (max-width: 980px) {
+                 .graph-controls {
+                     flex-wrap: wrap;
+                     gap: 8px;
+                 }
+                 .graph-controls label {
+                     font-size: 12px;
+                 }
+                 .graph-controls select,
+                 .graph-controls .btn-mini,
+                 .graph-controls .help-btn {
+                     min-height: 36px;
+                     font-size: 13px;
+                 }
+                 .graph-controls .hint {
+                     width: 100%;
+                     order: 99;
+                     font-size: 12px;
+                 }
+                 .node-summary {
+                     width: 100%;
+                     order: 98;
+                 }
+                 .graph-layout {
+                     flex-direction: column;
+                 }
+                 .sidepanel {
+                     width: 100%;
+                     border-left: none;
+                     border-top: 1px solid #2a2a2a;
+                     max-height: 45vh;
+                     overflow: auto;
+                 }
+                 #mynetwork {
+                     height: 62vh !important;
+                 }
+             }
+             @media (max-width: 640px) {
+                 .graph-controls select {
+                     width: 100%;
+                 }
+                 .graph-controls label {
+                     width: 100%;
+                 }
+                 .graph-controls .btn-mini,
+                 .graph-controls .help-btn {
+                     width: 100%;
+                 }
+                 .graph-controls .hint {
+                     font-size: 11px;
+                 }
+                 .sidepanel table {
+                     font-size: 11px;
+                 }
+             }
     """
 
     controls_html = f"""

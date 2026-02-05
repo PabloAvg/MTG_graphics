@@ -36,6 +36,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate site (run MTG script)
+        env:
+          MTG_CI_MODE: full
         run: |
           python src/01_fetch_mtgdecks_winrates.py
 

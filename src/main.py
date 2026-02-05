@@ -64,16 +64,20 @@ def main() -> None:
     summary_rows: List[Dict[str, str]] = []
 
     in_ci = os.getenv("GITHUB_ACTIONS", "").lower() == "true"
+    ci_mode = os.getenv("MTG_CI_MODE", "cache").strip().lower()
+    ci_full_scrape = in_ci and ci_mode in {"full", "all", "network"}
     range_items = list(RANGE_OPTIONS.items())
     format_items = list(FORMATS.items())
     total_jobs = len(range_items) * len(format_items)
     current_job = 0
 
-    if in_ci:
+    if in_ci and not ci_full_scrape:
         print(
             "[CI] GITHUB_ACTIONS detected. Scraping only the default "
             f"format/range ({DEFAULT_FORMAT_KEY}/{DEFAULT_RANGE_KEY}) and using cached CSVs for the rest."
         )
+    elif in_ci and ci_full_scrape:
+        print("[CI] GITHUB_ACTIONS detected. Full scrape enabled via MTG_CI_MODE.")
 
     for format_key, format_meta in format_items:
         format_label = format_meta.get("label", format_key)
@@ -88,7 +92,11 @@ def main() -> None:
             print("\n" + _progress_line(current_job, total_jobs, f"{format_label}/{range_label}"))
             print(f"=== FORMAT: {format_label} ({format_key}) | RANGE: {range_label} ({range_key}) ===")
 
-            cache_only = in_ci and (format_key != DEFAULT_FORMAT_KEY or range_key != DEFAULT_RANGE_KEY)
+            cache_only = (
+                in_ci
+                and not ci_full_scrape
+                and (format_key != DEFAULT_FORMAT_KEY or range_key != DEFAULT_RANGE_KEY)
+            )
             if cache_only:
                 print(f"[CI] Cache-only mode for {format_key}/{range_key}. Skipping network fetch.")
                 html = None
@@ -97,7 +105,10 @@ def main() -> None:
 
             out_arch, out_match = _range_csv_paths(format_key, range_key)
             if html is None:
-                print(f"[WARN] Fetch failed for {format_key}/{range_key}. Trying cached CSVs...")
+                if cache_only:
+                    print(f"[CI] Using cached CSVs for {format_key}/{range_key}.")
+                else:
+                    print(f"[WARN] Fetch failed for {format_key}/{range_key}. Trying cached CSVs...")
                 try:
                     archetypes_df = pd.read_csv(out_arch)
                     matchups_df = pd.read_csv(out_match)

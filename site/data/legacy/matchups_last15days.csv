@@ -1,240 +1,646 @@
 a,b,winrate_a_vs_b,matches,ci_low,ci_high
-Mono Red Prison,Dimir Tempo,0.5,2,0.01,0.99
-Mono Red Prison,Death & Taxes,0.0,2,0.0,0.84
-Mono Red Prison,UR Tempo,1.0,2,0.16,1.0
-Mono Red Prison,Cradle Control,1.0,2,0.16,1.0
-Mono Red Prison,UWx Stoneblade,0.0,1,0.0,0.98
-Mono Red Prison,Affinity,0.5,2,0.01,0.99
-Mono Red Prison,Goblins,0.0,1,0.0,0.98
-Mono Red Prison,Painter Grindstone,1.0,2,0.16,1.0
-Mono Red Prison,Temur Tempo,0.5,2,0.01,0.99
-Mono Red Prison,Naya Initiative,1.0,1,0.02,1.0
-Mono Red Prison,Ruby Storm,1.0,1,0.02,1.0
-Mono Red Prison,Mono Black,0.0,1,0.0,0.98
-Mono Red Prison,Stiflenought,0.0,1,0.0,0.98
-Mono Red Prison,UWx Control,1.0,1,0.02,1.0
-Mono Red Prison,Merfolk,1.0,1,0.02,1.0
-Mono Red Prison,Smallpox,1.0,1,0.02,1.0
-Dimir Tempo,Mono Red Prison,0.5,2,0.01,0.99
-Dimir Tempo,Death & Taxes,0.0,1,0.0,0.98
-Dimir Tempo,UR Tempo,0.67,3,0.09,0.99
-Dimir Tempo,Cradle Control,0.25,4,0.01,0.81
-Dimir Tempo,UWx Stoneblade,1.0,1,0.02,1.0
-Dimir Tempo,Affinity,0.5,2,0.01,0.99
+Dimir Tempo,Dimir Tempo,0.5,20,0.27,0.73
+Dimir Tempo,Izzet Cutter,0.64,14,0.35,0.87
+Dimir Tempo,Death & Taxes,0.4,5,0.05,0.85
+Dimir Tempo,Eldrazi Stompy,0.58,12,0.28,0.85
+Dimir Tempo,UWx Stoneblade,0.67,6,0.22,0.96
+Dimir Tempo,Sneak and Show,0.57,7,0.18,0.9
+Dimir Tempo,Cradle Control,0.44,9,0.14,0.79
+Dimir Tempo,Affinity,0.33,6,0.04,0.78
+Dimir Tempo,Show and Tell,0.33,9,0.07,0.7
+Dimir Tempo,Bant Beanstalk,0.57,7,0.18,0.9
+Dimir Tempo,Mono Red Prison,0.83,6,0.36,1.0
+Dimir Tempo,Lands.dec,0.25,8,0.03,0.65
+Dimir Tempo,UWx Control,0.38,8,0.09,0.76
+Dimir Tempo,Oops! All Spells,0.6,5,0.15,0.95
+Dimir Tempo,Cephalid Breakfast,0.75,4,0.19,0.99
+Dimir Tempo,Mystic Forge Combo,0.25,8,0.03,0.65
+Dimir Tempo,Mardu Ocelot,0.5,4,0.07,0.93
+Dimir Tempo,Mono Black,0.25,4,0.01,0.81
+Dimir Tempo,Doomsday,0.0,2,0.0,0.84
+Dimir Tempo,The EPIC Storm,0.6,5,0.15,0.95
+Dimir Tempo,Ad Nauseam Tendrils,0.5,2,0.01,0.99
+Dimir Tempo,Painter Grindstone,0.44,9,0.14,0.79
+Dimir Tempo,Blue Cloudpost,0.5,2,0.01,0.99
+Dimir Tempo,BUG,1.0,2,0.16,1.0
+Dimir Tempo,Grixis Tempo,0.0,1,0.0,0.98
+Dimir Tempo,Domain Beanstalk,1.0,1,0.02,1.0
+Dimir Tempo,Reanimator,1.0,2,0.16,1.0
 Dimir Tempo,Dredge,0.5,2,0.01,0.99
-Dimir Tempo,Goblins,1.0,2,0.16,1.0
-Dimir Tempo,Show and Tell,1.0,1,0.02,1.0
-Dimir Tempo,Painter Grindstone,0.0,1,0.0,0.98
-Dimir Tempo,Green Post,0.0,1,0.0,0.98
+Dimir Tempo,Green Post,0.0,2,0.0,0.84
+Dimir Tempo,Merfolk,0.0,3,0.0,0.71
+Dimir Tempo,UBx Death's Shadow,0.0,1,0.0,0.98
 Dimir Tempo,Naya Initiative,0.0,1,0.0,0.98
-Dimir Tempo,Reanimator,1.0,1,0.02,1.0
-Dimir Tempo,Ruby Storm,0.0,1,0.0,0.98
-Dimir Tempo,Mono Black,0.0,1,0.0,0.98
-Dimir Tempo,Merfolk,0.0,1,0.0,0.98
-Death & Taxes,Mono Red Prison,1.0,2,0.16,1.0
-Death & Taxes,Dimir Tempo,1.0,1,0.02,1.0
-Death & Taxes,UR Tempo,1.0,1,0.02,1.0
-Death & Taxes,Lands.dec,0.0,1,0.0,0.98
-Death & Taxes,UWx Stoneblade,0.0,2,0.0,0.84
-Death & Taxes,Affinity,1.0,3,0.29,1.0
-Death & Taxes,Doomsday,1.0,1,0.02,1.0
-Death & Taxes,Show and Tell,1.0,2,0.16,1.0
-Death & Taxes,Temur Tempo,1.0,1,0.02,1.0
-Death & Taxes,Oops! All Spells,0.0,1,0.0,0.98
-Death & Taxes,Naya Initiative,1.0,1,0.02,1.0
+Izzet Cutter,Dimir Tempo,0.36,14,0.13,0.65
+Izzet Cutter,Izzet Cutter,0.5,2,0.01,0.99
+Izzet Cutter,Death & Taxes,0.0,4,0.0,0.6
+Izzet Cutter,Eldrazi Stompy,0.67,6,0.22,0.96
+Izzet Cutter,UWx Stoneblade,0.25,4,0.01,0.81
+Izzet Cutter,Sneak and Show,0.4,5,0.05,0.85
+Izzet Cutter,Cradle Control,1.0,2,0.16,1.0
+Izzet Cutter,Affinity,0.8,5,0.28,0.99
+Izzet Cutter,Show and Tell,0.5,2,0.01,0.99
+Izzet Cutter,Bant Beanstalk,0.67,3,0.09,0.99
+Izzet Cutter,Mono Red Prison,0.25,4,0.01,0.81
+Izzet Cutter,Lands.dec,0.0,4,0.0,0.6
+Izzet Cutter,UWx Control,0.5,2,0.01,0.99
+Izzet Cutter,Oops! All Spells,0.5,4,0.07,0.93
+Izzet Cutter,Cephalid Breakfast,0.0,2,0.0,0.84
+Izzet Cutter,Mystic Forge Combo,0.33,3,0.01,0.91
+Izzet Cutter,Mono Black,0.0,1,0.0,0.98
+Izzet Cutter,The EPIC Storm,0.0,2,0.0,0.84
+Izzet Cutter,Ad Nauseam Tendrils,0.67,3,0.09,0.99
+Izzet Cutter,Blue Cloudpost,1.0,1,0.02,1.0
+Izzet Cutter,BUG,0.0,1,0.0,0.98
+Izzet Cutter,Grixis Tempo,0.0,1,0.0,0.98
+Izzet Cutter,Reanimator,1.0,2,0.16,1.0
+Izzet Cutter,Burn,1.0,1,0.02,1.0
+Izzet Cutter,Green Post,0.0,1,0.0,0.98
+Izzet Cutter,Naya Initiative,1.0,1,0.02,1.0
+Death & Taxes,Dimir Tempo,0.6,5,0.15,0.95
+Death & Taxes,Izzet Cutter,1.0,4,0.4,1.0
+Death & Taxes,Death & Taxes,0.5,2,0.01,0.99
+Death & Taxes,Eldrazi Stompy,0.33,3,0.01,0.91
+Death & Taxes,UWx Stoneblade,0.0,3,0.0,0.71
+Death & Taxes,Sneak and Show,0.5,6,0.12,0.88
+Death & Taxes,Affinity,0.86,7,0.42,1.0
+Death & Taxes,Show and Tell,0.83,6,0.36,1.0
+Death & Taxes,Mono Red Prison,1.0,3,0.29,1.0
+Death & Taxes,Lands.dec,0.5,4,0.07,0.93
+Death & Taxes,Oops! All Spells,0.33,3,0.01,0.91
+Death & Taxes,Cephalid Breakfast,0.0,1,0.0,0.98
+Death & Taxes,Mystic Forge Combo,0.5,2,0.01,0.99
+Death & Taxes,Mono Black,1.0,1,0.02,1.0
+Death & Taxes,Doomsday,0.67,3,0.09,0.99
+Death & Taxes,Blue Cloudpost,0.0,1,0.0,0.98
+Death & Taxes,BUG,0.33,3,0.01,0.91
+Death & Taxes,Grixis Tempo,0.5,4,0.07,0.93
 Death & Taxes,Reanimator,1.0,1,0.02,1.0
-Death & Taxes,BUG,0.0,2,0.0,0.84
-Death & Taxes,Eldrazi Stompy,0.0,1,0.0,0.98
-UR Tempo,Mono Red Prison,0.0,2,0.0,0.84
-UR Tempo,Dimir Tempo,0.33,3,0.01,0.91
-UR Tempo,Death & Taxes,0.0,1,0.0,0.98
-UR Tempo,UR Tempo,0.5,2,0.01,0.99
-UR Tempo,Cradle Control,1.0,1,0.02,1.0
-UR Tempo,Lands.dec,0.0,3,0.0,0.71
-UR Tempo,Show and Tell,1.0,1,0.02,1.0
-UR Tempo,Ad Nauseam Tendrils,0.5,2,0.01,0.99
-UR Tempo,Green Post,0.0,1,0.0,0.98
-UR Tempo,Naya Initiative,1.0,1,0.02,1.0
-UR Tempo,BUG,0.0,1,0.0,0.98
-UR Tempo,Smallpox,1.0,2,0.16,1.0
-UR Tempo,Boros Initiative,0.0,1,0.0,0.98
-Cradle Control,Mono Red Prison,0.0,2,0.0,0.84
-Cradle Control,Dimir Tempo,0.75,4,0.19,0.99
-Cradle Control,UR Tempo,0.0,1,0.0,0.98
-Cradle Control,Affinity,1.0,1,0.02,1.0
-Cradle Control,Goblins,0.0,1,0.0,0.98
-Cradle Control,Ad Nauseam Tendrils,0.0,1,0.0,0.98
-Cradle Control,Oops! All Spells,0.0,1,0.0,0.98
-Cradle Control,Reanimator,0.0,1,0.0,0.98
-Cradle Control,Ruby Storm,0.0,1,0.0,0.98
-Cradle Control,Nic Fit,1.0,1,0.02,1.0
-Cradle Control,Stiflenought,1.0,1,0.02,1.0
-Cradle Control,Eldrazi Stompy,1.0,1,0.02,1.0
-Lands.dec,Death & Taxes,1.0,1,0.02,1.0
-Lands.dec,UR Tempo,1.0,3,0.29,1.0
-Lands.dec,Lands.dec,0.5,2,0.01,0.99
-Lands.dec,Dredge,1.0,2,0.16,1.0
-Lands.dec,Goblins,1.0,2,0.16,1.0
-Lands.dec,Painter Grindstone,0.0,1,0.0,0.98
-Lands.dec,Ad Nauseam Tendrils,1.0,1,0.02,1.0
-Lands.dec,Naya Initiative,0.0,1,0.0,0.98
-Lands.dec,BUG,0.0,1,0.0,0.98
-Lands.dec,Sneak and Show,0.0,2,0.0,0.84
-Lands.dec,Boros Initiative,0.0,1,0.0,0.98
-Lands.dec,Bant Beanstalk,1.0,1,0.02,1.0
-UWx Stoneblade,Mono Red Prison,1.0,1,0.02,1.0
-UWx Stoneblade,Dimir Tempo,0.0,1,0.0,0.98
-UWx Stoneblade,Death & Taxes,1.0,2,0.16,1.0
-UWx Stoneblade,Doomsday,1.0,1,0.02,1.0
-UWx Stoneblade,Goblins,1.0,1,0.02,1.0
+Death & Taxes,Necro Storm,1.0,1,0.02,1.0
+Death & Taxes,Temur Tempo,1.0,1,0.02,1.0
+Death & Taxes,Naya Initiative,1.0,1,0.02,1.0
+Eldrazi Stompy,Dimir Tempo,0.42,12,0.15,0.72
+Eldrazi Stompy,Izzet Cutter,0.33,6,0.04,0.78
+Eldrazi Stompy,Death & Taxes,0.67,3,0.09,0.99
+Eldrazi Stompy,Eldrazi Stompy,0.5,2,0.01,0.99
+Eldrazi Stompy,UWx Stoneblade,0.6,5,0.15,0.95
+Eldrazi Stompy,Sneak and Show,0.5,2,0.01,0.99
+Eldrazi Stompy,Cradle Control,0.0,2,0.0,0.84
+Eldrazi Stompy,Affinity,1.0,1,0.02,1.0
+Eldrazi Stompy,Bant Beanstalk,0.5,2,0.01,0.99
+Eldrazi Stompy,Lands.dec,1.0,2,0.16,1.0
+Eldrazi Stompy,UWx Control,1.0,1,0.02,1.0
+Eldrazi Stompy,Oops! All Spells,1.0,1,0.02,1.0
+Eldrazi Stompy,Cephalid Breakfast,1.0,3,0.29,1.0
+Eldrazi Stompy,Mardu Ocelot,0.6,5,0.15,0.95
+Eldrazi Stompy,Mono Black,0.0,1,0.0,0.98
+Eldrazi Stompy,Doomsday,0.0,1,0.0,0.98
+Eldrazi Stompy,Ad Nauseam Tendrils,0.0,1,0.0,0.98
+Eldrazi Stompy,BUG,0.0,1,0.0,0.98
+Eldrazi Stompy,Grixis Tempo,0.0,1,0.0,0.98
+Eldrazi Stompy,Burn,0.5,2,0.01,0.99
+Eldrazi Stompy,Green Post,1.0,1,0.02,1.0
+Eldrazi Stompy,Merfolk,0.0,1,0.0,0.98
+Eldrazi Stompy,UBx Death's Shadow,1.0,1,0.02,1.0
+UWx Stoneblade,Dimir Tempo,0.33,6,0.04,0.78
+UWx Stoneblade,Izzet Cutter,0.75,4,0.19,0.99
+UWx Stoneblade,Death & Taxes,1.0,3,0.29,1.0
+UWx Stoneblade,Eldrazi Stompy,0.4,5,0.05,0.85
+UWx Stoneblade,UWx Stoneblade,0.5,2,0.01,0.99
+UWx Stoneblade,Cradle Control,0.33,3,0.01,0.91
+UWx Stoneblade,Affinity,0.0,2,0.0,0.84
 UWx Stoneblade,Show and Tell,1.0,1,0.02,1.0
-UWx Stoneblade,Painter Grindstone,0.0,1,0.0,0.98
-UWx Stoneblade,Ad Nauseam Tendrils,0.5,2,0.01,0.99
+UWx Stoneblade,Bant Beanstalk,1.0,1,0.02,1.0
+UWx Stoneblade,Mono Red Prison,1.0,1,0.02,1.0
+UWx Stoneblade,Lands.dec,1.0,2,0.16,1.0
+UWx Stoneblade,UWx Control,0.0,2,0.0,0.84
+UWx Stoneblade,Oops! All Spells,1.0,1,0.02,1.0
+UWx Stoneblade,Cephalid Breakfast,0.67,3,0.09,0.99
+UWx Stoneblade,Mystic Forge Combo,0.0,1,0.0,0.98
+UWx Stoneblade,Mono Black,0.0,2,0.0,0.84
+UWx Stoneblade,Doomsday,1.0,1,0.02,1.0
+UWx Stoneblade,The EPIC Storm,0.33,3,0.01,0.91
+UWx Stoneblade,Ad Nauseam Tendrils,0.25,4,0.01,0.81
+UWx Stoneblade,Blue Cloudpost,1.0,1,0.02,1.0
+UWx Stoneblade,BUG,1.0,2,0.16,1.0
+UWx Stoneblade,Grixis Tempo,0.5,2,0.01,0.99
+UWx Stoneblade,Domain Beanstalk,1.0,1,0.02,1.0
+UWx Stoneblade,Burn,1.0,1,0.02,1.0
 UWx Stoneblade,Green Post,0.0,1,0.0,0.98
-UWx Stoneblade,Nic Fit,1.0,1,0.02,1.0
-UWx Stoneblade,Mono Black,0.0,1,0.0,0.98
+UWx Stoneblade,Necro Storm,0.0,1,0.0,0.98
+Sneak and Show,Dimir Tempo,0.43,7,0.1,0.82
+Sneak and Show,Izzet Cutter,0.6,5,0.15,0.95
+Sneak and Show,Death & Taxes,0.5,6,0.12,0.88
+Sneak and Show,Eldrazi Stompy,0.5,2,0.01,0.99
+Sneak and Show,Sneak and Show,0.5,2,0.01,0.99
+Sneak and Show,Cradle Control,0.5,2,0.01,0.99
+Sneak and Show,Affinity,0.0,3,0.0,0.71
+Sneak and Show,Show and Tell,0.5,2,0.01,0.99
+Sneak and Show,Bant Beanstalk,0.4,5,0.05,0.85
+Sneak and Show,Mono Red Prison,1.0,1,0.02,1.0
+Sneak and Show,Lands.dec,0.67,3,0.09,0.99
+Sneak and Show,UWx Control,0.43,7,0.1,0.82
+Sneak and Show,Oops! All Spells,0.0,1,0.0,0.98
+Sneak and Show,Cephalid Breakfast,1.0,1,0.02,1.0
+Sneak and Show,Mardu Ocelot,1.0,1,0.02,1.0
+Sneak and Show,Mono Black,1.0,1,0.02,1.0
+Sneak and Show,The EPIC Storm,1.0,1,0.02,1.0
+Sneak and Show,Painter Grindstone,0.5,2,0.01,0.99
+Sneak and Show,Blue Cloudpost,1.0,2,0.16,1.0
+Sneak and Show,Grixis Tempo,0.0,1,0.0,0.98
+Sneak and Show,Domain Beanstalk,1.0,2,0.16,1.0
+Sneak and Show,Dredge,0.0,1,0.0,0.98
+Sneak and Show,Merfolk,1.0,1,0.02,1.0
+Sneak and Show,Maverick,0.0,1,0.0,0.98
+Sneak and Show,Naya Initiative,1.0,1,0.02,1.0
+Cradle Control,Dimir Tempo,0.56,9,0.21,0.86
+Cradle Control,Izzet Cutter,0.0,2,0.0,0.84
+Cradle Control,Eldrazi Stompy,1.0,2,0.16,1.0
+Cradle Control,UWx Stoneblade,0.67,3,0.09,0.99
+Cradle Control,Sneak and Show,0.5,2,0.01,0.99
+Cradle Control,Affinity,1.0,5,0.48,1.0
+Cradle Control,Show and Tell,0.33,3,0.01,0.91
+Cradle Control,Bant Beanstalk,0.0,1,0.0,0.98
+Cradle Control,Mono Red Prison,0.0,2,0.0,0.84
+Cradle Control,UWx Control,0.5,4,0.07,0.93
+Cradle Control,Oops! All Spells,0.5,2,0.01,0.99
+Cradle Control,Cephalid Breakfast,0.25,4,0.01,0.81
+Cradle Control,Mardu Ocelot,1.0,1,0.02,1.0
+Cradle Control,Mono Black,1.0,1,0.02,1.0
+Cradle Control,Doomsday,1.0,1,0.02,1.0
+Cradle Control,The EPIC Storm,0.5,4,0.07,0.93
+Cradle Control,Ad Nauseam Tendrils,0.0,2,0.0,0.84
+Cradle Control,Grixis Tempo,1.0,1,0.02,1.0
+Cradle Control,Domain Beanstalk,0.0,1,0.0,0.98
+Cradle Control,Reanimator,0.0,1,0.0,0.98
+Cradle Control,Necro Storm,1.0,1,0.02,1.0
+Affinity,Dimir Tempo,0.67,6,0.22,0.96
+Affinity,Izzet Cutter,0.2,5,0.01,0.72
+Affinity,Death & Taxes,0.14,7,0.0,0.58
+Affinity,Eldrazi Stompy,0.0,1,0.0,0.98
+Affinity,UWx Stoneblade,1.0,2,0.16,1.0
+Affinity,Sneak and Show,1.0,3,0.29,1.0
+Affinity,Cradle Control,0.0,5,0.0,0.52
+Affinity,Show and Tell,1.0,1,0.02,1.0
+Affinity,Bant Beanstalk,0.0,1,0.0,0.98
 Affinity,Mono Red Prison,0.5,2,0.01,0.99
-Affinity,Dimir Tempo,0.5,2,0.01,0.99
-Affinity,Death & Taxes,0.0,3,0.0,0.71
-Affinity,Cradle Control,0.0,1,0.0,0.98
-Affinity,Doomsday,1.0,1,0.02,1.0
-Affinity,Goblins,0.0,1,0.0,0.98
-Affinity,Oops! All Spells,0.0,1,0.0,0.98
-Affinity,Smallpox,0.0,1,0.0,0.98
-Affinity,Dark Depths,1.0,1,0.02,1.0
-Dredge,Dimir Tempo,0.5,2,0.01,0.99
-Dredge,Lands.dec,0.0,2,0.0,0.84
-Dredge,Doomsday,0.0,1,0.0,0.98
-Dredge,Goblins,0.5,2,0.01,0.99
-Dredge,Temur Tempo,0.0,1,0.0,0.98
-Dredge,Reanimator,1.0,1,0.02,1.0
-Dredge,Sneak and Show,1.0,1,0.02,1.0
-Dredge,Bant Beanstalk,1.0,1,0.02,1.0
-Doomsday,Death & Taxes,0.0,1,0.0,0.98
-Doomsday,UWx Stoneblade,0.0,1,0.0,0.98
-Doomsday,Affinity,0.0,1,0.0,0.98
-Doomsday,Dredge,1.0,1,0.02,1.0
-Doomsday,Painter Grindstone,1.0,1,0.02,1.0
-Doomsday,Temur Tempo,0.0,1,0.0,0.98
-Doomsday,Oops! All Spells,0.0,1,0.0,0.98
-Doomsday,Reanimator,1.0,1,0.02,1.0
-Doomsday,UWx Control,0.0,1,0.0,0.98
-Doomsday,Bant Beanstalk,1.0,1,0.02,1.0
-Doomsday,Mono Black Demons,0.0,1,0.0,0.98
-Goblins,Mono Red Prison,1.0,1,0.02,1.0
-Goblins,Dimir Tempo,0.0,2,0.0,0.84
-Goblins,Cradle Control,1.0,1,0.02,1.0
-Goblins,Lands.dec,0.0,2,0.0,0.84
-Goblins,UWx Stoneblade,0.0,1,0.0,0.98
-Goblins,Affinity,1.0,1,0.02,1.0
-Goblins,Dredge,0.5,2,0.01,0.99
-Goblins,Dark Depths,1.0,1,0.02,1.0
-Show and Tell,Dimir Tempo,0.0,1,0.0,0.98
-Show and Tell,Death & Taxes,0.0,2,0.0,0.84
-Show and Tell,UR Tempo,0.0,1,0.0,0.98
+Affinity,UWx Control,0.0,1,0.0,0.98
+Affinity,Oops! All Spells,0.0,3,0.0,0.71
+Affinity,Cephalid Breakfast,1.0,1,0.02,1.0
+Affinity,Mystic Forge Combo,1.0,1,0.02,1.0
+Affinity,Mardu Ocelot,0.0,1,0.0,0.98
+Affinity,Mono Black,0.0,1,0.0,0.98
+Affinity,Doomsday,0.5,2,0.01,0.99
+Affinity,The EPIC Storm,0.0,1,0.0,0.98
+Affinity,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Affinity,Blue Cloudpost,0.0,1,0.0,0.98
+Affinity,Domain Beanstalk,1.0,1,0.02,1.0
+Affinity,Burn,0.0,1,0.0,0.98
+Affinity,Necro Storm,0.0,1,0.0,0.98
+Affinity,UBx Death's Shadow,1.0,2,0.16,1.0
+Show and Tell,Dimir Tempo,0.67,9,0.3,0.93
+Show and Tell,Izzet Cutter,0.5,2,0.01,0.99
+Show and Tell,Death & Taxes,0.17,6,0.0,0.64
 Show and Tell,UWx Stoneblade,0.0,1,0.0,0.98
-Show and Tell,Show and Tell,0.5,2,0.01,0.99
-Show and Tell,Green Post,0.0,1,0.0,0.98
-Show and Tell,Stiflenought,1.0,1,0.02,1.0
-Painter Grindstone,Mono Red Prison,0.0,2,0.0,0.84
-Painter Grindstone,Dimir Tempo,1.0,1,0.02,1.0
-Painter Grindstone,Lands.dec,1.0,1,0.02,1.0
-Painter Grindstone,UWx Stoneblade,1.0,1,0.02,1.0
-Painter Grindstone,Doomsday,0.0,1,0.0,0.98
-Painter Grindstone,Ruby Storm,0.0,2,0.0,0.84
-Painter Grindstone,Sneak and Show,0.0,1,0.0,0.98
-Painter Grindstone,Merfolk,0.0,1,0.0,0.98
-Ad Nauseam Tendrils,UR Tempo,0.5,2,0.01,0.99
-Ad Nauseam Tendrils,Cradle Control,1.0,1,0.02,1.0
-Ad Nauseam Tendrils,Lands.dec,0.0,1,0.0,0.98
-Ad Nauseam Tendrils,UWx Stoneblade,0.5,2,0.01,0.99
+Show and Tell,Sneak and Show,0.5,2,0.01,0.99
+Show and Tell,Cradle Control,0.67,3,0.09,0.99
+Show and Tell,Affinity,0.0,1,0.0,0.98
+Show and Tell,Show and Tell,0.5,10,0.19,0.81
+Show and Tell,Mono Red Prison,1.0,1,0.02,1.0
+Show and Tell,Lands.dec,0.0,1,0.0,0.98
+Show and Tell,UWx Control,0.5,2,0.01,0.99
+Show and Tell,Oops! All Spells,0.0,1,0.0,0.98
+Show and Tell,Cephalid Breakfast,0.0,1,0.0,0.98
+Show and Tell,Mystic Forge Combo,1.0,1,0.02,1.0
+Show and Tell,Mardu Ocelot,0.0,1,0.0,0.98
+Show and Tell,Mono Black,1.0,1,0.02,1.0
+Show and Tell,The EPIC Storm,0.5,2,0.01,0.99
+Show and Tell,Green Post,0.5,2,0.01,0.99
+Show and Tell,Merfolk,0.0,1,0.0,0.98
+Show and Tell,Necro Storm,1.0,1,0.02,1.0
+Bant Beanstalk,Dimir Tempo,0.43,7,0.1,0.82
+Bant Beanstalk,Izzet Cutter,0.33,3,0.01,0.91
+Bant Beanstalk,Eldrazi Stompy,0.5,2,0.01,0.99
+Bant Beanstalk,UWx Stoneblade,0.0,1,0.0,0.98
+Bant Beanstalk,Sneak and Show,0.6,5,0.15,0.95
+Bant Beanstalk,Cradle Control,1.0,1,0.02,1.0
+Bant Beanstalk,Affinity,1.0,1,0.02,1.0
+Bant Beanstalk,Mono Red Prison,0.5,2,0.01,0.99
+Bant Beanstalk,UWx Control,0.4,5,0.05,0.85
+Bant Beanstalk,Oops! All Spells,0.0,2,0.0,0.84
+Bant Beanstalk,Mystic Forge Combo,1.0,1,0.02,1.0
+Bant Beanstalk,Mardu Ocelot,0.67,3,0.09,0.99
+Bant Beanstalk,Doomsday,0.0,2,0.0,0.84
+Bant Beanstalk,The EPIC Storm,1.0,1,0.02,1.0
+Bant Beanstalk,Painter Grindstone,1.0,1,0.02,1.0
+Bant Beanstalk,Blue Cloudpost,1.0,1,0.02,1.0
+Bant Beanstalk,BUG,1.0,1,0.02,1.0
+Bant Beanstalk,Grixis Tempo,0.0,1,0.0,0.98
+Bant Beanstalk,Domain Beanstalk,0.33,3,0.01,0.91
+Bant Beanstalk,Reanimator,1.0,1,0.02,1.0
+Bant Beanstalk,Dredge,0.0,1,0.0,0.98
+Bant Beanstalk,Necro Storm,0.0,1,0.0,0.98
+Mono Red Prison,Dimir Tempo,0.17,6,0.0,0.64
+Mono Red Prison,Izzet Cutter,0.75,4,0.19,0.99
+Mono Red Prison,Death & Taxes,0.0,3,0.0,0.71
+Mono Red Prison,UWx Stoneblade,0.0,1,0.0,0.98
+Mono Red Prison,Sneak and Show,0.0,1,0.0,0.98
+Mono Red Prison,Cradle Control,1.0,2,0.16,1.0
+Mono Red Prison,Affinity,0.5,2,0.01,0.99
+Mono Red Prison,Show and Tell,0.0,1,0.0,0.98
+Mono Red Prison,Bant Beanstalk,0.5,2,0.01,0.99
+Mono Red Prison,Mono Red Prison,0.5,2,0.01,0.99
+Mono Red Prison,UWx Control,1.0,1,0.02,1.0
+Mono Red Prison,Mystic Forge Combo,1.0,1,0.02,1.0
+Mono Red Prison,Mardu Ocelot,1.0,1,0.02,1.0
+Mono Red Prison,Mono Black,0.0,2,0.0,0.84
+Mono Red Prison,Painter Grindstone,0.67,3,0.09,0.99
+Mono Red Prison,Blue Cloudpost,0.0,1,0.0,0.98
+Mono Red Prison,Merfolk,1.0,1,0.02,1.0
+Mono Red Prison,Temur Tempo,0.5,2,0.01,0.99
+Mono Red Prison,UBx Death's Shadow,1.0,1,0.02,1.0
+Mono Red Prison,Naya Initiative,1.0,1,0.02,1.0
+Lands.dec,Dimir Tempo,0.75,8,0.35,0.97
+Lands.dec,Izzet Cutter,1.0,4,0.4,1.0
+Lands.dec,Death & Taxes,0.5,4,0.07,0.93
+Lands.dec,Eldrazi Stompy,0.0,2,0.0,0.84
+Lands.dec,UWx Stoneblade,0.0,2,0.0,0.84
+Lands.dec,Sneak and Show,0.33,3,0.01,0.91
+Lands.dec,Show and Tell,1.0,1,0.02,1.0
+Lands.dec,Lands.dec,0.5,2,0.01,0.99
+Lands.dec,Oops! All Spells,0.0,1,0.0,0.98
+Lands.dec,Cephalid Breakfast,1.0,1,0.02,1.0
+Lands.dec,Mystic Forge Combo,1.0,1,0.02,1.0
+Lands.dec,Mardu Ocelot,1.0,1,0.02,1.0
+Lands.dec,Mono Black,1.0,1,0.02,1.0
+Lands.dec,The EPIC Storm,1.0,1,0.02,1.0
+Lands.dec,Ad Nauseam Tendrils,1.0,2,0.16,1.0
+Lands.dec,Blue Cloudpost,1.0,1,0.02,1.0
+Lands.dec,BUG,0.0,1,0.0,0.98
+Lands.dec,Domain Beanstalk,1.0,1,0.02,1.0
+Lands.dec,Dredge,1.0,2,0.16,1.0
+Lands.dec,Maverick,0.0,1,0.0,0.98
+Lands.dec,Naya Initiative,0.0,1,0.0,0.98
+UWx Control,Dimir Tempo,0.63,8,0.24,0.91
+UWx Control,Izzet Cutter,0.5,2,0.01,0.99
+UWx Control,Eldrazi Stompy,0.0,1,0.0,0.98
+UWx Control,UWx Stoneblade,1.0,2,0.16,1.0
+UWx Control,Sneak and Show,0.57,7,0.18,0.9
+UWx Control,Cradle Control,0.5,4,0.07,0.93
+UWx Control,Affinity,1.0,1,0.02,1.0
+UWx Control,Show and Tell,0.5,2,0.01,0.99
+UWx Control,Bant Beanstalk,0.6,5,0.15,0.95
+UWx Control,Mono Red Prison,0.0,1,0.0,0.98
+UWx Control,Oops! All Spells,0.0,1,0.0,0.98
+UWx Control,Mardu Ocelot,0.0,1,0.0,0.98
+UWx Control,Doomsday,1.0,2,0.16,1.0
+UWx Control,The EPIC Storm,1.0,1,0.02,1.0
+UWx Control,BUG,0.0,1,0.0,0.98
+UWx Control,Maverick,1.0,1,0.02,1.0
+UWx Control,UBx Death's Shadow,0.0,1,0.0,0.98
+Oops! All Spells,Dimir Tempo,0.4,5,0.05,0.85
+Oops! All Spells,Izzet Cutter,0.5,4,0.07,0.93
+Oops! All Spells,Death & Taxes,0.67,3,0.09,0.99
+Oops! All Spells,Eldrazi Stompy,0.0,1,0.0,0.98
+Oops! All Spells,UWx Stoneblade,0.0,1,0.0,0.98
+Oops! All Spells,Sneak and Show,1.0,1,0.02,1.0
+Oops! All Spells,Cradle Control,0.5,2,0.01,0.99
+Oops! All Spells,Affinity,1.0,3,0.29,1.0
+Oops! All Spells,Show and Tell,1.0,1,0.02,1.0
+Oops! All Spells,Bant Beanstalk,1.0,2,0.16,1.0
+Oops! All Spells,Lands.dec,1.0,1,0.02,1.0
+Oops! All Spells,UWx Control,1.0,1,0.02,1.0
+Oops! All Spells,Mystic Forge Combo,1.0,1,0.02,1.0
+Oops! All Spells,Mardu Ocelot,0.33,3,0.01,0.91
+Oops! All Spells,Mono Black,1.0,2,0.16,1.0
+Oops! All Spells,The EPIC Storm,1.0,1,0.02,1.0
+Oops! All Spells,Blue Cloudpost,1.0,2,0.16,1.0
+Oops! All Spells,BUG,1.0,1,0.02,1.0
+Oops! All Spells,Domain Beanstalk,1.0,1,0.02,1.0
+Oops! All Spells,Merfolk,1.0,1,0.02,1.0
+Oops! All Spells,Necro Storm,0.0,2,0.0,0.84
+Oops! All Spells,UBx Death's Shadow,0.0,1,0.0,0.98
+Cephalid Breakfast,Dimir Tempo,0.25,4,0.01,0.81
+Cephalid Breakfast,Izzet Cutter,1.0,2,0.16,1.0
+Cephalid Breakfast,Death & Taxes,1.0,1,0.02,1.0
+Cephalid Breakfast,Eldrazi Stompy,0.0,3,0.0,0.71
+Cephalid Breakfast,UWx Stoneblade,0.33,3,0.01,0.91
+Cephalid Breakfast,Sneak and Show,0.0,1,0.0,0.98
+Cephalid Breakfast,Cradle Control,0.75,4,0.19,0.99
+Cephalid Breakfast,Affinity,0.0,1,0.0,0.98
+Cephalid Breakfast,Show and Tell,1.0,1,0.02,1.0
+Cephalid Breakfast,Lands.dec,0.0,1,0.0,0.98
+Cephalid Breakfast,Mardu Ocelot,0.67,3,0.09,0.99
+Cephalid Breakfast,Mono Black,0.5,2,0.01,0.99
+Cephalid Breakfast,Doomsday,0.5,2,0.01,0.99
+Cephalid Breakfast,The EPIC Storm,0.5,2,0.01,0.99
+Cephalid Breakfast,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Cephalid Breakfast,Painter Grindstone,1.0,1,0.02,1.0
+Cephalid Breakfast,Blue Cloudpost,0.33,3,0.01,0.91
+Cephalid Breakfast,Burn,1.0,1,0.02,1.0
+Mystic Forge Combo,Dimir Tempo,0.75,8,0.35,0.97
+Mystic Forge Combo,Izzet Cutter,0.67,3,0.09,0.99
+Mystic Forge Combo,Death & Taxes,0.5,2,0.01,0.99
+Mystic Forge Combo,UWx Stoneblade,1.0,1,0.02,1.0
+Mystic Forge Combo,Affinity,0.0,1,0.0,0.98
+Mystic Forge Combo,Show and Tell,0.0,1,0.0,0.98
+Mystic Forge Combo,Bant Beanstalk,0.0,1,0.0,0.98
+Mystic Forge Combo,Mono Red Prison,0.0,1,0.0,0.98
+Mystic Forge Combo,Lands.dec,0.0,1,0.0,0.98
+Mystic Forge Combo,Oops! All Spells,0.0,1,0.0,0.98
+Mystic Forge Combo,Doomsday,0.5,2,0.01,0.99
+Mystic Forge Combo,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Mystic Forge Combo,Painter Grindstone,1.0,1,0.02,1.0
+Mystic Forge Combo,Blue Cloudpost,0.0,1,0.0,0.98
+Mystic Forge Combo,BUG,0.0,1,0.0,0.98
+Mystic Forge Combo,Green Post,1.0,1,0.02,1.0
+Mystic Forge Combo,Merfolk,1.0,1,0.02,1.0
+Mystic Forge Combo,Necro Storm,0.0,2,0.0,0.84
+Mystic Forge Combo,Maverick,0.0,1,0.0,0.98
+Mystic Forge Combo,UBx Death's Shadow,1.0,1,0.02,1.0
+Mardu Ocelot,Dimir Tempo,0.5,4,0.07,0.93
+Mardu Ocelot,Eldrazi Stompy,0.4,5,0.05,0.85
+Mardu Ocelot,Sneak and Show,0.0,1,0.0,0.98
+Mardu Ocelot,Cradle Control,0.0,1,0.0,0.98
+Mardu Ocelot,Affinity,1.0,1,0.02,1.0
+Mardu Ocelot,Show and Tell,1.0,1,0.02,1.0
+Mardu Ocelot,Bant Beanstalk,0.33,3,0.01,0.91
+Mardu Ocelot,Mono Red Prison,0.0,1,0.0,0.98
+Mardu Ocelot,Lands.dec,0.0,1,0.0,0.98
+Mardu Ocelot,UWx Control,1.0,1,0.02,1.0
+Mardu Ocelot,Oops! All Spells,0.67,3,0.09,0.99
+Mardu Ocelot,Cephalid Breakfast,0.33,3,0.01,0.91
+Mardu Ocelot,Mardu Ocelot,0.5,2,0.01,0.99
+Mardu Ocelot,Mono Black,0.0,1,0.0,0.98
+Mardu Ocelot,Doomsday,0.0,1,0.0,0.98
+Mardu Ocelot,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Mardu Ocelot,Painter Grindstone,0.0,1,0.0,0.98
+Mardu Ocelot,Grixis Tempo,1.0,1,0.02,1.0
+Mardu Ocelot,Burn,1.0,1,0.02,1.0
+Mono Black,Dimir Tempo,0.75,4,0.19,0.99
+Mono Black,Izzet Cutter,1.0,1,0.02,1.0
+Mono Black,Death & Taxes,0.0,1,0.0,0.98
+Mono Black,Eldrazi Stompy,1.0,1,0.02,1.0
+Mono Black,UWx Stoneblade,1.0,2,0.16,1.0
+Mono Black,Sneak and Show,0.0,1,0.0,0.98
+Mono Black,Cradle Control,0.0,1,0.0,0.98
+Mono Black,Affinity,1.0,1,0.02,1.0
+Mono Black,Show and Tell,0.0,1,0.0,0.98
+Mono Black,Mono Red Prison,1.0,2,0.16,1.0
+Mono Black,Lands.dec,0.0,1,0.0,0.98
+Mono Black,Oops! All Spells,0.0,2,0.0,0.84
+Mono Black,Cephalid Breakfast,0.5,2,0.01,0.99
+Mono Black,Mardu Ocelot,1.0,1,0.02,1.0
+Mono Black,Doomsday,1.0,1,0.02,1.0
+Mono Black,The EPIC Storm,1.0,1,0.02,1.0
+Mono Black,Painter Grindstone,0.5,2,0.01,0.99
+Mono Black,BUG,0.0,1,0.0,0.98
+Mono Black,Grixis Tempo,0.0,1,0.0,0.98
+Mono Black,Green Post,0.0,1,0.0,0.98
+Mono Black,Maverick,1.0,1,0.02,1.0
+Doomsday,Dimir Tempo,1.0,2,0.16,1.0
+Doomsday,Death & Taxes,0.33,3,0.01,0.91
+Doomsday,Eldrazi Stompy,1.0,1,0.02,1.0
+Doomsday,UWx Stoneblade,0.0,1,0.0,0.98
+Doomsday,Cradle Control,0.0,1,0.0,0.98
+Doomsday,Affinity,0.5,2,0.01,0.99
+Doomsday,Bant Beanstalk,1.0,2,0.16,1.0
+Doomsday,UWx Control,0.0,2,0.0,0.84
+Doomsday,Cephalid Breakfast,0.5,2,0.01,0.99
+Doomsday,Mystic Forge Combo,0.5,2,0.01,0.99
+Doomsday,Mardu Ocelot,1.0,1,0.02,1.0
+Doomsday,Mono Black,0.0,1,0.0,0.98
+Doomsday,Ad Nauseam Tendrils,0.0,1,0.0,0.98
+Doomsday,Blue Cloudpost,1.0,1,0.02,1.0
+Doomsday,Domain Beanstalk,0.0,1,0.0,0.98
+Doomsday,Reanimator,1.0,1,0.02,1.0
+Doomsday,Dredge,1.0,1,0.02,1.0
+Doomsday,Maverick,1.0,1,0.02,1.0
+Doomsday,Temur Tempo,0.0,1,0.0,0.98
+The EPIC Storm,Dimir Tempo,0.4,5,0.05,0.85
+The EPIC Storm,Izzet Cutter,1.0,2,0.16,1.0
+The EPIC Storm,UWx Stoneblade,0.67,3,0.09,0.99
+The EPIC Storm,Sneak and Show,0.0,1,0.0,0.98
+The EPIC Storm,Cradle Control,0.5,4,0.07,0.93
+The EPIC Storm,Affinity,1.0,1,0.02,1.0
+The EPIC Storm,Show and Tell,0.5,2,0.01,0.99
+The EPIC Storm,Bant Beanstalk,0.0,1,0.0,0.98
+The EPIC Storm,Lands.dec,0.0,1,0.0,0.98
+The EPIC Storm,UWx Control,0.0,1,0.0,0.98
+The EPIC Storm,Oops! All Spells,0.0,1,0.0,0.98
+The EPIC Storm,Cephalid Breakfast,0.5,2,0.01,0.99
+The EPIC Storm,Mono Black,0.0,1,0.0,0.98
+The EPIC Storm,Blue Cloudpost,1.0,1,0.02,1.0
+The EPIC Storm,Grixis Tempo,0.0,1,0.0,0.98
+The EPIC Storm,Domain Beanstalk,0.0,1,0.0,0.98
+The EPIC Storm,Burn,1.0,1,0.02,1.0
+Ad Nauseam Tendrils,Dimir Tempo,0.5,2,0.01,0.99
+Ad Nauseam Tendrils,Izzet Cutter,0.33,3,0.01,0.91
+Ad Nauseam Tendrils,Eldrazi Stompy,1.0,1,0.02,1.0
+Ad Nauseam Tendrils,UWx Stoneblade,0.75,4,0.19,0.99
+Ad Nauseam Tendrils,Cradle Control,1.0,2,0.16,1.0
+Ad Nauseam Tendrils,Affinity,0.0,1,0.0,0.98
+Ad Nauseam Tendrils,Lands.dec,0.0,2,0.0,0.84
+Ad Nauseam Tendrils,Cephalid Breakfast,0.0,1,0.0,0.98
+Ad Nauseam Tendrils,Mystic Forge Combo,0.0,1,0.0,0.98
+Ad Nauseam Tendrils,Mardu Ocelot,0.0,1,0.0,0.98
+Ad Nauseam Tendrils,Doomsday,1.0,1,0.02,1.0
+Ad Nauseam Tendrils,Blue Cloudpost,0.0,1,0.0,0.98
+Ad Nauseam Tendrils,Domain Beanstalk,1.0,1,0.02,1.0
+Ad Nauseam Tendrils,Burn,0.0,1,0.0,0.98
 Ad Nauseam Tendrils,Temur Tempo,0.0,1,0.0,0.98
 Ad Nauseam Tendrils,Naya Initiative,0.0,1,0.0,0.98
-Temur Tempo,Mono Red Prison,0.5,2,0.01,0.99
+Painter Grindstone,Dimir Tempo,0.56,9,0.21,0.86
+Painter Grindstone,Sneak and Show,0.5,2,0.01,0.99
+Painter Grindstone,Bant Beanstalk,0.0,1,0.0,0.98
+Painter Grindstone,Mono Red Prison,0.33,3,0.01,0.91
+Painter Grindstone,Cephalid Breakfast,0.0,1,0.0,0.98
+Painter Grindstone,Mystic Forge Combo,0.0,1,0.0,0.98
+Painter Grindstone,Mardu Ocelot,1.0,1,0.02,1.0
+Painter Grindstone,Mono Black,0.5,2,0.01,0.99
+Painter Grindstone,Domain Beanstalk,1.0,1,0.02,1.0
+Painter Grindstone,Green Post,0.0,1,0.0,0.98
+Painter Grindstone,Merfolk,0.0,1,0.0,0.98
+Blue Cloudpost,Dimir Tempo,0.5,2,0.01,0.99
+Blue Cloudpost,Izzet Cutter,0.0,1,0.0,0.98
+Blue Cloudpost,Death & Taxes,1.0,1,0.02,1.0
+Blue Cloudpost,UWx Stoneblade,0.0,1,0.0,0.98
+Blue Cloudpost,Sneak and Show,0.0,2,0.0,0.84
+Blue Cloudpost,Affinity,1.0,1,0.02,1.0
+Blue Cloudpost,Bant Beanstalk,0.0,1,0.0,0.98
+Blue Cloudpost,Mono Red Prison,1.0,1,0.02,1.0
+Blue Cloudpost,Lands.dec,0.0,1,0.0,0.98
+Blue Cloudpost,Oops! All Spells,0.0,2,0.0,0.84
+Blue Cloudpost,Cephalid Breakfast,0.67,3,0.09,0.99
+Blue Cloudpost,Mystic Forge Combo,1.0,1,0.02,1.0
+Blue Cloudpost,Doomsday,0.0,1,0.0,0.98
+Blue Cloudpost,The EPIC Storm,0.0,1,0.0,0.98
+Blue Cloudpost,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Blue Cloudpost,Reanimator,0.0,1,0.0,0.98
+BUG,Dimir Tempo,0.0,2,0.0,0.84
+BUG,Izzet Cutter,1.0,1,0.02,1.0
+BUG,Death & Taxes,0.67,3,0.09,0.99
+BUG,Eldrazi Stompy,1.0,1,0.02,1.0
+BUG,UWx Stoneblade,0.0,2,0.0,0.84
+BUG,Bant Beanstalk,0.0,1,0.0,0.98
+BUG,Lands.dec,1.0,1,0.02,1.0
+BUG,UWx Control,1.0,1,0.02,1.0
+BUG,Oops! All Spells,0.0,1,0.0,0.98
+BUG,Mystic Forge Combo,1.0,1,0.02,1.0
+BUG,Mono Black,1.0,1,0.02,1.0
+BUG,Green Post,0.0,1,0.0,0.98
+BUG,Naya Initiative,1.0,1,0.02,1.0
+Grixis Tempo,Dimir Tempo,1.0,1,0.02,1.0
+Grixis Tempo,Izzet Cutter,1.0,1,0.02,1.0
+Grixis Tempo,Death & Taxes,0.5,4,0.07,0.93
+Grixis Tempo,Eldrazi Stompy,1.0,1,0.02,1.0
+Grixis Tempo,UWx Stoneblade,0.5,2,0.01,0.99
+Grixis Tempo,Sneak and Show,1.0,1,0.02,1.0
+Grixis Tempo,Cradle Control,0.0,1,0.0,0.98
+Grixis Tempo,Bant Beanstalk,1.0,1,0.02,1.0
+Grixis Tempo,Mardu Ocelot,0.0,1,0.0,0.98
+Grixis Tempo,Mono Black,1.0,1,0.02,1.0
+Grixis Tempo,The EPIC Storm,1.0,1,0.02,1.0
+Domain Beanstalk,Dimir Tempo,0.0,1,0.0,0.98
+Domain Beanstalk,UWx Stoneblade,0.0,1,0.0,0.98
+Domain Beanstalk,Sneak and Show,0.0,2,0.0,0.84
+Domain Beanstalk,Cradle Control,1.0,1,0.02,1.0
+Domain Beanstalk,Affinity,0.0,1,0.0,0.98
+Domain Beanstalk,Bant Beanstalk,0.67,3,0.09,0.99
+Domain Beanstalk,Lands.dec,0.0,1,0.0,0.98
+Domain Beanstalk,Oops! All Spells,0.0,1,0.0,0.98
+Domain Beanstalk,Doomsday,1.0,1,0.02,1.0
+Domain Beanstalk,The EPIC Storm,1.0,1,0.02,1.0
+Domain Beanstalk,Ad Nauseam Tendrils,0.0,1,0.0,0.98
+Domain Beanstalk,Painter Grindstone,0.0,1,0.0,0.98
+Domain Beanstalk,Burn,1.0,1,0.02,1.0
+Reanimator,Dimir Tempo,0.0,2,0.0,0.84
+Reanimator,Izzet Cutter,0.0,2,0.0,0.84
+Reanimator,Death & Taxes,0.0,1,0.0,0.98
+Reanimator,Cradle Control,1.0,1,0.02,1.0
+Reanimator,Bant Beanstalk,0.0,1,0.0,0.98
+Reanimator,Doomsday,0.0,1,0.0,0.98
+Reanimator,Blue Cloudpost,1.0,1,0.02,1.0
+Reanimator,Reanimator,0.5,2,0.01,0.99
+Reanimator,Dredge,0.0,1,0.0,0.98
+Reanimator,UBx Death's Shadow,1.0,1,0.02,1.0
+Dredge,Dimir Tempo,0.5,2,0.01,0.99
+Dredge,Sneak and Show,1.0,1,0.02,1.0
+Dredge,Bant Beanstalk,1.0,1,0.02,1.0
+Dredge,Lands.dec,0.0,2,0.0,0.84
+Dredge,Doomsday,0.0,1,0.0,0.98
+Dredge,Reanimator,1.0,1,0.02,1.0
+Dredge,Temur Tempo,0.0,1,0.0,0.98
+Burn,Izzet Cutter,0.0,1,0.0,0.98
+Burn,Eldrazi Stompy,0.5,2,0.01,0.99
+Burn,UWx Stoneblade,0.0,1,0.0,0.98
+Burn,Affinity,1.0,1,0.02,1.0
+Burn,Cephalid Breakfast,0.0,1,0.0,0.98
+Burn,Mardu Ocelot,0.0,1,0.0,0.98
+Burn,The EPIC Storm,0.0,1,0.0,0.98
+Burn,Ad Nauseam Tendrils,1.0,1,0.02,1.0
+Burn,Domain Beanstalk,0.0,1,0.0,0.98
+Burn,Burn,0.5,2,0.01,0.99
+Green Post,Dimir Tempo,1.0,2,0.16,1.0
+Green Post,Izzet Cutter,1.0,1,0.02,1.0
+Green Post,Eldrazi Stompy,0.0,1,0.0,0.98
+Green Post,UWx Stoneblade,1.0,1,0.02,1.0
+Green Post,Show and Tell,0.5,2,0.01,0.99
+Green Post,Mystic Forge Combo,0.0,1,0.0,0.98
+Green Post,Mono Black,1.0,1,0.02,1.0
+Green Post,Painter Grindstone,1.0,1,0.02,1.0
+Green Post,BUG,1.0,1,0.02,1.0
+Merfolk,Dimir Tempo,1.0,3,0.29,1.0
+Merfolk,Eldrazi Stompy,1.0,1,0.02,1.0
+Merfolk,Sneak and Show,0.0,1,0.0,0.98
+Merfolk,Show and Tell,1.0,1,0.02,1.0
+Merfolk,Mono Red Prison,0.0,1,0.0,0.98
+Merfolk,Oops! All Spells,0.0,1,0.0,0.98
+Merfolk,Mystic Forge Combo,0.0,1,0.0,0.98
+Merfolk,Painter Grindstone,1.0,1,0.02,1.0
+Necro Storm,Death & Taxes,0.0,1,0.0,0.98
+Necro Storm,UWx Stoneblade,1.0,1,0.02,1.0
+Necro Storm,Cradle Control,0.0,1,0.0,0.98
+Necro Storm,Affinity,1.0,1,0.02,1.0
+Necro Storm,Show and Tell,0.0,1,0.0,0.98
+Necro Storm,Bant Beanstalk,1.0,1,0.02,1.0
+Necro Storm,Oops! All Spells,1.0,2,0.16,1.0
+Necro Storm,Mystic Forge Combo,1.0,2,0.16,1.0
+Maverick,Sneak and Show,1.0,1,0.02,1.0
+Maverick,Lands.dec,1.0,1,0.02,1.0
+Maverick,UWx Control,0.0,1,0.0,0.98
+Maverick,Mystic Forge Combo,1.0,1,0.02,1.0
+Maverick,Mono Black,0.0,1,0.0,0.98
+Maverick,Doomsday,0.0,1,0.0,0.98
 Temur Tempo,Death & Taxes,0.0,1,0.0,0.98
-Temur Tempo,Dredge,1.0,1,0.02,1.0
+Temur Tempo,Mono Red Prison,0.5,2,0.01,0.99
 Temur Tempo,Doomsday,1.0,1,0.02,1.0
 Temur Tempo,Ad Nauseam Tendrils,1.0,1,0.02,1.0
-Temur Tempo,Boros Initiative,1.0,1,0.02,1.0
-Temur Tempo,Mono Black Demons,1.0,1,0.02,1.0
-Oops! All Spells,Death & Taxes,1.0,1,0.02,1.0
-Oops! All Spells,Cradle Control,1.0,1,0.02,1.0
-Oops! All Spells,Affinity,1.0,1,0.02,1.0
-Oops! All Spells,Doomsday,1.0,1,0.02,1.0
-Oops! All Spells,Oops! All Spells,0.5,2,0.01,0.99
-Oops! All Spells,Bant Beanstalk,0.0,1,0.0,0.98
-Green Post,Dimir Tempo,1.0,1,0.02,1.0
-Green Post,UR Tempo,1.0,1,0.02,1.0
-Green Post,UWx Stoneblade,1.0,1,0.02,1.0
-Green Post,Show and Tell,1.0,1,0.02,1.0
-Green Post,BUG,1.0,1,0.02,1.0
-Green Post,Ruby Storm,0.0,1,0.0,0.98
-Green Post,Mono Black,1.0,1,0.02,1.0
-Naya Initiative,Mono Red Prison,0.0,1,0.0,0.98
+Temur Tempo,Dredge,1.0,1,0.02,1.0
+UBx Death's Shadow,Dimir Tempo,1.0,1,0.02,1.0
+UBx Death's Shadow,Eldrazi Stompy,0.0,1,0.0,0.98
+UBx Death's Shadow,Affinity,0.0,2,0.0,0.84
+UBx Death's Shadow,Mono Red Prison,0.0,1,0.0,0.98
+UBx Death's Shadow,UWx Control,1.0,1,0.02,1.0
+UBx Death's Shadow,Oops! All Spells,1.0,1,0.02,1.0
+UBx Death's Shadow,Mystic Forge Combo,0.0,1,0.0,0.98
+UBx Death's Shadow,Reanimator,0.0,1,0.0,0.98
+Goblins,Dimir Tempo,0.0,2,0.0,0.84
+Goblins,Cradle Control,1.0,1,0.02,1.0
+Goblins,Affinity,1.0,1,0.02,1.0
+Goblins,Mono Red Prison,1.0,1,0.02,1.0
+Goblins,Lands.dec,0.0,1,0.0,0.98
+Goblins,Dredge,0.5,2,0.01,0.99
 Naya Initiative,Dimir Tempo,1.0,1,0.02,1.0
+Naya Initiative,Izzet Cutter,0.0,1,0.0,0.98
 Naya Initiative,Death & Taxes,0.0,1,0.0,0.98
-Naya Initiative,UR Tempo,0.0,1,0.0,0.98
+Naya Initiative,Sneak and Show,0.0,1,0.0,0.98
+Naya Initiative,Mono Red Prison,0.0,1,0.0,0.98
 Naya Initiative,Lands.dec,1.0,1,0.02,1.0
 Naya Initiative,Ad Nauseam Tendrils,1.0,1,0.02,1.0
 Naya Initiative,BUG,0.0,1,0.0,0.98
-Naya Initiative,Sneak and Show,0.0,1,0.0,0.98
-Reanimator,Dimir Tempo,0.0,1,0.0,0.98
-Reanimator,Death & Taxes,0.0,1,0.0,0.98
-Reanimator,Cradle Control,1.0,1,0.02,1.0
-Reanimator,Dredge,0.0,1,0.0,0.98
-Reanimator,Doomsday,0.0,1,0.0,0.98
-BUG,Death & Taxes,1.0,2,0.16,1.0
-BUG,UR Tempo,1.0,1,0.02,1.0
-BUG,Lands.dec,1.0,1,0.02,1.0
-BUG,Green Post,0.0,1,0.0,0.98
-BUG,Naya Initiative,1.0,1,0.02,1.0
-BUG,Stiflenought,1.0,1,0.02,1.0
-Ruby Storm,Mono Red Prison,0.0,1,0.0,0.98
 Ruby Storm,Dimir Tempo,1.0,1,0.02,1.0
 Ruby Storm,Cradle Control,1.0,1,0.02,1.0
+Ruby Storm,Mono Red Prison,0.0,1,0.0,0.98
 Ruby Storm,Painter Grindstone,1.0,2,0.16,1.0
 Ruby Storm,Green Post,1.0,1,0.02,1.0
-Sneak and Show,Lands.dec,1.0,2,0.16,1.0
-Sneak and Show,Dredge,0.0,1,0.0,0.98
-Sneak and Show,Painter Grindstone,1.0,1,0.02,1.0
-Sneak and Show,Naya Initiative,1.0,1,0.02,1.0
-Nic Fit,Cradle Control,0.0,1,0.0,0.98
-Nic Fit,UWx Stoneblade,0.0,1,0.0,0.98
-Nic Fit,UWx Control,1.0,1,0.02,1.0
 Nic Fit,Eldrazi Stompy,0.0,1,0.0,0.98
-Mono Black,Mono Red Prison,1.0,1,0.02,1.0
-Mono Black,Dimir Tempo,1.0,1,0.02,1.0
-Mono Black,UWx Stoneblade,1.0,1,0.02,1.0
-Mono Black,Green Post,0.0,1,0.0,0.98
-Stiflenought,Mono Red Prison,1.0,1,0.02,1.0
+Nic Fit,UWx Stoneblade,0.0,1,0.0,0.98
+Nic Fit,Cradle Control,0.0,1,0.0,0.98
+Nic Fit,UWx Control,1.0,1,0.02,1.0
+Nic Fit,Grixis Tempo,1.0,1,0.02,1.0
+Sultai Beanstalk,Dimir Tempo,0.0,1,0.0,0.98
+Sultai Beanstalk,Sneak and Show,0.0,1,0.0,0.98
+Sultai Beanstalk,Mystic Forge Combo,0.0,1,0.0,0.98
+Sultai Beanstalk,Reanimator,0.0,1,0.0,0.98
+Aluren,UWx Stoneblade,0.0,1,0.0,0.98
+Aluren,Mono Red Prison,1.0,1,0.02,1.0
+Aluren,Merfolk,0.0,1,0.0,0.98
+Aluren,Maverick,0.0,1,0.0,0.98
 Stiflenought,Cradle Control,0.0,1,0.0,0.98
 Stiflenought,Show and Tell,0.0,1,0.0,0.98
+Stiflenought,Mono Red Prison,1.0,1,0.02,1.0
 Stiflenought,BUG,0.0,1,0.0,0.98
-UWx Control,Mono Red Prison,0.0,1,0.0,0.98
-UWx Control,Doomsday,1.0,1,0.02,1.0
-UWx Control,Nic Fit,0.0,1,0.0,0.98
-Merfolk,Mono Red Prison,0.0,1,0.0,0.98
-Merfolk,Dimir Tempo,1.0,1,0.02,1.0
-Merfolk,Painter Grindstone,1.0,1,0.02,1.0
-Smallpox,Mono Red Prison,0.0,1,0.0,0.98
-Smallpox,UR Tempo,0.0,2,0.0,0.84
+Orzhov Ozelot,Eldrazi Stompy,1.0,1,0.02,1.0
+Orzhov Ozelot,Oops! All Spells,1.0,1,0.02,1.0
+Orzhov Ozelot,Grixis Tempo,1.0,1,0.02,1.0
+Orzhov Ozelot,Necro Storm,0.0,1,0.0,0.98
+Dark Depths,Eldrazi Stompy,0.0,1,0.0,0.98
+Dark Depths,Sneak and Show,1.0,1,0.02,1.0
+Dark Depths,Affinity,0.0,1,0.0,0.98
+Dark Depths,UWx Control,0.0,1,0.0,0.98
+Smallpox,Izzet Cutter,0.0,2,0.0,0.84
 Smallpox,Affinity,1.0,1,0.02,1.0
-Boros Initiative,UR Tempo,1.0,1,0.02,1.0
+Smallpox,Mono Red Prison,0.0,1,0.0,0.98
+Boros Initiative,Izzet Cutter,1.0,1,0.02,1.0
 Boros Initiative,Lands.dec,1.0,1,0.02,1.0
 Boros Initiative,Temur Tempo,0.0,1,0.0,0.98
-Bant Beanstalk,Lands.dec,0.0,1,0.0,0.98
-Bant Beanstalk,Dredge,0.0,1,0.0,0.98
-Bant Beanstalk,Doomsday,0.0,1,0.0,0.98
-Bant Beanstalk,Oops! All Spells,1.0,1,0.02,1.0
-Dark Depths,Affinity,0.0,1,0.0,0.98
-Dark Depths,Goblins,0.0,1,0.0,0.98
-Eldrazi Stompy,Death & Taxes,1.0,1,0.02,1.0
-Eldrazi Stompy,Cradle Control,0.0,1,0.0,0.98
-Eldrazi Stompy,Nic Fit,1.0,1,0.02,1.0
-Rakdos Goyfs,Cradle Control,1.0,1,0.02,1.0
+Esper Tempo,Dimir Tempo,1.0,1,0.02,1.0
+Esper Tempo,Mystic Forge Combo,0.0,1,0.0,0.98
+Esper Tempo,Domain Beanstalk,0.0,1,0.0,0.98
 Rakdos Goyfs,UWx Stoneblade,0.5,2,0.01,0.99
+Rakdos Goyfs,Cradle Control,1.0,1,0.02,1.0
 Mono Black Demons,Doomsday,1.0,1,0.02,1.0
+Mono Black Demons,Maverick,1.0,1,0.02,1.0
 Mono Black Demons,Temur Tempo,0.0,1,0.0,0.98
-Izzet Cutter,UWx Stoneblade,0.0,1,0.0,0.98
-Izzet Cutter,Dark Depths,0.0,1,0.0,0.98
-Maverick,Mono Black Demons,0.0,1,0.0,0.98
+UR Tempo,Dimir Tempo,1.0,1,0.02,1.0

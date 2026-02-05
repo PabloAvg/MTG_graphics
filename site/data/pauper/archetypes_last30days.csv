@@ -1,83 +1,80 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
-Mono Red Madness,0.51211453744493,908,0.48,0.55,/Pauper/mono-red-madness
-Mono Blue Terror,0.47085889570552,652,0.43,0.51,/Pauper/mono-blue-terror
-Elves,0.56655290102389,586,0.53,0.61,/Pauper/elves
-Rakdos Madness,0.49630996309963,542,0.45,0.54,/Pauper/rakdos-madness
-Jund Wildfire,0.54157782515991,469,0.5,0.59,/Pauper/jund-wildfire
-Grixis Affinity,0.49563318777293,458,0.45,0.54,/Pauper/grixis-affinity
-Mono Red Rally,0.53225806451613,434,0.48,0.58,/Pauper/mono-red-rally
-Gruul Ramp,0.52173913043478,368,0.47,0.57,/Pauper/gruul-ramp
-Mono Blue Faeries,0.53008595988539,349,0.48,0.58,/Pauper/mono-blue-faeries
-Caw Gates,0.57432432432432,296,0.52,0.63,/Pauper/caw-gates
-Spy Combo,0.61052631578947,285,0.55,0.67,/Pauper/spy-combo
-Dimir Terror,0.50537634408602,279,0.45,0.57,/Pauper/dimir-terror
-White Weenie,0.47407407407407,270,0.41,0.54,/Pauper/white-weenie
-UWx Familiar,0.4625550660793,227,0.4,0.53,/Pauper/uwx-familiar
-UB Faeries,0.50251256281407,199,0.43,0.57,/Pauper/ub-faeries
-Golgari Gardens,0.51612903225806,186,0.44,0.59,/Pauper/golgari-gardens
-GW Bogles,0.38888888888889,144,0.31,0.47,/Pauper/gw-bogles
-Mono Black Sacrifice,0.43410852713178,129,0.35,0.52,/Pauper/mono-black-sacrifice
-Dredge,0.51612903225806,124,0.42,0.61,/Pauper/dredge
-Mono Red Synthesizer,0.45833333333333,120,0.37,0.55,/Pauper/mono-red-synthesizer
-Gruul Ponza,0.5,110,0.4,0.6,/Pauper/gruul-ponza
-Jeskai Ephemerate,0.51851851851852,108,0.42,0.62,/Pauper/jeskai-ephemerate
-Esper Affinity,0.49074074074074,108,0.39,0.59,/Pauper/esper-affinity
-Orzhov Blade,0.4392523364486,107,0.34,0.54,/Pauper/orzhov-blade
-Monster Tron,0.58064516129032,93,0.47,0.68,/Pauper/monster-tron
-Altar Tron,0.47945205479452,73,0.36,0.6,/Pauper/altar-tron
-Retriever Combo,0.45161290322581,62,0.32,0.58,/Pauper/retriever-combo
-Dimir Affinity,0.4,55,0.27,0.54,/Pauper/dimir-affinity
-Mono Red Burn,0.40740740740741,54,0.28,0.55,/Pauper/mono-red-burn
-Mono White Heroic,0.37735849056604,53,0.25,0.52,/Pauper/mono-white-heroic
-Flicker Tron,0.33333333333333,51,0.21,0.48,/Pauper/flicker-tron
-Defender Combo,0.48936170212766,47,0.34,0.64,/Pauper/defender-combo
+Mono Red Madness,0.50130548302872,766,0.47,0.54,/Pauper/mono-red-madness
+Mono Blue Terror,0.47833622183709,577,0.44,0.52,/Pauper/mono-blue-terror
+Elves,0.57427536231884,552,0.53,0.62,/Pauper/elves
+Rakdos Madness,0.49423076923077,520,0.45,0.54,/Pauper/rakdos-madness
+Grixis Affinity,0.48214285714286,448,0.44,0.53,/Pauper/grixis-affinity
+Jund Wildfire,0.54252873563218,435,0.49,0.59,/Pauper/jund-wildfire
+Mono Red Rally,0.54436450839329,417,0.5,0.59,/Pauper/mono-red-rally
+Gruul Ramp,0.52631578947368,304,0.47,0.58,/Pauper/gruul-ramp
+Mono Blue Faeries,0.52960526315789,304,0.47,0.59,/Pauper/mono-blue-faeries
+Caw Gates,0.55849056603774,265,0.5,0.62,/Pauper/caw-gates
+Spy Combo,0.60617760617761,259,0.54,0.67,/Pauper/spy-combo
+Dimir Terror,0.49603174603175,252,0.43,0.56,/Pauper/dimir-terror
+White Weenie,0.4758064516129,248,0.41,0.54,/Pauper/white-weenie
+UB Faeries,0.48706896551724,232,0.42,0.55,/Pauper/ub-faeries
+UWx Familiar,0.43877551020408,196,0.37,0.51,/Pauper/uwx-familiar
+Golgari Gardens,0.5,184,0.43,0.57,/Pauper/golgari-gardens
+Mono Black Sacrifice,0.45238095238095,126,0.36,0.54,/Pauper/mono-black-sacrifice
+GW Bogles,0.4,125,0.31,0.49,/Pauper/gw-bogles
+Dredge,0.51639344262295,122,0.42,0.61,/Pauper/dredge
+Monster Tron,0.60714285714286,112,0.51,0.7,/Pauper/monster-tron
+Mono Red Synthesizer,0.4537037037037,108,0.36,0.55,/Pauper/mono-red-synthesizer
+Gruul Ponza,0.49494949494949,99,0.39,0.6,/Pauper/gruul-ponza
+Orzhov Blade,0.44791666666667,96,0.35,0.55,/Pauper/orzhov-blade
+Esper Affinity,0.45054945054945,91,0.35,0.56,/Pauper/esper-affinity
+Jeskai Ephemerate,0.52808988764045,89,0.42,0.63,/Pauper/jeskai-ephemerate
+Mono Red Burn,0.32307692307692,65,0.21,0.45,/Pauper/mono-red-burn
+Retriever Combo,0.44444444444444,63,0.32,0.58,/Pauper/retriever-combo
+Red Storm,0.64150943396226,53,0.5,0.77,/Pauper/red-storm
+Flicker Tron,0.34615384615385,52,0.22,0.49,/Pauper/flicker-tron
+Defender Combo,0.49019607843137,51,0.35,0.63,/Pauper/defender-combo
+Mono White Heroic,0.43137254901961,51,0.29,0.58,/Pauper/mono-white-heroic
+Altar Tron,0.45098039215686,51,0.31,0.6,/Pauper/altar-tron
+Dimir Affinity,0.3921568627451,51,0.26,0.54,/Pauper/dimir-affinity
 Mono Green Stompy,0.51063829787234,47,0.36,0.66,/Pauper/mono-green-stompy
-Eggs Tron,0.53488372093023,43,0.38,0.69,/Pauper/eggs-tron
+Mono Red Kiln Fiend,0.57142857142857,42,0.41,0.72,/Pauper/mono-red-kiln-fiend
 Izzet Skred,0.52380952380952,42,0.36,0.68,/Pauper/izzet-skred
-Red Storm,0.68292682926829,41,0.52,0.82,/Pauper/red-storm
+Boros Synthesizer,0.58536585365854,41,0.42,0.74,/Pauper/boros-synthesizer
+Dimir Control,0.575,40,0.41,0.73,/Pauper/dimir-control
 Boros Bully,0.625,40,0.46,0.77,/Pauper/boros-bully
-Mono Red Kiln Fiend,0.55263157894737,38,0.38,0.71,/Pauper/mono-red-kiln-fiend
-Persistent Petitioners,0.28947368421053,38,0.15,0.46,/Pauper/persistent-petitioners
-Poison Storm,0.52631578947368,38,0.36,0.69,/Pauper/poison-storm
-Jeskai Metalcraft,0.66666666666667,36,0.49,0.81,/Pauper/jeskai-metalcraft
+Jeskai Metalcraft,0.66666666666667,39,0.5,0.81,/Pauper/jeskai-metalcraft
+Eggs Tron,0.52631578947368,38,0.36,0.69,/Pauper/eggs-tron
 Izzet Faeries,0.51428571428571,35,0.34,0.69,/Pauper/izzet-faeries
+Slivers,0.46875,32,0.29,0.65,/Pauper/slivers
+Golgari Pestilence,0.41935483870968,31,0.25,0.61,/Pauper/golgari-pestilence
 Cycling Storm,0.23333333333333,30,0.1,0.42,/Pauper/cycling-storm
-Slivers,0.44827586206897,29,0.26,0.64,/Pauper/slivers
-Dimir Control,0.48275862068966,29,0.29,0.67,/Pauper/dimir-control
-Boros Synthesizer,0.42307692307692,26,0.23,0.63,/Pauper/boros-synthesizer
-Golgari Pestilence,0.32,25,0.15,0.54,/Pauper/golgari-pestilence
-Goblin Combo (MoggWarts),0.48,25,0.28,0.69,/Pauper/goblin-combo-moggwarts
-Mono Black Control,0.39130434782609,23,0.2,0.61,/Pauper/mono-black-control
+Persistent Petitioners,0.28571428571429,28,0.13,0.49,/Pauper/persistent-petitioners
+Naya Gates,0.51851851851852,27,0.32,0.71,/Pauper/naya-gates
+Poison Storm,0.56,25,0.35,0.76,/Pauper/poison-storm
 Mardu Metalcraft,0.39130434782609,23,0.2,0.61,/Pauper/mardu-metalcraft
-Naya Gates,0.56521739130435,23,0.34,0.77,/Pauper/naya-gates
-Gruul Eldrazi,0.38095238095238,21,0.18,0.62,/Pauper/gruul-eldrazi
+Goblin Combo (MoggWarts),0.42857142857143,21,0.22,0.66,/Pauper/goblin-combo-moggwarts
 Jund Gardens,0.61904761904762,21,0.38,0.82,/Pauper/jund-gardens
-Dimir Spirits,0.5,18,0.26,0.74,/Pauper/dimir-spirits
-Izzet Blitz,0.3125,16,0.11,0.59,/Pauper/izzet-blitz
-Infect,0.4,15,0.16,0.68,/Pauper/infect
-Turbo Fog,0.66666666666667,15,0.38,0.88,/Pauper/turbo-fog
+Turbo Fog,0.65,20,0.41,0.85,/Pauper/turbo-fog
+Mono Black Control,0.375,16,0.15,0.65,/Pauper/mono-black-control
 Naya Initiative,0.66666666666667,15,0.38,0.88,/Pauper/naya-initiative
-Dimir Abjure,0.72727272727273,11,0.39,0.94,/Pauper/dimir-abjure
-Reanimator,0.2,10,0.03,0.56,/Pauper/reanimator
+Dimir Spirits,0.46666666666667,15,0.21,0.73,/Pauper/dimir-spirits
+Dimir Abjure,0.64285714285714,14,0.35,0.87,/Pauper/dimir-abjure
+Infect,0.38461538461538,13,0.14,0.68,/Pauper/infect
 Boros Metalcraft,0.7,10,0.35,0.93,/Pauper/boros-metalcraft
-Esper Gates,0.55555555555556,9,0.21,0.86,/Pauper/esper-gates
-Orzhov Ephemerate,0.75,8,0.35,0.97,/Pauper/orzhov-ephemerate
+Mono Black Burn,0.55555555555556,9,0.21,0.86,/Pauper/mono-black-burn
+Izzet Blitz,0.33333333333333,9,0.07,0.7,/Pauper/izzet-blitz
+Gruul Eldrazi,0.55555555555556,9,0.21,0.86,/Pauper/gruul-eldrazi
 Boros Gates,0.625,8,0.24,0.91,/Pauper/boros-gates
 Pili-Pala Combo,0.375,8,0.09,0.76,/Pauper/pili-pala-combo
 Mono Red Tron,0.5,8,0.16,0.84,/Pauper/mono-red-tron
 Jeskai Gates,0.57142857142857,7,0.18,0.9,/Pauper/jeskai-gates
-Esper Metalcraft,0.42857142857143,7,0.1,0.82,/Pauper/esper-metalcraft
+Esper Metalcraft,0.57142857142857,7,0.18,0.9,/Pauper/esper-metalcraft
 Grixis Control,0.16666666666667,6,0.0,0.64,/Pauper/grixis-control
 Zombies,0.16666666666667,6,0.0,0.64,/Pauper/zombies
 Mono Red Dredge,0.66666666666667,6,0.22,0.96,/Pauper/mono-red-dredge
 Mono Blue Control,0.4,5,0.05,0.85,/Pauper/mono-blue-control
 Simic Ponza,0.2,5,0.01,0.72,/Pauper/simic-ponza
-Evolution Tron,0.4,5,0.05,0.85,/Pauper/evolution-tron
-Selesnya Witness,0.2,5,0.01,0.72,/Pauper/selesnya-witness
+Esper Gates,0.6,5,0.15,0.95,/Pauper/esper-gates
 Bant Ephemerate,0.75,4,0.19,0.99,/Pauper/bant-ephemerate
-Mono Black Burn,0.5,4,0.07,0.93,/Pauper/mono-black-burn
+Grixis Delver,0.25,4,0.01,0.81,/Pauper/grixis-delver
 Naya Auras,0.5,4,0.07,0.93,/Pauper/naya-auras
-Mono Black Pactdoll,0.5,4,0.07,0.93,/Pauper/mono-black-pactdoll
+Cascade Tron,0.5,4,0.07,0.93,/Pauper/cascade-tron
 Mono Black Food,0.25,4,0.01,0.81,/Pauper/mono-black-food
 Abzan Food,0.25,4,0.01,0.81,/Pauper/abzan-food
 Mono Black Devotion,0.5,4,0.07,0.93,/Pauper/mono-black-devotion
@@ -85,7 +82,10 @@ Grixis Wildfire,0.5,4,0.07,0.93,/Pauper/grixis-wildfire
 Goblins,0.33333333333333,3,0.01,0.91,/Pauper/goblins
 Golgari Sacrifice,0.66666666666667,3,0.09,0.99,/Pauper/golgari-sacrifice
 Sultai Midrange,0.33333333333333,3,0.01,0.91,/Pauper/sultai-midrange
+Orzhov Ephemerate,1.0,3,0.29,1.0,/Pauper/orzhov-ephemerate
 Boros Aggro,0.66666666666667,3,0.09,0.99,/Pauper/boros-aggro
 Rakdos Vampires,0.66666666666667,3,0.09,0.99,/Pauper/rakdos-vampires
+Golgari Party,0.66666666666667,3,0.09,0.99,/Pauper/golgari-party
 Temur Dragons,0.33333333333333,3,0.01,0.91,/Pauper/temur-dragons
 Sultai Bounce,0.66666666666667,3,0.09,0.99,/Pauper/sultai-bounce
+Selesnya Witness,0.33333333333333,3,0.01,0.91,/Pauper/selesnya-witness

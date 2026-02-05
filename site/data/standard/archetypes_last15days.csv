@@ -1,20 +1,20 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
-Simic Ouroboroid,0.49674511767651,1997,0.47,0.52,/Standard/simic-ouroboroid
-Izzet Lessons,0.48807542983916,1803,0.46,0.51,/Standard/izzet-lessons
+Simic Ouroboroid,0.49673202614379,1989,0.47,0.52,/Standard/simic-ouroboroid
+Izzet Lessons,0.48783185840708,1808,0.46,0.51,/Standard/izzet-lessons
 Sultai Reanimator,0.4937106918239,1272,0.47,0.52,/Standard/sultai-reanimator
-Jeskai Control,0.48704663212435,965,0.46,0.52,/Standard/jeskai-control
-Bant Airbending,0.55683003128259,959,0.52,0.59,/Standard/bant-airbending
-Dimir Midrange,0.49526066350711,844,0.46,0.53,/Standard/dimir-midrange
-Mono-Red Aggro,0.53463203463203,462,0.49,0.58,/Standard/mono-red-aggro
-4 Color Rhythm,0.45301204819277,415,0.4,0.5,/Standard/4-color-rhythm
-Mono Green Landfall,0.60540540540541,370,0.55,0.66,/Standard/mono-green-landfall
-Izzet Elementals,0.63879598662207,299,0.58,0.69,/Standard/izzet-elementals
-Boros Burn,0.40148698884758,269,0.34,0.46,/Standard/boros-burn
+Jeskai Control,0.48865979381443,970,0.46,0.52,/Standard/jeskai-control
+Bant Airbending,0.55625,960,0.52,0.59,/Standard/bant-airbending
+Dimir Midrange,0.49524940617577,842,0.46,0.53,/Standard/dimir-midrange
+Mono-Red Aggro,0.53056768558952,458,0.48,0.58,/Standard/mono-red-aggro
+4 Color Rhythm,0.45192307692308,416,0.4,0.5,/Standard/4-color-rhythm
+Mono Green Landfall,0.6043956043956,364,0.55,0.65,/Standard/mono-green-landfall
+Izzet Elementals,0.63787375415282,301,0.58,0.69,/Standard/izzet-elementals
+Boros Burn,0.40377358490566,265,0.34,0.47,/Standard/boros-burn
 Selesnya Landfall,0.55648535564854,239,0.49,0.62,/Standard/selesnya-landfall
 Golgari Ouroboroid,0.45982142857143,224,0.39,0.53,/Standard/golgari-ouroboroid
 Azorius Control,0.48241206030151,199,0.41,0.55,/Standard/azorius-control
 Izzet Looting,0.45508982035928,167,0.38,0.53,/Standard/izzet-looting
-Sultai Elementals,0.47945205479452,146,0.4,0.56,/Standard/sultai-elementals
+Sultai Elementals,0.48529411764706,136,0.4,0.57,/Standard/sultai-elementals
 Allies,0.44029850746269,134,0.35,0.53,/Standard/allies
 Azorius Flash,0.53787878787879,132,0.45,0.62,/Standard/azorius-flash
 Izzet Prowess,0.45801526717557,131,0.37,0.55,/Standard/izzet-prowess
@@ -25,17 +25,18 @@ Temur Lessons,0.55855855855856,111,0.46,0.65,/Standard/temur-lessons
 Jeskai Artifacts,0.38235294117647,102,0.29,0.48,/Standard/jeskai-artifacts
 Jeskai Pixie,0.55445544554455,101,0.45,0.65,/Standard/jeskai-pixie
 Bant Omniscience,0.60606060606061,99,0.5,0.7,/Standard/bant-omniscience
-Simic Omniscience,0.46938775510204,98,0.37,0.57,/Standard/simic-omniscience
+Simic Omniscience,0.47311827956989,93,0.37,0.58,/Standard/simic-omniscience
 Mono Red Leyline,0.41935483870968,93,0.32,0.53,/Standard/mono-red-leyline
 Boros Dragons,0.53488372093023,86,0.42,0.64,/Standard/boros-dragons
 Grixis Elementals,0.59302325581395,86,0.48,0.7,/Standard/grixis-elementals
-Temur Landfall,0.65277777777778,72,0.53,0.76,/Standard/temur-landfall
+Dimir Excruciator,0.57692307692308,78,0.46,0.69,/Standard/dimir-excruciator
+Temur Landfall,0.65333333333333,75,0.53,0.76,/Standard/temur-landfall
 4 Color Songcrafter,0.60294117647059,68,0.48,0.72,/Standard/4-color-songcrafter
-Dimir Control,0.58208955223881,67,0.46,0.7,/Standard/dimir-control
 Bant Rhythm,0.43859649122807,57,0.31,0.58,/Standard/bant-rhythm
 4 Color Elementals,0.57142857142857,56,0.43,0.7,/Standard/4-color-elementals
 Mono Black Midrange,0.42592592592593,54,0.29,0.57,/Standard/mono-black-midrange
 Izzet Omniscience,0.40740740740741,54,0.28,0.55,/Standard/izzet-omniscience
+Dimir Control,0.60377358490566,53,0.46,0.74,/Standard/dimir-control
 Temur Otters,0.48936170212766,47,0.34,0.64,/Standard/temur-otters
 Rakdos Monument,0.57446808510638,47,0.42,0.72,/Standard/rakdos-monument
 Mono White Tokens,0.54347826086957,46,0.39,0.69,/Standard/mono-white-tokens

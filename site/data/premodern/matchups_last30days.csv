@@ -1,282 +1,442 @@
 a,b,winrate_a_vs_b,matches,ci_low,ci_high
 Goblins,Goblins,0.5,12,0.21,0.79
-Goblins,Stiflenought,0.44,16,0.2,0.7
-Goblins,Burn,0.56,9,0.21,0.86
+Goblins,Stiflenought,0.41,17,0.18,0.67
+Goblins,Burn,0.6,10,0.26,0.88
 Goblins,Enchantress,0.25,8,0.03,0.65
-Goblins,Terrageddon,0.0,6,0.0,0.46
+Goblins,Elves,0.67,6,0.22,0.96
 Goblins,Stasis,0.2,5,0.01,0.72
-Goblins,Mono Black,0.33,9,0.07,0.7
-Goblins,Landstill,0.6,5,0.15,0.95
-Goblins,Elves,0.75,4,0.19,0.99
+Goblins,Mono Black,0.38,8,0.09,0.76
+Goblins,Terrageddon,0.0,6,0.0,0.46
 Goblins,Devourer Combo,0.25,4,0.01,0.81
-Goblins,Psychatog,0.75,8,0.35,0.97
-Goblins,Reanimator,1.0,1,0.02,1.0
-Goblins,Survival Welder,0.5,2,0.01,0.99
+Goblins,Landstill,0.6,5,0.15,0.95
+Goblins,Psychatog,0.78,9,0.4,0.97
+Goblins,Oath Ponza,0.5,2,0.01,0.99
 Goblins,The Rock,0.33,3,0.01,0.91
 Goblins,Madness,0.67,3,0.09,0.99
-Goblins,Replenish,0.0,1,0.0,0.98
-Goblins,Pit Rack,0.67,3,0.09,0.99
 Goblins,BW Control,0.25,4,0.01,0.81
+Goblins,Reanimator,1.0,1,0.02,1.0
+Goblins,Angry Hermit,0.25,4,0.01,0.81
 Goblins,The Solution,0.33,3,0.01,0.91
-Goblins,Angry Hermit,0.0,2,0.0,0.84
-Goblins,Oath Ponza,0.5,2,0.01,0.99
-Goblins,MUD,0.0,1,0.0,0.98
-Goblins,GR Aggro,0.5,2,0.01,0.99
-Goblins,Gro-a-Tog,0.5,2,0.01,0.99
-Goblins,Storm,1.0,2,0.16,1.0
+Goblins,Full English Breakfast,0.5,2,0.01,0.99
+Goblins,Survival Welder,0.5,2,0.01,0.99
 Goblins,Survival,1.0,1,0.02,1.0
+Goblins,Storm,1.0,2,0.16,1.0
+Goblins,MUD,0.0,1,0.0,0.98
+Goblins,Pit Rack,0.67,3,0.09,0.99
+Goblins,Replenish,0.0,1,0.0,0.98
+Goblins,Gro-a-Tog,0.5,2,0.01,0.99
+Goblins,GR Aggro,0.5,2,0.01,0.99
 Goblins,Contamination,0.0,1,0.0,0.98
 Goblins,Machine Head,0.0,1,0.0,0.98
+Goblins,UW Control,0.0,2,0.0,0.84
+Goblins,Astral Slide,1.0,2,0.16,1.0
 Goblins,Oath Spec,1.0,1,0.02,1.0
-Goblins,Zombie Infestation,0.0,2,0.0,0.84
-Goblins,Deadguy Ale,0.0,1,0.0,0.98
-Stiflenought,Goblins,0.56,16,0.3,0.8
+Goblins,GW Madness,1.0,1,0.02,1.0
+Goblins,Pandeburst Control,1.0,1,0.02,1.0
+Stiflenought,Goblins,0.59,17,0.33,0.82
 Stiflenought,Stiflenought,0.5,8,0.16,0.84
-Stiflenought,Burn,0.86,7,0.42,1.0
-Stiflenought,Enchantress,0.31,13,0.09,0.61
-Stiflenought,Terrageddon,0.5,6,0.12,0.88
+Stiflenought,Burn,0.88,8,0.47,1.0
+Stiflenought,Enchantress,0.29,14,0.08,0.58
+Stiflenought,Elves,0.56,9,0.21,0.86
 Stiflenought,Stasis,0.6,5,0.15,0.95
-Stiflenought,Mono Black,0.33,3,0.01,0.91
-Stiflenought,Landstill,0.2,5,0.01,0.72
-Stiflenought,Elves,0.33,6,0.04,0.78
-Stiflenought,Devourer Combo,1.0,3,0.29,1.0
+Stiflenought,Mono Black,0.4,5,0.05,0.85
+Stiflenought,Terrageddon,0.5,6,0.12,0.88
+Stiflenought,Devourer Combo,0.75,4,0.19,0.99
+Stiflenought,Landstill,0.33,6,0.04,0.78
 Stiflenought,Psychatog,1.0,1,0.02,1.0
-Stiflenought,Reanimator,1.0,3,0.29,1.0
-Stiflenought,Survival Welder,0.75,4,0.19,0.99
-Stiflenought,The Rock,0.5,2,0.01,0.99
+Stiflenought,Oath Ponza,0.0,4,0.0,0.6
+Stiflenought,The Rock,0.67,3,0.09,0.99
 Stiflenought,Madness,1.0,2,0.16,1.0
-Stiflenought,Replenish,0.0,3,0.0,0.71
-Stiflenought,Pit Rack,1.0,3,0.29,1.0
-Stiflenought,BW Control,0.33,3,0.01,0.91
-Stiflenought,The Solution,0.5,2,0.01,0.99
-Stiflenought,Aluren,1.0,2,0.16,1.0
+Stiflenought,BW Control,0.5,4,0.07,0.93
+Stiflenought,Reanimator,1.0,3,0.29,1.0
 Stiflenought,Angry Hermit,0.0,1,0.0,0.98
-Stiflenought,Oath Ponza,0.0,3,0.0,0.71
-Stiflenought,GR Aggro,0.0,1,0.0,0.98
-Stiflenought,Storm,1.0,1,0.02,1.0
+Stiflenought,The Solution,0.5,4,0.07,0.93
+Stiflenought,Aluren,1.0,2,0.16,1.0
+Stiflenought,Full English Breakfast,1.0,2,0.16,1.0
+Stiflenought,Survival Welder,0.75,4,0.19,0.99
 Stiflenought,Survival,1.0,3,0.29,1.0
+Stiflenought,Storm,1.0,1,0.02,1.0
+Stiflenought,Pit Rack,1.0,3,0.29,1.0
+Stiflenought,Replenish,0.0,3,0.0,0.71
+Stiflenought,GR Aggro,0.0,1,0.0,0.98
 Stiflenought,Contamination,0.67,3,0.09,0.99
+Stiflenought,UW Control,1.0,1,0.02,1.0
 Stiflenought,Oath Spec,1.0,2,0.16,1.0
-Stiflenought,Zombie Infestation,0.0,1,0.0,0.98
-Stiflenought,Deadguy Ale,0.0,1,0.0,0.98
-Burn,Goblins,0.44,9,0.14,0.79
-Burn,Stiflenought,0.14,7,0.0,0.58
-Burn,Burn,0.5,8,0.16,0.84
+Burn,Goblins,0.4,10,0.12,0.74
+Burn,Stiflenought,0.13,8,0.0,0.53
+Burn,Burn,0.5,14,0.23,0.77
 Burn,Enchantress,0.33,3,0.01,0.91
-Burn,Terrageddon,0.0,1,0.0,0.98
-Burn,Stasis,0.5,4,0.07,0.93
-Burn,Mono Black,0.5,2,0.01,0.99
-Burn,Landstill,1.0,1,0.02,1.0
-Burn,Elves,0.5,2,0.01,0.99
-Burn,Devourer Combo,0.5,4,0.07,0.93
+Burn,Elves,0.63,8,0.24,0.91
+Burn,Stasis,0.5,6,0.12,0.88
+Burn,Mono Black,0.25,4,0.01,0.81
+Burn,Terrageddon,0.0,2,0.0,0.84
+Burn,Devourer Combo,0.6,5,0.15,0.95
+Burn,Landstill,1.0,2,0.16,1.0
 Burn,Psychatog,1.0,1,0.02,1.0
-Burn,Reanimator,0.0,2,0.0,0.84
-Burn,Survival Welder,0.5,2,0.01,0.99
+Burn,Oath Ponza,0.2,5,0.01,0.72
 Burn,The Rock,0.5,2,0.01,0.99
 Burn,Madness,1.0,1,0.02,1.0
-Burn,Replenish,0.5,2,0.01,0.99
-Burn,Pit Rack,0.5,2,0.01,0.99
-Burn,BW Control,0.5,2,0.01,0.99
+Burn,BW Control,0.67,3,0.09,0.99
+Burn,Reanimator,0.0,2,0.0,0.84
+Burn,Angry Hermit,0.0,1,0.0,0.98
 Burn,The Solution,1.0,2,0.16,1.0
 Burn,Aluren,0.33,3,0.01,0.91
-Burn,Angry Hermit,0.0,1,0.0,0.98
-Burn,Oath Ponza,0.0,2,0.0,0.84
-Burn,MUD,0.0,1,0.0,0.98
-Burn,GR Aggro,1.0,1,0.02,1.0
-Burn,Gro-a-Tog,1.0,3,0.29,1.0
+Burn,Full English Breakfast,1.0,2,0.16,1.0
+Burn,Survival Welder,0.5,2,0.01,0.99
 Burn,Survival,1.0,1,0.02,1.0
+Burn,MUD,0.0,1,0.0,0.98
+Burn,Pit Rack,0.5,2,0.01,0.99
+Burn,Replenish,0.5,2,0.01,0.99
+Burn,Gro-a-Tog,1.0,3,0.29,1.0
+Burn,GR Aggro,1.0,1,0.02,1.0
 Burn,Contamination,1.0,1,0.02,1.0
 Burn,Machine Head,1.0,1,0.02,1.0
-Burn,BUG Control,1.0,3,0.29,1.0
-Burn,The Rack,0.5,2,0.01,0.99
-Burn,Zombie Infestation,0.0,2,0.0,0.84
+Burn,Astral Slide,1.0,2,0.16,1.0
+Burn,GW Madness,0.0,1,0.0,0.98
+Burn,Pandeburst Control,0.0,1,0.0,0.98
 Enchantress,Goblins,0.75,8,0.35,0.97
-Enchantress,Stiflenought,0.69,13,0.39,0.91
+Enchantress,Stiflenought,0.71,14,0.42,0.92
 Enchantress,Burn,0.67,3,0.09,0.99
 Enchantress,Enchantress,0.5,4,0.07,0.93
-Enchantress,Terrageddon,0.2,5,0.01,0.72
+Enchantress,Elves,0.0,4,0.0,0.6
 Enchantress,Stasis,0.75,4,0.19,0.99
 Enchantress,Mono Black,1.0,3,0.29,1.0
+Enchantress,Terrageddon,0.2,5,0.01,0.72
+Enchantress,Devourer Combo,0.5,4,0.07,0.93
 Enchantress,Landstill,1.0,5,0.48,1.0
-Enchantress,Elves,0.0,3,0.0,0.71
-Enchantress,Devourer Combo,0.33,3,0.01,0.91
-Enchantress,Psychatog,1.0,4,0.4,1.0
-Enchantress,Reanimator,0.67,3,0.09,0.99
-Enchantress,Survival Welder,1.0,2,0.16,1.0
+Enchantress,Psychatog,0.8,5,0.28,0.99
+Enchantress,Oath Ponza,0.5,2,0.01,0.99
 Enchantress,The Rock,0.0,1,0.0,0.98
 Enchantress,Madness,0.67,3,0.09,0.99
-Enchantress,Replenish,0.0,1,0.0,0.98
+Enchantress,Reanimator,0.67,3,0.09,0.99
+Enchantress,Angry Hermit,0.0,4,0.0,0.6
 Enchantress,Aluren,0.0,2,0.0,0.84
-Enchantress,Angry Hermit,0.0,3,0.0,0.71
-Enchantress,Oath Ponza,0.0,1,0.0,0.98
-Enchantress,Storm,1.0,2,0.16,1.0
+Enchantress,Full English Breakfast,0.0,2,0.0,0.84
+Enchantress,Survival Welder,1.0,2,0.16,1.0
 Enchantress,Survival,1.0,1,0.02,1.0
+Enchantress,Storm,1.0,2,0.16,1.0
+Enchantress,Replenish,0.0,1,0.0,0.98
 Enchantress,Oath Spec,0.0,1,0.0,0.98
-Enchantress,The Rack,0.0,1,0.0,0.98
-Enchantress,Deadguy Ale,1.0,1,0.02,1.0
-Terrageddon,Goblins,1.0,6,0.54,1.0
-Terrageddon,Stiflenought,0.5,6,0.12,0.88
-Terrageddon,Burn,1.0,1,0.02,1.0
-Terrageddon,Enchantress,0.8,5,0.28,0.99
-Terrageddon,Terrageddon,0.5,4,0.07,0.93
-Terrageddon,Stasis,0.2,5,0.01,0.72
-Terrageddon,Mono Black,0.0,1,0.0,0.98
-Terrageddon,Elves,0.5,4,0.07,0.93
-Terrageddon,Devourer Combo,0.0,1,0.0,0.98
-Terrageddon,Psychatog,0.0,1,0.0,0.98
-Terrageddon,Survival Welder,0.5,2,0.01,0.99
-Terrageddon,Madness,0.5,2,0.01,0.99
-Terrageddon,Pit Rack,1.0,1,0.02,1.0
-Terrageddon,Aluren,1.0,1,0.02,1.0
-Terrageddon,MUD,1.0,2,0.16,1.0
-Terrageddon,Survival,1.0,1,0.02,1.0
-Terrageddon,Contamination,1.0,1,0.02,1.0
-Terrageddon,Machine Head,0.0,1,0.0,0.98
-Terrageddon,BUG Control,1.0,2,0.16,1.0
-Terrageddon,The Rack,0.5,2,0.01,0.99
-Stasis,Goblins,0.8,5,0.28,0.99
-Stasis,Stiflenought,0.4,5,0.05,0.85
-Stasis,Burn,0.5,4,0.07,0.93
-Stasis,Enchantress,0.25,4,0.01,0.81
-Stasis,Terrageddon,0.8,5,0.28,0.99
-Stasis,Stasis,0.5,2,0.01,0.99
-Stasis,Mono Black,0.0,2,0.0,0.84
-Stasis,Landstill,0.0,1,0.0,0.98
-Stasis,Elves,0.0,2,0.0,0.84
-Stasis,Devourer Combo,0.67,3,0.09,0.99
-Stasis,Psychatog,0.67,3,0.09,0.99
-Stasis,The Rock,0.0,1,0.0,0.98
-Stasis,Madness,1.0,1,0.02,1.0
-Stasis,The Solution,1.0,1,0.02,1.0
-Stasis,Aluren,0.0,1,0.0,0.98
-Stasis,MUD,1.0,1,0.02,1.0
-Stasis,GR Aggro,0.5,2,0.01,0.99
-Stasis,Storm,1.0,1,0.02,1.0
-Stasis,Machine Head,1.0,1,0.02,1.0
-Mono Black,Goblins,0.67,9,0.3,0.93
-Mono Black,Stiflenought,0.67,3,0.09,0.99
-Mono Black,Burn,0.5,2,0.01,0.99
-Mono Black,Enchantress,0.0,3,0.0,0.71
-Mono Black,Terrageddon,1.0,1,0.02,1.0
-Mono Black,Stasis,1.0,2,0.16,1.0
-Mono Black,Landstill,0.5,4,0.07,0.93
-Mono Black,Elves,0.0,1,0.0,0.98
-Mono Black,Devourer Combo,0.33,3,0.01,0.91
-Mono Black,Psychatog,0.0,1,0.0,0.98
-Mono Black,Reanimator,0.0,2,0.0,0.84
-Mono Black,The Rock,0.5,2,0.01,0.99
-Mono Black,Replenish,1.0,3,0.29,1.0
-Mono Black,Pit Rack,0.5,2,0.01,0.99
-Mono Black,BW Control,0.0,1,0.0,0.98
-Mono Black,The Solution,1.0,1,0.02,1.0
-Mono Black,Aluren,0.0,1,0.0,0.98
-Mono Black,MUD,0.0,1,0.0,0.98
-Mono Black,GR Aggro,0.8,5,0.28,0.99
-Mono Black,Storm,1.0,1,0.02,1.0
-Mono Black,Survival,0.0,1,0.0,0.98
-Mono Black,Contamination,1.0,1,0.02,1.0
-Mono Black,Oath Spec,1.0,1,0.02,1.0
-Mono Black,BUG Control,1.0,1,0.02,1.0
-Mono Black,The Rack,1.0,1,0.02,1.0
-Landstill,Goblins,0.4,5,0.05,0.85
-Landstill,Stiflenought,0.8,5,0.28,0.99
-Landstill,Burn,0.0,1,0.0,0.98
-Landstill,Enchantress,0.0,5,0.0,0.52
-Landstill,Stasis,1.0,1,0.02,1.0
-Landstill,Mono Black,0.5,4,0.07,0.93
-Landstill,Elves,0.0,1,0.0,0.98
-Landstill,Devourer Combo,1.0,1,0.02,1.0
-Landstill,Psychatog,1.0,1,0.02,1.0
-Landstill,Reanimator,0.75,4,0.19,0.99
-Landstill,Survival Welder,0.5,2,0.01,0.99
-Landstill,The Rock,0.0,1,0.0,0.98
-Landstill,Replenish,0.5,2,0.01,0.99
-Landstill,Pit Rack,0.67,3,0.09,0.99
-Landstill,BW Control,1.0,1,0.02,1.0
-Landstill,Angry Hermit,1.0,2,0.16,1.0
-Landstill,Oath Ponza,1.0,1,0.02,1.0
-Landstill,MUD,1.0,1,0.02,1.0
-Landstill,Contamination,1.0,1,0.02,1.0
-Landstill,The Rack,1.0,1,0.02,1.0
-Elves,Goblins,0.25,4,0.01,0.81
-Elves,Stiflenought,0.67,6,0.22,0.96
-Elves,Burn,0.5,2,0.01,0.99
-Elves,Enchantress,1.0,3,0.29,1.0
-Elves,Terrageddon,0.5,4,0.07,0.93
-Elves,Stasis,1.0,2,0.16,1.0
-Elves,Mono Black,1.0,1,0.02,1.0
-Elves,Landstill,1.0,1,0.02,1.0
+Elves,Goblins,0.33,6,0.04,0.78
+Elves,Stiflenought,0.44,9,0.14,0.79
+Elves,Burn,0.38,8,0.09,0.76
+Elves,Enchantress,1.0,4,0.4,1.0
 Elves,Elves,0.5,2,0.01,0.99
+Elves,Stasis,0.6,5,0.15,0.95
+Elves,Mono Black,1.0,2,0.16,1.0
+Elves,Terrageddon,0.4,5,0.05,0.85
 Elves,Devourer Combo,0.0,1,0.0,0.98
+Elves,Landstill,1.0,1,0.02,1.0
 Elves,Psychatog,1.0,1,0.02,1.0
-Elves,Reanimator,1.0,1,0.02,1.0
-Elves,The Rock,1.0,2,0.16,1.0
-Elves,Madness,1.0,1,0.02,1.0
-Elves,Replenish,0.0,1,0.0,0.98
-Elves,MUD,1.0,1,0.02,1.0
-Elves,GR Aggro,1.0,1,0.02,1.0
-Elves,Survival,1.0,1,0.02,1.0
+Elves,The Rock,0.75,4,0.19,0.99
+Elves,Madness,0.67,3,0.09,0.99
+Elves,BW Control,0.5,2,0.01,0.99
+Elves,Reanimator,1.0,2,0.16,1.0
+Elves,Angry Hermit,0.0,1,0.0,0.98
+Elves,The Solution,0.0,1,0.0,0.98
+Elves,Aluren,0.0,1,0.0,0.98
+Elves,Full English Breakfast,0.5,2,0.01,0.99
+Elves,Survival,1.0,2,0.16,1.0
+Elves,MUD,0.67,3,0.09,0.99
 Elves,Contamination,0.0,1,0.0,0.98
 Elves,Machine Head,0.0,1,0.0,0.98
-Elves,Zombie Infestation,1.0,1,0.02,1.0
+Elves,Astral Slide,1.0,1,0.02,1.0
+Elves,Pandeburst Control,0.0,1,0.0,0.98
+Stasis,Goblins,0.8,5,0.28,0.99
+Stasis,Stiflenought,0.4,5,0.05,0.85
+Stasis,Burn,0.5,6,0.12,0.88
+Stasis,Enchantress,0.25,4,0.01,0.81
+Stasis,Elves,0.4,5,0.05,0.85
+Stasis,Stasis,0.5,2,0.01,0.99
+Stasis,Mono Black,0.0,2,0.0,0.84
+Stasis,Terrageddon,0.8,5,0.28,0.99
+Stasis,Devourer Combo,0.67,3,0.09,0.99
+Stasis,Landstill,0.0,1,0.0,0.98
+Stasis,Psychatog,0.75,4,0.19,0.99
+Stasis,Oath Ponza,0.67,3,0.09,0.99
+Stasis,The Rock,0.0,1,0.0,0.98
+Stasis,Madness,0.5,2,0.01,0.99
+Stasis,BW Control,0.0,1,0.0,0.98
+Stasis,The Solution,1.0,1,0.02,1.0
+Stasis,Aluren,0.0,1,0.0,0.98
+Stasis,Full English Breakfast,0.0,2,0.0,0.84
+Stasis,Survival,1.0,1,0.02,1.0
+Stasis,Storm,0.5,2,0.01,0.99
+Stasis,MUD,1.0,1,0.02,1.0
+Stasis,GR Aggro,0.5,2,0.01,0.99
+Stasis,Machine Head,1.0,1,0.02,1.0
+Stasis,Pandeburst Control,1.0,1,0.02,1.0
+Mono Black,Goblins,0.63,8,0.24,0.91
+Mono Black,Stiflenought,0.6,5,0.15,0.95
+Mono Black,Burn,0.75,4,0.19,0.99
+Mono Black,Enchantress,0.0,3,0.0,0.71
+Mono Black,Elves,0.0,2,0.0,0.84
+Mono Black,Stasis,1.0,2,0.16,1.0
+Mono Black,Terrageddon,1.0,1,0.02,1.0
+Mono Black,Devourer Combo,0.2,5,0.01,0.72
+Mono Black,Landstill,0.67,3,0.09,0.99
+Mono Black,Psychatog,0.5,2,0.01,0.99
+Mono Black,The Rock,0.5,2,0.01,0.99
+Mono Black,Madness,1.0,1,0.02,1.0
+Mono Black,BW Control,0.0,1,0.0,0.98
+Mono Black,Reanimator,0.0,2,0.0,0.84
+Mono Black,Angry Hermit,1.0,1,0.02,1.0
+Mono Black,The Solution,1.0,1,0.02,1.0
+Mono Black,Aluren,0.5,2,0.01,0.99
+Mono Black,Full English Breakfast,0.5,4,0.07,0.93
+Mono Black,Survival,0.0,2,0.0,0.84
+Mono Black,Storm,1.0,1,0.02,1.0
+Mono Black,MUD,0.0,1,0.0,0.98
+Mono Black,Pit Rack,0.5,2,0.01,0.99
+Mono Black,Replenish,1.0,3,0.29,1.0
+Mono Black,GR Aggro,0.75,4,0.19,0.99
+Mono Black,Contamination,1.0,1,0.02,1.0
+Mono Black,Oath Spec,1.0,1,0.02,1.0
+Mono Black,Pandeburst Control,0.0,1,0.0,0.98
+Terrageddon,Goblins,1.0,6,0.54,1.0
+Terrageddon,Stiflenought,0.5,6,0.12,0.88
+Terrageddon,Burn,1.0,2,0.16,1.0
+Terrageddon,Enchantress,0.8,5,0.28,0.99
+Terrageddon,Elves,0.6,5,0.15,0.95
+Terrageddon,Stasis,0.2,5,0.01,0.72
+Terrageddon,Mono Black,0.0,1,0.0,0.98
+Terrageddon,Terrageddon,0.5,4,0.07,0.93
+Terrageddon,Devourer Combo,0.0,1,0.0,0.98
+Terrageddon,Psychatog,0.0,1,0.0,0.98
+Terrageddon,Oath Ponza,1.0,1,0.02,1.0
+Terrageddon,Madness,0.5,2,0.01,0.99
+Terrageddon,Aluren,1.0,1,0.02,1.0
+Terrageddon,Full English Breakfast,1.0,1,0.02,1.0
+Terrageddon,Survival Welder,0.5,2,0.01,0.99
+Terrageddon,Survival,1.0,1,0.02,1.0
+Terrageddon,MUD,1.0,2,0.16,1.0
+Terrageddon,Pit Rack,1.0,1,0.02,1.0
+Terrageddon,Contamination,1.0,1,0.02,1.0
+Terrageddon,Machine Head,0.0,1,0.0,0.98
+Terrageddon,UW Control,0.0,1,0.0,0.98
 Devourer Combo,Goblins,0.75,4,0.19,0.99
-Devourer Combo,Stiflenought,0.0,3,0.0,0.71
-Devourer Combo,Burn,0.5,4,0.07,0.93
-Devourer Combo,Enchantress,0.67,3,0.09,0.99
-Devourer Combo,Terrageddon,1.0,1,0.02,1.0
-Devourer Combo,Stasis,0.33,3,0.01,0.91
-Devourer Combo,Mono Black,0.67,3,0.09,0.99
-Devourer Combo,Landstill,0.0,1,0.0,0.98
+Devourer Combo,Stiflenought,0.25,4,0.01,0.81
+Devourer Combo,Burn,0.4,5,0.05,0.85
+Devourer Combo,Enchantress,0.5,4,0.07,0.93
 Devourer Combo,Elves,1.0,1,0.02,1.0
+Devourer Combo,Stasis,0.33,3,0.01,0.91
+Devourer Combo,Mono Black,0.8,5,0.28,0.99
+Devourer Combo,Terrageddon,1.0,1,0.02,1.0
+Devourer Combo,Landstill,0.0,1,0.0,0.98
 Devourer Combo,Psychatog,1.0,1,0.02,1.0
+Devourer Combo,Oath Ponza,0.0,1,0.0,0.98
 Devourer Combo,The Rock,0.0,1,0.0,0.98
 Devourer Combo,Madness,1.0,1,0.02,1.0
-Devourer Combo,Pit Rack,0.0,3,0.0,0.71
-Devourer Combo,BW Control,1.0,2,0.16,1.0
+Devourer Combo,BW Control,1.0,4,0.4,1.0
 Devourer Combo,Angry Hermit,0.0,2,0.0,0.84
-Devourer Combo,Oath Ponza,0.0,1,0.0,0.98
-Devourer Combo,GR Aggro,1.0,1,0.02,1.0
+Devourer Combo,Full English Breakfast,1.0,1,0.02,1.0
+Devourer Combo,Storm,1.0,2,0.16,1.0
+Devourer Combo,MUD,1.0,1,0.02,1.0
+Devourer Combo,Pit Rack,0.0,3,0.0,0.71
 Devourer Combo,Gro-a-Tog,1.0,1,0.02,1.0
-Devourer Combo,Storm,1.0,1,0.02,1.0
+Devourer Combo,GR Aggro,1.0,1,0.02,1.0
 Devourer Combo,Machine Head,1.0,1,0.02,1.0
-Devourer Combo,BUG Control,1.0,1,0.02,1.0
-Psychatog,Goblins,0.25,8,0.03,0.65
+Devourer Combo,UW Control,0.0,1,0.0,0.98
+Devourer Combo,Pandeburst Control,0.0,1,0.0,0.98
+Landstill,Goblins,0.4,5,0.05,0.85
+Landstill,Stiflenought,0.67,6,0.22,0.96
+Landstill,Burn,0.0,2,0.0,0.84
+Landstill,Enchantress,0.0,5,0.0,0.52
+Landstill,Elves,0.0,1,0.0,0.98
+Landstill,Stasis,1.0,1,0.02,1.0
+Landstill,Mono Black,0.33,3,0.01,0.91
+Landstill,Devourer Combo,1.0,1,0.02,1.0
+Landstill,Psychatog,0.5,2,0.01,0.99
+Landstill,Oath Ponza,1.0,1,0.02,1.0
+Landstill,The Rock,0.0,1,0.0,0.98
+Landstill,BW Control,1.0,1,0.02,1.0
+Landstill,Reanimator,0.75,4,0.19,0.99
+Landstill,Angry Hermit,1.0,2,0.16,1.0
+Landstill,Aluren,1.0,1,0.02,1.0
+Landstill,Survival Welder,0.5,2,0.01,0.99
+Landstill,MUD,1.0,1,0.02,1.0
+Landstill,Pit Rack,0.67,3,0.09,0.99
+Landstill,Replenish,0.5,2,0.01,0.99
+Landstill,Contamination,1.0,1,0.02,1.0
+Landstill,Astral Slide,1.0,1,0.02,1.0
+Psychatog,Goblins,0.22,9,0.03,0.6
 Psychatog,Stiflenought,0.0,1,0.0,0.98
 Psychatog,Burn,0.0,1,0.0,0.98
-Psychatog,Enchantress,0.0,4,0.0,0.6
-Psychatog,Terrageddon,1.0,1,0.02,1.0
-Psychatog,Stasis,0.33,3,0.01,0.91
-Psychatog,Mono Black,1.0,1,0.02,1.0
-Psychatog,Landstill,0.0,1,0.0,0.98
+Psychatog,Enchantress,0.2,5,0.01,0.72
 Psychatog,Elves,0.0,1,0.0,0.98
+Psychatog,Stasis,0.25,4,0.01,0.81
+Psychatog,Mono Black,0.5,2,0.01,0.99
+Psychatog,Terrageddon,1.0,1,0.02,1.0
 Psychatog,Devourer Combo,0.0,1,0.0,0.98
-Psychatog,Reanimator,0.5,2,0.01,0.99
-Psychatog,Survival Welder,0.5,2,0.01,0.99
+Psychatog,Landstill,0.5,2,0.01,0.99
+Psychatog,Oath Ponza,1.0,1,0.02,1.0
 Psychatog,The Rock,0.0,2,0.0,0.84
 Psychatog,Madness,0.5,2,0.01,0.99
+Psychatog,BW Control,0.0,1,0.0,0.98
+Psychatog,Reanimator,0.5,2,0.01,0.99
 Psychatog,Aluren,0.0,1,0.0,0.98
-Psychatog,GR Aggro,0.0,1,0.0,0.98
-Psychatog,Gro-a-Tog,1.0,1,0.02,1.0
-Psychatog,Storm,1.0,1,0.02,1.0
+Psychatog,Survival Welder,0.5,2,0.01,0.99
 Psychatog,Survival,0.0,1,0.0,0.98
+Psychatog,Storm,1.0,1,0.02,1.0
+Psychatog,Gro-a-Tog,1.0,1,0.02,1.0
+Psychatog,GR Aggro,0.0,1,0.0,0.98
 Psychatog,Oath Spec,1.0,1,0.02,1.0
-Psychatog,Zombie Infestation,0.0,1,0.0,0.98
-Psychatog,Deadguy Ale,1.0,1,0.02,1.0
+Oath Ponza,Goblins,0.5,2,0.01,0.99
+Oath Ponza,Stiflenought,1.0,4,0.4,1.0
+Oath Ponza,Burn,0.8,5,0.28,0.99
+Oath Ponza,Enchantress,0.5,2,0.01,0.99
+Oath Ponza,Stasis,0.33,3,0.01,0.91
+Oath Ponza,Terrageddon,0.0,1,0.0,0.98
+Oath Ponza,Devourer Combo,1.0,1,0.02,1.0
+Oath Ponza,Landstill,0.0,1,0.0,0.98
+Oath Ponza,Psychatog,0.0,1,0.0,0.98
+Oath Ponza,The Rock,1.0,2,0.16,1.0
+Oath Ponza,BW Control,0.5,2,0.01,0.99
+Oath Ponza,Angry Hermit,0.0,1,0.0,0.98
+Oath Ponza,Aluren,1.0,1,0.02,1.0
+Oath Ponza,Full English Breakfast,0.0,1,0.0,0.98
+Oath Ponza,Pit Rack,0.0,1,0.0,0.98
+Oath Ponza,Replenish,1.0,1,0.02,1.0
+Oath Ponza,Machine Head,0.0,1,0.0,0.98
+Oath Ponza,UW Control,0.0,1,0.0,0.98
+Oath Ponza,Oath Spec,1.0,1,0.02,1.0
+Oath Ponza,GW Madness,1.0,2,0.16,1.0
+The Rock,Goblins,0.67,3,0.09,0.99
+The Rock,Stiflenought,0.33,3,0.01,0.91
+The Rock,Burn,0.5,2,0.01,0.99
+The Rock,Enchantress,1.0,1,0.02,1.0
+The Rock,Elves,0.25,4,0.01,0.81
+The Rock,Stasis,1.0,1,0.02,1.0
+The Rock,Mono Black,0.5,2,0.01,0.99
+The Rock,Devourer Combo,1.0,1,0.02,1.0
+The Rock,Landstill,1.0,1,0.02,1.0
+The Rock,Psychatog,1.0,2,0.16,1.0
+The Rock,Oath Ponza,0.0,2,0.0,0.84
+The Rock,BW Control,0.0,1,0.0,0.98
+The Rock,Aluren,1.0,1,0.02,1.0
+The Rock,Storm,0.5,2,0.01,0.99
+The Rock,MUD,0.0,1,0.0,0.98
+The Rock,Machine Head,0.0,1,0.0,0.98
+The Rock,UW Control,1.0,1,0.02,1.0
+The Rock,Astral Slide,1.0,1,0.02,1.0
+The Rock,GW Madness,0.0,1,0.0,0.98
+The Rock,Pandeburst Control,0.0,1,0.0,0.98
+Madness,Goblins,0.33,3,0.01,0.91
+Madness,Stiflenought,0.0,2,0.0,0.84
+Madness,Burn,0.0,1,0.0,0.98
+Madness,Enchantress,0.33,3,0.01,0.91
+Madness,Elves,0.33,3,0.01,0.91
+Madness,Stasis,0.5,2,0.01,0.99
+Madness,Mono Black,0.0,1,0.0,0.98
+Madness,Terrageddon,0.5,2,0.01,0.99
+Madness,Devourer Combo,0.0,1,0.0,0.98
+Madness,Psychatog,0.5,2,0.01,0.99
+Madness,Reanimator,0.0,1,0.0,0.98
+Madness,Angry Hermit,0.5,2,0.01,0.99
+Madness,Survival,1.0,2,0.16,1.0
+Madness,Storm,0.0,1,0.0,0.98
+Madness,MUD,0.0,1,0.0,0.98
+Madness,GR Aggro,0.0,1,0.0,0.98
+Madness,Contamination,1.0,1,0.02,1.0
+Madness,GW Madness,1.0,1,0.02,1.0
+Madness,Pandeburst Control,1.0,1,0.02,1.0
+BW Control,Goblins,0.75,4,0.19,0.99
+BW Control,Stiflenought,0.5,4,0.07,0.93
+BW Control,Burn,0.33,3,0.01,0.91
+BW Control,Elves,0.5,2,0.01,0.99
+BW Control,Stasis,1.0,1,0.02,1.0
+BW Control,Mono Black,1.0,1,0.02,1.0
+BW Control,Devourer Combo,0.0,4,0.0,0.6
+BW Control,Landstill,0.0,1,0.0,0.98
+BW Control,Psychatog,1.0,1,0.02,1.0
+BW Control,Oath Ponza,0.5,2,0.01,0.99
+BW Control,The Rock,1.0,1,0.02,1.0
+BW Control,Reanimator,0.0,1,0.0,0.98
+BW Control,Angry Hermit,1.0,1,0.02,1.0
+BW Control,The Solution,0.0,1,0.0,0.98
+BW Control,Full English Breakfast,0.0,1,0.0,0.98
+BW Control,Survival,0.0,1,0.0,0.98
+BW Control,Storm,0.0,1,0.0,0.98
+BW Control,Gro-a-Tog,0.0,2,0.0,0.84
+BW Control,Astral Slide,1.0,1,0.02,1.0
 Reanimator,Goblins,0.0,1,0.0,0.98
 Reanimator,Stiflenought,0.0,3,0.0,0.71
 Reanimator,Burn,1.0,2,0.16,1.0
 Reanimator,Enchantress,0.33,3,0.01,0.91
+Reanimator,Elves,0.0,2,0.0,0.84
 Reanimator,Mono Black,1.0,2,0.16,1.0
 Reanimator,Landstill,0.25,4,0.01,0.81
-Reanimator,Elves,0.0,1,0.0,0.98
 Reanimator,Psychatog,0.5,2,0.01,0.99
-Reanimator,Survival Welder,0.0,1,0.0,0.98
 Reanimator,Madness,1.0,1,0.02,1.0
 Reanimator,BW Control,1.0,1,0.02,1.0
 Reanimator,The Solution,0.0,1,0.0,0.98
-Reanimator,Aluren,1.0,1,0.02,1.0
+Reanimator,Aluren,1.0,2,0.16,1.0
+Reanimator,Full English Breakfast,0.0,1,0.0,0.98
+Reanimator,Survival Welder,0.0,1,0.0,0.98
 Reanimator,Gro-a-Tog,1.0,1,0.02,1.0
 Reanimator,Oath Spec,0.0,1,0.0,0.98
+Angry Hermit,Goblins,0.75,4,0.19,0.99
+Angry Hermit,Stiflenought,1.0,1,0.02,1.0
+Angry Hermit,Burn,1.0,1,0.02,1.0
+Angry Hermit,Enchantress,1.0,4,0.4,1.0
+Angry Hermit,Elves,1.0,1,0.02,1.0
+Angry Hermit,Mono Black,0.0,1,0.0,0.98
+Angry Hermit,Devourer Combo,1.0,2,0.16,1.0
+Angry Hermit,Landstill,0.0,2,0.0,0.84
+Angry Hermit,Oath Ponza,1.0,1,0.02,1.0
+Angry Hermit,Madness,0.5,2,0.01,0.99
+Angry Hermit,BW Control,0.0,1,0.0,0.98
+Angry Hermit,The Solution,0.5,2,0.01,0.99
+Angry Hermit,Full English Breakfast,0.0,1,0.0,0.98
+Angry Hermit,Survival Welder,1.0,2,0.16,1.0
+Angry Hermit,Storm,0.5,2,0.01,0.99
+Angry Hermit,Astral Slide,0.0,1,0.0,0.98
+The Solution,Goblins,0.67,3,0.09,0.99
+The Solution,Stiflenought,0.5,4,0.07,0.93
+The Solution,Burn,0.0,2,0.0,0.84
+The Solution,Elves,1.0,1,0.02,1.0
+The Solution,Stasis,0.0,1,0.0,0.98
+The Solution,Mono Black,0.0,1,0.0,0.98
+The Solution,BW Control,1.0,1,0.02,1.0
+The Solution,Reanimator,1.0,1,0.02,1.0
+The Solution,Angry Hermit,0.5,2,0.01,0.99
+The Solution,Survival Welder,1.0,1,0.02,1.0
+The Solution,Survival,1.0,1,0.02,1.0
+The Solution,Storm,1.0,1,0.02,1.0
+The Solution,MUD,1.0,1,0.02,1.0
+The Solution,Replenish,0.0,1,0.0,0.98
+The Solution,GR Aggro,0.0,1,0.0,0.98
+The Solution,Oath Spec,0.0,1,0.0,0.98
+Aluren,Stiflenought,0.0,2,0.0,0.84
+Aluren,Burn,0.67,3,0.09,0.99
+Aluren,Enchantress,1.0,2,0.16,1.0
+Aluren,Elves,1.0,1,0.02,1.0
+Aluren,Stasis,1.0,1,0.02,1.0
+Aluren,Mono Black,0.5,2,0.01,0.99
+Aluren,Terrageddon,0.0,1,0.0,0.98
+Aluren,Landstill,0.0,1,0.0,0.98
+Aluren,Psychatog,1.0,1,0.02,1.0
+Aluren,Oath Ponza,0.0,1,0.0,0.98
+Aluren,The Rock,0.0,1,0.0,0.98
+Aluren,Reanimator,0.0,2,0.0,0.84
+Aluren,Survival,0.5,2,0.01,0.99
+Aluren,Storm,1.0,1,0.02,1.0
+Aluren,MUD,1.0,1,0.02,1.0
+Aluren,UW Control,0.0,1,0.0,0.98
+Full English Breakfast,Goblins,0.5,2,0.01,0.99
+Full English Breakfast,Stiflenought,0.0,2,0.0,0.84
+Full English Breakfast,Burn,0.0,2,0.0,0.84
+Full English Breakfast,Enchantress,1.0,2,0.16,1.0
+Full English Breakfast,Elves,0.5,2,0.01,0.99
+Full English Breakfast,Stasis,1.0,2,0.16,1.0
+Full English Breakfast,Mono Black,0.5,4,0.07,0.93
+Full English Breakfast,Terrageddon,0.0,1,0.0,0.98
+Full English Breakfast,Devourer Combo,0.0,1,0.0,0.98
+Full English Breakfast,Oath Ponza,1.0,1,0.02,1.0
+Full English Breakfast,BW Control,1.0,1,0.02,1.0
+Full English Breakfast,Reanimator,1.0,1,0.02,1.0
+Full English Breakfast,Angry Hermit,1.0,1,0.02,1.0
+Full English Breakfast,Full English Breakfast,0.5,2,0.01,0.99
 Survival Welder,Goblins,0.5,2,0.01,0.99
 Survival Welder,Stiflenought,0.25,4,0.01,0.81
 Survival Welder,Burn,0.5,2,0.01,0.99
@@ -285,232 +445,172 @@ Survival Welder,Terrageddon,0.5,2,0.01,0.99
 Survival Welder,Landstill,0.5,2,0.01,0.99
 Survival Welder,Psychatog,0.5,2,0.01,0.99
 Survival Welder,Reanimator,1.0,1,0.02,1.0
-Survival Welder,The Solution,0.0,1,0.0,0.98
 Survival Welder,Angry Hermit,0.0,2,0.0,0.84
+Survival Welder,The Solution,0.0,1,0.0,0.98
 Survival Welder,Storm,0.0,1,0.0,0.98
 Survival Welder,Contamination,1.0,1,0.02,1.0
 Survival Welder,Oath Spec,1.0,1,0.02,1.0
-Survival Welder,Zombie Infestation,1.0,1,0.02,1.0
-The Rock,Goblins,0.67,3,0.09,0.99
-The Rock,Stiflenought,0.5,2,0.01,0.99
-The Rock,Burn,0.5,2,0.01,0.99
-The Rock,Enchantress,1.0,1,0.02,1.0
-The Rock,Stasis,1.0,1,0.02,1.0
-The Rock,Mono Black,0.5,2,0.01,0.99
-The Rock,Landstill,1.0,1,0.02,1.0
-The Rock,Elves,0.0,2,0.0,0.84
-The Rock,Devourer Combo,1.0,1,0.02,1.0
-The Rock,Psychatog,1.0,2,0.16,1.0
-The Rock,BW Control,0.0,1,0.0,0.98
-The Rock,Aluren,1.0,1,0.02,1.0
-The Rock,Oath Ponza,0.0,2,0.0,0.84
-The Rock,MUD,0.0,1,0.0,0.98
-The Rock,Machine Head,0.0,1,0.0,0.98
-Madness,Goblins,0.33,3,0.01,0.91
-Madness,Stiflenought,0.0,2,0.0,0.84
-Madness,Burn,0.0,1,0.0,0.98
-Madness,Enchantress,0.33,3,0.01,0.91
-Madness,Terrageddon,0.5,2,0.01,0.99
-Madness,Stasis,0.0,1,0.0,0.98
-Madness,Elves,0.0,1,0.0,0.98
-Madness,Devourer Combo,0.0,1,0.0,0.98
-Madness,Psychatog,0.5,2,0.01,0.99
-Madness,Reanimator,0.0,1,0.0,0.98
-Madness,Angry Hermit,1.0,1,0.02,1.0
-Madness,MUD,0.0,1,0.0,0.98
-Madness,GR Aggro,0.0,1,0.0,0.98
-Madness,Storm,0.0,1,0.0,0.98
-Madness,Survival,1.0,1,0.02,1.0
-Madness,Contamination,1.0,1,0.02,1.0
-Madness,Deadguy Ale,0.0,1,0.0,0.98
+Survival,Goblins,0.0,1,0.0,0.98
+Survival,Stiflenought,0.0,3,0.0,0.71
+Survival,Burn,0.0,1,0.0,0.98
+Survival,Enchantress,0.0,1,0.0,0.98
+Survival,Elves,0.0,2,0.0,0.84
+Survival,Stasis,0.0,1,0.0,0.98
+Survival,Mono Black,1.0,2,0.16,1.0
+Survival,Terrageddon,0.0,1,0.0,0.98
+Survival,Psychatog,1.0,1,0.02,1.0
+Survival,Madness,0.0,2,0.0,0.84
+Survival,BW Control,1.0,1,0.02,1.0
+Survival,The Solution,0.0,1,0.0,0.98
+Survival,Aluren,0.5,2,0.01,0.99
+Survival,MUD,1.0,1,0.02,1.0
+Survival,Pit Rack,0.0,1,0.0,0.98
+Survival,Gro-a-Tog,1.0,1,0.02,1.0
+Survival,UW Control,1.0,1,0.02,1.0
+Survival,Pandeburst Control,1.0,1,0.02,1.0
+Storm,Goblins,0.0,2,0.0,0.84
+Storm,Stiflenought,0.0,1,0.0,0.98
+Storm,Enchantress,0.0,2,0.0,0.84
+Storm,Stasis,0.5,2,0.01,0.99
+Storm,Mono Black,0.0,1,0.0,0.98
+Storm,Devourer Combo,0.0,2,0.0,0.84
+Storm,Psychatog,0.0,1,0.0,0.98
+Storm,The Rock,0.5,2,0.01,0.99
+Storm,Madness,1.0,1,0.02,1.0
+Storm,BW Control,1.0,1,0.02,1.0
+Storm,Angry Hermit,0.5,2,0.01,0.99
+Storm,The Solution,0.0,1,0.0,0.98
+Storm,Aluren,0.0,1,0.0,0.98
+Storm,Survival Welder,1.0,1,0.02,1.0
+Storm,UW Control,0.0,1,0.0,0.98
+MUD,Goblins,1.0,1,0.02,1.0
+MUD,Burn,1.0,1,0.02,1.0
+MUD,Elves,0.33,3,0.01,0.91
+MUD,Stasis,0.0,1,0.0,0.98
+MUD,Mono Black,1.0,1,0.02,1.0
+MUD,Terrageddon,0.0,2,0.0,0.84
+MUD,Devourer Combo,0.0,1,0.0,0.98
+MUD,Landstill,0.0,1,0.0,0.98
+MUD,The Rock,1.0,1,0.02,1.0
+MUD,Madness,1.0,1,0.02,1.0
+MUD,The Solution,0.0,1,0.0,0.98
+MUD,Aluren,0.0,1,0.0,0.98
+MUD,Survival,0.0,1,0.0,0.98
+MUD,MUD,0.5,2,0.01,0.99
+MUD,Astral Slide,1.0,1,0.02,1.0
+Pit Rack,Goblins,0.33,3,0.01,0.91
+Pit Rack,Stiflenought,0.0,3,0.0,0.71
+Pit Rack,Burn,0.5,2,0.01,0.99
+Pit Rack,Mono Black,0.5,2,0.01,0.99
+Pit Rack,Terrageddon,0.0,1,0.0,0.98
+Pit Rack,Devourer Combo,1.0,3,0.29,1.0
+Pit Rack,Landstill,0.33,3,0.01,0.91
+Pit Rack,Oath Ponza,1.0,1,0.02,1.0
+Pit Rack,Survival,1.0,1,0.02,1.0
+Pit Rack,Replenish,1.0,1,0.02,1.0
+Pit Rack,GW Madness,0.0,1,0.0,0.98
 Replenish,Goblins,1.0,1,0.02,1.0
 Replenish,Stiflenought,1.0,3,0.29,1.0
 Replenish,Burn,0.5,2,0.01,0.99
 Replenish,Enchantress,1.0,1,0.02,1.0
 Replenish,Mono Black,0.0,3,0.0,0.71
 Replenish,Landstill,0.5,2,0.01,0.99
-Replenish,Elves,1.0,1,0.02,1.0
-Replenish,Replenish,0.5,2,0.01,0.99
-Replenish,Pit Rack,0.0,1,0.0,0.98
+Replenish,Oath Ponza,0.0,1,0.0,0.98
 Replenish,The Solution,1.0,1,0.02,1.0
-Replenish,Oath Ponza,0.5,2,0.01,0.99
+Replenish,Pit Rack,0.0,1,0.0,0.98
 Replenish,GR Aggro,0.0,1,0.0,0.98
-Replenish,BUG Control,1.0,1,0.02,1.0
-Pit Rack,Goblins,0.33,3,0.01,0.91
-Pit Rack,Stiflenought,0.0,3,0.0,0.71
-Pit Rack,Burn,0.5,2,0.01,0.99
-Pit Rack,Terrageddon,0.0,1,0.0,0.98
-Pit Rack,Mono Black,0.5,2,0.01,0.99
-Pit Rack,Landstill,0.33,3,0.01,0.91
-Pit Rack,Devourer Combo,1.0,3,0.29,1.0
-Pit Rack,Replenish,1.0,1,0.02,1.0
-Pit Rack,Oath Ponza,1.0,1,0.02,1.0
-Pit Rack,Survival,1.0,1,0.02,1.0
-Pit Rack,Deadguy Ale,0.0,1,0.0,0.98
-BW Control,Goblins,0.75,4,0.19,0.99
-BW Control,Stiflenought,0.67,3,0.09,0.99
-BW Control,Burn,0.5,2,0.01,0.99
-BW Control,Mono Black,1.0,1,0.02,1.0
-BW Control,Landstill,0.0,1,0.0,0.98
-BW Control,Devourer Combo,0.0,2,0.0,0.84
-BW Control,Reanimator,0.0,1,0.0,0.98
-BW Control,The Rock,1.0,1,0.02,1.0
-BW Control,The Solution,0.0,1,0.0,0.98
-BW Control,Angry Hermit,1.0,1,0.02,1.0
-BW Control,Oath Ponza,0.0,1,0.0,0.98
-BW Control,Gro-a-Tog,0.0,2,0.0,0.84
-BW Control,Storm,0.0,1,0.0,0.98
-The Solution,Goblins,0.67,3,0.09,0.99
-The Solution,Stiflenought,0.5,2,0.01,0.99
-The Solution,Burn,0.0,2,0.0,0.84
-The Solution,Stasis,0.0,1,0.0,0.98
-The Solution,Mono Black,0.0,1,0.0,0.98
-The Solution,Reanimator,1.0,1,0.02,1.0
-The Solution,Survival Welder,1.0,1,0.02,1.0
-The Solution,Replenish,0.0,1,0.0,0.98
-The Solution,BW Control,1.0,1,0.02,1.0
-The Solution,Angry Hermit,0.0,1,0.0,0.98
-The Solution,GR Aggro,0.0,1,0.0,0.98
-The Solution,Storm,1.0,1,0.02,1.0
-The Solution,Oath Spec,0.0,1,0.0,0.98
-The Solution,Zombie Infestation,1.0,1,0.02,1.0
-Aluren,Stiflenought,0.0,2,0.0,0.84
-Aluren,Burn,0.67,3,0.09,0.99
-Aluren,Enchantress,1.0,2,0.16,1.0
-Aluren,Terrageddon,0.0,1,0.0,0.98
-Aluren,Stasis,1.0,1,0.02,1.0
-Aluren,Mono Black,1.0,1,0.02,1.0
-Aluren,Psychatog,1.0,1,0.02,1.0
-Aluren,Reanimator,0.0,1,0.0,0.98
-Aluren,The Rock,0.0,1,0.0,0.98
-Aluren,MUD,1.0,1,0.02,1.0
-Aluren,Storm,1.0,1,0.02,1.0
-Aluren,Survival,0.0,1,0.0,0.98
-Angry Hermit,Goblins,1.0,2,0.16,1.0
-Angry Hermit,Stiflenought,1.0,1,0.02,1.0
-Angry Hermit,Burn,1.0,1,0.02,1.0
-Angry Hermit,Enchantress,1.0,3,0.29,1.0
-Angry Hermit,Landstill,0.0,2,0.0,0.84
-Angry Hermit,Devourer Combo,1.0,2,0.16,1.0
-Angry Hermit,Survival Welder,1.0,2,0.16,1.0
-Angry Hermit,Madness,0.0,1,0.0,0.98
-Angry Hermit,BW Control,0.0,1,0.0,0.98
-Angry Hermit,The Solution,1.0,1,0.02,1.0
-Angry Hermit,Oath Ponza,1.0,1,0.02,1.0
-Angry Hermit,The Rack,0.0,1,0.0,0.98
-Oath Ponza,Goblins,0.5,2,0.01,0.99
-Oath Ponza,Stiflenought,1.0,3,0.29,1.0
-Oath Ponza,Burn,1.0,2,0.16,1.0
-Oath Ponza,Enchantress,1.0,1,0.02,1.0
-Oath Ponza,Landstill,0.0,1,0.0,0.98
-Oath Ponza,Devourer Combo,1.0,1,0.02,1.0
-Oath Ponza,The Rock,1.0,2,0.16,1.0
-Oath Ponza,Replenish,0.5,2,0.01,0.99
-Oath Ponza,Pit Rack,0.0,1,0.0,0.98
-Oath Ponza,BW Control,1.0,1,0.02,1.0
-Oath Ponza,Angry Hermit,0.0,1,0.0,0.98
-Oath Ponza,Machine Head,0.0,1,0.0,0.98
-Oath Ponza,Oath Spec,1.0,1,0.02,1.0
-MUD,Goblins,1.0,1,0.02,1.0
-MUD,Burn,1.0,1,0.02,1.0
-MUD,Terrageddon,0.0,2,0.0,0.84
-MUD,Stasis,0.0,1,0.0,0.98
-MUD,Mono Black,1.0,1,0.02,1.0
-MUD,Landstill,0.0,1,0.0,0.98
-MUD,Elves,0.0,1,0.0,0.98
-MUD,The Rock,1.0,1,0.02,1.0
-MUD,Madness,1.0,1,0.02,1.0
-MUD,Aluren,0.0,1,0.0,0.98
-MUD,MUD,0.5,2,0.01,0.99
-MUD,Survival,0.0,1,0.0,0.98
-GR Aggro,Goblins,0.5,2,0.01,0.99
-GR Aggro,Stiflenought,1.0,1,0.02,1.0
-GR Aggro,Burn,0.0,1,0.0,0.98
-GR Aggro,Stasis,0.5,2,0.01,0.99
-GR Aggro,Mono Black,0.2,5,0.01,0.72
-GR Aggro,Elves,0.0,1,0.0,0.98
-GR Aggro,Devourer Combo,0.0,1,0.0,0.98
-GR Aggro,Psychatog,1.0,1,0.02,1.0
-GR Aggro,Madness,1.0,1,0.02,1.0
-GR Aggro,Replenish,1.0,1,0.02,1.0
-GR Aggro,The Solution,1.0,1,0.02,1.0
-GR Aggro,BUG Control,0.0,1,0.0,0.98
+Replenish,GW Madness,1.0,1,0.02,1.0
 Gro-a-Tog,Goblins,0.5,2,0.01,0.99
 Gro-a-Tog,Burn,0.0,3,0.0,0.71
 Gro-a-Tog,Devourer Combo,0.0,1,0.0,0.98
 Gro-a-Tog,Psychatog,0.0,1,0.0,0.98
-Gro-a-Tog,Reanimator,0.0,1,0.0,0.98
 Gro-a-Tog,BW Control,1.0,2,0.16,1.0
+Gro-a-Tog,Reanimator,0.0,1,0.0,0.98
 Gro-a-Tog,Survival,0.0,1,0.0,0.98
-Storm,Goblins,0.0,2,0.0,0.84
-Storm,Stiflenought,0.0,1,0.0,0.98
-Storm,Enchantress,0.0,2,0.0,0.84
-Storm,Stasis,0.0,1,0.0,0.98
-Storm,Mono Black,0.0,1,0.0,0.98
-Storm,Devourer Combo,0.0,1,0.0,0.98
-Storm,Psychatog,0.0,1,0.0,0.98
-Storm,Survival Welder,1.0,1,0.02,1.0
-Storm,Madness,1.0,1,0.02,1.0
-Storm,BW Control,1.0,1,0.02,1.0
-Storm,The Solution,0.0,1,0.0,0.98
-Storm,Aluren,0.0,1,0.0,0.98
-Storm,Deadguy Ale,0.0,1,0.0,0.98
-Survival,Goblins,0.0,1,0.0,0.98
-Survival,Stiflenought,0.0,3,0.0,0.71
-Survival,Burn,0.0,1,0.0,0.98
-Survival,Enchantress,0.0,1,0.0,0.98
-Survival,Terrageddon,0.0,1,0.0,0.98
-Survival,Mono Black,1.0,1,0.02,1.0
-Survival,Elves,0.0,1,0.0,0.98
-Survival,Psychatog,1.0,1,0.02,1.0
-Survival,Madness,0.0,1,0.0,0.98
-Survival,Pit Rack,0.0,1,0.0,0.98
-Survival,Aluren,1.0,1,0.02,1.0
-Survival,MUD,1.0,1,0.02,1.0
-Survival,Gro-a-Tog,1.0,1,0.02,1.0
-Survival,Deadguy Ale,1.0,1,0.02,1.0
+GR Aggro,Goblins,0.5,2,0.01,0.99
+GR Aggro,Stiflenought,1.0,1,0.02,1.0
+GR Aggro,Burn,0.0,1,0.0,0.98
+GR Aggro,Stasis,0.5,2,0.01,0.99
+GR Aggro,Mono Black,0.25,4,0.01,0.81
+GR Aggro,Devourer Combo,0.0,1,0.0,0.98
+GR Aggro,Psychatog,1.0,1,0.02,1.0
+GR Aggro,Madness,1.0,1,0.02,1.0
+GR Aggro,The Solution,1.0,1,0.02,1.0
+GR Aggro,Replenish,1.0,1,0.02,1.0
 Contamination,Goblins,1.0,1,0.02,1.0
 Contamination,Stiflenought,0.33,3,0.01,0.91
 Contamination,Burn,0.0,1,0.0,0.98
-Contamination,Terrageddon,0.0,1,0.0,0.98
-Contamination,Mono Black,0.0,1,0.0,0.98
-Contamination,Landstill,0.0,1,0.0,0.98
 Contamination,Elves,1.0,1,0.02,1.0
-Contamination,Survival Welder,0.0,1,0.0,0.98
+Contamination,Mono Black,0.0,1,0.0,0.98
+Contamination,Terrageddon,0.0,1,0.0,0.98
+Contamination,Landstill,0.0,1,0.0,0.98
 Contamination,Madness,0.0,1,0.0,0.98
+Contamination,Survival Welder,0.0,1,0.0,0.98
 Contamination,Machine Head,0.5,2,0.01,0.99
-Contamination,BUG Control,0.0,1,0.0,0.98
 Machine Head,Goblins,1.0,1,0.02,1.0
 Machine Head,Burn,0.0,1,0.0,0.98
-Machine Head,Terrageddon,1.0,1,0.02,1.0
-Machine Head,Stasis,0.0,1,0.0,0.98
 Machine Head,Elves,1.0,1,0.02,1.0
+Machine Head,Stasis,0.0,1,0.0,0.98
+Machine Head,Terrageddon,1.0,1,0.02,1.0
 Machine Head,Devourer Combo,0.0,1,0.0,0.98
-Machine Head,The Rock,1.0,1,0.02,1.0
 Machine Head,Oath Ponza,1.0,1,0.02,1.0
+Machine Head,The Rock,1.0,1,0.02,1.0
 Machine Head,Contamination,0.5,2,0.01,0.99
-Machine Head,The Rack,1.0,1,0.02,1.0
+UW Control,Goblins,1.0,2,0.16,1.0
+UW Control,Stiflenought,0.0,1,0.0,0.98
+UW Control,Terrageddon,1.0,1,0.02,1.0
+UW Control,Devourer Combo,1.0,1,0.02,1.0
+UW Control,Oath Ponza,1.0,1,0.02,1.0
+UW Control,The Rock,0.0,1,0.0,0.98
+UW Control,Aluren,1.0,1,0.02,1.0
+UW Control,Survival,0.0,1,0.0,0.98
+UW Control,Storm,1.0,1,0.02,1.0
+Astral Slide,Goblins,0.0,2,0.0,0.84
+Astral Slide,Burn,0.0,2,0.0,0.84
+Astral Slide,Elves,0.0,1,0.0,0.98
+Astral Slide,Landstill,0.0,1,0.0,0.98
+Astral Slide,The Rock,0.0,1,0.0,0.98
+Astral Slide,BW Control,0.0,1,0.0,0.98
+Astral Slide,Angry Hermit,1.0,1,0.02,1.0
+Astral Slide,MUD,0.0,1,0.0,0.98
+Astral Slide,GW Madness,0.0,1,0.0,0.98
 Oath Spec,Goblins,0.0,1,0.0,0.98
 Oath Spec,Stiflenought,0.0,2,0.0,0.84
 Oath Spec,Enchantress,1.0,1,0.02,1.0
 Oath Spec,Mono Black,0.0,1,0.0,0.98
 Oath Spec,Psychatog,0.0,1,0.0,0.98
-Oath Spec,Reanimator,1.0,1,0.02,1.0
-Oath Spec,Survival Welder,0.0,1,0.0,0.98
-Oath Spec,The Solution,1.0,1,0.02,1.0
 Oath Spec,Oath Ponza,0.0,1,0.0,0.98
-Oath Spec,The Rack,0.0,1,0.0,0.98
+Oath Spec,Reanimator,1.0,1,0.02,1.0
+Oath Spec,The Solution,1.0,1,0.02,1.0
+Oath Spec,Survival Welder,0.0,1,0.0,0.98
 BUG Control,Burn,0.0,3,0.0,0.71
-BUG Control,Terrageddon,0.0,2,0.0,0.84
 BUG Control,Mono Black,0.0,1,0.0,0.98
+BUG Control,Terrageddon,0.0,2,0.0,0.84
 BUG Control,Devourer Combo,0.0,1,0.0,0.98
 BUG Control,Replenish,0.0,1,0.0,0.98
 BUG Control,GR Aggro,1.0,1,0.02,1.0
 BUG Control,Contamination,1.0,1,0.02,1.0
+GW Madness,Goblins,0.0,1,0.0,0.98
+GW Madness,Burn,1.0,1,0.02,1.0
+GW Madness,Oath Ponza,0.0,2,0.0,0.84
+GW Madness,The Rock,1.0,1,0.02,1.0
+GW Madness,Madness,0.0,1,0.0,0.98
+GW Madness,Pit Rack,1.0,1,0.02,1.0
+GW Madness,Replenish,0.0,1,0.0,0.98
+GW Madness,Astral Slide,1.0,1,0.02,1.0
+Pandeburst Control,Goblins,0.0,1,0.0,0.98
+Pandeburst Control,Burn,1.0,1,0.02,1.0
+Pandeburst Control,Elves,1.0,1,0.02,1.0
+Pandeburst Control,Stasis,0.0,1,0.0,0.98
+Pandeburst Control,Mono Black,1.0,1,0.02,1.0
+Pandeburst Control,Devourer Combo,1.0,1,0.02,1.0
+Pandeburst Control,The Rock,1.0,1,0.02,1.0
+Pandeburst Control,Madness,0.0,1,0.0,0.98
+Pandeburst Control,Survival,0.0,1,0.0,0.98
 The Rack,Burn,0.5,2,0.01,0.99
 The Rack,Enchantress,1.0,1,0.02,1.0
-The Rack,Terrageddon,0.5,2,0.01,0.99
 The Rack,Mono Black,0.0,1,0.0,0.98
+The Rack,Terrageddon,0.5,2,0.01,0.99
 The Rack,Landstill,0.0,1,0.0,0.98
 The Rack,Angry Hermit,1.0,1,0.02,1.0
 The Rack,Machine Head,0.0,1,0.0,0.98
@@ -520,70 +620,82 @@ Clerics,Stiflenought,0.5,2,0.01,0.99
 Clerics,Stasis,1.0,1,0.02,1.0
 Clerics,Mono Black,0.0,1,0.0,0.98
 Clerics,Psychatog,1.0,1,0.02,1.0
-Clerics,Survival Welder,1.0,1,0.02,1.0
 Clerics,Angry Hermit,0.0,1,0.0,0.98
+Clerics,Survival Welder,1.0,1,0.02,1.0
 Zombie Infestation,Goblins,1.0,2,0.16,1.0
 Zombie Infestation,Stiflenought,1.0,1,0.02,1.0
 Zombie Infestation,Burn,1.0,2,0.16,1.0
 Zombie Infestation,Elves,0.0,1,0.0,0.98
 Zombie Infestation,Psychatog,1.0,1,0.02,1.0
-Zombie Infestation,Survival Welder,0.0,1,0.0,0.98
 Zombie Infestation,The Solution,0.0,1,0.0,0.98
+Zombie Infestation,Survival Welder,0.0,1,0.0,0.98
 Mono Green Stompy,Goblins,0.0,1,0.0,0.98
 Mono Green Stompy,Stiflenought,0.0,1,0.0,0.98
 Mono Green Stompy,Burn,0.5,2,0.01,0.99
 Mono Green Stompy,Gro-a-Tog,1.0,1,0.02,1.0
+Mono Green Stompy,GW Madness,1.0,1,0.02,1.0
 Deadguy Ale,Goblins,1.0,1,0.02,1.0
 Deadguy Ale,Stiflenought,1.0,1,0.02,1.0
 Deadguy Ale,Enchantress,0.0,1,0.0,0.98
 Deadguy Ale,Psychatog,0.0,1,0.0,0.98
 Deadguy Ale,Madness,1.0,1,0.02,1.0
-Deadguy Ale,Pit Rack,1.0,1,0.02,1.0
-Deadguy Ale,Storm,1.0,1,0.02,1.0
 Deadguy Ale,Survival,0.0,1,0.0,0.98
+Deadguy Ale,Storm,1.0,1,0.02,1.0
+Deadguy Ale,Pit Rack,1.0,1,0.02,1.0
+Slivers,Goblins,0.0,1,0.0,0.98
+Slivers,Reanimator,0.0,3,0.0,0.71
+Slivers,Aluren,0.5,2,0.01,0.99
+Slivers,Full English Breakfast,1.0,1,0.02,1.0
 Sneak Attack,Goblins,0.0,1,0.0,0.98
 Sneak Attack,Burn,1.0,1,0.02,1.0
-Sneak Attack,Terrageddon,0.5,2,0.01,0.99
 Sneak Attack,Stasis,0.5,2,0.01,0.99
+Sneak Attack,Terrageddon,0.5,2,0.01,0.99
 Sneak Attack,The Solution,1.0,1,0.02,1.0
 Sneak Attack,MUD,1.0,1,0.02,1.0
+Broccoli Soup,Burn,0.5,2,0.01,0.99
+Broccoli Soup,Elves,0.0,1,0.0,0.98
+Broccoli Soup,Terrageddon,1.0,1,0.02,1.0
+Broccoli Soup,Psychatog,1.0,1,0.02,1.0
+Broccoli Soup,Angry Hermit,0.0,1,0.0,0.98
+Broccoli Soup,MUD,1.0,1,0.02,1.0
 Survival Opposition,Stiflenought,0.0,1,0.0,0.98
 Survival Opposition,Burn,1.0,2,0.16,1.0
 Survival Opposition,Stasis,1.0,1,0.02,1.0
 Survival Opposition,Psychatog,1.0,1,0.02,1.0
 Survival Opposition,Pit Rack,1.0,1,0.02,1.0
 Survival Opposition,Gro-a-Tog,0.0,1,0.0,0.98
-Astral Slide,Goblins,0.0,1,0.0,0.98
-Astral Slide,Landstill,0.0,1,0.0,0.98
-Astral Slide,The Rock,0.0,1,0.0,0.98
-Astral Slide,BW Control,0.0,1,0.0,0.98
-Astral Slide,Angry Hermit,1.0,1,0.02,1.0
-Astral Slide,MUD,0.0,1,0.0,0.98
-UW Control,Stiflenought,0.0,1,0.0,0.98
-UW Control,Terrageddon,1.0,1,0.02,1.0
-UW Control,Aluren,1.0,1,0.02,1.0
+Zoo,Enchantress,0.0,2,0.0,0.84
+Zoo,Elves,0.0,1,0.0,0.98
+Zoo,Aluren,1.0,1,0.02,1.0
+Zoo,MUD,1.0,1,0.02,1.0
+Dream Halls,Stasis,0.0,1,0.0,0.98
+Dream Halls,Mono Black,1.0,1,0.02,1.0
+Dream Halls,Madness,1.0,1,0.02,1.0
+Dream Halls,The Solution,0.0,1,0.0,0.98
+Dream Halls,GW Madness,1.0,1,0.02,1.0
+Dream Halls,Pandeburst Control,1.0,1,0.02,1.0
 GW Midrange,Burn,0.0,1,0.0,0.98
+GW Midrange,Elves,0.0,1,0.0,0.98
 GW Midrange,Stasis,0.0,1,0.0,0.98
 GW Midrange,Mono Black,0.0,1,0.0,0.98
-GW Midrange,Elves,0.0,1,0.0,0.98
+GW Midrange,Full English Breakfast,0.0,1,0.0,0.98
+GW Midrange,UW Control,1.0,1,0.02,1.0
+GW Midrange,Astral Slide,0.0,1,0.0,0.98
 White Weenie,Goblins,0.0,1,0.0,0.98
 White Weenie,Burn,1.0,1,0.02,1.0
 White Weenie,Elves,0.0,1,0.0,0.98
 White Weenie,Psychatog,1.0,1,0.02,1.0
 White Weenie,The Solution,1.0,1,0.02,1.0
 White Weenie,Machine Head,1.0,1,0.02,1.0
+Tireless Tribe Combo,Goblins,1.0,1,0.02,1.0
+Tireless Tribe Combo,Terrageddon,1.0,1,0.02,1.0
+Tireless Tribe Combo,Full English Breakfast,0.0,1,0.0,0.98
 Dreams Ponza,Enchantress,0.0,1,0.0,0.98
 Dreams Ponza,Stasis,0.0,1,0.0,0.98
 Dreams Ponza,Devourer Combo,0.0,1,0.0,0.98
 Dreams Ponza,Psychatog,0.0,1,0.0,0.98
 Dreams Ponza,The Solution,1.0,1,0.02,1.0
 Dreams Ponza,Machine Head,0.0,1,0.0,0.98
-Full English Breakfast,Stiflenought,0.0,1,0.0,0.98
-Full English Breakfast,Terrageddon,0.0,1,0.0,0.98
-Full English Breakfast,Angry Hermit,1.0,1,0.02,1.0
-Slivers,Goblins,0.0,1,0.0,0.98
-Slivers,Reanimator,0.0,2,0.0,0.84
-Slivers,Aluren,1.0,1,0.02,1.0
 Pattern Combo,Goblins,0.0,1,0.0,0.98
 Pattern Combo,Enchantress,0.0,1,0.0,0.98
 Pattern Combo,Aluren,1.0,1,0.02,1.0
@@ -591,32 +703,27 @@ Pattern Combo,Gro-a-Tog,0.0,1,0.0,0.98
 Tide Control,Goblins,1.0,1,0.02,1.0
 Tide Control,Stiflenought,1.0,1,0.02,1.0
 Tide Control,Burn,1.0,1,0.02,1.0
-Zoo,Enchantress,0.0,2,0.0,0.84
-Zoo,Aluren,1.0,1,0.02,1.0
-Zoo,MUD,1.0,1,0.02,1.0
+Mono Blue Flyers,Terrageddon,0.0,1,0.0,0.98
+Mono Blue Flyers,Devourer Combo,1.0,1,0.02,1.0
+Mono Blue Flyers,Aluren,1.0,1,0.02,1.0
 Tron,Stiflenought,0.0,1,0.0,0.98
 Tron,Enchantress,0.0,1,0.0,0.98
 Tron,Survival Welder,1.0,1,0.02,1.0
 Tron,Oath Spec,0.0,1,0.0,0.98
 Fluctuator,Stiflenought,0.0,1,0.0,0.98
-Fluctuator,Replenish,0.0,1,0.0,0.98
 Fluctuator,BW Control,0.0,1,0.0,0.98
+Fluctuator,Replenish,0.0,1,0.0,0.98
 Fluctuator,Contamination,1.0,1,0.02,1.0
-GW Madness,Goblins,0.0,1,0.0,0.98
-GW Madness,Replenish,0.0,1,0.0,0.98
-GW Madness,Pit Rack,1.0,1,0.02,1.0
 Oath Control,Machine Head,1.0,1,0.02,1.0
-Oath Control,BUG Control,0.0,1,0.0,0.98
+Oath Control,UW Control,0.0,1,0.0,0.98
 UWB Control,Devourer Combo,1.0,1,0.02,1.0
 UWB Control,Contamination,0.0,1,0.0,0.98
-Broccoli Soup,Burn,0.5,2,0.01,0.99
-Broccoli Soup,MUD,1.0,1,0.02,1.0
+UWB Control,UW Control,0.0,1,0.0,0.98
 Temping Rack,Terrageddon,0.0,1,0.0,0.98
 Temping Rack,Machine Head,1.0,1,0.02,1.0
 Great Combo,Goblins,1.0,1,0.02,1.0
-Great Combo,Zombie Infestation,1.0,1,0.02,1.0
-Tireless Tribe Combo,Goblins,1.0,1,0.02,1.0
-Tireless Tribe Combo,Terrageddon,1.0,1,0.02,1.0
 Pyrostatic Oath,Enchantress,1.0,1,0.02,1.0
 Pyrostatic Oath,Stasis,1.0,1,0.02,1.0
 Pyrostatic Oath,Landstill,1.0,1,0.02,1.0
+Mono Black Ponza,Elves,1.0,1,0.02,1.0
+Mono Black Ponza,Mono Black,0.0,1,0.0,0.98

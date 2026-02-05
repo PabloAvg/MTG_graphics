@@ -6,8 +6,6 @@ import time
 import random
 from dataclasses import dataclass
 from typing import Optional, Tuple, List, Dict
-from urllib.parse import quote
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -122,11 +120,10 @@ def parse_cell(td) -> Cell:
 
 def build_range_url(range_id: str, base_url: str = BASE_WINRATES_URL) -> str:
     """
-    Build an mtgdecks range URL using encoded `range:<id>` paths, e.g.:
-    https://mtgdecks.net/Modern/winrates/range%3Alast60days
+    Build an mtgdecks range URL using raw `range:<id>` paths, e.g.:
+    https://mtgdecks.net/Modern/winrates/range:last60days
     """
-    encoded_path = quote(f"range:{range_id}", safe="")
-    return f"{base_url}/{encoded_path}"
+    return f"{base_url}/range:{range_id}"
 
 
 def _range_url(range_key: str = DEFAULT_RANGE_KEY, base_url: str = BASE_WINRATES_URL) -> str:
@@ -136,8 +133,7 @@ def _range_url(range_key: str = DEFAULT_RANGE_KEY, base_url: str = BASE_WINRATES
         return base_url
     if path.startswith("range:"):
         return build_range_url(path.split(":", 1)[1], base_url=base_url)
-    encoded_path = quote(path, safe="")
-    return f"{base_url}/{encoded_path}"
+    return f"{base_url}/{path}"
 
 
 def fetch_html(

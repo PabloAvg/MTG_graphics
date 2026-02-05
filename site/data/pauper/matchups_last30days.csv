@@ -1,15 +1,15 @@
 a,b,winrate_a_vs_b,matches,ci_low,ci_high
 Mono Red Madness,Mono Red Madness,0.5,90,0.39,0.61
-Mono Red Madness,Mono Blue Terror,0.36,55,0.24,0.5
+Mono Red Madness,Mono Blue Terror,0.39,57,0.26,0.52
 Mono Red Madness,Elves,0.73,56,0.6,0.84
-Mono Red Madness,Rakdos Madness,0.41,46,0.27,0.57
+Mono Red Madness,Rakdos Madness,0.4,48,0.26,0.55
 Mono Red Madness,Grixis Affinity,0.53,47,0.38,0.68
 Mono Red Madness,Jund Wildfire,0.47,36,0.3,0.65
 Mono Red Madness,Mono Red Rally,0.26,35,0.12,0.43
 Mono Red Madness,Gruul Ramp,0.57,23,0.34,0.77
 Mono Red Madness,Mono Blue Faeries,0.41,37,0.25,0.58
-Mono Red Madness,Caw Gates,0.35,20,0.15,0.59
 Mono Red Madness,Spy Combo,0.52,21,0.3,0.74
+Mono Red Madness,Caw Gates,0.35,20,0.15,0.59
 Mono Red Madness,Dimir Terror,0.43,21,0.22,0.66
 Mono Red Madness,White Weenie,0.62,21,0.38,0.82
 Mono Red Madness,UB Faeries,0.46,24,0.26,0.67
@@ -26,14 +26,15 @@ Mono Red Madness,Esper Affinity,0.25,8,0.03,0.65
 Mono Red Madness,Jeskai Ephemerate,0.6,5,0.15,0.95
 Mono Red Madness,Mono Red Burn,0.75,4,0.19,0.99
 Mono Red Madness,Retriever Combo,1.0,5,0.48,1.0
+Mono Red Madness,Mono White Heroic,1.0,4,0.4,1.0
+Mono Red Madness,Altar Tron,1.0,4,0.4,1.0
 Mono Red Madness,Red Storm,0.0,4,0.0,0.6
 Mono Red Madness,Flicker Tron,0.75,4,0.19,0.99
 Mono Red Madness,Defender Combo,0.67,3,0.09,0.99
-Mono Red Madness,Mono White Heroic,1.0,4,0.4,1.0
-Mono Red Madness,Altar Tron,1.0,4,0.4,1.0
 Mono Red Madness,Dimir Affinity,0.67,6,0.22,0.96
 Mono Red Madness,Mono Green Stompy,0.0,1,0.0,0.98
 Mono Red Madness,Mono Red Kiln Fiend,0.67,3,0.09,0.99
+Mono Red Madness,Eggs Tron,0.33,3,0.01,0.91
 Mono Red Madness,Izzet Skred,0.0,2,0.0,0.84
 Mono Red Madness,Boros Synthesizer,1.0,1,0.02,1.0
 Mono Red Madness,Dimir Control,0.0,1,0.0,0.98
@@ -41,24 +42,23 @@ Mono Red Madness,Boros Bully,0.0,1,0.0,0.98
 Mono Red Madness,Jeskai Metalcraft,0.5,2,0.01,0.99
 Mono Red Madness,Izzet Faeries,0.5,2,0.01,0.99
 Mono Red Madness,Slivers,1.0,3,0.29,1.0
-Mono Red Madness,Naya Gates,1.0,1,0.02,1.0
-Mono Blue Terror,Mono Red Madness,0.64,55,0.5,0.76
+Mono Blue Terror,Mono Red Madness,0.61,57,0.48,0.74
 Mono Blue Terror,Mono Blue Terror,0.5,44,0.35,0.65
 Mono Blue Terror,Elves,0.26,39,0.13,0.42
-Mono Blue Terror,Rakdos Madness,0.35,34,0.2,0.54
+Mono Blue Terror,Rakdos Madness,0.34,35,0.19,0.52
 Mono Blue Terror,Grixis Affinity,0.44,32,0.26,0.62
 Mono Blue Terror,Jund Wildfire,0.3,30,0.15,0.49
-Mono Blue Terror,Mono Red Rally,0.38,29,0.21,0.58
+Mono Blue Terror,Mono Red Rally,0.42,31,0.25,0.61
 Mono Blue Terror,Gruul Ramp,0.39,18,0.17,0.64
 Mono Blue Terror,Mono Blue Faeries,0.35,23,0.16,0.57
-Mono Blue Terror,Caw Gates,0.32,19,0.13,0.57
 Mono Blue Terror,Spy Combo,0.54,13,0.25,0.81
+Mono Blue Terror,Caw Gates,0.32,19,0.13,0.57
 Mono Blue Terror,Dimir Terror,0.33,15,0.12,0.62
 Mono Blue Terror,White Weenie,0.36,22,0.17,0.59
 Mono Blue Terror,UB Faeries,0.4,15,0.16,0.68
 Mono Blue Terror,UWx Familiar,0.57,14,0.29,0.82
 Mono Blue Terror,Golgari Gardens,0.45,11,0.17,0.77
-Mono Blue Terror,Mono Black Sacrifice,0.67,3,0.09,0.99
+Mono Blue Terror,Mono Black Sacrifice,0.5,4,0.07,0.93
 Mono Blue Terror,GW Bogles,0.91,11,0.59,1.0
 Mono Blue Terror,Dredge,0.5,6,0.12,0.88
 Mono Blue Terror,Monster Tron,0.33,6,0.04,0.78
@@ -69,10 +69,10 @@ Mono Blue Terror,Esper Affinity,0.67,6,0.22,0.96
 Mono Blue Terror,Jeskai Ephemerate,0.2,5,0.01,0.72
 Mono Blue Terror,Mono Red Burn,0.67,3,0.09,0.99
 Mono Blue Terror,Retriever Combo,0.9,10,0.55,1.0
+Mono Blue Terror,Altar Tron,0.33,3,0.01,0.91
 Mono Blue Terror,Red Storm,1.0,2,0.16,1.0
 Mono Blue Terror,Flicker Tron,0.75,8,0.35,0.97
 Mono Blue Terror,Defender Combo,0.5,4,0.07,0.93
-Mono Blue Terror,Altar Tron,0.33,3,0.01,0.91
 Mono Blue Terror,Dimir Affinity,0.33,3,0.01,0.91
 Mono Blue Terror,Mono Green Stompy,1.0,4,0.4,1.0
 Mono Blue Terror,Mono Red Kiln Fiend,0.67,3,0.09,0.99
@@ -91,8 +91,8 @@ Elves,Jund Wildfire,0.54,28,0.34,0.72
 Elves,Mono Red Rally,0.4,30,0.23,0.59
 Elves,Gruul Ramp,0.73,30,0.54,0.88
 Elves,Mono Blue Faeries,0.62,21,0.38,0.82
-Elves,Caw Gates,0.6,15,0.32,0.84
 Elves,Spy Combo,0.47,15,0.21,0.73
+Elves,Caw Gates,0.6,15,0.32,0.84
 Elves,Dimir Terror,0.79,14,0.49,0.95
 Elves,White Weenie,0.6,15,0.32,0.84
 Elves,UB Faeries,0.55,22,0.32,0.76
@@ -109,14 +109,15 @@ Elves,Esper Affinity,0.83,6,0.36,1.0
 Elves,Jeskai Ephemerate,0.75,4,0.19,0.99
 Elves,Mono Red Burn,0.67,3,0.09,0.99
 Elves,Retriever Combo,1.0,2,0.16,1.0
+Elves,Mono White Heroic,0.83,6,0.36,1.0
+Elves,Altar Tron,1.0,5,0.48,1.0
 Elves,Red Storm,0.11,9,0.0,0.48
 Elves,Flicker Tron,0.67,3,0.09,0.99
 Elves,Defender Combo,0.4,5,0.05,0.85
-Elves,Mono White Heroic,0.83,6,0.36,1.0
-Elves,Altar Tron,1.0,5,0.48,1.0
 Elves,Dimir Affinity,0.8,5,0.28,0.99
 Elves,Mono Green Stompy,0.25,4,0.01,0.81
 Elves,Mono Red Kiln Fiend,0.0,2,0.0,0.84
+Elves,Eggs Tron,1.0,1,0.02,1.0
 Elves,Izzet Skred,0.0,1,0.0,0.98
 Elves,Boros Synthesizer,0.0,2,0.0,0.84
 Elves,Dimir Control,0.0,2,0.0,0.84
@@ -124,18 +125,17 @@ Elves,Boros Bully,1.0,1,0.02,1.0
 Elves,Jeskai Metalcraft,1.0,3,0.29,1.0
 Elves,Izzet Faeries,1.0,1,0.02,1.0
 Elves,Slivers,0.0,2,0.0,0.84
-Elves,Naya Gates,1.0,1,0.02,1.0
-Rakdos Madness,Mono Red Madness,0.59,46,0.43,0.73
-Rakdos Madness,Mono Blue Terror,0.65,34,0.46,0.8
+Rakdos Madness,Mono Red Madness,0.6,48,0.45,0.74
+Rakdos Madness,Mono Blue Terror,0.66,35,0.48,0.81
 Rakdos Madness,Elves,0.34,29,0.18,0.54
-Rakdos Madness,Rakdos Madness,0.5,38,0.33,0.67
+Rakdos Madness,Rakdos Madness,0.5,40,0.34,0.66
 Rakdos Madness,Grixis Affinity,0.52,25,0.31,0.72
-Rakdos Madness,Jund Wildfire,0.43,23,0.23,0.66
+Rakdos Madness,Jund Wildfire,0.42,24,0.22,0.63
 Rakdos Madness,Mono Red Rally,0.38,24,0.19,0.59
-Rakdos Madness,Gruul Ramp,0.18,11,0.02,0.52
+Rakdos Madness,Gruul Ramp,0.17,12,0.02,0.48
 Rakdos Madness,Mono Blue Faeries,0.59,17,0.33,0.82
-Rakdos Madness,Caw Gates,0.45,11,0.17,0.77
 Rakdos Madness,Spy Combo,0.38,26,0.2,0.59
+Rakdos Madness,Caw Gates,0.45,11,0.17,0.77
 Rakdos Madness,Dimir Terror,0.21,14,0.05,0.51
 Rakdos Madness,White Weenie,0.33,9,0.07,0.7
 Rakdos Madness,UB Faeries,0.7,10,0.35,0.93
@@ -152,13 +152,14 @@ Rakdos Madness,Esper Affinity,0.58,12,0.28,0.85
 Rakdos Madness,Jeskai Ephemerate,0.6,5,0.15,0.95
 Rakdos Madness,Mono Red Burn,0.33,6,0.04,0.78
 Rakdos Madness,Retriever Combo,0.25,4,0.01,0.81
+Rakdos Madness,Mono White Heroic,0.33,6,0.04,0.78
+Rakdos Madness,Altar Tron,0.4,5,0.05,0.85
 Rakdos Madness,Red Storm,1.0,1,0.02,1.0
 Rakdos Madness,Flicker Tron,1.0,1,0.02,1.0
 Rakdos Madness,Defender Combo,0.2,5,0.01,0.72
-Rakdos Madness,Mono White Heroic,0.2,5,0.01,0.72
-Rakdos Madness,Altar Tron,0.25,4,0.01,0.81
 Rakdos Madness,Mono Green Stompy,0.0,1,0.0,0.98
 Rakdos Madness,Mono Red Kiln Fiend,0.5,2,0.01,0.99
+Rakdos Madness,Eggs Tron,0.14,7,0.0,0.58
 Rakdos Madness,Izzet Skred,0.5,2,0.01,0.99
 Rakdos Madness,Boros Synthesizer,0.5,4,0.07,0.93
 Rakdos Madness,Dimir Control,1.0,4,0.4,1.0
@@ -175,8 +176,8 @@ Grixis Affinity,Jund Wildfire,0.53,17,0.28,0.77
 Grixis Affinity,Mono Red Rally,0.52,29,0.33,0.71
 Grixis Affinity,Gruul Ramp,0.27,15,0.08,0.55
 Grixis Affinity,Mono Blue Faeries,0.46,13,0.19,0.75
-Grixis Affinity,Caw Gates,0.41,17,0.18,0.67
 Grixis Affinity,Spy Combo,0.09,11,0.0,0.41
+Grixis Affinity,Caw Gates,0.41,17,0.18,0.67
 Grixis Affinity,Dimir Terror,0.44,9,0.14,0.79
 Grixis Affinity,White Weenie,0.75,12,0.43,0.95
 Grixis Affinity,UB Faeries,0.4,10,0.12,0.74
@@ -193,31 +194,31 @@ Grixis Affinity,Esper Affinity,0.14,7,0.0,0.58
 Grixis Affinity,Jeskai Ephemerate,0.57,7,0.18,0.9
 Grixis Affinity,Mono Red Burn,1.0,1,0.02,1.0
 Grixis Affinity,Retriever Combo,0.5,4,0.07,0.93
+Grixis Affinity,Mono White Heroic,0.4,5,0.05,0.85
+Grixis Affinity,Altar Tron,0.5,2,0.01,0.99
 Grixis Affinity,Red Storm,0.25,4,0.01,0.81
 Grixis Affinity,Flicker Tron,1.0,5,0.48,1.0
 Grixis Affinity,Defender Combo,0.8,5,0.28,0.99
-Grixis Affinity,Mono White Heroic,0.4,5,0.05,0.85
-Grixis Affinity,Altar Tron,0.5,2,0.01,0.99
 Grixis Affinity,Dimir Affinity,0.0,1,0.0,0.98
 Grixis Affinity,Mono Green Stompy,0.0,2,0.0,0.84
 Grixis Affinity,Mono Red Kiln Fiend,0.75,4,0.19,0.99
+Grixis Affinity,Eggs Tron,0.67,3,0.09,0.99
 Grixis Affinity,Izzet Skred,1.0,1,0.02,1.0
 Grixis Affinity,Boros Synthesizer,0.5,4,0.07,0.93
 Grixis Affinity,Dimir Control,1.0,1,0.02,1.0
 Grixis Affinity,Boros Bully,0.67,3,0.09,0.99
 Grixis Affinity,Izzet Faeries,0.0,1,0.0,0.98
-Grixis Affinity,Naya Gates,0.0,2,0.0,0.84
 Jund Wildfire,Mono Red Madness,0.53,36,0.35,0.7
 Jund Wildfire,Mono Blue Terror,0.7,30,0.51,0.85
 Jund Wildfire,Elves,0.46,28,0.28,0.66
-Jund Wildfire,Rakdos Madness,0.57,23,0.34,0.77
+Jund Wildfire,Rakdos Madness,0.58,24,0.37,0.78
 Jund Wildfire,Grixis Affinity,0.47,17,0.23,0.72
 Jund Wildfire,Jund Wildfire,0.5,16,0.25,0.75
-Jund Wildfire,Mono Red Rally,0.5,20,0.27,0.73
+Jund Wildfire,Mono Red Rally,0.48,21,0.26,0.7
 Jund Wildfire,Gruul Ramp,0.62,13,0.32,0.86
 Jund Wildfire,Mono Blue Faeries,0.54,13,0.25,0.81
+Jund Wildfire,Spy Combo,0.44,16,0.2,0.7
 Jund Wildfire,Caw Gates,0.61,23,0.39,0.8
-Jund Wildfire,Spy Combo,0.47,15,0.21,0.73
 Jund Wildfire,Dimir Terror,0.91,11,0.59,1.0
 Jund Wildfire,White Weenie,0.69,13,0.39,0.91
 Jund Wildfire,UB Faeries,0.57,7,0.18,0.9
@@ -234,31 +235,31 @@ Jund Wildfire,Esper Affinity,0.5,2,0.01,0.99
 Jund Wildfire,Jeskai Ephemerate,0.5,8,0.16,0.84
 Jund Wildfire,Mono Red Burn,1.0,2,0.16,1.0
 Jund Wildfire,Retriever Combo,0.0,4,0.0,0.6
-Jund Wildfire,Red Storm,0.0,4,0.0,0.6
-Jund Wildfire,Defender Combo,0.33,3,0.01,0.91
 Jund Wildfire,Mono White Heroic,0.6,5,0.15,0.95
 Jund Wildfire,Altar Tron,0.33,3,0.01,0.91
+Jund Wildfire,Red Storm,0.0,4,0.0,0.6
+Jund Wildfire,Defender Combo,0.33,3,0.01,0.91
 Jund Wildfire,Dimir Affinity,0.57,7,0.18,0.9
 Jund Wildfire,Mono Green Stompy,0.33,3,0.01,0.91
 Jund Wildfire,Mono Red Kiln Fiend,0.5,6,0.12,0.88
+Jund Wildfire,Eggs Tron,0.5,2,0.01,0.99
 Jund Wildfire,Izzet Skred,0.75,4,0.19,0.99
 Jund Wildfire,Dimir Control,0.0,1,0.0,0.98
 Jund Wildfire,Boros Bully,0.75,4,0.19,0.99
 Jund Wildfire,Jeskai Metalcraft,0.0,1,0.0,0.98
 Jund Wildfire,Izzet Faeries,0.0,1,0.0,0.98
 Jund Wildfire,Slivers,0.5,2,0.01,0.99
-Jund Wildfire,Naya Gates,0.0,1,0.0,0.98
 Mono Red Rally,Mono Red Madness,0.74,35,0.57,0.88
-Mono Red Rally,Mono Blue Terror,0.62,29,0.42,0.79
+Mono Red Rally,Mono Blue Terror,0.58,31,0.39,0.75
 Mono Red Rally,Elves,0.6,30,0.41,0.77
 Mono Red Rally,Rakdos Madness,0.63,24,0.41,0.81
 Mono Red Rally,Grixis Affinity,0.48,29,0.29,0.67
-Mono Red Rally,Jund Wildfire,0.5,20,0.27,0.73
+Mono Red Rally,Jund Wildfire,0.52,21,0.3,0.74
 Mono Red Rally,Mono Red Rally,0.5,18,0.26,0.74
 Mono Red Rally,Gruul Ramp,0.14,14,0.02,0.43
 Mono Red Rally,Mono Blue Faeries,0.57,14,0.29,0.82
-Mono Red Rally,Caw Gates,0.53,17,0.28,0.77
 Mono Red Rally,Spy Combo,0.33,12,0.1,0.65
+Mono Red Rally,Caw Gates,0.53,17,0.28,0.77
 Mono Red Rally,Dimir Terror,0.58,12,0.28,0.85
 Mono Red Rally,White Weenie,0.29,14,0.08,0.58
 Mono Red Rally,UB Faeries,0.83,6,0.36,1.0
@@ -275,14 +276,15 @@ Mono Red Rally,Esper Affinity,0.63,8,0.24,0.91
 Mono Red Rally,Jeskai Ephemerate,0.4,5,0.05,0.85
 Mono Red Rally,Mono Red Burn,0.83,6,0.36,1.0
 Mono Red Rally,Retriever Combo,0.6,5,0.15,0.95
+Mono Red Rally,Mono White Heroic,0.0,2,0.0,0.84
+Mono Red Rally,Altar Tron,1.0,2,0.16,1.0
 Mono Red Rally,Red Storm,0.5,2,0.01,0.99
 Mono Red Rally,Flicker Tron,0.5,2,0.01,0.99
 Mono Red Rally,Defender Combo,0.5,2,0.01,0.99
-Mono Red Rally,Mono White Heroic,0.0,2,0.0,0.84
-Mono Red Rally,Altar Tron,1.0,2,0.16,1.0
 Mono Red Rally,Dimir Affinity,1.0,1,0.02,1.0
 Mono Red Rally,Mono Green Stompy,0.5,4,0.07,0.93
 Mono Red Rally,Mono Red Kiln Fiend,0.0,3,0.0,0.71
+Mono Red Rally,Eggs Tron,0.33,3,0.01,0.91
 Mono Red Rally,Izzet Skred,0.25,4,0.01,0.81
 Mono Red Rally,Boros Synthesizer,0.0,2,0.0,0.84
 Mono Red Rally,Dimir Control,0.0,2,0.0,0.84
@@ -290,24 +292,23 @@ Mono Red Rally,Boros Bully,0.0,1,0.0,0.98
 Mono Red Rally,Jeskai Metalcraft,0.0,3,0.0,0.71
 Mono Red Rally,Izzet Faeries,0.5,6,0.12,0.88
 Mono Red Rally,Slivers,1.0,1,0.02,1.0
-Mono Red Rally,Naya Gates,0.0,1,0.0,0.98
 Gruul Ramp,Mono Red Madness,0.43,23,0.23,0.66
 Gruul Ramp,Mono Blue Terror,0.61,18,0.36,0.83
 Gruul Ramp,Elves,0.27,30,0.12,0.46
-Gruul Ramp,Rakdos Madness,0.82,11,0.48,0.98
+Gruul Ramp,Rakdos Madness,0.83,12,0.52,0.98
 Gruul Ramp,Grixis Affinity,0.73,15,0.45,0.92
 Gruul Ramp,Jund Wildfire,0.38,13,0.14,0.68
 Gruul Ramp,Mono Red Rally,0.86,14,0.57,0.98
 Gruul Ramp,Gruul Ramp,0.5,20,0.27,0.73
 Gruul Ramp,Mono Blue Faeries,0.83,6,0.36,1.0
-Gruul Ramp,Caw Gates,0.54,13,0.25,0.81
 Gruul Ramp,Spy Combo,0.0,9,0.0,0.34
+Gruul Ramp,Caw Gates,0.54,13,0.25,0.81
 Gruul Ramp,Dimir Terror,0.33,9,0.07,0.7
 Gruul Ramp,White Weenie,0.4,10,0.12,0.74
 Gruul Ramp,UB Faeries,0.75,12,0.43,0.95
 Gruul Ramp,UWx Familiar,0.83,6,0.36,1.0
 Gruul Ramp,Golgari Gardens,0.7,10,0.35,0.93
-Gruul Ramp,Mono Black Sacrifice,0.4,5,0.05,0.85
+Gruul Ramp,Mono Black Sacrifice,0.5,6,0.12,0.88
 Gruul Ramp,GW Bogles,0.25,4,0.01,0.81
 Gruul Ramp,Dredge,0.33,6,0.04,0.78
 Gruul Ramp,Monster Tron,0.5,4,0.07,0.93
@@ -317,12 +318,13 @@ Gruul Ramp,Orzhov Blade,0.4,5,0.05,0.85
 Gruul Ramp,Jeskai Ephemerate,0.5,4,0.07,0.93
 Gruul Ramp,Mono Red Burn,0.6,5,0.15,0.95
 Gruul Ramp,Retriever Combo,1.0,1,0.02,1.0
+Gruul Ramp,Mono White Heroic,0.0,1,0.0,0.98
+Gruul Ramp,Altar Tron,0.25,4,0.01,0.81
 Gruul Ramp,Red Storm,0.0,1,0.0,0.98
 Gruul Ramp,Flicker Tron,1.0,2,0.16,1.0
 Gruul Ramp,Defender Combo,0.0,2,0.0,0.84
-Gruul Ramp,Mono White Heroic,0.0,1,0.0,0.98
-Gruul Ramp,Altar Tron,0.25,4,0.01,0.81
 Gruul Ramp,Mono Red Kiln Fiend,0.0,1,0.0,0.98
+Gruul Ramp,Eggs Tron,1.0,1,0.02,1.0
 Gruul Ramp,Izzet Skred,0.5,2,0.01,0.99
 Gruul Ramp,Dimir Control,0.0,2,0.0,0.84
 Gruul Ramp,Boros Bully,1.0,1,0.02,1.0
@@ -336,8 +338,8 @@ Mono Blue Faeries,Jund Wildfire,0.46,13,0.19,0.75
 Mono Blue Faeries,Mono Red Rally,0.43,14,0.18,0.71
 Mono Blue Faeries,Gruul Ramp,0.17,6,0.0,0.64
 Mono Blue Faeries,Mono Blue Faeries,0.5,10,0.19,0.81
-Mono Blue Faeries,Caw Gates,0.44,9,0.14,0.79
 Mono Blue Faeries,Spy Combo,0.45,11,0.17,0.77
+Mono Blue Faeries,Caw Gates,0.44,9,0.14,0.79
 Mono Blue Faeries,Dimir Terror,0.5,20,0.27,0.73
 Mono Blue Faeries,White Weenie,0.78,9,0.4,0.97
 Mono Blue Faeries,UB Faeries,0.5,6,0.12,0.88
@@ -354,10 +356,10 @@ Mono Blue Faeries,Esper Affinity,0.5,2,0.01,0.99
 Mono Blue Faeries,Jeskai Ephemerate,0.5,4,0.07,0.93
 Mono Blue Faeries,Mono Red Burn,0.8,5,0.28,0.99
 Mono Blue Faeries,Retriever Combo,1.0,3,0.29,1.0
-Mono Blue Faeries,Flicker Tron,1.0,1,0.02,1.0
-Mono Blue Faeries,Defender Combo,1.0,2,0.16,1.0
 Mono Blue Faeries,Mono White Heroic,0.33,3,0.01,0.91
 Mono Blue Faeries,Altar Tron,1.0,1,0.02,1.0
+Mono Blue Faeries,Flicker Tron,1.0,1,0.02,1.0
+Mono Blue Faeries,Defender Combo,1.0,2,0.16,1.0
 Mono Blue Faeries,Mono Green Stompy,1.0,1,0.02,1.0
 Mono Blue Faeries,Mono Red Kiln Fiend,1.0,2,0.16,1.0
 Mono Blue Faeries,Izzet Skred,0.5,2,0.01,0.99
@@ -366,6 +368,45 @@ Mono Blue Faeries,Dimir Control,0.5,2,0.01,0.99
 Mono Blue Faeries,Jeskai Metalcraft,0.0,2,0.0,0.84
 Mono Blue Faeries,Izzet Faeries,0.0,2,0.0,0.84
 Mono Blue Faeries,Slivers,0.5,2,0.01,0.99
+Spy Combo,Mono Red Madness,0.48,21,0.26,0.7
+Spy Combo,Mono Blue Terror,0.46,13,0.19,0.75
+Spy Combo,Elves,0.53,15,0.27,0.79
+Spy Combo,Rakdos Madness,0.62,26,0.41,0.8
+Spy Combo,Grixis Affinity,0.91,11,0.59,1.0
+Spy Combo,Jund Wildfire,0.56,16,0.3,0.8
+Spy Combo,Mono Red Rally,0.67,12,0.35,0.9
+Spy Combo,Gruul Ramp,1.0,9,0.66,1.0
+Spy Combo,Mono Blue Faeries,0.55,11,0.23,0.83
+Spy Combo,Spy Combo,0.5,16,0.25,0.75
+Spy Combo,Caw Gates,0.5,8,0.16,0.84
+Spy Combo,Dimir Terror,0.6,5,0.15,0.95
+Spy Combo,White Weenie,0.6,10,0.26,0.88
+Spy Combo,UB Faeries,0.33,6,0.04,0.78
+Spy Combo,UWx Familiar,0.67,6,0.22,0.96
+Spy Combo,Golgari Gardens,0.0,4,0.0,0.6
+Spy Combo,Mono Black Sacrifice,0.6,5,0.15,0.95
+Spy Combo,GW Bogles,1.0,1,0.02,1.0
+Spy Combo,Dredge,1.0,2,0.16,1.0
+Spy Combo,Monster Tron,0.5,2,0.01,0.99
+Spy Combo,Mono Red Synthesizer,1.0,2,0.16,1.0
+Spy Combo,Gruul Ponza,1.0,6,0.54,1.0
+Spy Combo,Orzhov Blade,1.0,4,0.4,1.0
+Spy Combo,Esper Affinity,0.6,5,0.15,0.95
+Spy Combo,Jeskai Ephemerate,0.57,7,0.18,0.9
+Spy Combo,Mono Red Burn,0.0,2,0.0,0.84
+Spy Combo,Retriever Combo,0.5,2,0.01,0.99
+Spy Combo,Mono White Heroic,1.0,1,0.02,1.0
+Spy Combo,Altar Tron,1.0,1,0.02,1.0
+Spy Combo,Red Storm,0.5,2,0.01,0.99
+Spy Combo,Flicker Tron,0.0,1,0.0,0.98
+Spy Combo,Defender Combo,0.5,2,0.01,0.99
+Spy Combo,Dimir Affinity,1.0,2,0.16,1.0
+Spy Combo,Mono Red Kiln Fiend,0.33,3,0.01,0.91
+Spy Combo,Eggs Tron,0.5,2,0.01,0.99
+Spy Combo,Izzet Skred,1.0,1,0.02,1.0
+Spy Combo,Boros Synthesizer,1.0,4,0.4,1.0
+Spy Combo,Boros Bully,0.0,1,0.0,0.98
+Spy Combo,Izzet Faeries,1.0,1,0.02,1.0
 Caw Gates,Mono Red Madness,0.65,20,0.41,0.85
 Caw Gates,Mono Blue Terror,0.68,19,0.43,0.87
 Caw Gates,Elves,0.4,15,0.16,0.68
@@ -375,8 +416,8 @@ Caw Gates,Jund Wildfire,0.39,23,0.2,0.61
 Caw Gates,Mono Red Rally,0.47,17,0.23,0.72
 Caw Gates,Gruul Ramp,0.46,13,0.19,0.75
 Caw Gates,Mono Blue Faeries,0.56,9,0.21,0.86
-Caw Gates,Caw Gates,0.5,12,0.21,0.79
 Caw Gates,Spy Combo,0.5,8,0.16,0.84
+Caw Gates,Caw Gates,0.5,12,0.21,0.79
 Caw Gates,Dimir Terror,0.89,9,0.52,1.0
 Caw Gates,White Weenie,0.43,7,0.1,0.82
 Caw Gates,UB Faeries,0.67,3,0.09,0.99
@@ -398,47 +439,10 @@ Caw Gates,Defender Combo,1.0,1,0.02,1.0
 Caw Gates,Dimir Affinity,0.5,2,0.01,0.99
 Caw Gates,Mono Green Stompy,0.0,1,0.0,0.98
 Caw Gates,Mono Red Kiln Fiend,1.0,1,0.02,1.0
+Caw Gates,Eggs Tron,1.0,2,0.16,1.0
 Caw Gates,Izzet Skred,1.0,2,0.16,1.0
 Caw Gates,Boros Bully,0.0,3,0.0,0.71
 Caw Gates,Slivers,0.0,1,0.0,0.98
-Spy Combo,Mono Red Madness,0.48,21,0.26,0.7
-Spy Combo,Mono Blue Terror,0.46,13,0.19,0.75
-Spy Combo,Elves,0.53,15,0.27,0.79
-Spy Combo,Rakdos Madness,0.62,26,0.41,0.8
-Spy Combo,Grixis Affinity,0.91,11,0.59,1.0
-Spy Combo,Jund Wildfire,0.53,15,0.27,0.79
-Spy Combo,Mono Red Rally,0.67,12,0.35,0.9
-Spy Combo,Gruul Ramp,1.0,9,0.66,1.0
-Spy Combo,Mono Blue Faeries,0.55,11,0.23,0.83
-Spy Combo,Caw Gates,0.5,8,0.16,0.84
-Spy Combo,Spy Combo,0.5,14,0.23,0.77
-Spy Combo,Dimir Terror,0.6,5,0.15,0.95
-Spy Combo,White Weenie,0.6,10,0.26,0.88
-Spy Combo,UB Faeries,0.33,6,0.04,0.78
-Spy Combo,UWx Familiar,0.67,6,0.22,0.96
-Spy Combo,Golgari Gardens,0.0,4,0.0,0.6
-Spy Combo,Mono Black Sacrifice,0.75,4,0.19,0.99
-Spy Combo,GW Bogles,1.0,1,0.02,1.0
-Spy Combo,Dredge,1.0,2,0.16,1.0
-Spy Combo,Monster Tron,1.0,1,0.02,1.0
-Spy Combo,Mono Red Synthesizer,1.0,2,0.16,1.0
-Spy Combo,Gruul Ponza,1.0,5,0.48,1.0
-Spy Combo,Orzhov Blade,1.0,4,0.4,1.0
-Spy Combo,Esper Affinity,0.6,5,0.15,0.95
-Spy Combo,Jeskai Ephemerate,0.57,7,0.18,0.9
-Spy Combo,Mono Red Burn,0.0,2,0.0,0.84
-Spy Combo,Retriever Combo,0.5,2,0.01,0.99
-Spy Combo,Red Storm,0.5,2,0.01,0.99
-Spy Combo,Flicker Tron,0.0,1,0.0,0.98
-Spy Combo,Defender Combo,0.5,2,0.01,0.99
-Spy Combo,Altar Tron,1.0,1,0.02,1.0
-Spy Combo,Dimir Affinity,1.0,2,0.16,1.0
-Spy Combo,Mono Red Kiln Fiend,0.33,3,0.01,0.91
-Spy Combo,Izzet Skred,1.0,1,0.02,1.0
-Spy Combo,Boros Synthesizer,1.0,4,0.4,1.0
-Spy Combo,Boros Bully,0.0,1,0.0,0.98
-Spy Combo,Izzet Faeries,1.0,1,0.02,1.0
-Spy Combo,Naya Gates,1.0,1,0.02,1.0
 Dimir Terror,Mono Red Madness,0.57,21,0.34,0.78
 Dimir Terror,Mono Blue Terror,0.67,15,0.38,0.88
 Dimir Terror,Elves,0.21,14,0.05,0.51
@@ -448,8 +452,8 @@ Dimir Terror,Jund Wildfire,0.09,11,0.0,0.41
 Dimir Terror,Mono Red Rally,0.42,12,0.15,0.72
 Dimir Terror,Gruul Ramp,0.67,9,0.3,0.93
 Dimir Terror,Mono Blue Faeries,0.5,20,0.27,0.73
-Dimir Terror,Caw Gates,0.11,9,0.0,0.48
 Dimir Terror,Spy Combo,0.4,5,0.05,0.85
+Dimir Terror,Caw Gates,0.11,9,0.0,0.48
 Dimir Terror,Dimir Terror,0.5,6,0.12,0.88
 Dimir Terror,White Weenie,0.5,4,0.07,0.93
 Dimir Terror,UB Faeries,0.75,4,0.19,0.99
@@ -466,17 +470,17 @@ Dimir Terror,Esper Affinity,0.67,3,0.09,0.99
 Dimir Terror,Jeskai Ephemerate,0.33,3,0.01,0.91
 Dimir Terror,Mono Red Burn,1.0,3,0.29,1.0
 Dimir Terror,Retriever Combo,0.67,3,0.09,0.99
+Dimir Terror,Altar Tron,0.0,1,0.0,0.98
 Dimir Terror,Flicker Tron,1.0,2,0.16,1.0
 Dimir Terror,Defender Combo,0.5,2,0.01,0.99
-Dimir Terror,Altar Tron,0.0,1,0.0,0.98
 Dimir Terror,Dimir Affinity,0.5,2,0.01,0.99
 Dimir Terror,Mono Green Stompy,0.67,3,0.09,0.99
+Dimir Terror,Eggs Tron,0.5,2,0.01,0.99
 Dimir Terror,Izzet Skred,1.0,2,0.16,1.0
 Dimir Terror,Boros Bully,0.0,2,0.0,0.84
 Dimir Terror,Jeskai Metalcraft,0.0,1,0.0,0.98
 Dimir Terror,Izzet Faeries,1.0,1,0.02,1.0
 Dimir Terror,Slivers,0.5,2,0.01,0.99
-Dimir Terror,Naya Gates,0.0,2,0.0,0.84
 White Weenie,Mono Red Madness,0.38,21,0.18,0.62
 White Weenie,Mono Blue Terror,0.64,22,0.41,0.83
 White Weenie,Elves,0.4,15,0.16,0.68
@@ -486,8 +490,8 @@ White Weenie,Jund Wildfire,0.31,13,0.09,0.61
 White Weenie,Mono Red Rally,0.71,14,0.42,0.92
 White Weenie,Gruul Ramp,0.6,10,0.26,0.88
 White Weenie,Mono Blue Faeries,0.22,9,0.03,0.6
-White Weenie,Caw Gates,0.57,7,0.18,0.9
 White Weenie,Spy Combo,0.4,10,0.12,0.74
+White Weenie,Caw Gates,0.57,7,0.18,0.9
 White Weenie,Dimir Terror,0.5,4,0.07,0.93
 White Weenie,White Weenie,0.5,12,0.21,0.79
 White Weenie,UB Faeries,0.5,2,0.01,0.99
@@ -504,8 +508,8 @@ White Weenie,Esper Affinity,0.67,3,0.09,0.99
 White Weenie,Jeskai Ephemerate,0.0,1,0.0,0.98
 White Weenie,Mono Red Burn,0.75,4,0.19,0.99
 White Weenie,Retriever Combo,0.0,1,0.0,0.98
-White Weenie,Flicker Tron,1.0,2,0.16,1.0
 White Weenie,Altar Tron,0.0,2,0.0,0.84
+White Weenie,Flicker Tron,1.0,2,0.16,1.0
 White Weenie,Dimir Affinity,0.0,1,0.0,0.98
 White Weenie,Mono Green Stompy,0.5,2,0.01,0.99
 White Weenie,Mono Red Kiln Fiend,0.0,1,0.0,0.98
@@ -516,7 +520,6 @@ White Weenie,Boros Bully,0.0,2,0.0,0.84
 White Weenie,Jeskai Metalcraft,0.0,1,0.0,0.98
 White Weenie,Izzet Faeries,0.0,2,0.0,0.84
 White Weenie,Slivers,0.5,2,0.01,0.99
-White Weenie,Naya Gates,1.0,3,0.29,1.0
 UB Faeries,Mono Red Madness,0.54,24,0.33,0.74
 UB Faeries,Mono Blue Terror,0.6,15,0.32,0.84
 UB Faeries,Elves,0.45,22,0.24,0.68
@@ -526,8 +529,8 @@ UB Faeries,Jund Wildfire,0.43,7,0.1,0.82
 UB Faeries,Mono Red Rally,0.17,6,0.0,0.64
 UB Faeries,Gruul Ramp,0.25,12,0.05,0.57
 UB Faeries,Mono Blue Faeries,0.5,6,0.12,0.88
-UB Faeries,Caw Gates,0.33,3,0.01,0.91
 UB Faeries,Spy Combo,0.67,6,0.22,0.96
+UB Faeries,Caw Gates,0.33,3,0.01,0.91
 UB Faeries,Dimir Terror,0.25,4,0.01,0.81
 UB Faeries,White Weenie,0.5,2,0.01,0.99
 UB Faeries,UB Faeries,0.5,12,0.21,0.79
@@ -544,21 +547,21 @@ UB Faeries,Esper Affinity,1.0,2,0.16,1.0
 UB Faeries,Jeskai Ephemerate,0.5,2,0.01,0.99
 UB Faeries,Mono Red Burn,1.0,3,0.29,1.0
 UB Faeries,Retriever Combo,0.0,3,0.0,0.71
+UB Faeries,Mono White Heroic,1.0,2,0.16,1.0
+UB Faeries,Altar Tron,0.5,2,0.01,0.99
 UB Faeries,Red Storm,1.0,1,0.02,1.0
 UB Faeries,Flicker Tron,0.5,2,0.01,0.99
 UB Faeries,Defender Combo,0.5,2,0.01,0.99
-UB Faeries,Mono White Heroic,1.0,2,0.16,1.0
-UB Faeries,Altar Tron,0.5,2,0.01,0.99
 UB Faeries,Dimir Affinity,1.0,2,0.16,1.0
 UB Faeries,Mono Green Stompy,0.33,3,0.01,0.91
 UB Faeries,Mono Red Kiln Fiend,0.0,1,0.0,0.98
+UB Faeries,Eggs Tron,0.0,1,0.0,0.98
 UB Faeries,Izzet Skred,0.5,2,0.01,0.99
 UB Faeries,Dimir Control,0.0,2,0.0,0.84
 UB Faeries,Boros Bully,0.0,1,0.0,0.98
 UB Faeries,Jeskai Metalcraft,0.0,1,0.0,0.98
 UB Faeries,Izzet Faeries,1.0,1,0.02,1.0
 UB Faeries,Slivers,0.0,1,0.0,0.98
-UB Faeries,Naya Gates,0.5,2,0.01,0.99
 UWx Familiar,Mono Red Madness,0.44,18,0.22,0.69
 UWx Familiar,Mono Blue Terror,0.43,14,0.18,0.71
 UWx Familiar,Elves,0.5,20,0.27,0.73
@@ -568,8 +571,8 @@ UWx Familiar,Jund Wildfire,0.45,11,0.17,0.77
 UWx Familiar,Mono Red Rally,0.3,10,0.07,0.65
 UWx Familiar,Gruul Ramp,0.17,6,0.0,0.64
 UWx Familiar,Mono Blue Faeries,0.33,6,0.04,0.78
-UWx Familiar,Caw Gates,0.86,7,0.42,1.0
 UWx Familiar,Spy Combo,0.33,6,0.04,0.78
+UWx Familiar,Caw Gates,0.86,7,0.42,1.0
 UWx Familiar,Dimir Terror,0.11,9,0.0,0.48
 UWx Familiar,White Weenie,0.33,6,0.04,0.78
 UWx Familiar,UB Faeries,0.43,7,0.1,0.82
@@ -583,15 +586,15 @@ UWx Familiar,Mono Red Synthesizer,0.8,5,0.28,0.99
 UWx Familiar,Gruul Ponza,0.0,2,0.0,0.84
 UWx Familiar,Esper Affinity,1.0,2,0.16,1.0
 UWx Familiar,Jeskai Ephemerate,0.5,2,0.01,0.99
-UWx Familiar,Red Storm,0.0,2,0.0,0.84
 UWx Familiar,Altar Tron,0.0,2,0.0,0.84
+UWx Familiar,Red Storm,0.0,2,0.0,0.84
 UWx Familiar,Dimir Affinity,0.5,2,0.01,0.99
+UWx Familiar,Eggs Tron,0.0,1,0.0,0.98
 UWx Familiar,Izzet Skred,0.0,1,0.0,0.98
 UWx Familiar,Boros Synthesizer,1.0,1,0.02,1.0
 UWx Familiar,Dimir Control,0.0,1,0.0,0.98
 UWx Familiar,Boros Bully,1.0,1,0.02,1.0
 UWx Familiar,Jeskai Metalcraft,0.0,1,0.0,0.98
-UWx Familiar,Naya Gates,0.0,1,0.0,0.98
 Golgari Gardens,Mono Red Madness,0.45,20,0.23,0.68
 Golgari Gardens,Mono Blue Terror,0.55,11,0.23,0.83
 Golgari Gardens,Elves,0.44,9,0.14,0.79
@@ -601,8 +604,8 @@ Golgari Gardens,Jund Wildfire,0.75,8,0.35,0.97
 Golgari Gardens,Mono Red Rally,0.29,7,0.04,0.71
 Golgari Gardens,Gruul Ramp,0.3,10,0.07,0.65
 Golgari Gardens,Mono Blue Faeries,0.5,4,0.07,0.93
-Golgari Gardens,Caw Gates,0.14,7,0.0,0.58
 Golgari Gardens,Spy Combo,1.0,4,0.4,1.0
+Golgari Gardens,Caw Gates,0.14,7,0.0,0.58
 Golgari Gardens,Dimir Terror,0.83,6,0.36,1.0
 Golgari Gardens,White Weenie,0.62,13,0.32,0.86
 Golgari Gardens,UB Faeries,1.0,1,0.02,1.0
@@ -617,25 +620,26 @@ Golgari Gardens,Orzhov Blade,0.67,3,0.09,0.99
 Golgari Gardens,Esper Affinity,0.0,1,0.0,0.98
 Golgari Gardens,Jeskai Ephemerate,0.25,4,0.01,0.81
 Golgari Gardens,Retriever Combo,1.0,1,0.02,1.0
+Golgari Gardens,Altar Tron,0.33,3,0.01,0.91
 Golgari Gardens,Flicker Tron,0.0,2,0.0,0.84
 Golgari Gardens,Defender Combo,1.0,1,0.02,1.0
-Golgari Gardens,Altar Tron,0.33,3,0.01,0.91
 Golgari Gardens,Dimir Affinity,0.5,2,0.01,0.99
 Golgari Gardens,Mono Red Kiln Fiend,1.0,1,0.02,1.0
+Golgari Gardens,Eggs Tron,0.5,2,0.01,0.99
 Golgari Gardens,Boros Synthesizer,0.0,1,0.0,0.98
 Golgari Gardens,Boros Bully,0.5,2,0.01,0.99
 Golgari Gardens,Izzet Faeries,0.0,1,0.0,0.98
 Mono Black Sacrifice,Mono Red Madness,0.57,7,0.18,0.9
-Mono Black Sacrifice,Mono Blue Terror,0.33,3,0.01,0.91
+Mono Black Sacrifice,Mono Blue Terror,0.5,4,0.07,0.93
 Mono Black Sacrifice,Elves,0.67,3,0.09,0.99
 Mono Black Sacrifice,Rakdos Madness,0.4,10,0.12,0.74
 Mono Black Sacrifice,Grixis Affinity,0.33,12,0.1,0.65
 Mono Black Sacrifice,Jund Wildfire,0.25,8,0.03,0.65
 Mono Black Sacrifice,Mono Red Rally,0.44,9,0.14,0.79
-Mono Black Sacrifice,Gruul Ramp,0.6,5,0.15,0.95
+Mono Black Sacrifice,Gruul Ramp,0.5,6,0.12,0.88
 Mono Black Sacrifice,Mono Blue Faeries,0.2,5,0.01,0.72
+Mono Black Sacrifice,Spy Combo,0.4,5,0.05,0.85
 Mono Black Sacrifice,Caw Gates,0.2,5,0.01,0.72
-Mono Black Sacrifice,Spy Combo,0.25,4,0.01,0.81
 Mono Black Sacrifice,Dimir Terror,0.75,4,0.19,0.99
 Mono Black Sacrifice,White Weenie,0.5,2,0.01,0.99
 Mono Black Sacrifice,UB Faeries,0.67,6,0.22,0.96
@@ -651,16 +655,16 @@ Mono Black Sacrifice,Orzhov Blade,0.0,1,0.0,0.98
 Mono Black Sacrifice,Esper Affinity,0.5,2,0.01,0.99
 Mono Black Sacrifice,Mono Red Burn,0.0,1,0.0,0.98
 Mono Black Sacrifice,Retriever Combo,1.0,1,0.02,1.0
-Mono Black Sacrifice,Red Storm,0.0,1,0.0,0.98
-Mono Black Sacrifice,Defender Combo,1.0,1,0.02,1.0
 Mono Black Sacrifice,Mono White Heroic,0.5,2,0.01,0.99
 Mono Black Sacrifice,Altar Tron,1.0,1,0.02,1.0
+Mono Black Sacrifice,Red Storm,0.0,1,0.0,0.98
+Mono Black Sacrifice,Defender Combo,1.0,1,0.02,1.0
 Mono Black Sacrifice,Mono Green Stompy,0.0,1,0.0,0.98
+Mono Black Sacrifice,Eggs Tron,1.0,1,0.02,1.0
 Mono Black Sacrifice,Boros Synthesizer,0.0,3,0.0,0.71
 Mono Black Sacrifice,Dimir Control,0.0,1,0.0,0.98
 Mono Black Sacrifice,Izzet Faeries,1.0,1,0.02,1.0
 Mono Black Sacrifice,Slivers,1.0,1,0.02,1.0
-Mono Black Sacrifice,Naya Gates,1.0,1,0.02,1.0
 GW Bogles,Mono Red Madness,0.56,16,0.3,0.8
 GW Bogles,Mono Blue Terror,0.09,11,0.0,0.41
 GW Bogles,Elves,0.14,7,0.0,0.58
@@ -670,8 +674,8 @@ GW Bogles,Jund Wildfire,0.5,6,0.12,0.88
 GW Bogles,Mono Red Rally,0.0,3,0.0,0.71
 GW Bogles,Gruul Ramp,0.75,4,0.19,0.99
 GW Bogles,Mono Blue Faeries,0.0,4,0.0,0.6
-GW Bogles,Caw Gates,0.17,6,0.0,0.64
 GW Bogles,Spy Combo,0.0,1,0.0,0.98
+GW Bogles,Caw Gates,0.17,6,0.0,0.64
 GW Bogles,Dimir Terror,0.0,2,0.0,0.84
 GW Bogles,White Weenie,0.0,2,0.0,0.84
 GW Bogles,UB Faeries,0.2,5,0.01,0.72
@@ -686,11 +690,11 @@ GW Bogles,Gruul Ponza,0.5,2,0.01,0.99
 GW Bogles,Esper Affinity,0.0,1,0.0,0.98
 GW Bogles,Jeskai Ephemerate,1.0,2,0.16,1.0
 GW Bogles,Mono Red Burn,1.0,1,0.02,1.0
+GW Bogles,Mono White Heroic,0.0,1,0.0,0.98
+GW Bogles,Altar Tron,1.0,1,0.02,1.0
 GW Bogles,Red Storm,0.0,1,0.0,0.98
 GW Bogles,Flicker Tron,0.0,1,0.0,0.98
 GW Bogles,Defender Combo,1.0,1,0.02,1.0
-GW Bogles,Mono White Heroic,0.0,1,0.0,0.98
-GW Bogles,Altar Tron,1.0,1,0.02,1.0
 GW Bogles,Dimir Affinity,1.0,1,0.02,1.0
 GW Bogles,Boros Bully,0.0,1,0.0,0.98
 GW Bogles,Izzet Faeries,1.0,1,0.02,1.0
@@ -704,8 +708,8 @@ Dredge,Jund Wildfire,0.75,4,0.19,0.99
 Dredge,Mono Red Rally,0.67,6,0.22,0.96
 Dredge,Gruul Ramp,0.67,6,0.22,0.96
 Dredge,Mono Blue Faeries,0.29,7,0.04,0.71
-Dredge,Caw Gates,0.75,4,0.19,0.99
 Dredge,Spy Combo,0.0,2,0.0,0.84
+Dredge,Caw Gates,0.75,4,0.19,0.99
 Dredge,Dimir Terror,0.83,6,0.36,1.0
 Dredge,White Weenie,1.0,2,0.16,1.0
 Dredge,UB Faeries,0.33,3,0.01,0.91
@@ -718,14 +722,13 @@ Dredge,Orzhov Blade,0.75,4,0.19,0.99
 Dredge,Esper Affinity,0.5,2,0.01,0.99
 Dredge,Mono Red Burn,1.0,1,0.02,1.0
 Dredge,Retriever Combo,0.0,1,0.0,0.98
-Dredge,Defender Combo,0.0,1,0.0,0.98
 Dredge,Mono White Heroic,0.0,1,0.0,0.98
+Dredge,Defender Combo,0.0,1,0.0,0.98
 Dredge,Mono Green Stompy,0.67,3,0.09,0.99
 Dredge,Mono Red Kiln Fiend,0.0,1,0.0,0.98
 Dredge,Boros Synthesizer,0.0,1,0.0,0.98
 Dredge,Boros Bully,1.0,1,0.02,1.0
 Dredge,Jeskai Metalcraft,0.0,1,0.0,0.98
-Dredge,Naya Gates,0.5,2,0.01,0.99
 Monster Tron,Mono Red Madness,0.55,11,0.23,0.83
 Monster Tron,Mono Blue Terror,0.67,6,0.22,0.96
 Monster Tron,Elves,0.0,4,0.0,0.6
@@ -735,8 +738,8 @@ Monster Tron,Jund Wildfire,0.2,5,0.01,0.72
 Monster Tron,Mono Red Rally,0.5,4,0.07,0.93
 Monster Tron,Gruul Ramp,0.5,4,0.07,0.93
 Monster Tron,Mono Blue Faeries,0.8,5,0.28,0.99
+Monster Tron,Spy Combo,0.5,2,0.01,0.99
 Monster Tron,Caw Gates,1.0,1,0.02,1.0
-Monster Tron,Spy Combo,0.0,1,0.0,0.98
 Monster Tron,Dimir Terror,0.83,6,0.36,1.0
 Monster Tron,White Weenie,1.0,2,0.16,1.0
 Monster Tron,UB Faeries,0.67,6,0.22,0.96
@@ -746,9 +749,10 @@ Monster Tron,Mono Black Sacrifice,0.0,2,0.0,0.84
 Monster Tron,GW Bogles,0.0,3,0.0,0.71
 Monster Tron,Dredge,0.8,5,0.28,0.99
 Monster Tron,Mono Red Synthesizer,0.0,1,0.0,0.98
-Monster Tron,Gruul Ponza,0.0,1,0.0,0.98
+Monster Tron,Gruul Ponza,0.0,2,0.0,0.84
 Monster Tron,Orzhov Blade,0.5,2,0.01,0.99
 Monster Tron,Mono Red Burn,0.25,4,0.01,0.81
+Monster Tron,Mono White Heroic,0.0,1,0.0,0.98
 Monster Tron,Red Storm,0.0,1,0.0,0.98
 Monster Tron,Flicker Tron,1.0,1,0.02,1.0
 Monster Tron,Dimir Affinity,1.0,2,0.16,1.0
@@ -765,8 +769,8 @@ Mono Red Synthesizer,Jund Wildfire,0.4,10,0.12,0.74
 Mono Red Synthesizer,Mono Red Rally,0.75,4,0.19,0.99
 Mono Red Synthesizer,Gruul Ramp,0.5,4,0.07,0.93
 Mono Red Synthesizer,Mono Blue Faeries,0.33,3,0.01,0.91
-Mono Red Synthesizer,Caw Gates,0.33,3,0.01,0.91
 Mono Red Synthesizer,Spy Combo,0.0,2,0.0,0.84
+Mono Red Synthesizer,Caw Gates,0.33,3,0.01,0.91
 Mono Red Synthesizer,Dimir Terror,0.5,2,0.01,0.99
 Mono Red Synthesizer,White Weenie,0.2,5,0.01,0.72
 Mono Red Synthesizer,UB Faeries,0.0,3,0.0,0.71
@@ -782,10 +786,10 @@ Mono Red Synthesizer,Retriever Combo,1.0,1,0.02,1.0
 Mono Red Synthesizer,Red Storm,1.0,1,0.02,1.0
 Mono Red Synthesizer,Dimir Affinity,0.0,1,0.0,0.98
 Mono Red Synthesizer,Mono Green Stompy,1.0,1,0.02,1.0
+Mono Red Synthesizer,Eggs Tron,1.0,1,0.02,1.0
 Mono Red Synthesizer,Boros Bully,1.0,1,0.02,1.0
 Mono Red Synthesizer,Jeskai Metalcraft,0.0,1,0.0,0.98
 Mono Red Synthesizer,Slivers,1.0,1,0.02,1.0
-Mono Red Synthesizer,Naya Gates,0.0,1,0.0,0.98
 Gruul Ponza,Mono Red Madness,0.3,10,0.07,0.65
 Gruul Ponza,Mono Blue Terror,0.33,9,0.07,0.7
 Gruul Ponza,Elves,0.5,4,0.07,0.93
@@ -795,8 +799,8 @@ Gruul Ponza,Jund Wildfire,0.33,6,0.04,0.78
 Gruul Ponza,Mono Red Rally,0.33,3,0.01,0.91
 Gruul Ponza,Gruul Ramp,1.0,2,0.16,1.0
 Gruul Ponza,Mono Blue Faeries,0.67,6,0.22,0.96
+Gruul Ponza,Spy Combo,0.0,6,0.0,0.46
 Gruul Ponza,Caw Gates,1.0,1,0.02,1.0
-Gruul Ponza,Spy Combo,0.0,5,0.0,0.52
 Gruul Ponza,Dimir Terror,1.0,1,0.02,1.0
 Gruul Ponza,White Weenie,1.0,5,0.48,1.0
 Gruul Ponza,UB Faeries,0.0,1,0.0,0.98
@@ -804,7 +808,7 @@ Gruul Ponza,UWx Familiar,1.0,2,0.16,1.0
 Gruul Ponza,Golgari Gardens,0.67,3,0.09,0.99
 Gruul Ponza,Mono Black Sacrifice,0.0,2,0.0,0.84
 Gruul Ponza,GW Bogles,0.5,2,0.01,0.99
-Gruul Ponza,Monster Tron,1.0,1,0.02,1.0
+Gruul Ponza,Monster Tron,1.0,2,0.16,1.0
 Gruul Ponza,Mono Red Synthesizer,1.0,1,0.02,1.0
 Gruul Ponza,Orzhov Blade,0.0,1,0.0,0.98
 Gruul Ponza,Jeskai Ephemerate,0.5,2,0.01,0.99
@@ -817,7 +821,6 @@ Gruul Ponza,Mono Red Kiln Fiend,0.0,1,0.0,0.98
 Gruul Ponza,Izzet Skred,0.0,1,0.0,0.98
 Gruul Ponza,Boros Synthesizer,1.0,1,0.02,1.0
 Gruul Ponza,Izzet Faeries,1.0,1,0.02,1.0
-Gruul Ponza,Naya Gates,0.0,1,0.0,0.98
 Orzhov Blade,Mono Red Madness,0.2,5,0.01,0.72
 Orzhov Blade,Mono Blue Terror,0.6,5,0.15,0.95
 Orzhov Blade,Elves,0.2,5,0.01,0.72
@@ -827,8 +830,8 @@ Orzhov Blade,Jund Wildfire,0.0,4,0.0,0.6
 Orzhov Blade,Mono Red Rally,0.33,3,0.01,0.91
 Orzhov Blade,Gruul Ramp,0.6,5,0.15,0.95
 Orzhov Blade,Mono Blue Faeries,0.5,2,0.01,0.99
-Orzhov Blade,Caw Gates,0.33,3,0.01,0.91
 Orzhov Blade,Spy Combo,0.0,4,0.0,0.6
+Orzhov Blade,Caw Gates,0.33,3,0.01,0.91
 Orzhov Blade,Dimir Terror,0.67,3,0.09,0.99
 Orzhov Blade,White Weenie,0.33,3,0.01,0.91
 Orzhov Blade,UB Faeries,0.5,4,0.07,0.93
@@ -847,7 +850,6 @@ Orzhov Blade,Mono Red Kiln Fiend,0.0,1,0.0,0.98
 Orzhov Blade,Izzet Skred,0.0,1,0.0,0.98
 Orzhov Blade,Boros Synthesizer,1.0,1,0.02,1.0
 Orzhov Blade,Dimir Control,1.0,1,0.02,1.0
-Orzhov Blade,Naya Gates,1.0,1,0.02,1.0
 Esper Affinity,Mono Red Madness,0.75,8,0.35,0.97
 Esper Affinity,Mono Blue Terror,0.33,6,0.04,0.78
 Esper Affinity,Elves,0.17,6,0.0,0.64
@@ -856,8 +858,8 @@ Esper Affinity,Grixis Affinity,0.86,7,0.42,1.0
 Esper Affinity,Jund Wildfire,0.5,2,0.01,0.99
 Esper Affinity,Mono Red Rally,0.38,8,0.09,0.76
 Esper Affinity,Mono Blue Faeries,0.5,2,0.01,0.99
-Esper Affinity,Caw Gates,1.0,3,0.29,1.0
 Esper Affinity,Spy Combo,0.4,5,0.05,0.85
+Esper Affinity,Caw Gates,1.0,3,0.29,1.0
 Esper Affinity,Dimir Terror,0.33,3,0.01,0.91
 Esper Affinity,White Weenie,0.33,3,0.01,0.91
 Esper Affinity,UB Faeries,0.0,2,0.0,0.84
@@ -884,8 +886,8 @@ Jeskai Ephemerate,Jund Wildfire,0.5,8,0.16,0.84
 Jeskai Ephemerate,Mono Red Rally,0.6,5,0.15,0.95
 Jeskai Ephemerate,Gruul Ramp,0.5,4,0.07,0.93
 Jeskai Ephemerate,Mono Blue Faeries,0.5,4,0.07,0.93
-Jeskai Ephemerate,Caw Gates,0.5,2,0.01,0.99
 Jeskai Ephemerate,Spy Combo,0.43,7,0.1,0.82
+Jeskai Ephemerate,Caw Gates,0.5,2,0.01,0.99
 Jeskai Ephemerate,Dimir Terror,0.67,3,0.09,0.99
 Jeskai Ephemerate,White Weenie,1.0,1,0.02,1.0
 Jeskai Ephemerate,UB Faeries,0.5,2,0.01,0.99
@@ -896,8 +898,8 @@ Jeskai Ephemerate,Mono Red Synthesizer,0.0,2,0.0,0.84
 Jeskai Ephemerate,Gruul Ponza,0.5,2,0.01,0.99
 Jeskai Ephemerate,Orzhov Blade,1.0,2,0.16,1.0
 Jeskai Ephemerate,Retriever Combo,0.0,1,0.0,0.98
-Jeskai Ephemerate,Flicker Tron,1.0,1,0.02,1.0
 Jeskai Ephemerate,Mono White Heroic,1.0,1,0.02,1.0
+Jeskai Ephemerate,Flicker Tron,1.0,1,0.02,1.0
 Jeskai Ephemerate,Mono Red Kiln Fiend,0.0,1,0.0,0.98
 Jeskai Ephemerate,Izzet Faeries,0.5,2,0.01,0.99
 Jeskai Ephemerate,Slivers,0.0,1,0.0,0.98
@@ -910,8 +912,8 @@ Mono Red Burn,Jund Wildfire,0.0,2,0.0,0.84
 Mono Red Burn,Mono Red Rally,0.17,6,0.0,0.64
 Mono Red Burn,Gruul Ramp,0.4,5,0.05,0.85
 Mono Red Burn,Mono Blue Faeries,0.2,5,0.01,0.72
-Mono Red Burn,Caw Gates,0.0,2,0.0,0.84
 Mono Red Burn,Spy Combo,1.0,2,0.16,1.0
+Mono Red Burn,Caw Gates,0.0,2,0.0,0.84
 Mono Red Burn,Dimir Terror,0.0,3,0.0,0.71
 Mono Red Burn,White Weenie,0.25,4,0.01,0.81
 Mono Red Burn,UB Faeries,0.0,3,0.0,0.71
@@ -942,92 +944,26 @@ Retriever Combo,Mono Red Synthesizer,0.0,1,0.0,0.98
 Retriever Combo,Gruul Ponza,0.0,1,0.0,0.98
 Retriever Combo,Orzhov Blade,1.0,1,0.02,1.0
 Retriever Combo,Jeskai Ephemerate,1.0,1,0.02,1.0
-Retriever Combo,Flicker Tron,1.0,1,0.02,1.0
 Retriever Combo,Altar Tron,0.0,1,0.0,0.98
+Retriever Combo,Flicker Tron,1.0,1,0.02,1.0
 Retriever Combo,Mono Green Stompy,1.0,1,0.02,1.0
 Retriever Combo,Dimir Control,1.0,1,0.02,1.0
 Retriever Combo,Boros Bully,1.0,1,0.02,1.0
 Retriever Combo,Slivers,1.0,1,0.02,1.0
-Red Storm,Mono Red Madness,1.0,4,0.4,1.0
-Red Storm,Mono Blue Terror,0.0,2,0.0,0.84
-Red Storm,Elves,0.89,9,0.52,1.0
-Red Storm,Rakdos Madness,0.0,1,0.0,0.98
-Red Storm,Grixis Affinity,0.75,4,0.19,0.99
-Red Storm,Jund Wildfire,1.0,4,0.4,1.0
-Red Storm,Mono Red Rally,0.5,2,0.01,0.99
-Red Storm,Gruul Ramp,1.0,1,0.02,1.0
-Red Storm,Caw Gates,0.5,4,0.07,0.93
-Red Storm,Spy Combo,0.5,2,0.01,0.99
-Red Storm,UB Faeries,0.0,1,0.0,0.98
-Red Storm,UWx Familiar,1.0,2,0.16,1.0
-Red Storm,Mono Black Sacrifice,1.0,1,0.02,1.0
-Red Storm,GW Bogles,1.0,1,0.02,1.0
-Red Storm,Monster Tron,1.0,1,0.02,1.0
-Red Storm,Mono Red Synthesizer,0.0,1,0.0,0.98
-Red Storm,Mono White Heroic,0.0,1,0.0,0.98
-Red Storm,Altar Tron,0.0,1,0.0,0.98
-Red Storm,Mono Red Kiln Fiend,0.0,1,0.0,0.98
-Red Storm,Boros Synthesizer,0.0,1,0.0,0.98
-Red Storm,Dimir Control,0.0,2,0.0,0.84
-Red Storm,Boros Bully,1.0,1,0.02,1.0
-Flicker Tron,Mono Red Madness,0.25,4,0.01,0.81
-Flicker Tron,Mono Blue Terror,0.25,8,0.03,0.65
-Flicker Tron,Elves,0.33,3,0.01,0.91
-Flicker Tron,Rakdos Madness,0.0,1,0.0,0.98
-Flicker Tron,Grixis Affinity,0.0,5,0.0,0.52
-Flicker Tron,Mono Red Rally,0.5,2,0.01,0.99
-Flicker Tron,Gruul Ramp,0.0,2,0.0,0.84
-Flicker Tron,Mono Blue Faeries,0.0,1,0.0,0.98
-Flicker Tron,Caw Gates,0.0,1,0.0,0.98
-Flicker Tron,Spy Combo,1.0,1,0.02,1.0
-Flicker Tron,Dimir Terror,0.0,2,0.0,0.84
-Flicker Tron,White Weenie,0.0,2,0.0,0.84
-Flicker Tron,UB Faeries,0.5,2,0.01,0.99
-Flicker Tron,Golgari Gardens,1.0,2,0.16,1.0
-Flicker Tron,GW Bogles,1.0,1,0.02,1.0
-Flicker Tron,Monster Tron,0.0,1,0.0,0.98
-Flicker Tron,Esper Affinity,0.0,1,0.0,0.98
-Flicker Tron,Jeskai Ephemerate,0.0,1,0.0,0.98
-Flicker Tron,Retriever Combo,0.0,1,0.0,0.98
-Flicker Tron,Dimir Affinity,0.0,1,0.0,0.98
-Flicker Tron,Mono Red Kiln Fiend,1.0,1,0.02,1.0
-Flicker Tron,Slivers,1.0,1,0.02,1.0
-Flicker Tron,Naya Gates,1.0,1,0.02,1.0
-Defender Combo,Mono Red Madness,0.33,3,0.01,0.91
-Defender Combo,Mono Blue Terror,0.5,4,0.07,0.93
-Defender Combo,Elves,0.6,5,0.15,0.95
-Defender Combo,Rakdos Madness,0.8,5,0.28,0.99
-Defender Combo,Grixis Affinity,0.2,5,0.01,0.72
-Defender Combo,Jund Wildfire,0.67,3,0.09,0.99
-Defender Combo,Mono Red Rally,0.5,2,0.01,0.99
-Defender Combo,Gruul Ramp,1.0,2,0.16,1.0
-Defender Combo,Mono Blue Faeries,0.0,2,0.0,0.84
-Defender Combo,Caw Gates,0.0,1,0.0,0.98
-Defender Combo,Spy Combo,0.5,2,0.01,0.99
-Defender Combo,Dimir Terror,0.5,2,0.01,0.99
-Defender Combo,UB Faeries,0.5,2,0.01,0.99
-Defender Combo,Golgari Gardens,0.0,1,0.0,0.98
-Defender Combo,Mono Black Sacrifice,0.0,1,0.0,0.98
-Defender Combo,GW Bogles,0.0,1,0.0,0.98
-Defender Combo,Dredge,1.0,1,0.02,1.0
-Defender Combo,Esper Affinity,1.0,1,0.02,1.0
-Defender Combo,Mono Red Burn,0.0,1,0.0,0.98
-Defender Combo,Mono Green Stompy,1.0,1,0.02,1.0
-Defender Combo,Mono Red Kiln Fiend,0.0,1,0.0,0.98
-Defender Combo,Boros Bully,0.0,1,0.0,0.98
-Defender Combo,Izzet Faeries,1.0,1,0.02,1.0
 Mono White Heroic,Mono Red Madness,0.0,4,0.0,0.6
 Mono White Heroic,Elves,0.17,6,0.0,0.64
-Mono White Heroic,Rakdos Madness,0.8,5,0.28,0.99
+Mono White Heroic,Rakdos Madness,0.67,6,0.22,0.96
 Mono White Heroic,Grixis Affinity,0.6,5,0.15,0.95
 Mono White Heroic,Jund Wildfire,0.4,5,0.05,0.85
 Mono White Heroic,Mono Red Rally,1.0,2,0.16,1.0
 Mono White Heroic,Gruul Ramp,1.0,1,0.02,1.0
 Mono White Heroic,Mono Blue Faeries,0.67,3,0.09,0.99
+Mono White Heroic,Spy Combo,0.0,1,0.0,0.98
 Mono White Heroic,UB Faeries,0.0,2,0.0,0.84
 Mono White Heroic,Mono Black Sacrifice,0.5,2,0.01,0.99
 Mono White Heroic,GW Bogles,1.0,1,0.02,1.0
 Mono White Heroic,Dredge,1.0,1,0.02,1.0
+Mono White Heroic,Monster Tron,1.0,1,0.02,1.0
 Mono White Heroic,Gruul Ponza,0.0,1,0.0,0.98
 Mono White Heroic,Jeskai Ephemerate,0.0,1,0.0,0.98
 Mono White Heroic,Red Storm,1.0,1,0.02,1.0
@@ -1040,7 +976,7 @@ Mono White Heroic,Izzet Faeries,1.0,1,0.02,1.0
 Altar Tron,Mono Red Madness,0.0,4,0.0,0.6
 Altar Tron,Mono Blue Terror,0.67,3,0.09,0.99
 Altar Tron,Elves,0.0,5,0.0,0.52
-Altar Tron,Rakdos Madness,0.75,4,0.19,0.99
+Altar Tron,Rakdos Madness,0.6,5,0.15,0.95
 Altar Tron,Grixis Affinity,0.5,2,0.01,0.99
 Altar Tron,Jund Wildfire,0.67,3,0.09,0.99
 Altar Tron,Mono Red Rally,0.0,2,0.0,0.84
@@ -1058,15 +994,84 @@ Altar Tron,Gruul Ponza,1.0,1,0.02,1.0
 Altar Tron,Orzhov Blade,0.33,3,0.01,0.91
 Altar Tron,Retriever Combo,1.0,1,0.02,1.0
 Altar Tron,Red Storm,1.0,1,0.02,1.0
+Altar Tron,Eggs Tron,0.0,1,0.0,0.98
 Altar Tron,Izzet Faeries,0.0,1,0.0,0.98
+Red Storm,Mono Red Madness,1.0,4,0.4,1.0
+Red Storm,Mono Blue Terror,0.0,2,0.0,0.84
+Red Storm,Elves,0.89,9,0.52,1.0
+Red Storm,Rakdos Madness,0.0,1,0.0,0.98
+Red Storm,Grixis Affinity,0.75,4,0.19,0.99
+Red Storm,Jund Wildfire,1.0,4,0.4,1.0
+Red Storm,Mono Red Rally,0.5,2,0.01,0.99
+Red Storm,Gruul Ramp,1.0,1,0.02,1.0
+Red Storm,Spy Combo,0.5,2,0.01,0.99
+Red Storm,Caw Gates,0.5,4,0.07,0.93
+Red Storm,UB Faeries,0.0,1,0.0,0.98
+Red Storm,UWx Familiar,1.0,2,0.16,1.0
+Red Storm,Mono Black Sacrifice,1.0,1,0.02,1.0
+Red Storm,GW Bogles,1.0,1,0.02,1.0
+Red Storm,Monster Tron,1.0,1,0.02,1.0
+Red Storm,Mono Red Synthesizer,0.0,1,0.0,0.98
+Red Storm,Mono White Heroic,0.0,1,0.0,0.98
+Red Storm,Altar Tron,0.0,1,0.0,0.98
+Red Storm,Mono Red Kiln Fiend,0.0,1,0.0,0.98
+Red Storm,Eggs Tron,1.0,1,0.02,1.0
+Red Storm,Boros Synthesizer,0.0,1,0.0,0.98
+Red Storm,Dimir Control,0.0,2,0.0,0.84
+Red Storm,Boros Bully,1.0,1,0.02,1.0
+Flicker Tron,Mono Red Madness,0.25,4,0.01,0.81
+Flicker Tron,Mono Blue Terror,0.25,8,0.03,0.65
+Flicker Tron,Elves,0.33,3,0.01,0.91
+Flicker Tron,Rakdos Madness,0.0,1,0.0,0.98
+Flicker Tron,Grixis Affinity,0.0,5,0.0,0.52
+Flicker Tron,Mono Red Rally,0.5,2,0.01,0.99
+Flicker Tron,Gruul Ramp,0.0,2,0.0,0.84
+Flicker Tron,Mono Blue Faeries,0.0,1,0.0,0.98
+Flicker Tron,Spy Combo,1.0,1,0.02,1.0
+Flicker Tron,Caw Gates,0.0,1,0.0,0.98
+Flicker Tron,Dimir Terror,0.0,2,0.0,0.84
+Flicker Tron,White Weenie,0.0,2,0.0,0.84
+Flicker Tron,UB Faeries,0.5,2,0.01,0.99
+Flicker Tron,Golgari Gardens,1.0,2,0.16,1.0
+Flicker Tron,GW Bogles,1.0,1,0.02,1.0
+Flicker Tron,Monster Tron,0.0,1,0.0,0.98
+Flicker Tron,Esper Affinity,0.0,1,0.0,0.98
+Flicker Tron,Jeskai Ephemerate,0.0,1,0.0,0.98
+Flicker Tron,Retriever Combo,0.0,1,0.0,0.98
+Flicker Tron,Dimir Affinity,0.0,1,0.0,0.98
+Flicker Tron,Mono Red Kiln Fiend,1.0,1,0.02,1.0
+Flicker Tron,Slivers,1.0,1,0.02,1.0
+Defender Combo,Mono Red Madness,0.33,3,0.01,0.91
+Defender Combo,Mono Blue Terror,0.5,4,0.07,0.93
+Defender Combo,Elves,0.6,5,0.15,0.95
+Defender Combo,Rakdos Madness,0.8,5,0.28,0.99
+Defender Combo,Grixis Affinity,0.2,5,0.01,0.72
+Defender Combo,Jund Wildfire,0.67,3,0.09,0.99
+Defender Combo,Mono Red Rally,0.5,2,0.01,0.99
+Defender Combo,Gruul Ramp,1.0,2,0.16,1.0
+Defender Combo,Mono Blue Faeries,0.0,2,0.0,0.84
+Defender Combo,Spy Combo,0.5,2,0.01,0.99
+Defender Combo,Caw Gates,0.0,1,0.0,0.98
+Defender Combo,Dimir Terror,0.5,2,0.01,0.99
+Defender Combo,UB Faeries,0.5,2,0.01,0.99
+Defender Combo,Golgari Gardens,0.0,1,0.0,0.98
+Defender Combo,Mono Black Sacrifice,0.0,1,0.0,0.98
+Defender Combo,GW Bogles,0.0,1,0.0,0.98
+Defender Combo,Dredge,1.0,1,0.02,1.0
+Defender Combo,Esper Affinity,1.0,1,0.02,1.0
+Defender Combo,Mono Red Burn,0.0,1,0.0,0.98
+Defender Combo,Mono Green Stompy,1.0,1,0.02,1.0
+Defender Combo,Mono Red Kiln Fiend,0.0,1,0.0,0.98
+Defender Combo,Boros Bully,0.0,1,0.0,0.98
+Defender Combo,Izzet Faeries,1.0,1,0.02,1.0
 Dimir Affinity,Mono Red Madness,0.33,6,0.04,0.78
 Dimir Affinity,Mono Blue Terror,0.67,3,0.09,0.99
 Dimir Affinity,Elves,0.2,5,0.01,0.72
 Dimir Affinity,Grixis Affinity,1.0,1,0.02,1.0
 Dimir Affinity,Jund Wildfire,0.43,7,0.1,0.82
 Dimir Affinity,Mono Red Rally,0.0,1,0.0,0.98
-Dimir Affinity,Caw Gates,0.5,2,0.01,0.99
 Dimir Affinity,Spy Combo,0.0,2,0.0,0.84
+Dimir Affinity,Caw Gates,0.5,2,0.01,0.99
 Dimir Affinity,Dimir Terror,0.5,2,0.01,0.99
 Dimir Affinity,White Weenie,1.0,1,0.02,1.0
 Dimir Affinity,UB Faeries,0.0,2,0.0,0.84
@@ -1076,8 +1081,8 @@ Dimir Affinity,GW Bogles,0.0,1,0.0,0.98
 Dimir Affinity,Monster Tron,0.0,2,0.0,0.84
 Dimir Affinity,Mono Red Synthesizer,1.0,1,0.02,1.0
 Dimir Affinity,Esper Affinity,0.0,2,0.0,0.84
-Dimir Affinity,Flicker Tron,1.0,1,0.02,1.0
 Dimir Affinity,Mono White Heroic,1.0,1,0.02,1.0
+Dimir Affinity,Flicker Tron,1.0,1,0.02,1.0
 Dimir Affinity,Mono Green Stompy,0.0,1,0.0,0.98
 Dimir Affinity,Boros Bully,0.0,1,0.0,0.98
 Dimir Affinity,Izzet Faeries,0.0,1,0.0,0.98
@@ -1100,8 +1105,8 @@ Mono Green Stompy,Mono Red Synthesizer,0.0,1,0.0,0.98
 Mono Green Stompy,Gruul Ponza,1.0,1,0.02,1.0
 Mono Green Stompy,Esper Affinity,1.0,1,0.02,1.0
 Mono Green Stompy,Retriever Combo,0.0,1,0.0,0.98
-Mono Green Stompy,Defender Combo,0.0,1,0.0,0.98
 Mono Green Stompy,Mono White Heroic,1.0,2,0.16,1.0
+Mono Green Stompy,Defender Combo,0.0,1,0.0,0.98
 Mono Green Stompy,Dimir Affinity,1.0,1,0.02,1.0
 Mono Green Stompy,Boros Synthesizer,0.0,1,0.0,0.98
 Mono Green Stompy,Jeskai Metalcraft,0.0,2,0.0,0.84
@@ -1115,8 +1120,8 @@ Mono Red Kiln Fiend,Jund Wildfire,0.5,6,0.12,0.88
 Mono Red Kiln Fiend,Mono Red Rally,1.0,3,0.29,1.0
 Mono Red Kiln Fiend,Gruul Ramp,1.0,1,0.02,1.0
 Mono Red Kiln Fiend,Mono Blue Faeries,0.0,2,0.0,0.84
-Mono Red Kiln Fiend,Caw Gates,0.0,1,0.0,0.98
 Mono Red Kiln Fiend,Spy Combo,0.67,3,0.09,0.99
+Mono Red Kiln Fiend,Caw Gates,0.0,1,0.0,0.98
 Mono Red Kiln Fiend,White Weenie,1.0,1,0.02,1.0
 Mono Red Kiln Fiend,UB Faeries,1.0,1,0.02,1.0
 Mono Red Kiln Fiend,Golgari Gardens,0.0,1,0.0,0.98
@@ -1129,6 +1134,24 @@ Mono Red Kiln Fiend,Flicker Tron,0.0,1,0.0,0.98
 Mono Red Kiln Fiend,Defender Combo,1.0,1,0.02,1.0
 Mono Red Kiln Fiend,Izzet Faeries,0.0,1,0.0,0.98
 Mono Red Kiln Fiend,Slivers,1.0,1,0.02,1.0
+Eggs Tron,Mono Red Madness,0.67,3,0.09,0.99
+Eggs Tron,Elves,0.0,1,0.0,0.98
+Eggs Tron,Rakdos Madness,0.86,7,0.42,1.0
+Eggs Tron,Grixis Affinity,0.33,3,0.01,0.91
+Eggs Tron,Jund Wildfire,0.5,2,0.01,0.99
+Eggs Tron,Mono Red Rally,0.67,3,0.09,0.99
+Eggs Tron,Gruul Ramp,0.0,1,0.0,0.98
+Eggs Tron,Spy Combo,0.5,2,0.01,0.99
+Eggs Tron,Caw Gates,0.0,2,0.0,0.84
+Eggs Tron,Dimir Terror,0.5,2,0.01,0.99
+Eggs Tron,UB Faeries,1.0,1,0.02,1.0
+Eggs Tron,UWx Familiar,1.0,1,0.02,1.0
+Eggs Tron,Golgari Gardens,0.5,2,0.01,0.99
+Eggs Tron,Mono Black Sacrifice,0.0,1,0.0,0.98
+Eggs Tron,Mono Red Synthesizer,0.0,1,0.0,0.98
+Eggs Tron,Altar Tron,1.0,1,0.02,1.0
+Eggs Tron,Red Storm,0.0,1,0.0,0.98
+Eggs Tron,Jeskai Metalcraft,0.0,1,0.0,0.98
 Izzet Skred,Mono Red Madness,1.0,2,0.16,1.0
 Izzet Skred,Mono Blue Terror,0.5,2,0.01,0.99
 Izzet Skred,Elves,1.0,1,0.02,1.0
@@ -1138,8 +1161,8 @@ Izzet Skred,Jund Wildfire,0.25,4,0.01,0.81
 Izzet Skred,Mono Red Rally,0.75,4,0.19,0.99
 Izzet Skred,Gruul Ramp,0.5,2,0.01,0.99
 Izzet Skred,Mono Blue Faeries,0.5,2,0.01,0.99
-Izzet Skred,Caw Gates,0.0,2,0.0,0.84
 Izzet Skred,Spy Combo,0.0,1,0.0,0.98
+Izzet Skred,Caw Gates,0.0,2,0.0,0.84
 Izzet Skred,Dimir Terror,0.0,2,0.0,0.84
 Izzet Skred,White Weenie,0.0,1,0.0,0.98
 Izzet Skred,UB Faeries,0.5,2,0.01,0.99
@@ -1148,7 +1171,6 @@ Izzet Skred,Gruul Ponza,1.0,1,0.02,1.0
 Izzet Skred,Orzhov Blade,1.0,1,0.02,1.0
 Izzet Skred,Esper Affinity,1.0,2,0.16,1.0
 Izzet Skred,Dimir Control,0.0,1,0.0,0.98
-Izzet Skred,Naya Gates,0.0,1,0.0,0.98
 Boros Synthesizer,Mono Red Madness,0.0,1,0.0,0.98
 Boros Synthesizer,Mono Blue Terror,0.5,2,0.01,0.99
 Boros Synthesizer,Elves,1.0,2,0.16,1.0
@@ -1165,8 +1187,8 @@ Boros Synthesizer,Dredge,1.0,1,0.02,1.0
 Boros Synthesizer,Monster Tron,0.0,2,0.0,0.84
 Boros Synthesizer,Gruul Ponza,0.0,1,0.0,0.98
 Boros Synthesizer,Orzhov Blade,0.0,1,0.0,0.98
-Boros Synthesizer,Red Storm,1.0,1,0.02,1.0
 Boros Synthesizer,Mono White Heroic,1.0,1,0.02,1.0
+Boros Synthesizer,Red Storm,1.0,1,0.02,1.0
 Boros Synthesizer,Mono Green Stompy,1.0,1,0.02,1.0
 Boros Synthesizer,Dimir Control,0.5,2,0.01,0.99
 Dimir Control,Mono Red Madness,1.0,1,0.02,1.0
@@ -1186,12 +1208,11 @@ Dimir Control,Monster Tron,0.0,2,0.0,0.84
 Dimir Control,Orzhov Blade,0.0,1,0.0,0.98
 Dimir Control,Esper Affinity,1.0,1,0.02,1.0
 Dimir Control,Retriever Combo,0.0,1,0.0,0.98
-Dimir Control,Red Storm,1.0,2,0.16,1.0
 Dimir Control,Mono White Heroic,1.0,1,0.02,1.0
+Dimir Control,Red Storm,1.0,2,0.16,1.0
 Dimir Control,Izzet Skred,1.0,1,0.02,1.0
 Dimir Control,Boros Synthesizer,0.5,2,0.01,0.99
 Dimir Control,Dimir Control,0.5,2,0.01,0.99
-Dimir Control,Naya Gates,0.0,1,0.0,0.98
 Boros Bully,Mono Red Madness,1.0,1,0.02,1.0
 Boros Bully,Mono Blue Terror,1.0,2,0.16,1.0
 Boros Bully,Elves,0.0,1,0.0,0.98
@@ -1200,8 +1221,8 @@ Boros Bully,Grixis Affinity,0.33,3,0.01,0.91
 Boros Bully,Jund Wildfire,0.25,4,0.01,0.81
 Boros Bully,Mono Red Rally,1.0,1,0.02,1.0
 Boros Bully,Gruul Ramp,0.0,1,0.0,0.98
-Boros Bully,Caw Gates,1.0,3,0.29,1.0
 Boros Bully,Spy Combo,1.0,1,0.02,1.0
+Boros Bully,Caw Gates,1.0,3,0.29,1.0
 Boros Bully,Dimir Terror,1.0,2,0.16,1.0
 Boros Bully,White Weenie,1.0,2,0.16,1.0
 Boros Bully,UB Faeries,1.0,1,0.02,1.0
@@ -1231,23 +1252,7 @@ Jeskai Metalcraft,Monster Tron,0.0,2,0.0,0.84
 Jeskai Metalcraft,Mono Red Synthesizer,1.0,1,0.02,1.0
 Jeskai Metalcraft,Mono White Heroic,0.5,2,0.01,0.99
 Jeskai Metalcraft,Mono Green Stompy,1.0,2,0.16,1.0
-Jeskai Metalcraft,Naya Gates,0.5,2,0.01,0.99
-Eggs Tron,Mono Red Madness,0.67,3,0.09,0.99
-Eggs Tron,Elves,0.0,1,0.0,0.98
-Eggs Tron,Rakdos Madness,0.86,7,0.42,1.0
-Eggs Tron,Grixis Affinity,0.33,3,0.01,0.91
-Eggs Tron,Jund Wildfire,0.5,2,0.01,0.99
-Eggs Tron,Mono Red Rally,0.67,3,0.09,0.99
-Eggs Tron,Gruul Ramp,0.0,1,0.0,0.98
-Eggs Tron,Caw Gates,0.0,2,0.0,0.84
-Eggs Tron,Spy Combo,0.5,2,0.01,0.99
-Eggs Tron,Dimir Terror,0.5,2,0.01,0.99
-Eggs Tron,UWx Familiar,1.0,1,0.02,1.0
-Eggs Tron,Golgari Gardens,0.5,2,0.01,0.99
-Eggs Tron,Mono Black Sacrifice,0.0,1,0.0,0.98
-Eggs Tron,Mono Red Synthesizer,0.0,1,0.0,0.98
-Eggs Tron,Red Storm,0.0,1,0.0,0.98
-Eggs Tron,Jeskai Metalcraft,0.0,1,0.0,0.98
+Jeskai Metalcraft,Eggs Tron,1.0,1,0.02,1.0
 Izzet Faeries,Mono Red Madness,0.5,2,0.01,0.99
 Izzet Faeries,Mono Blue Terror,0.0,1,0.0,0.98
 Izzet Faeries,Elves,0.0,1,0.0,0.98
@@ -1266,9 +1271,9 @@ Izzet Faeries,GW Bogles,0.0,1,0.0,0.98
 Izzet Faeries,Gruul Ponza,0.0,1,0.0,0.98
 Izzet Faeries,Esper Affinity,1.0,1,0.02,1.0
 Izzet Faeries,Jeskai Ephemerate,0.5,2,0.01,0.99
-Izzet Faeries,Defender Combo,0.0,1,0.0,0.98
 Izzet Faeries,Mono White Heroic,0.0,1,0.0,0.98
 Izzet Faeries,Altar Tron,1.0,1,0.02,1.0
+Izzet Faeries,Defender Combo,0.0,1,0.0,0.98
 Izzet Faeries,Dimir Affinity,1.0,1,0.02,1.0
 Izzet Faeries,Mono Green Stompy,1.0,1,0.02,1.0
 Izzet Faeries,Mono Red Kiln Fiend,1.0,1,0.02,1.0
@@ -1291,19 +1296,35 @@ Slivers,Jeskai Ephemerate,1.0,1,0.02,1.0
 Slivers,Retriever Combo,0.0,1,0.0,0.98
 Slivers,Flicker Tron,0.0,1,0.0,0.98
 Slivers,Mono Red Kiln Fiend,0.0,1,0.0,0.98
+Persistent Petitioners,Mono Red Madness,0.33,3,0.01,0.91
+Persistent Petitioners,Mono Blue Terror,0.33,3,0.01,0.91
+Persistent Petitioners,Rakdos Madness,0.0,1,0.0,0.98
+Persistent Petitioners,Grixis Affinity,0.0,2,0.0,0.84
+Persistent Petitioners,Jund Wildfire,0.33,3,0.01,0.91
+Persistent Petitioners,Gruul Ramp,0.0,1,0.0,0.98
+Persistent Petitioners,Mono Blue Faeries,0.5,2,0.01,0.99
+Persistent Petitioners,Caw Gates,0.0,2,0.0,0.84
+Persistent Petitioners,Dimir Terror,0.0,1,0.0,0.98
+Persistent Petitioners,White Weenie,1.0,1,0.02,1.0
+Persistent Petitioners,UB Faeries,1.0,1,0.02,1.0
+Persistent Petitioners,Gruul Ponza,0.0,1,0.0,0.98
+Persistent Petitioners,Jeskai Ephemerate,0.0,1,0.0,0.98
+Persistent Petitioners,Flicker Tron,0.33,3,0.01,0.91
+Persistent Petitioners,Eggs Tron,1.0,1,0.02,1.0
 Golgari Pestilence,Mono Blue Terror,1.0,1,0.02,1.0
 Golgari Pestilence,Elves,0.5,4,0.07,0.93
 Golgari Pestilence,Rakdos Madness,0.0,1,0.0,0.98
 Golgari Pestilence,Grixis Affinity,1.0,2,0.16,1.0
 Golgari Pestilence,Jund Wildfire,0.67,3,0.09,0.99
-Golgari Pestilence,Caw Gates,0.5,2,0.01,0.99
 Golgari Pestilence,Spy Combo,0.0,1,0.0,0.98
+Golgari Pestilence,Caw Gates,0.5,2,0.01,0.99
 Golgari Pestilence,Dimir Terror,0.0,2,0.0,0.84
 Golgari Pestilence,White Weenie,0.0,2,0.0,0.84
 Golgari Pestilence,UB Faeries,0.0,2,0.0,0.84
 Golgari Pestilence,Golgari Gardens,0.5,2,0.01,0.99
 Golgari Pestilence,Mono Black Sacrifice,0.0,1,0.0,0.98
 Golgari Pestilence,Gruul Ponza,0.5,2,0.01,0.99
+Golgari Pestilence,Eggs Tron,0.0,1,0.0,0.98
 Golgari Pestilence,Boros Bully,0.0,1,0.0,0.98
 Cycling Storm,Mono Red Madness,0.0,2,0.0,0.84
 Cycling Storm,Mono Blue Terror,0.0,3,0.0,0.71
@@ -1314,26 +1335,13 @@ Cycling Storm,Jund Wildfire,1.0,1,0.02,1.0
 Cycling Storm,Mono Red Rally,0.0,3,0.0,0.71
 Cycling Storm,Gruul Ramp,0.0,1,0.0,0.98
 Cycling Storm,Mono Blue Faeries,0.0,1,0.0,0.98
-Cycling Storm,Caw Gates,0.0,1,0.0,0.98
 Cycling Storm,Spy Combo,1.0,1,0.02,1.0
+Cycling Storm,Caw Gates,0.0,1,0.0,0.98
 Cycling Storm,Dimir Terror,1.0,1,0.02,1.0
 Cycling Storm,White Weenie,0.5,2,0.01,0.99
 Cycling Storm,Mono Black Sacrifice,0.0,1,0.0,0.98
 Cycling Storm,Orzhov Blade,0.0,1,0.0,0.98
 Cycling Storm,Boros Bully,0.0,1,0.0,0.98
-Persistent Petitioners,Mono Red Madness,0.0,2,0.0,0.84
-Persistent Petitioners,Mono Blue Terror,0.33,3,0.01,0.91
-Persistent Petitioners,Rakdos Madness,0.0,1,0.0,0.98
-Persistent Petitioners,Grixis Affinity,0.0,2,0.0,0.84
-Persistent Petitioners,Jund Wildfire,0.33,3,0.01,0.91
-Persistent Petitioners,Mono Blue Faeries,0.5,2,0.01,0.99
-Persistent Petitioners,Caw Gates,0.0,2,0.0,0.84
-Persistent Petitioners,Dimir Terror,0.0,1,0.0,0.98
-Persistent Petitioners,White Weenie,1.0,1,0.02,1.0
-Persistent Petitioners,UB Faeries,1.0,1,0.02,1.0
-Persistent Petitioners,Gruul Ponza,0.0,1,0.0,0.98
-Persistent Petitioners,Jeskai Ephemerate,0.0,1,0.0,0.98
-Persistent Petitioners,Flicker Tron,0.33,3,0.01,0.91
 Naya Gates,Mono Red Madness,0.0,1,0.0,0.98
 Naya Gates,Elves,0.0,1,0.0,0.98
 Naya Gates,Grixis Affinity,1.0,2,0.16,1.0
@@ -1379,6 +1387,20 @@ Mardu Metalcraft,White Weenie,1.0,1,0.02,1.0
 Mardu Metalcraft,GW Bogles,1.0,1,0.02,1.0
 Mardu Metalcraft,Gruul Ponza,1.0,1,0.02,1.0
 Mardu Metalcraft,Slivers,0.0,1,0.0,0.98
+Jund Gardens,Mono Red Madness,1.0,1,0.02,1.0
+Jund Gardens,Mono Blue Terror,0.0,1,0.0,0.98
+Jund Gardens,Elves,0.8,5,0.28,0.99
+Jund Gardens,Rakdos Madness,1.0,2,0.16,1.0
+Jund Gardens,Grixis Affinity,0.0,2,0.0,0.84
+Jund Gardens,Jund Wildfire,0.0,1,0.0,0.98
+Jund Gardens,Gruul Ramp,1.0,1,0.02,1.0
+Jund Gardens,Spy Combo,0.0,1,0.0,0.98
+Jund Gardens,UWx Familiar,0.0,1,0.0,0.98
+Jund Gardens,Golgari Gardens,0.0,1,0.0,0.98
+Jund Gardens,GW Bogles,1.0,1,0.02,1.0
+Jund Gardens,Mono Red Synthesizer,0.5,2,0.01,0.99
+Jund Gardens,Mono Red Burn,1.0,1,0.02,1.0
+Jund Gardens,Izzet Faeries,1.0,1,0.02,1.0
 Goblin Combo (MoggWarts),Mono Red Madness,0.0,1,0.0,0.98
 Goblin Combo (MoggWarts),Mono Blue Terror,0.0,2,0.0,0.84
 Goblin Combo (MoggWarts),Rakdos Madness,0.5,4,0.07,0.93
@@ -1391,19 +1413,6 @@ Goblin Combo (MoggWarts),Dimir Terror,0.5,2,0.01,0.99
 Goblin Combo (MoggWarts),GW Bogles,0.0,1,0.0,0.98
 Goblin Combo (MoggWarts),Dredge,0.0,1,0.0,0.98
 Goblin Combo (MoggWarts),Mono Red Synthesizer,0.0,1,0.0,0.98
-Jund Gardens,Mono Red Madness,1.0,1,0.02,1.0
-Jund Gardens,Mono Blue Terror,0.0,1,0.0,0.98
-Jund Gardens,Elves,0.8,5,0.28,0.99
-Jund Gardens,Rakdos Madness,1.0,2,0.16,1.0
-Jund Gardens,Grixis Affinity,0.0,2,0.0,0.84
-Jund Gardens,Jund Wildfire,0.0,1,0.0,0.98
-Jund Gardens,Gruul Ramp,1.0,1,0.02,1.0
-Jund Gardens,UWx Familiar,0.0,1,0.0,0.98
-Jund Gardens,Golgari Gardens,0.0,1,0.0,0.98
-Jund Gardens,GW Bogles,1.0,1,0.02,1.0
-Jund Gardens,Mono Red Synthesizer,0.5,2,0.01,0.99
-Jund Gardens,Mono Red Burn,1.0,1,0.02,1.0
-Jund Gardens,Izzet Faeries,1.0,1,0.02,1.0
 Turbo Fog,Mono Blue Terror,1.0,1,0.02,1.0
 Turbo Fog,Rakdos Madness,1.0,1,0.02,1.0
 Turbo Fog,Grixis Affinity,1.0,2,0.16,1.0
@@ -1438,16 +1447,24 @@ Naya Initiative,Golgari Gardens,1.0,1,0.02,1.0
 Naya Initiative,Mono Black Sacrifice,0.0,1,0.0,0.98
 Naya Initiative,Jeskai Ephemerate,0.0,1,0.0,0.98
 Naya Initiative,Slivers,0.5,2,0.01,0.99
-Naya Initiative,Naya Gates,1.0,1,0.02,1.0
 Dimir Spirits,Mono Red Madness,0.0,2,0.0,0.84
 Dimir Spirits,Mono Blue Terror,0.0,1,0.0,0.98
 Dimir Spirits,Elves,1.0,3,0.29,1.0
 Dimir Spirits,Grixis Affinity,0.0,1,0.0,0.98
 Dimir Spirits,Jund Wildfire,0.0,2,0.0,0.84
-Dimir Spirits,Caw Gates,0.0,1,0.0,0.98
 Dimir Spirits,Spy Combo,0.0,1,0.0,0.98
+Dimir Spirits,Caw Gates,0.0,1,0.0,0.98
 Dimir Spirits,Mono Red Synthesizer,1.0,1,0.02,1.0
 Dimir Spirits,Altar Tron,1.0,2,0.16,1.0
+Infect,Mono Blue Terror,1.0,2,0.16,1.0
+Infect,Rakdos Madness,0.0,2,0.0,0.84
+Infect,Grixis Affinity,1.0,1,0.02,1.0
+Infect,Jund Wildfire,0.0,1,0.0,0.98
+Infect,Mono Blue Faeries,0.0,1,0.0,0.98
+Infect,Spy Combo,0.0,1,0.0,0.98
+Infect,UB Faeries,0.0,1,0.0,0.98
+Infect,Mono Black Sacrifice,0.0,1,0.0,0.98
+Infect,Boros Synthesizer,1.0,1,0.02,1.0
 Dimir Abjure,Mono Red Madness,1.0,2,0.16,1.0
 Dimir Abjure,Mono Blue Terror,0.0,1,0.0,0.98
 Dimir Abjure,Rakdos Madness,0.5,2,0.01,0.99
@@ -1458,15 +1475,13 @@ Dimir Abjure,UWx Familiar,1.0,1,0.02,1.0
 Dimir Abjure,GW Bogles,1.0,1,0.02,1.0
 Dimir Abjure,Red Storm,1.0,1,0.02,1.0
 Dimir Abjure,Slivers,0.0,1,0.0,0.98
-Infect,Mono Blue Terror,1.0,2,0.16,1.0
-Infect,Rakdos Madness,0.0,1,0.0,0.98
-Infect,Grixis Affinity,1.0,1,0.02,1.0
-Infect,Jund Wildfire,0.0,1,0.0,0.98
-Infect,Mono Blue Faeries,0.0,1,0.0,0.98
-Infect,Spy Combo,0.0,1,0.0,0.98
-Infect,UB Faeries,0.0,1,0.0,0.98
-Infect,Mono Black Sacrifice,0.0,1,0.0,0.98
-Infect,Boros Synthesizer,1.0,1,0.02,1.0
+Rakdos Metalcraft,Mono Red Madness,1.0,1,0.02,1.0
+Rakdos Metalcraft,Rakdos Madness,1.0,2,0.16,1.0
+Rakdos Metalcraft,Jund Wildfire,1.0,1,0.02,1.0
+Rakdos Metalcraft,Mono Red Rally,1.0,1,0.02,1.0
+Rakdos Metalcraft,Spy Combo,1.0,2,0.16,1.0
+Rakdos Metalcraft,Gruul Ponza,0.5,2,0.01,0.99
+Rakdos Metalcraft,Eggs Tron,0.0,1,0.0,0.98
 Boros Metalcraft,Mono Red Madness,1.0,1,0.02,1.0
 Boros Metalcraft,Mono Blue Terror,1.0,2,0.16,1.0
 Boros Metalcraft,Jund Wildfire,1.0,1,0.02,1.0
@@ -1514,8 +1529,8 @@ Jeskai Gates,Mono Red Madness,0.0,1,0.0,0.98
 Jeskai Gates,Elves,0.0,1,0.0,0.98
 Jeskai Gates,Grixis Affinity,1.0,1,0.02,1.0
 Jeskai Gates,Jund Wildfire,1.0,1,0.02,1.0
-Jeskai Gates,Caw Gates,1.0,1,0.02,1.0
 Jeskai Gates,Spy Combo,0.0,1,0.0,0.98
+Jeskai Gates,Caw Gates,1.0,1,0.02,1.0
 Jeskai Gates,Dimir Terror,1.0,1,0.02,1.0
 Esper Metalcraft,Elves,0.0,1,0.0,0.98
 Esper Metalcraft,Rakdos Madness,1.0,1,0.02,1.0
@@ -1532,6 +1547,11 @@ Zombies,Grixis Affinity,0.0,1,0.0,0.98
 Zombies,Jund Wildfire,1.0,1,0.02,1.0
 Zombies,Gruul Ramp,0.0,1,0.0,0.98
 Zombies,Orzhov Blade,0.0,1,0.0,0.98
+Dimir Exhume,Rakdos Madness,0.0,1,0.0,0.98
+Dimir Exhume,Mono Red Rally,1.0,1,0.02,1.0
+Dimir Exhume,Gruul Ramp,0.0,1,0.0,0.98
+Dimir Exhume,Mono White Heroic,1.0,1,0.02,1.0
+Dimir Exhume,Flicker Tron,0.0,1,0.0,0.98
 Mono Red Dredge,Grixis Affinity,1.0,1,0.02,1.0
 Mono Red Dredge,Jund Wildfire,1.0,1,0.02,1.0
 Mono Red Dredge,Mono Red Rally,1.0,1,0.02,1.0
@@ -1588,8 +1608,8 @@ Orzhov Ephemerate,Mono Blue Terror,1.0,1,0.02,1.0
 Orzhov Ephemerate,Mono Red Synthesizer,1.0,1,0.02,1.0
 Orzhov Ephemerate,Izzet Skred,1.0,1,0.02,1.0
 Boros Aggro,Gruul Ramp,0.0,1,0.0,0.98
-Boros Aggro,Caw Gates,1.0,1,0.02,1.0
 Boros Aggro,Spy Combo,1.0,1,0.02,1.0
+Boros Aggro,Caw Gates,1.0,1,0.02,1.0
 Rakdos Vampires,Mono Blue Faeries,1.0,1,0.02,1.0
 Rakdos Vampires,Mono Green Stompy,1.0,1,0.02,1.0
 Rakdos Vampires,Jeskai Metalcraft,0.0,1,0.0,0.98

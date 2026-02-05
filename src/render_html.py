@@ -185,7 +185,7 @@ def render_pyvis(
 
     default_G, default_df = graphs_by_format[default_format_key][default_range_key]
 
-    net = Network(height="800px", width="100%", directed=True, bgcolor="#1f1f1f", font_color="#e6e6e6")
+    net = Network(height="800px", width="100%", directed=True, bgcolor="#151a21", font_color="#e6e8ec")
     net.from_nx(default_G)
     _apply_visual_overrides(net, default_G, default_df)
 
@@ -290,17 +290,46 @@ def inject_filter_ui(
     """
 
     extra_css = """
+             @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+             :root {
+                 --bg: #0f1216;
+                 --panel: #151a21;
+                 --panel-2: #1b212a;
+                 --panel-3: #222a35;
+                 --border: #2b3441;
+                 --border-strong: #3a4657;
+                 --text: #e6e8ec;
+                 --muted: #9aa4b2;
+                 --accent: #3b82f6;
+                 --accent-2: #22c55e;
+             }
 
              body {
-                 background: #1b1b1b;
+                 background: var(--bg);
+                 margin: 0;
+                 color: var(--text);
+                 font-family: 'Sora', sans-serif;
+             }
+             html, body {
+                 height: 100%;
+             }
+             body {
+                 overflow: hidden;
              }
              .card {
-                 background: #1f1f1f;
-                 border: 1px solid #2a2a2a;
+                 background: var(--panel);
+                 border: 1px solid var(--border);
+                 height: 100vh;
+                 display: flex;
+                 flex-direction: column;
+                 border-radius: 0;
+                 overflow: hidden;
              }
              #mynetwork {
-                 background-color: #1f1f1f;
-                 border: 1px solid #2a2a2a;
+                 background-color: var(--panel-2);
+                 border: 1px solid var(--border);
+                 border-radius: 12px;
              }
              /* Hide vis-network navigation buttons (arrows + zoom) */
              div.vis-network div.vis-navigation {
@@ -308,43 +337,225 @@ def inject_filter_ui(
              }
              .graph-controls {
                  display: flex;
-                 gap: 12px;
-                 align-items: center;
-                 padding: 10px 12px;
-                 border-bottom: 1px solid #2a2a2a;
-                 background: #222222;
-                 font-family: Arial, sans-serif;
+                 align-items: stretch;
+                 justify-content: space-between;
+                 gap: 16px;
+                 padding: 12px 14px;
+                 border-bottom: 1px solid var(--border-strong);
+                 background: var(--panel-3);
+                 font-family: 'Sora', sans-serif;
+                 color: var(--text);
+                 border-radius: 0;
              }
              .graph-controls label {
-                 font-size: 14px;
-                 color: #f0f0f0;
+                 font-size: 12px;
+                 color: var(--muted);
                  margin: 0;
+                 text-transform: uppercase;
+                 letter-spacing: 0.06em;
              }
-             .graph-controls .hint {
-                 font-size: 14px;
-                 color: #e5e7eb;
-                 text-decoration: underline;
-                 font-weight: 600;
+             .graph-controls .filters {
+                 display: grid;
+                 grid-template-columns: repeat(4, var(--filter-width));
+                 gap: 14px 18px;
+                 align-items: flex-start;
+             }
+             .graph-controls .filters {
+                 --filter-width: 160px;
+             }
+             .graph-controls select {
+                 color-scheme: dark;
+             }
+             .graph-controls .filter-col {
+                 display: flex;
+                 flex-direction: column;
+                 gap: 6px;
+                 min-width: 0;
+             }
+             .graph-controls .filter-col select {
+                 width: 100%;
+                 min-width: 0;
+                 height: 30px;
+                 border-radius: 0;
+                 border: 1px solid var(--border);
+                 background: #0e131a;
+                 color: var(--text);
+                 box-sizing: border-box;
+             }
+             .graph-controls .filter-col .ts-wrapper {
+                 width: 100%;
+                 min-width: 0;
+             }
+             .graph-controls .ts-wrapper,
+             .graph-controls .ts-wrapper.single,
+             .graph-controls .ts-control {
+                 width: 100% !important;
+             }
+             .graph-controls .ts-control .item {
+                 max-width: 100%;
+                 overflow: hidden;
+                 text-overflow: ellipsis;
+                 white-space: nowrap;
+             }
+             .graph-controls .ts-control {
+                 overflow: hidden;
+                 gap: 6px;
+             }
+             .graph-controls .ts-control .item,
+             .graph-controls .ts-control input {
+                 flex: 1 1 auto;
+                 min-width: 0;
+             }
+             .graph-controls .ts-control {
+                 min-height: 30px;
+                 height: 30px;
+                 padding: 3px 8px;
+                 border-radius: 0;
+                 border: 1px solid var(--border);
+                 background: #0e131a;
+                 color: var(--text);
+                 box-sizing: border-box;
+                 line-height: 22px;
+             }
+             .graph-controls .ts-control input {
+                 height: 22px;
+                 color: var(--text);
+                 background: transparent;
+                 line-height: 22px;
+             }
+             .graph-controls .ts-control .item {
+                 color: var(--text);
+             }
+             .graph-controls .ts-wrapper,
+             .graph-controls .ts-wrapper.single {
+                 background: #0e131a;
+             }
+             .graph-controls .ts-wrapper.single {
+                 height: 30px;
+                 min-height: 30px;
+             }
+             .graph-controls .ts-wrapper.single .ts-control {
+                 background: #0e131a;
+             }
+             .graph-controls .ts-wrapper.single .ts-control,
+             .graph-controls .ts-wrapper.single .ts-control > input {
+                 height: 30px;
+                 min-height: 30px;
+                 max-height: 30px;
+             }
+             .graph-controls .ts-wrapper.single .ts-control .item {
+                 line-height: 22px;
+             }
+             .graph-controls .ts-dropdown {
+                 background: #0e131a;
+                 border: 1px solid var(--border);
+                 color: var(--text);
+             }
+             .graph-controls .ts-dropdown .ts-dropdown-content {
+                 max-height: 220px;
+                 overflow: auto;
+                 scrollbar-color: #2b3441 #0b0f14;
+                 scrollbar-width: thin;
+             }
+             .graph-controls .ts-dropdown .ts-dropdown-content::-webkit-scrollbar {
+                 width: 10px;
+             }
+             .graph-controls .ts-dropdown .ts-dropdown-content::-webkit-scrollbar-track {
+                 background: #0b0f14;
+             }
+             .graph-controls .ts-dropdown .ts-dropdown-content::-webkit-scrollbar-thumb {
+                 background-color: #2b3441;
+                 border: 2px solid #0b0f14;
+                 border-radius: 8px;
+             }
+             .graph-controls .ts-wrapper {
+                 width: 100%;
+             }
+             .graph-controls .ts-control {
+                 flex-wrap: nowrap;
+             }
+             .graph-controls .ts-control .item {
+                 color: var(--text);
+                 background: transparent;
+             }
+             .graph-controls .ts-control input,
+             .graph-controls .ts-control input:focus {
+                 color: var(--text);
+             }
+             .graph-controls .ts-control::after {
+                 border-color: var(--muted) transparent transparent transparent;
+             }
+             .graph-controls .ts-dropdown .active {
+                 background: #121823;
+                 color: var(--text);
+             }
+             .graph-controls .ts-dropdown .option {
+                 background: #0e131a;
+                 color: var(--text);
+             }
+             .graph-controls .ts-dropdown .option:hover,
+             .graph-controls .ts-dropdown .option.active {
+                 background: #182131;
+                 color: var(--text);
+             }
+             .graph-controls .ts-wrapper.single.input-active .ts-control,
+             .graph-controls .ts-wrapper.single.input-active .ts-control input {
+                 background: #0e131a;
+                 color: var(--text);
+             }
+             .graph-controls .ts-wrapper.single.input-active .ts-control {
+                 box-shadow: none;
+             }
+             .graph-controls .actions {
+                 display: flex;
+                 flex-direction: column;
+                 gap: 4px;
+                 align-items: flex-end;
+                 flex: 0 0 auto;
              }
              .graph-controls .spacer {
                  flex: 1 1 auto;
              }
-             .node-summary {
-                 min-width: 220px;
-                 padding: 6px 10px;
-                 border: 1px solid #2f3b4a;
-                 background: #1b2530;
-                 color: #e6e6e6;
-                 font-family: Arial, sans-serif;
+             .graph-controls .hint-line {
+                 font-size: 12px;
+                 color: #dbe3ef;
+                 text-decoration: none;
+                 font-weight: 600;
+                 white-space: nowrap;
+                 align-self: flex-end;
+                 text-align: right;
+                 background: rgba(15, 23, 42, 0.8);
+                 border: 1px solid #2f3b52;
+                 border-radius: 10px;
+                 padding: 4px 10px;
+             }
+             .sidepanel.hidden {
+                 display: none;
+             }
+             .panel-header {
+                 display: flex;
+                 align-items: flex-start;
+                 justify-content: space-between;
+                 gap: 12px;
+             }
+             .panel-summary {
+                 text-align: right;
+                 min-width: 120px;
                  font-size: 12px;
                  line-height: 1.25;
-                 border-radius: 6px;
+             }
+             .panel-summary .label {
+                 color: var(--muted);
+                 display: block;
+             }
+             .panel-summary .value {
+                 font-weight: 700;
              }
              .node-summary-title {
                  font-size: 13px;
                  font-weight: 700;
                  margin-bottom: 4px;
-                 color: #f3f4f6;
+                 color: var(--text);
              }
              .node-summary-row {
                  display: flex;
@@ -352,24 +563,26 @@ def inject_filter_ui(
                  gap: 8px;
              }
              .node-summary-row strong {
-                 color: #f9fafb;
+                 color: var(--text);
              }
              .graph-controls .btn-mini {
-                 border: 1px solid #3a3a3a;
-                 background: #2a2a2a;
-                 color: #e6e6e6;
+                 border: 1px solid var(--border);
+                 background: #111827;
+                 color: var(--text);
                  padding: 4px 10px;
                  font-size: 12px;
                  cursor: pointer;
+                 border-radius: 999px;
              }
              .help-btn {
-                 border: 1px solid #38bdf8;
-                 background: #7dd3fc;
-                 color: #0f172a;
+                 border: 1px solid #3766a9;
+                 background: #1d4ed8;
+                 color: #eaf2ff;
                  padding: 4px 10px;
                  font-size: 12px;
                  font-weight: 600;
                  cursor: pointer;
+                 border-radius: 999px;
              }
              .help-overlay {
                  display: none;
@@ -382,12 +595,12 @@ def inject_filter_ui(
              }
              .help-modal {
                  width: min(680px, 92vw);
-                 background: #1f1f1f;
-                 border: 1px solid #2a2a2a;
+                 background: var(--panel);
+                 border: 1px solid var(--border);
                  border-radius: 8px;
                  padding: 14px 16px;
-                 color: #e6e6e6;
-                 font-family: Arial, sans-serif;
+                 color: var(--text);
+                 font-family: 'Sora', sans-serif;
                  font-size: 13px;
                  line-height: 1.4;
                  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
@@ -407,64 +620,153 @@ def inject_filter_ui(
                  float: right;
                  border: none;
                  background: transparent;
-                 color: #e6e6e6;
+                 color: var(--muted);
                  font-size: 16px;
                  cursor: pointer;
              }
              .graph-layout {
                  display: flex;
-                 gap: 12px;
+                 gap: 0;
                  align-items: stretch;
+                 position: relative;
+                 flex: 1 1 auto;
+                 min-height: 0;
+                 overflow: hidden;
+             }
+             .graph-canvas {
+                 position: relative;
+                 flex: 1 1 auto;
+                 min-width: 0;
+                 display: flex;
              }
              #mynetwork {
                  flex: 1 1 auto;
                  min-width: 0;
+                 height: 100% !important;
+                 min-height: 0;
              }
              .sidepanel {
                  width: 360px;
                  padding: 10px 12px;
-                 border-left: 1px solid #2a2a2a;
-                 background: #1f1f1f;
-                 font-family: Arial, sans-serif;
+                 border-left: 1px solid var(--border-strong);
+                 background: var(--panel-3);
+                 font-family: 'Sora', sans-serif;
+                 display: flex;
+                 flex-direction: column;
+                 min-height: 0;
+                 border-radius: 0;
              }
              .sidepanel h3 {
                  font-size: 16px;
                  margin: 0 0 6px 0;
-                 color: #f5f5f5;
+                 color: var(--text);
              }
              .sidepanel .sub {
                  font-size: 12px;
-                 color: #b0b0b0;
+                 color: var(--muted);
                  margin-bottom: 8px;
              }
              .sidepanel table {
                  width: 100%;
                  border-collapse: collapse;
                  font-size: 12px;
+                 background: #0f141b;
+                 border-radius: 0;
+                 table-layout: fixed;
+             }
+             .sidepanel th:nth-child(1),
+             .sidepanel td:nth-child(1) { width: 56%; }
+             .sidepanel th:nth-child(2),
+             .sidepanel td:nth-child(2) { width: 22%; }
+             .sidepanel th:nth-child(3),
+             .sidepanel td:nth-child(3) { width: 22%; }
+             .table-scroll {
+                 flex: 1 1 auto;
+                 min-height: 0;
+                 overflow: auto;
+                 border: 1px solid var(--border);
+                 background: #0b0f14;
+                 border-radius: 0;
+             }
+             .table-scroll {
+                 scrollbar-color: #2b3441 #0b0f14;
+                 scrollbar-width: thin;
+             }
+             .table-scroll::-webkit-scrollbar {
+                 width: 10px;
+             }
+             .table-scroll::-webkit-scrollbar-track {
+                 background: #0b0f14;
+             }
+             .table-scroll::-webkit-scrollbar-thumb {
+                 background-color: #2b3441;
+                 border: 2px solid #0b0f14;
+                 border-radius: 8px;
              }
              .sidepanel th, .sidepanel td {
-                 border-bottom: 1px solid #2a2a2a;
+                 border-bottom: 1px solid #1f2833;
                  padding: 4px 6px;
                  text-align: left;
-                 color: #f0f0f0;
+                 color: var(--text);
              }
              .sidepanel th {
-                 background: #242424;
+                 background: #121823;
+             }
+             .sidepanel tbody tr {
+                 background: #0c1118;
+             }
+             .sidepanel tbody tr:nth-child(even) {
+                 background: #0f151e;
+             }
+             .sidepanel tbody td {
+                 color: var(--text);
+             }
+             .sidepanel tbody td:nth-child(2) {
+                 text-shadow: 0 1px 2px rgba(0,0,0,0.65);
+                 font-weight: 600;
              }
              .graph-footer {
-                 margin-top: 10px;
+                 margin-top: 0;
                  padding: 8px 12px;
-                 border-top: 1px solid #2a2a2a;
-                 color: #b8c0cc;
-                 font-family: Arial, sans-serif;
+                 border-top: 1px solid var(--border);
+                 color: var(--muted);
+                 font-family: 'Sora', sans-serif;
                  font-size: 12px;
                  display: flex;
                  justify-content: space-between;
                  gap: 12px;
                  flex-wrap: wrap;
+                 flex: 0 0 auto;
+                 background: var(--panel);
+                 border-radius: 0;
+             }
+             .graph-actions {
+                 position: absolute;
+                 left: 16px;
+                 top: 12px;
+                 display: flex;
+                 gap: 10px;
+                 z-index: 5;
+                 pointer-events: auto;
+             }
+             .graph-action-btn {
+                 border-radius: 999px;
+                 padding: 8px 16px;
+                 font-size: 12px;
+                 font-weight: 600;
+                 border: 1px solid var(--border);
+                 background: rgba(17, 24, 39, 0.9);
+                 color: var(--text);
+                 cursor: pointer;
+                 box-shadow: 0 6px 16px rgba(0,0,0,0.35);
+             }
+             .graph-action-btn.help {
+                 border-color: #1d4ed8;
+                 background: rgba(29, 78, 216, 0.95);
+                 color: #eaf2ff;
              }
              .graph-footer a {
-                 color: #93c5fd;
+                 color: var(--accent);
                  text-decoration: none;
              }
              .graph-footer a:hover,
@@ -476,8 +778,13 @@ def inject_filter_ui(
                      flex-wrap: wrap;
                      gap: 8px;
                  }
-                 .graph-controls label {
-                     font-size: 12px;
+                 .graph-controls .filters {
+                     grid-template-columns: repeat(2, minmax(160px, 1fr));
+                     width: 100%;
+                 }
+                 .graph-controls .actions {
+                     width: 100%;
+                     align-items: flex-start;
                  }
                  .graph-controls select,
                  .graph-controls .btn-mini,
@@ -485,10 +792,11 @@ def inject_filter_ui(
                      min-height: 36px;
                      font-size: 13px;
                  }
-                 .graph-controls .hint {
+                .graph-controls .hint-line {
                      width: 100%;
                      order: 99;
-                     font-size: 12px;
+                     font-size: 11px;
+                     white-space: normal;
                  }
                  .node-summary {
                      width: 100%;
@@ -500,7 +808,7 @@ def inject_filter_ui(
                  .sidepanel {
                      width: 100%;
                      border-left: none;
-                     border-top: 1px solid #2a2a2a;
+                     border-top: 1px solid var(--border);
                      max-height: 45vh;
                      overflow: auto;
                  }
@@ -509,19 +817,29 @@ def inject_filter_ui(
                  }
              }
              @media (max-width: 640px) {
-                 .graph-controls select {
+                 .graph-controls {
+                     flex-direction: column;
+                     align-items: stretch;
+                 }
+                 .graph-controls .filter-col {
                      width: 100%;
                  }
-                 .graph-controls label {
+                 .graph-controls .filter-col select {
+                     width: 100%;
+                 }
+                 .graph-controls .filters {
+                     grid-template-columns: 1fr;
+                 }
+                 .graph-controls .actions {
                      width: 100%;
                  }
                  .graph-controls .btn-mini,
                  .graph-controls .help-btn {
                      width: 100%;
                  }
-                 .graph-controls .hint {
-                     font-size: 11px;
-                 }
+                .graph-controls .hint-line {
+                    font-size: 11px;
+                }
                  .sidepanel table {
                      font-size: 11px;
                  }
@@ -530,27 +848,38 @@ def inject_filter_ui(
 
     controls_html = f"""
             <div class="graph-controls">
-                <label for="formatFilter">Format</label>
-                <select id="formatFilter">
-                    {format_options_html}
-                </select>
-                <label for="rangeFilter">Time range</label>
-                <select id="rangeFilter">
-                    {range_options_html}
-                </select>
-                <label for="archetypeFilter">Archetype filter</label>
-                <select id="archetypeFilter" placeholder="All">
-                    <option value="__all__">All</option>
-                </select>
-                <button id="resetFilter" class="btn-mini" type="button">Reset</button>
-                <button id="matrixBtn" class="btn-mini" type="button">Matrix</button>
-                <button id="helpBtn" class="help-btn" type="button">Help</button>
-                <span class="hint">Select an archetype from the filter OR click a node to focus it, zoom to see details</span>
+                <div class="filters">
+                    <div class="filter-col">
+                        <label for="formatFilter">Format</label>
+                        <select id="formatFilter">
+                            {format_options_html}
+                        </select>
+                    </div>
+                    <div class="filter-col">
+                        <label for="rangeFilter">Range</label>
+                        <select id="rangeFilter">
+                            {range_options_html}
+                        </select>
+                    </div>
+                    <div class="filter-col">
+                        <label for="nodeLimit">Nodes</label>
+                        <select id="nodeLimit">
+                            <option value="30">30</option>
+                            <option value="20" selected>20</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="filter-col">
+                        <label for="archetypeFilter">Archetype</label>
+                        <select id="archetypeFilter" placeholder="All">
+                            <option value="__all__">All</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="spacer"></div>
-                <div id="nodeSummary" class="node-summary">
-                    <div id="nodeSummaryTitle" class="node-summary-title">No archetype selected</div>
-                    <div class="node-summary-row"><span>Winrate</span><strong id="nodeSummaryWinrate">—</strong></div>
-                    <div class="node-summary-row"><span>Matches</span><strong id="nodeSummaryMatches">—</strong></div>
+                <div class="actions">
+                    <span class="hint-line">To filter, click a node in the graph.</span>
+                    <span class="hint-line">Zoom in to see details.</span>
                 </div>
             </div>
             <div id="helpOverlay" class="help-overlay">
@@ -572,20 +901,39 @@ def inject_filter_ui(
 
     sidepanel_html = """
             <div class="graph-layout">
-                <div id="mynetwork" class="card-body"></div>
-                <div class="sidepanel">
-                    <h3 id="panelTitle">Select an archetype</h3>
-                    <div class="sub" id="panelSubtitle">Matchups will be shown (sortable).</div>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th id="thDeck" data-key="deck" title="Click to sort by Deck">Deck</th>
-                                <th id="thWinrate" data-key="winrate" title="Click to sort by Winrate">Winrate</th>
-                                <th id="thMatches" data-key="matches" title="Click to sort by Matches">Matches</th>
-                            </tr>
-                        </thead>
-                        <tbody id="matchupBody"></tbody>
-                    </table>
+                <div class="graph-canvas">
+                    <div id="mynetwork" class="card-body"></div>
+                    <div class="graph-actions">
+                        <button id="resetFilter" class="graph-action-btn" type="button">Reset</button>
+                        <button id="matrixBtn" class="graph-action-btn" type="button">Matrix</button>
+                        <button id="helpBtn" class="graph-action-btn help" type="button">Help</button>
+                    </div>
+                </div>
+                <div class="sidepanel hidden" id="sidepanel">
+                    <div class="panel-header">
+                        <div>
+                            <h3 id="panelTitle">Select an archetype</h3>
+                            <div class="sub" id="panelSubtitle">Matchups will be shown (sortable).</div>
+                        </div>
+                        <div class="panel-summary">
+                            <span class="label">Winrate</span>
+                            <span class="value" id="panelWinrate">—</span>
+                            <span class="label" style="margin-top:4px;">Matches</span>
+                            <span class="value" id="panelMatches">—</span>
+                        </div>
+                    </div>
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="thDeck" data-key="deck" title="Click to sort by Deck">Deck</th>
+                                    <th id="thWinrate" data-key="winrate" title="Click to sort by Winrate">Winrate</th>
+                                    <th id="thMatches" data-key="matches" title="Click to sort by Matches">Matches</th>
+                                </tr>
+                            </thead>
+                            <tbody id="matchupBody"></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
     """
@@ -605,6 +953,7 @@ def inject_filter_ui(
         "                  var currentRangeKey = defaultRangeKey;\n"
         "                  var formatSelect = document.getElementById('formatFilter');\n"
         "                  var rangeSelect = document.getElementById('rangeFilter');\n"
+        "                  var nodeLimitSelect = document.getElementById('nodeLimit');\n"
         """
                   var filterSelect = document.getElementById('archetypeFilter');
                   var resetBtn = document.getElementById('resetFilter');
@@ -619,54 +968,26 @@ def inject_filter_ui(
                   var helpBtn = document.getElementById('helpBtn');
                   var helpOverlay = document.getElementById('helpOverlay');
                   var helpClose = document.getElementById('helpClose');
-                  var nodeSummaryTitle = document.getElementById('nodeSummaryTitle');
-                  var nodeSummaryWinrate = document.getElementById('nodeSummaryWinrate');
-                  var nodeSummaryMatches = document.getElementById('nodeSummaryMatches');
+                  var sidepanel = document.getElementById('sidepanel');
+                  var panelWinrate = document.getElementById('panelWinrate');
+                  var panelMatches = document.getElementById('panelMatches');
 
                   var baseNodeState = {};
                   var baseEdgeState = {};
                   var baseSizes = {};
+                  var currentFocusId = null;
 
                   function visibleDataNodes() {
-                      return nodes.get().filter(function(n) { return !n.is_label_node; });
+                      return nodes.get().filter(function(n) { return !n.is_label_node && !n.hidden; });
                   }
 
                   function allLabelNodes() {
                       return nodes.get().filter(function(n) { return n.is_label_node; });
                   }
 
-                  function clearNodeSummary() {
-                      if (nodeSummaryTitle) nodeSummaryTitle.textContent = 'No archetype selected';
-                      if (nodeSummaryWinrate) nodeSummaryWinrate.textContent = '—';
-                      if (nodeSummaryMatches) nodeSummaryMatches.textContent = '—';
-                  }
-
-                  function updateNodeSummary(nodeId) {
-                      var node = nodes.get(nodeId);
-                      if (!node) {
-                          clearNodeSummary();
-                          return;
-                      }
-                      var label = node.display_label || node.id || nodeId;
-                      var wr = (node.overall_winrate !== undefined && node.overall_winrate !== null)
-                          ? Number(node.overall_winrate)
-                          : null;
-                      var matches = (node.matches !== undefined && node.matches !== null)
-                          ? Number(node.matches)
-                          : 0;
-
-                      if (nodeSummaryTitle) nodeSummaryTitle.textContent = label;
-                      if (nodeSummaryWinrate) {
-                          nodeSummaryWinrate.textContent = (wr !== null && isFinite(wr))
-                              ? (wr * 100).toFixed(1) + '%'
-                              : 'n/a';
-                          nodeSummaryWinrate.style.color = (wr !== null && isFinite(wr))
-                              ? winrateColor(wr)
-                              : '#e5e7eb';
-                      }
-                      if (nodeSummaryMatches) {
-                          nodeSummaryMatches.textContent = (matches || 0).toLocaleString();
-                      }
+                  function clearPanelSummary() {
+                      if (panelWinrate) panelWinrate.textContent = '—';
+                      if (panelMatches) panelMatches.textContent = '—';
                   }
 
                   function winrateColor(wr) {
@@ -712,11 +1033,32 @@ def inject_filter_ui(
                       return OUT_MIN + x * (OUT_MAX - OUT_MIN);
                   }
 
+                  function applyNodeLimit(limit) {
+                      return buildNodeLimitSet(limit, null);
+                  }
+
+                  function buildNodeLimitSet(limit, selectedId) {
+                      var nodesArray = nodes.get();
+                      var dataNodes = nodesArray.filter(function(n) { return !n.is_label_node; });
+                      dataNodes.sort(function(a, b) { return (b.matches || 0) - (a.matches || 0); });
+                      var keep = {};
+                      for (var i = 0; i < dataNodes.length && i < limit; i++) {
+                          keep[dataNodes[i].id] = true;
+                      }
+                      if (selectedId) {
+                          keep[selectedId] = true;
+                      }
+                      return keep;
+                  }
+
                   function showAll() {
+                      currentFocusId = null;
                       var nodesArray = nodes.get();
                       var edgesArray = edges.get();
                       var dataNodeIds = {};
                       var basePos = {};
+                      var limit = nodeLimitSelect ? parseInt(nodeLimitSelect.value || '20', 10) : 0;
+                      var limitKeep = limit ? buildNodeLimitSet(limit, null) : null;
                       for (var i0 = 0; i0 < nodesArray.length; i0++) {
                           var nn0 = nodesArray[i0];
                           if (!nn0.is_label_node) {
@@ -726,17 +1068,27 @@ def inject_filter_ui(
                       for (var i = 0; i < nodesArray.length; i++) {
                           var n0 = nodesArray[i];
                           if (n0.is_label_node) {
-                              n0.hidden = !dataNodeIds[n0.base_id];
+                              var keepLabel = dataNodeIds[n0.base_id];
+                              if (limitKeep) {
+                                  keepLabel = keepLabel && !!limitKeep[n0.base_id];
+                              }
+                              n0.hidden = !keepLabel;
                               continue;
                           }
-                          n0.hidden = false;
+                          var keepNode = true;
+                          if (limitKeep) {
+                              keepNode = !!limitKeep[n0.id];
+                          }
+                          n0.hidden = !keepNode;
                           var original = baseNodeState[n0.id];
                           if (original) {
                               n0.fixed = original.fixed;
                               n0.x = original.x;
                               n0.y = original.y;
                           }
-                          basePos[n0.id] = { x: n0.x || 0, y: n0.y || 0 };
+                          if (!n0.hidden) {
+                              basePos[n0.id] = { x: n0.x || 0, y: n0.y || 0 };
+                          }
                       }
                       for (var i2 = 0; i2 < nodesArray.length; i2++) {
                           var lbl = nodesArray[i2];
@@ -751,7 +1103,11 @@ def inject_filter_ui(
                           }
                       }
                       for (var j = 0; j < edgesArray.length; j++) {
-                          edgesArray[j].hidden = false;
+                          if (limitKeep) {
+                              edgesArray[j].hidden = !(limitKeep[edgesArray[j].from] && limitKeep[edgesArray[j].to]);
+                          } else {
+                              edgesArray[j].hidden = false;
+                          }
                           var ebase = baseEdgeState[edgesArray[j].id];
                           if (ebase) {
                               edgesArray[j].from = ebase.from;
@@ -765,16 +1121,21 @@ def inject_filter_ui(
                       edges.update(edgesArray);
                       network.setOptions({
                           physics: { enabled: false },
-                          edges: { smooth: { type: "dynamic" } }
+                          edges: { smooth: { type: "dynamic" } },
+                          interaction: { dragView: true }
                       });
                       network.fit({ animation: false });
+                      if (sidepanel) sidepanel.classList.add('hidden');
                       panelTitle.textContent = 'Select an archetype';
                       panelSubtitle.textContent = 'Matchups will be shown (click headers to sort).';
                       matchupBody.innerHTML = '';
-                      clearNodeSummary();
+                      clearPanelSummary();
                   }
 
                   function showRelations(nodeId) {
+                      currentFocusId = nodeId;
+                      var limit = nodeLimitSelect ? parseInt(nodeLimitSelect.value || '20', 10) : 0;
+                      var limitKeep = limit ? buildNodeLimitSet(limit, nodeId) : null;
                       var connectedNodes = network.getConnectedNodes(nodeId);
                       var connectedEdges = network.getConnectedEdges(nodeId);
                       var nodesArray = nodes.get();
@@ -782,21 +1143,34 @@ def inject_filter_ui(
                       var keepIds = {};
                       keepIds[nodeId] = true;
                       for (var ci = 0; ci < connectedNodes.length; ci++) {
-                          keepIds[connectedNodes[ci]] = true;
+                          var cid = connectedNodes[ci];
+                          if (!limitKeep || limitKeep[cid]) {
+                              keepIds[cid] = true;
+                          }
                       }
 
                       for (var i = 0; i < nodesArray.length; i++) {
                           var n1 = nodesArray[i];
                           if (n1.is_label_node) {
-                              n1.hidden = !keepIds[n1.base_id];
+                              var keepLabel = !!keepIds[n1.base_id];
+                              if (limitKeep) {
+                                  keepLabel = keepLabel && !!limitKeep[n1.base_id];
+                              }
+                              n1.hidden = !keepLabel;
                               continue;
                           }
                           var keepNode = !!keepIds[n1.id];
+                          if (limitKeep) {
+                              keepNode = keepNode && !!limitKeep[n1.id];
+                          }
                           n1.hidden = !keepNode;
                       }
 
                       for (var j = 0; j < edgesArray.length; j++) {
                           var keepEdge = connectedEdges.indexOf(edgesArray[j].id) !== -1;
+                          if (limitKeep) {
+                              keepEdge = keepEdge && !!limitKeep[edgesArray[j].from] && !!limitKeep[edgesArray[j].to];
+                          }
                           edgesArray[j].hidden = !keepEdge;
                       }
 
@@ -804,13 +1178,13 @@ def inject_filter_ui(
                       edges.update(edgesArray);
                       network.setOptions({
                           physics: { enabled: false },
-                          edges: { smooth: false }
+                          edges: { smooth: false },
+                          interaction: { dragView: true }
                       });
                       layoutVisibleNodesCentered(nodeId);
                       applyCenterEdgeEncoding(nodeId);
                       network.fit({ animation: false });
                       renderMatchups(nodeId);
-                      updateNodeSummary(nodeId);
                   }
 
                   function rebuildArchetypeOptions() {
@@ -949,9 +1323,12 @@ def inject_filter_ui(
                       network.setData({ nodes: nodes, edges: edges });
 
                       initBaseState();
+                      if (nodeLimitSelect) {
+                          applyNodeLimit(parseInt(nodeLimitSelect.value || '20', 10));
+                      }
                       rebuildArchetypeOptions();
                       showAll();
-                      clearNodeSummary();
+                      clearPanelSummary();
 
                       if (formatSelect) {
                           formatSelect.value = currentFormatKey;
@@ -972,6 +1349,18 @@ def inject_filter_ui(
                   if (rangeSelect) {
                       rangeSelect.addEventListener('change', function() {
                           loadDataset(currentFormatKey, rangeSelect.value);
+                      });
+                  }
+
+                  if (nodeLimitSelect) {
+                      nodeLimitSelect.addEventListener('change', function() {
+                          var selected = currentFocusId || filterSelect.value;
+                          if (!selected || selected === '__all__') {
+                              showAll();
+                          } else {
+                              showRelations(selected);
+                          }
+                          rebuildArchetypeOptions();
                       });
                   }
 
@@ -1069,7 +1458,8 @@ def inject_filter_ui(
                       htmlParts.push('<!doctype html><html><head><meta charset="utf-8" />');
                       htmlParts.push('<title>MTG Winrate Matrix</title>');
                       htmlParts.push('<style>');
-                      htmlParts.push('body{background:#0b0f14;color:#e5e7eb;font-family:Arial,sans-serif;margin:0;padding:12px;}');
+                      htmlParts.push("@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');");
+                      htmlParts.push('body{background:#0f1216;color:#e6e8ec;font-family:"Sora",sans-serif;margin:0;padding:12px;}');
                       htmlParts.push('h2{margin:0 0 8px 0;font-size:18px;}');
                       htmlParts.push('.sub{color:#9ca3af;font-size:12px;margin-bottom:10px;}');
                       htmlParts.push('table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:11px;}');
@@ -1328,6 +1718,7 @@ def inject_filter_ui(
                   function renderMatchups(nodeId) {
                       var nodeObj = nodes.get(nodeId) || {};
                       var nodeLabel = nodeObj.display_label || nodeObj.id || nodeId;
+                      if (sidepanel) sidepanel.classList.remove('hidden');
                       panelTitle.textContent = nodeLabel;
                       updateSortSubtitle();
                       matchupBody.innerHTML = '';
@@ -1372,6 +1763,24 @@ def inject_filter_ui(
                           }
                           return sortDir === 'asc' ? (av - bv) : (bv - av);
                       });
+
+                      var ow = (nodeObj.overall_winrate !== undefined && nodeObj.overall_winrate !== null)
+                          ? Number(nodeObj.overall_winrate)
+                          : null;
+                      var om = (nodeObj.matches !== undefined && nodeObj.matches !== null)
+                          ? Number(nodeObj.matches)
+                          : 0;
+                      if (panelWinrate) {
+                          panelWinrate.textContent = (ow !== null && isFinite(ow))
+                              ? (ow * 100).toFixed(1) + '%'
+                              : 'n/a';
+                          panelWinrate.style.color = (ow !== null && isFinite(ow))
+                              ? winrateColor(ow)
+                              : '#e5e7eb';
+                      }
+                      if (panelMatches) {
+                          panelMatches.textContent = (om || 0).toLocaleString();
+                      }
 
                       for (var k = 0; k < rows.length; k++) {
                           var r = rows[k];

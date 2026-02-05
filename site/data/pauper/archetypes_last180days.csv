@@ -1,31 +1,31 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
-Mono Red Madness,0.50691453185219,4411,0.49,0.52,/Pauper/mono-red-madness
-Mono Blue Terror,0.48304263565891,4128,0.47,0.5,/Pauper/mono-blue-terror
-Jund Wildfire,0.50618131868132,2912,0.49,0.52,/Pauper/jund-wildfire
-Rakdos Madness,0.48126301179736,2882,0.46,0.5,/Pauper/rakdos-madness
-Mono Red Rally,0.53558844256519,2838,0.52,0.55,/Pauper/mono-red-rally
+Mono Red Madness,0.5067842605156,4422,0.49,0.52,/Pauper/mono-red-madness
+Mono Blue Terror,0.48282535074988,4134,0.47,0.5,/Pauper/mono-blue-terror
+Jund Wildfire,0.50565262076053,2919,0.49,0.52,/Pauper/jund-wildfire
+Rakdos Madness,0.48168624740843,2894,0.46,0.5,/Pauper/rakdos-madness
+Mono Red Rally,0.5351617440225,2844,0.52,0.55,/Pauper/mono-red-rally
 Grixis Affinity,0.51209677419355,2480,0.49,0.53,/Pauper/grixis-affinity
 Mono Blue Faeries,0.53113879003559,2248,0.51,0.55,/Pauper/mono-blue-faeries
 Elves,0.55565735226752,2183,0.53,0.58,/Pauper/elves
-Spy Combo,0.5675815639565,1931,0.55,0.59,/Pauper/spy-combo
-Gruul Ramp,0.53039832285115,1908,0.51,0.55,/Pauper/gruul-ramp
-White Weenie,0.52720207253886,1544,0.5,0.55,/Pauper/white-weenie
-UB Faeries,0.50793650793651,1323,0.48,0.54,/Pauper/ub-faeries
-Mono Black Sacrifice,0.47811447811448,1188,0.45,0.51,/Pauper/mono-black-sacrifice
+Spy Combo,0.56723338485317,1941,0.54,0.59,/Pauper/spy-combo
+Gruul Ramp,0.53110297961317,1913,0.51,0.55,/Pauper/gruul-ramp
+White Weenie,0.52686084142395,1545,0.5,0.55,/Pauper/white-weenie
+UB Faeries,0.50755287009063,1324,0.48,0.53,/Pauper/ub-faeries
+Mono Black Sacrifice,0.47902684563758,1192,0.45,0.51,/Pauper/mono-black-sacrifice
 Caw Gates,0.57525951557093,1156,0.55,0.6,/Pauper/caw-gates
 Esper Affinity,0.494555353902,1102,0.46,0.52,/Pauper/esper-affinity
 Golgari Gardens,0.5088868101029,1069,0.48,0.54,/Pauper/golgari-gardens
 UWx Familiar,0.5004812319538,1039,0.47,0.53,/Pauper/uwx-familiar
 Dimir Terror,0.49015317286652,914,0.46,0.52,/Pauper/dimir-terror
 GW Bogles,0.45993413830955,911,0.43,0.49,/Pauper/gw-bogles
-Gruul Ponza,0.53453038674033,724,0.5,0.57,/Pauper/gruul-ponza
-Altar Tron,0.48985507246377,690,0.45,0.53,/Pauper/altar-tron
+Gruul Ponza,0.53360768175583,729,0.5,0.57,/Pauper/gruul-ponza
+Altar Tron,0.48917748917749,693,0.45,0.53,/Pauper/altar-tron
 Mono Red Synthesizer,0.51208459214502,662,0.47,0.55,/Pauper/mono-red-synthesizer
 Izzet Skred,0.48295454545455,528,0.44,0.53,/Pauper/izzet-skred
 Orzhov Blade,0.48024948024948,481,0.43,0.53,/Pauper/orzhov-blade
 Flicker Tron,0.44514767932489,474,0.4,0.49,/Pauper/flicker-tron
 Jeskai Ephemerate,0.52136752136752,468,0.48,0.57,/Pauper/jeskai-ephemerate
-Mono White Heroic,0.48583877995643,459,0.44,0.53,/Pauper/mono-white-heroic
+Mono White Heroic,0.48380129589633,463,0.44,0.53,/Pauper/mono-white-heroic
 Dredge,0.47317073170732,410,0.42,0.52,/Pauper/dredge
 Defender Combo,0.55080213903743,374,0.5,0.6,/Pauper/defender-combo
 Boros Synthesizer,0.49546827794562,331,0.44,0.55,/Pauper/boros-synthesizer
@@ -33,24 +33,24 @@ Mardu Metalcraft,0.48297213622291,323,0.43,0.54,/Pauper/mardu-metalcraft
 Jeskai Metalcraft,0.55290102389078,293,0.49,0.61,/Pauper/jeskai-metalcraft
 Turbo Fog,0.52674897119342,243,0.46,0.59,/Pauper/turbo-fog
 Dimir Affinity,0.45754716981132,212,0.39,0.53,/Pauper/dimir-affinity
-Infect,0.39047619047619,210,0.32,0.46,/Pauper/infect
+Infect,0.38862559241706,211,0.32,0.46,/Pauper/infect
 Mono Red Burn,0.37566137566138,189,0.31,0.45,/Pauper/mono-red-burn
-Persistent Petitioners,0.44565217391304,184,0.37,0.52,/Pauper/persistent-petitioners
+Persistent Petitioners,0.45212765957447,188,0.38,0.53,/Pauper/persistent-petitioners
+Monster Tron,0.54237288135593,177,0.47,0.62,/Pauper/monster-tron
+Rakdos Metalcraft,0.53714285714286,175,0.46,0.61,/Pauper/rakdos-metalcraft
 Golgari Pestilence,0.54117647058824,170,0.46,0.62,/Pauper/golgari-pestilence
-Monster Tron,0.53529411764706,170,0.46,0.61,/Pauper/monster-tron
 Cycling Storm,0.30909090909091,165,0.24,0.39,/Pauper/cycling-storm
-Rakdos Metalcraft,0.52147239263804,163,0.44,0.6,/Pauper/rakdos-metalcraft
 Poison Storm,0.33974358974359,156,0.27,0.42,/Pauper/poison-storm
 Mono Black Control,0.44078947368421,152,0.36,0.52,/Pauper/mono-black-control
 Mono Black Burn,0.46052631578947,152,0.38,0.54,/Pauper/mono-black-burn
-Eggs Tron,0.42857142857143,147,0.35,0.51,/Pauper/eggs-tron
+Eggs Tron,0.43708609271523,151,0.36,0.52,/Pauper/eggs-tron
 Dimir Control,0.49645390070922,141,0.41,0.58,/Pauper/dimir-control
 Mono Red Kiln Fiend,0.49645390070922,141,0.41,0.58,/Pauper/mono-red-kiln-fiend
 Slivers,0.42647058823529,136,0.34,0.51,/Pauper/slivers
 Dimir Abjure,0.53383458646617,133,0.45,0.62,/Pauper/dimir-abjure
 Mono Red Dredge,0.40151515151515,132,0.32,0.49,/Pauper/mono-red-dredge
 Boros Bully,0.55384615384615,130,0.46,0.64,/Pauper/boros-bully
-Jund Gardens,0.49593495934959,123,0.4,0.59,/Pauper/jund-gardens
+Jund Gardens,0.496,125,0.41,0.59,/Pauper/jund-gardens
 Izzet Faeries,0.47368421052632,114,0.38,0.57,/Pauper/izzet-faeries
 Mono Black Pactdoll,0.40350877192982,114,0.31,0.5,/Pauper/mono-black-pactdoll
 Mono Green Stompy,0.45045045045045,111,0.36,0.55,/Pauper/mono-green-stompy
@@ -91,6 +91,7 @@ Mono Red Ponza,0.31578947368421,19,0.13,0.57,/Pauper/mono-red-ponza
 Mono Black Madness,0.31578947368421,19,0.13,0.57,/Pauper/mono-black-madness
 Rakdos Exhume,0.36842105263158,19,0.16,0.62,/Pauper/rakdos-exhume
 UB Teachings,0.5,18,0.26,0.74,/Pauper/ub-teachings
+Dimir Exhume,0.33333333333333,18,0.13,0.59,/Pauper/dimir-exhume
 Esper Bounce,0.44444444444444,18,0.22,0.69,/Pauper/esper-bounce
 Mono Green Tokens,0.3125,16,0.11,0.59,/Pauper/mono-green-tokens
 Mono Blue Affinity,0.5,16,0.25,0.75,/Pauper/mono-blue-affinity
@@ -99,7 +100,6 @@ Sultai Midrange,0.46666666666667,15,0.21,0.73,/Pauper/sultai-midrange
 Orzhov Metalcraft,0.53333333333333,15,0.27,0.79,/Pauper/orzhov-metalcraft
 Orzhov Gates,0.4,15,0.16,0.68,/Pauper/orzhov-gates
 Golgari Auras,0.26666666666667,15,0.08,0.55,/Pauper/golgari-auras
-Dimir Exhume,0.28571428571429,14,0.08,0.58,/Pauper/dimir-exhume
 Mardu Initiative,0.21428571428571,14,0.05,0.51,/Pauper/mardu-initiative
 Bant Auras,0.5,14,0.23,0.77,/Pauper/bant-auras
 Golgari Party,0.57142857142857,14,0.29,0.82,/Pauper/golgari-party

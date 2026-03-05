@@ -1,0 +1,30 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_17,CrisMTG77,,mainboard,"Emry, Lurker of the Loch",3
+,deck_17,CrisMTG77,,mainboard,Lavaspur Boots,1
+,deck_17,CrisMTG77,,mainboard,Kappa Cannoneer,4
+,deck_17,CrisMTG77,,mainboard,Sink into Stupor,3
+,deck_17,CrisMTG77,,mainboard,Weapons Manufacturing,4
+,deck_17,CrisMTG77,,mainboard,Pinnacle Emissary,4
+,deck_17,CrisMTG77,,mainboard,Fiery Islet,2
+,deck_17,CrisMTG77,,mainboard,Island,2
+,deck_17,CrisMTG77,,mainboard,Mishra's Bauble,4
+,deck_17,CrisMTG77,,mainboard,Claws of Gix,3
+,deck_17,CrisMTG77,,mainboard,Pithing Needle,1
+,deck_17,CrisMTG77,,mainboard,Tormod's Crypt,3
+,deck_17,CrisMTG77,,mainboard,Steam Vents,2
+,deck_17,CrisMTG77,,mainboard,Engineered Explosives,4
+,deck_17,CrisMTG77,,mainboard,Aether Spellbomb,1
+,deck_17,CrisMTG77,,mainboard,Mox Opal,4
+,deck_17,CrisMTG77,,mainboard,Spirebluff Canal,4
+,deck_17,CrisMTG77,,mainboard,Metallic Rebuke,3
+,deck_17,CrisMTG77,,mainboard,Shadowspear,1
+,deck_17,CrisMTG77,,mainboard,Arcbound Ravager,2
+,deck_17,CrisMTG77,,mainboard,Welding Jar,1
+,deck_17,CrisMTG77,,mainboard,Urza's Saga,4
+,deck_17,CrisMTG77,,sideboard,Consign to Memory,3
+,deck_17,CrisMTG77,,sideboard,Blood Moon,2
+,deck_17,CrisMTG77,,sideboard,Grafdigger's Cage,1
+,deck_17,CrisMTG77,,sideboard,Whipflare,2
+,deck_17,CrisMTG77,,sideboard,Damping Sphere,3
+,deck_17,CrisMTG77,,sideboard,Mystical Dispute,1
+,deck_17,CrisMTG77,,sideboard,Galvanic Blast,3

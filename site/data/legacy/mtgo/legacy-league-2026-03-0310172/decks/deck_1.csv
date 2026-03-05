@@ -1,0 +1,26 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,Vasquinho,,mainboard,Swamp,5
+,deck_1,Vasquinho,,mainboard,Mishra's Bauble,4
+,deck_1,Vasquinho,,mainboard,Marsh Flats,2
+,deck_1,Vasquinho,,mainboard,Verdant Catacombs,2
+,deck_1,Vasquinho,,mainboard,Thoughtseize,4
+,deck_1,Vasquinho,,mainboard,Hymn to Tourach,3
+,deck_1,Vasquinho,,mainboard,Bloodstained Mire,2
+,deck_1,Vasquinho,,mainboard,Polluted Delta,2
+,deck_1,Vasquinho,,mainboard,Fatal Push,3
+,deck_1,Vasquinho,,mainboard,Dark Ritual,4
+,deck_1,Vasquinho,,mainboard,Dauthi Voidwalker,4
+,deck_1,Vasquinho,,mainboard,Wasteland,4
+,deck_1,Vasquinho,,mainboard,Sheoldred's Edict,2
+,deck_1,Vasquinho,,mainboard,Orcish Bowmasters,4
+,deck_1,Vasquinho,,mainboard,Undercity Sewers,1
+,deck_1,Vasquinho,,mainboard,Nethergoyf,4
+,deck_1,Vasquinho,,mainboard,Barrowgoyf,4
+,deck_1,Vasquinho,,mainboard,Overlord of the Balemurk,2
+,deck_1,Vasquinho,,mainboard,Moonshadow,4
+,deck_1,Vasquinho,,sideboard,Leyline of the Void,4
+,deck_1,Vasquinho,,sideboard,Fatal Push,1
+,deck_1,Vasquinho,,sideboard,Damping Sphere,2
+,deck_1,Vasquinho,,sideboard,"Tourach, Dread Cantor",2
+,deck_1,Vasquinho,,sideboard,Disruptor Flute,3
+,deck_1,Vasquinho,,sideboard,"Mai, Scornful Striker",3

@@ -1,0 +1,30 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_2,tchuco,,mainboard,Duress,3
+,deck_2,tchuco,,mainboard,Bitter Triumph,3
+,deck_2,tchuco,,mainboard,Doomsday Excruciator,3
+,deck_2,tchuco,,mainboard,Harvester of Misery,1
+,deck_2,tchuco,,mainboard,Watery Grave,4
+,deck_2,tchuco,,mainboard,Gloomlake Verge,4
+,deck_2,tchuco,,mainboard,Restless Reef,4
+,deck_2,tchuco,,mainboard,Insatiable Avarice,2
+,deck_2,tchuco,,mainboard,Insatiable Avarice,1
+,deck_2,tchuco,,mainboard,Cavern of Souls,2
+,deck_2,tchuco,,mainboard,Requiting Hex,4
+,deck_2,tchuco,,mainboard,Winternight Stories,2
+,deck_2,tchuco,,mainboard,Stock Up,3
+,deck_2,tchuco,,mainboard,"Kavaero, Mind-Bitten",4
+,deck_2,tchuco,,mainboard,Swamp,11
+,deck_2,tchuco,,mainboard,Undercity Sewers,1
+,deck_2,tchuco,,mainboard,Deceit,4
+,deck_2,tchuco,,mainboard,Quantum Riddler,1
+,deck_2,tchuco,,mainboard,Day of Black Sun,3
+,deck_2,tchuco,,sideboard,Cruelclaw's Heist,1
+,deck_2,tchuco,,sideboard,Intimidation Tactics,2
+,deck_2,tchuco,,sideboard,Annul,2
+,deck_2,tchuco,,sideboard,Duress,1
+,deck_2,tchuco,,sideboard,Qarsi Revenant,2
+,deck_2,tchuco,,sideboard,Negate,1
+,deck_2,tchuco,,sideboard,Heartless Act,2
+,deck_2,tchuco,,sideboard,Quantum Riddler,2
+,deck_2,tchuco,,sideboard,Outrageous Robbery,1
+,deck_2,tchuco,,sideboard,Archenemy's Charm,1

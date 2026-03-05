@@ -1,0 +1,18 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_10,barff,,mainboard,Ninja of the Deep Hours,4
+,deck_10,barff,,mainboard,Faerie Seer,4
+,deck_10,barff,,mainboard,Brinebarrow Intruder,4
+,deck_10,barff,,mainboard,Dispel,2
+,deck_10,barff,,mainboard,Island,18
+,deck_10,barff,,mainboard,Moon-Circuit Hacker,4
+,deck_10,barff,,mainboard,Of One Mind,4
+,deck_10,barff,,mainboard,Harrier Strix,4
+,deck_10,barff,,mainboard,Faerie Miscreant,4
+,deck_10,barff,,mainboard,Counterspell,4
+,deck_10,barff,,mainboard,Snap,4
+,deck_10,barff,,mainboard,Spellstutter Sprite,4
+,deck_10,barff,,sideboard,Cryoshatter,4
+,deck_10,barff,,sideboard,Hydroblast,2
+,deck_10,barff,,sideboard,Dispel,1
+,deck_10,barff,,sideboard,Blue Elemental Blast,4
+,deck_10,barff,,sideboard,Annul,4

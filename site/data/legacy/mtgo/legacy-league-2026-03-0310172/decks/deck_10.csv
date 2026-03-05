@@ -1,0 +1,35 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_10,wongdeck,,mainboard,Wasteland,4
+,deck_10,wongdeck,,mainboard,The Tabernacle at Pendrell Vale,1
+,deck_10,wongdeck,,mainboard,"Boseiju, Who Endures",3
+,deck_10,wongdeck,,mainboard,Exploration,4
+,deck_10,wongdeck,,mainboard,Dark Depths,3
+,deck_10,wongdeck,,mainboard,Disruptor Flute,2
+,deck_10,wongdeck,,mainboard,Pithing Needle,1
+,deck_10,wongdeck,,mainboard,Thespian's Stage,4
+,deck_10,wongdeck,,mainboard,Karakas,1
+,deck_10,wongdeck,,mainboard,Ghost Quarter,1
+,deck_10,wongdeck,,mainboard,Forest,1
+,deck_10,wongdeck,,mainboard,Lavaspur Boots,1
+,deck_10,wongdeck,,mainboard,Malevolent Rumble,4
+,deck_10,wongdeck,,mainboard,Maze of Ith,2
+,deck_10,wongdeck,,mainboard,Life from the Loam,4
+,deck_10,wongdeck,,mainboard,Blast Zone,1
+,deck_10,wongdeck,,mainboard,Expedition Map,1
+,deck_10,wongdeck,,mainboard,Talon Gates of Madara,1
+,deck_10,wongdeck,,mainboard,Bojuka Bog,1
+,deck_10,wongdeck,,mainboard,"Yavimaya, Cradle of Growth",4
+,deck_10,wongdeck,,mainboard,Urza's Saga,4
+,deck_10,wongdeck,,mainboard,Ancient Tomb,1
+,deck_10,wongdeck,,mainboard,Mox Diamond,4
+,deck_10,wongdeck,,mainboard,Crop Rotation,4
+,deck_10,wongdeck,,mainboard,"Otawara, Soaring City",1
+,deck_10,wongdeck,,mainboard,Walk-In Closet // Forgotten Cellar,1
+,deck_10,wongdeck,,mainboard,Tranquil Thicket,1
+,deck_10,wongdeck,,sideboard,Mindbreak Trap,2
+,deck_10,wongdeck,,sideboard,Disruptor Flute,2
+,deck_10,wongdeck,,sideboard,Grafdigger's Cage,1
+,deck_10,wongdeck,,sideboard,Force of Vigor,3
+,deck_10,wongdeck,,sideboard,Faerie Macabre,3
+,deck_10,wongdeck,,sideboard,Dismember,2
+,deck_10,wongdeck,,sideboard,Vibrance,2

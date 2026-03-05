@@ -1,0 +1,23 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_3,Triso,,mainboard,Eagles of the North,2
+,deck_3,Triso,,mainboard,"Darval, Whose Web Protects",2
+,deck_3,Triso,,mainboard,Idyllic Grange,2
+,deck_3,Triso,,mainboard,Lunarch Veteran,4
+,deck_3,Triso,,mainboard,Novice Inspector,4
+,deck_3,Triso,,mainboard,Thraben Inspector,4
+,deck_3,Triso,,mainboard,Battle Screech,4
+,deck_3,Triso,,mainboard,Raffine's Informant,4
+,deck_3,Triso,,mainboard,Thraben Charm,4
+,deck_3,Triso,,mainboard,Prismatic Strands,3
+,deck_3,Triso,,mainboard,Guardians' Pledge,2
+,deck_3,Triso,,mainboard,Kor Skyfisher,4
+,deck_3,Triso,,mainboard,Plains,17
+,deck_3,Triso,,mainboard,Ramosian Rally,1
+,deck_3,Triso,,mainboard,"Leonardo, Big Brother",3
+,deck_3,Triso,,sideboard,Destroy Evil,1
+,deck_3,Triso,,sideboard,Dust to Dust,3
+,deck_3,Triso,,sideboard,Standard Bearer,2
+,deck_3,Triso,,sideboard,Holy Light,2
+,deck_3,Triso,,sideboard,Journey to Nowhere,2
+,deck_3,Triso,,sideboard,Mana Tithe,4
+,deck_3,Triso,,sideboard,Greatsword of Tyr,1

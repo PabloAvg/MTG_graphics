@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_27,Ihateoko,,mainboard,Goblin Bombardment,3
+,deck_27,Ihateoko,,mainboard,Arena of Glory,3
+,deck_27,Ihateoko,,mainboard,Arid Mesa,4
+,deck_27,Ihateoko,,mainboard,Dalkovan Encampment,1
+,deck_27,Ihateoko,,mainboard,Elegant Parlor,2
+,deck_27,Ihateoko,,mainboard,Galvanic Discharge,4
+,deck_27,Ihateoko,,mainboard,Sacred Foundry,3
+,deck_27,Ihateoko,,mainboard,Guide of Souls,4
+,deck_27,Ihateoko,,mainboard,"Ragavan, Nimble Pilferer",4
+,deck_27,Ihateoko,,mainboard,"Phlage, Titan of Fire's Fury",4
+,deck_27,Ihateoko,,mainboard,Voice of Victory,3
+,deck_27,Ihateoko,,mainboard,"Ajani, Nacatl Pariah",4
+,deck_27,Ihateoko,,mainboard,Ranger-Captain of Eos,2
+,deck_27,Ihateoko,,mainboard,Seasoned Pyromancer,3
+,deck_27,Ihateoko,,mainboard,Flooded Strand,4
+,deck_27,Ihateoko,,mainboard,Thraben Charm,2
+,deck_27,Ihateoko,,mainboard,Windswept Heath,4
+,deck_27,Ihateoko,,mainboard,Plains,2
+,deck_27,Ihateoko,,mainboard,Ocelot Pride,4
+,deck_27,Ihateoko,,sideboard,High Noon,2
+,deck_27,Ihateoko,,sideboard,The Legend of Roku,2
+,deck_27,Ihateoko,,sideboard,Obsidian Charmaw,3
+,deck_27,Ihateoko,,sideboard,Wear/Tear,2
+,deck_27,Ihateoko,,sideboard,Orim's Chant,2
+,deck_27,Ihateoko,,sideboard,Wrath of the Skies,2
+,deck_27,Ihateoko,,sideboard,Celestial Purge,2

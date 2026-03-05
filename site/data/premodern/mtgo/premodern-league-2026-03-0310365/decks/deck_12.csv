@@ -1,0 +1,28 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_12,PM_Arnie,,mainboard,Island,15
+,deck_12,PM_Arnie,,mainboard,Merchant Scroll,4
+,deck_12,PM_Arnie,,mainboard,Flash of Insight,1
+,deck_12,PM_Arnie,,mainboard,Teferi's Isle,2
+,deck_12,PM_Arnie,,mainboard,Brain Freeze,2
+,deck_12,PM_Arnie,,mainboard,Cloud of Faeries,4
+,deck_12,PM_Arnie,,mainboard,Deep Analysis,1
+,deck_12,PM_Arnie,,mainboard,Frantic Search,4
+,deck_12,PM_Arnie,,mainboard,Intuition,1
+,deck_12,PM_Arnie,,mainboard,Meditate,4
+,deck_12,PM_Arnie,,mainboard,Snap,3
+,deck_12,PM_Arnie,,mainboard,Opt,2
+,deck_12,PM_Arnie,,mainboard,Accumulated Knowledge,4
+,deck_12,PM_Arnie,,mainboard,Impulse,1
+,deck_12,PM_Arnie,,mainboard,Helm of Awakening,4
+,deck_12,PM_Arnie,,mainboard,Sapphire Medallion,4
+,deck_12,PM_Arnie,,mainboard,Cephalid Coliseum,1
+,deck_12,PM_Arnie,,mainboard,Cunning Wish,3
+,deck_12,PM_Arnie,,sideboard,Hibernation,1
+,deck_12,PM_Arnie,,sideboard,Defense Grid,2
+,deck_12,PM_Arnie,,sideboard,Words of Wisdom,1
+,deck_12,PM_Arnie,,sideboard,Tormod's Crypt,3
+,deck_12,PM_Arnie,,sideboard,Brain Freeze,1
+,deck_12,PM_Arnie,,sideboard,Hydroblast,3
+,deck_12,PM_Arnie,,sideboard,Snap,1
+,deck_12,PM_Arnie,,sideboard,Chain of Vapor,2
+,deck_12,PM_Arnie,,sideboard,Arcane Denial,1

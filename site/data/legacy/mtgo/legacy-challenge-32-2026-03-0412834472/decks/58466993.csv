@@ -1,0 +1,38 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+12834472,58466993,PedroPolukranos,21,mainboard,Forest,1
+12834472,58466993,PedroPolukranos,21,mainboard,Pithing Needle,1
+12834472,58466993,PedroPolukranos,21,mainboard,Dark Depths,2
+12834472,58466993,PedroPolukranos,21,mainboard,Bojuka Bog,1
+12834472,58466993,PedroPolukranos,21,mainboard,Crop Rotation,4
+12834472,58466993,PedroPolukranos,21,mainboard,Ghost Quarter,1
+12834472,58466993,PedroPolukranos,21,mainboard,Thespian's Stage,3
+12834472,58466993,PedroPolukranos,21,mainboard,Life from the Loam,4
+12834472,58466993,PedroPolukranos,21,mainboard,Ancient Tomb,1
+12834472,58466993,PedroPolukranos,21,mainboard,Taiga,2
+12834472,58466993,PedroPolukranos,21,mainboard,Windswept Heath,1
+12834472,58466993,PedroPolukranos,21,mainboard,Wooded Foothills,1
+12834472,58466993,PedroPolukranos,21,mainboard,Mox Diamond,4
+12834472,58466993,PedroPolukranos,21,mainboard,Wasteland,4
+12834472,58466993,PedroPolukranos,21,mainboard,Karakas,1
+12834472,58466993,PedroPolukranos,21,mainboard,The Tabernacle at Pendrell Vale,1
+12834472,58466993,PedroPolukranos,21,mainboard,Exploration,4
+12834472,58466993,PedroPolukranos,21,mainboard,Soul-Guide Lantern,1
+12834472,58466993,PedroPolukranos,21,mainboard,Expedition Map,1
+12834472,58466993,PedroPolukranos,21,mainboard,Maze of Ith,1
+12834472,58466993,PedroPolukranos,21,mainboard,Urza's Saga,4
+12834472,58466993,PedroPolukranos,21,mainboard,"Yavimaya, Cradle of Growth",3
+12834472,58466993,PedroPolukranos,21,mainboard,"Boseiju, Who Endures",3
+12834472,58466993,PedroPolukranos,21,mainboard,Commercial District,1
+12834472,58466993,PedroPolukranos,21,mainboard,Lavaspur Boots,1
+12834472,58466993,PedroPolukranos,21,mainboard,Malevolent Rumble,4
+12834472,58466993,PedroPolukranos,21,mainboard,Disruptor Flute,3
+12834472,58466993,PedroPolukranos,21,mainboard,Icetill Explorer,2
+12834472,58466993,PedroPolukranos,21,sideboard,Drop of Honey,1
+12834472,58466993,PedroPolukranos,21,sideboard,Surgical Extraction,1
+12834472,58466993,PedroPolukranos,21,sideboard,Grafdigger's Cage,1
+12834472,58466993,PedroPolukranos,21,sideboard,Pyroblast,3
+12834472,58466993,PedroPolukranos,21,sideboard,Endurance,3
+12834472,58466993,PedroPolukranos,21,sideboard,Force of Vigor,3
+12834472,58466993,PedroPolukranos,21,sideboard,Twinshot Sniper,1
+12834472,58466993,PedroPolukranos,21,sideboard,Disruptor Flute,1
+12834472,58466993,PedroPolukranos,21,sideboard,Fire Magic,1

@@ -1,0 +1,28 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_2,mist_er,,mainboard,Deceit,4
+,deck_2,mist_er,,mainboard,Winternight Stories,4
+,deck_2,mist_er,,mainboard,Requiting Hex,4
+,deck_2,mist_er,,mainboard,Day of Black Sun,3
+,deck_2,mist_er,,mainboard,"Kavaero, Mind-Bitten",4
+,deck_2,mist_er,,mainboard,Malboro,2
+,deck_2,mist_er,,mainboard,Restless Reef,4
+,deck_2,mist_er,,mainboard,Intimidation Tactics,2
+,deck_2,mist_er,,mainboard,Stock Up,2
+,deck_2,mist_er,,mainboard,Doomsday Excruciator,3
+,deck_2,mist_er,,mainboard,Harvester of Misery,2
+,deck_2,mist_er,,mainboard,Undercity Sewers,2
+,deck_2,mist_er,,mainboard,Duress,2
+,deck_2,mist_er,,mainboard,Bitter Triumph,3
+,deck_2,mist_er,,mainboard,Swamp,9
+,deck_2,mist_er,,mainboard,Cavern of Souls,2
+,deck_2,mist_er,,mainboard,Gloomlake Verge,4
+,deck_2,mist_er,,mainboard,Watery Grave,4
+,deck_2,mist_er,,sideboard,Dauntless Scrapbot,2
+,deck_2,mist_er,,sideboard,Quantum Riddler,2
+,deck_2,mist_er,,sideboard,Qarsi Revenant,2
+,deck_2,mist_er,,sideboard,Intimidation Tactics,1
+,deck_2,mist_er,,sideboard,Withering Torment,1
+,deck_2,mist_er,,sideboard,Nowhere to Run,2
+,deck_2,mist_er,,sideboard,Duress,1
+,deck_2,mist_er,,sideboard,Annul,2
+,deck_2,mist_er,,sideboard,Flashfreeze,2

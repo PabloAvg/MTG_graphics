@@ -1,0 +1,22 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,MarshFlats,,mainboard,Battle Screech,4
+,deck_1,MarshFlats,,mainboard,Idyllic Grange,2
+,deck_1,MarshFlats,,mainboard,Plains,18
+,deck_1,MarshFlats,,mainboard,"Leonardo, Big Brother",1
+,deck_1,MarshFlats,,mainboard,Lunarch Veteran,4
+,deck_1,MarshFlats,,mainboard,Militia Bugler,4
+,deck_1,MarshFlats,,mainboard,Novice Inspector,4
+,deck_1,MarshFlats,,mainboard,Palace Sentinels,1
+,deck_1,MarshFlats,,mainboard,Kor Skyfisher,4
+,deck_1,MarshFlats,,mainboard,Raffine's Informant,4
+,deck_1,MarshFlats,,mainboard,Steadfast Unicorn,1
+,deck_1,MarshFlats,,mainboard,Thraben Charm,4
+,deck_1,MarshFlats,,mainboard,Thraben Inspector,4
+,deck_1,MarshFlats,,mainboard,Prismatic Strands,4
+,deck_1,MarshFlats,,mainboard,"Leonardo, Big Brother",1
+,deck_1,MarshFlats,,sideboard,Dust to Dust,4
+,deck_1,MarshFlats,,sideboard,Holy Light,2
+,deck_1,MarshFlats,,sideboard,Journey to Nowhere,3
+,deck_1,MarshFlats,,sideboard,Martyr of Sands,3
+,deck_1,MarshFlats,,sideboard,Palace Sentinels,1
+,deck_1,MarshFlats,,sideboard,Standard Bearer,2

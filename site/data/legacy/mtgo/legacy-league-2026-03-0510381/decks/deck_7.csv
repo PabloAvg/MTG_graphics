@@ -1,0 +1,32 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_7,OlorinMaiar,,mainboard,"Karn, the Great Creator",4
+,deck_7,OlorinMaiar,,mainboard,Grim Monolith,4
+,deck_7,OlorinMaiar,,mainboard,Grindstone,1
+,deck_7,OlorinMaiar,,mainboard,Urza's Tower,4
+,deck_7,OlorinMaiar,,mainboard,Kozilek's Command,4
+,deck_7,OlorinMaiar,,mainboard,Lotus Petal,4
+,deck_7,OlorinMaiar,,mainboard,Manifold Key,3
+,deck_7,OlorinMaiar,,mainboard,Mishra's Research Desk,4
+,deck_7,OlorinMaiar,,mainboard,Mox Opal,1
+,deck_7,OlorinMaiar,,mainboard,Painter's Servant,3
+,deck_7,OlorinMaiar,,mainboard,Pithing Needle,1
+,deck_7,OlorinMaiar,,mainboard,Planar Nexus,4
+,deck_7,OlorinMaiar,,mainboard,Portable Hole,1
+,deck_7,OlorinMaiar,,mainboard,Soul-Guide Lantern,1
+,deck_7,OlorinMaiar,,mainboard,"Tezzeret, Cruel Captain",4
+,deck_7,OlorinMaiar,,mainboard,The One Ring,4
+,deck_7,OlorinMaiar,,mainboard,Urza's Saga,4
+,deck_7,OlorinMaiar,,mainboard,Urza's Workshop,4
+,deck_7,OlorinMaiar,,mainboard,Voltaic Key,1
+,deck_7,OlorinMaiar,,mainboard,Ancient Tomb,4
+,deck_7,OlorinMaiar,,sideboard,Leyline of the Void,4
+,deck_7,OlorinMaiar,,sideboard,Eldrazi Confluence,1
+,deck_7,OlorinMaiar,,sideboard,Ensnaring Bridge,1
+,deck_7,OlorinMaiar,,sideboard,Grindstone,1
+,deck_7,OlorinMaiar,,sideboard,Liquimetal Coating,1
+,deck_7,OlorinMaiar,,sideboard,Mycosynth Lattice,1
+,deck_7,OlorinMaiar,,sideboard,Painter's Servant,1
+,deck_7,OlorinMaiar,,sideboard,Paradox Engine,1
+,deck_7,OlorinMaiar,,sideboard,Perilous Snare,1
+,deck_7,OlorinMaiar,,sideboard,Tormod's Crypt,1
+,deck_7,OlorinMaiar,,sideboard,Disruptor Flute,2

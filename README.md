@@ -5,7 +5,9 @@ python -m venv .venv
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 $env:MTG_INSECURE_SSL="1"
-python .\01_fetch_mtgdecks_winrates.py
+python .\src\run.py
 
 # Output for GitHub Pages (static site)
 # Generates: site/index.html
+
+

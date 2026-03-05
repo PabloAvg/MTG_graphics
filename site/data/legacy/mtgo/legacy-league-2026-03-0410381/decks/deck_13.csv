@@ -1,0 +1,32 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_13,DB_cinabiondo,,mainboard,Barrowgoyf,2
+,deck_13,DB_cinabiondo,,mainboard,Bloodstained Mire,1
+,deck_13,DB_cinabiondo,,mainboard,Brainstorm,4
+,deck_13,DB_cinabiondo,,mainboard,Brazen Borrower,1
+,deck_13,DB_cinabiondo,,mainboard,Daze,3
+,deck_13,DB_cinabiondo,,mainboard,Fatal Push,4
+,deck_13,DB_cinabiondo,,mainboard,Flooded Strand,3
+,deck_13,DB_cinabiondo,,mainboard,Force of Will,4
+,deck_13,DB_cinabiondo,,mainboard,Island,1
+,deck_13,DB_cinabiondo,,mainboard,"Kaito, Bane of Nightmares",2
+,deck_13,DB_cinabiondo,,mainboard,Marsh Flats,1
+,deck_13,DB_cinabiondo,,mainboard,Murktide Regent,3
+,deck_13,DB_cinabiondo,,mainboard,Orcish Bowmasters,4
+,deck_13,DB_cinabiondo,,mainboard,Polluted Delta,4
+,deck_13,DB_cinabiondo,,mainboard,Ponder,4
+,deck_13,DB_cinabiondo,,mainboard,Snuff Out,1
+,deck_13,DB_cinabiondo,,mainboard,Swamp,1
+,deck_13,DB_cinabiondo,,mainboard,"Tamiyo, Inquisitive Student",4
+,deck_13,DB_cinabiondo,,mainboard,Thoughtseize,4
+,deck_13,DB_cinabiondo,,mainboard,Undercity Sewers,1
+,deck_13,DB_cinabiondo,,mainboard,Underground Sea,4
+,deck_13,DB_cinabiondo,,mainboard,Wasteland,4
+,deck_13,DB_cinabiondo,,sideboard,Barrowgoyf,1
+,deck_13,DB_cinabiondo,,sideboard,Consign to Memory,3
+,deck_13,DB_cinabiondo,,sideboard,Engineered Explosives,1
+,deck_13,DB_cinabiondo,,sideboard,Force of Negation,2
+,deck_13,DB_cinabiondo,,sideboard,Hydroblast,2
+,deck_13,DB_cinabiondo,,sideboard,Mystical Dispute,1
+,deck_13,DB_cinabiondo,,sideboard,Sheoldred's Edict,2
+,deck_13,DB_cinabiondo,,sideboard,Surgical Extraction,2
+,deck_13,DB_cinabiondo,,sideboard,Toxic Deluge,1

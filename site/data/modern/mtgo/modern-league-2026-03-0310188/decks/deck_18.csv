@@ -1,0 +1,38 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_18,PharmD_MTG,,mainboard,Leyline Binding,4
+,deck_18,PharmD_MTG,,mainboard,Lush Portico,1
+,deck_18,PharmD_MTG,,mainboard,Thundering Falls,1
+,deck_18,PharmD_MTG,,mainboard,Doorkeeper Thrull,4
+,deck_18,PharmD_MTG,,mainboard,Leyline of the Guildpact,4
+,deck_18,PharmD_MTG,,mainboard,"Phlage, Titan of Fire's Fury",2
+,deck_18,PharmD_MTG,,mainboard,Consign to Memory,2
+,deck_18,PharmD_MTG,,mainboard,"Phlage, Titan of Fire's Fury",2
+,deck_18,PharmD_MTG,,mainboard,Arena of Glory,2
+,deck_18,PharmD_MTG,,mainboard,Flooded Strand,3
+,deck_18,PharmD_MTG,,mainboard,Wooded Foothills,3
+,deck_18,PharmD_MTG,,mainboard,Winternight Stories,1
+,deck_18,PharmD_MTG,,mainboard,Godless Shrine,1
+,deck_18,PharmD_MTG,,mainboard,Plains,1
+,deck_18,PharmD_MTG,,mainboard,Mountain,1
+,deck_18,PharmD_MTG,,mainboard,The Legend of Roku,1
+,deck_18,PharmD_MTG,,mainboard,Lightning Bolt,4
+,deck_18,PharmD_MTG,,mainboard,Temple Garden,1
+,deck_18,PharmD_MTG,,mainboard,Flooded Strand,1
+,deck_18,PharmD_MTG,,mainboard,Stubborn Denial,2
+,deck_18,PharmD_MTG,,mainboard,Steam Vents,2
+,deck_18,PharmD_MTG,,mainboard,"Teferi, Time Raveler",1
+,deck_18,PharmD_MTG,,mainboard,Indatha Triome,1
+,deck_18,PharmD_MTG,,mainboard,"Ragavan, Nimble Pilferer",3
+,deck_18,PharmD_MTG,,mainboard,Scion of Draco,4
+,deck_18,PharmD_MTG,,mainboard,Arid Mesa,2
+,deck_18,PharmD_MTG,,mainboard,Territorial Kavu,4
+,deck_18,PharmD_MTG,,mainboard,Arid Mesa,2
+,deck_18,PharmD_MTG,,sideboard,High Noon,1
+,deck_18,PharmD_MTG,,sideboard,Wrath of the Skies,3
+,deck_18,PharmD_MTG,,sideboard,Consign to Memory,2
+,deck_18,PharmD_MTG,,sideboard,Clarion Conqueror,1
+,deck_18,PharmD_MTG,,sideboard,Nihil Spellbomb,2
+,deck_18,PharmD_MTG,,sideboard,Wear/Tear,1
+,deck_18,PharmD_MTG,,sideboard,Damping Sphere,1
+,deck_18,PharmD_MTG,,sideboard,Mystical Dispute,2
+,deck_18,PharmD_MTG,,sideboard,Obsidian Charmaw,2

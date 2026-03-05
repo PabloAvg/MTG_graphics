@@ -1,0 +1,30 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_3,zoio,,mainboard,Argothian Enchantress,4
+,deck_3,zoio,,mainboard,Replenish,1
+,deck_3,zoio,,mainboard,Mirri's Guile,4
+,deck_3,zoio,,mainboard,Opalescence,3
+,deck_3,zoio,,mainboard,Parallax Wave,3
+,deck_3,zoio,,mainboard,Plains,1
+,deck_3,zoio,,mainboard,Solitary Confinement,2
+,deck_3,zoio,,mainboard,Serra's Sanctum,4
+,deck_3,zoio,,mainboard,Exploration,3
+,deck_3,zoio,,mainboard,Wild Growth,4
+,deck_3,zoio,,mainboard,Enchantress's Presence,4
+,deck_3,zoio,,mainboard,Seal of Cleansing,3
+,deck_3,zoio,,mainboard,Forest,1
+,deck_3,zoio,,mainboard,Windswept Heath,4
+,deck_3,zoio,,mainboard,Brushland,4
+,deck_3,zoio,,mainboard,Sterling Grove,3
+,deck_3,zoio,,mainboard,Wooded Foothills,2
+,deck_3,zoio,,mainboard,Plains,1
+,deck_3,zoio,,mainboard,Swords to Plowshares,3
+,deck_3,zoio,,mainboard,Forest,2
+,deck_3,zoio,,mainboard,Forest,4
+,deck_3,zoio,,sideboard,Aura of Silence,2
+,deck_3,zoio,,sideboard,Replenish,1
+,deck_3,zoio,,sideboard,Gaea's Blessing,2
+,deck_3,zoio,,sideboard,Ray of Revelation,1
+,deck_3,zoio,,sideboard,Karmic Justice,1
+,deck_3,zoio,,sideboard,Xantid Swarm,4
+,deck_3,zoio,,sideboard,Tormod's Crypt,2
+,deck_3,zoio,,sideboard,Tsabo's Web,2

@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_6,Joe_L,,mainboard,Stock Up,4
+,deck_6,Joe_L,,mainboard,Polluted Delta,1
+,deck_6,Joe_L,,mainboard,Island,2
+,deck_6,Joe_L,,mainboard,Sneak Attack,3
+,deck_6,Joe_L,,mainboard,City of Traitors,1
+,deck_6,Joe_L,,mainboard,"Emrakul, the Aeons Torn",3
+,deck_6,Joe_L,,mainboard,Thundering Falls,1
+,deck_6,Joe_L,,mainboard,Simian Spirit Guide,1
+,deck_6,Joe_L,,mainboard,Omniscience,1
+,deck_6,Joe_L,,mainboard,"Tamiyo, Inquisitive Student",3
+,deck_6,Joe_L,,mainboard,Show and Tell,4
+,deck_6,Joe_L,,mainboard,Flooded Strand,1
+,deck_6,Joe_L,,mainboard,Misty Rainforest,1
+,deck_6,Joe_L,,mainboard,Brainstorm,4
+,deck_6,Joe_L,,mainboard,"Atraxa, Grand Unifier",3
+,deck_6,Joe_L,,mainboard,Mountain,1
+,deck_6,Joe_L,,mainboard,Scalding Tarn,4
+,deck_6,Joe_L,,mainboard,Lotus Petal,4
+,deck_6,Joe_L,,mainboard,Ponder,4
+,deck_6,Joe_L,,mainboard,Force of Will,4
+,deck_6,Joe_L,,mainboard,Redirect Lightning,1
+,deck_6,Joe_L,,mainboard,Volcanic Island,3
+,deck_6,Joe_L,,mainboard,Hexing Squelcher,2
+,deck_6,Joe_L,,mainboard,Ancient Tomb,4
+,deck_6,Joe_L,,sideboard,Brotherhood's End,2
+,deck_6,Joe_L,,sideboard,Consign to Memory,3
+,deck_6,Joe_L,,sideboard,Disruptor Flute,1
+,deck_6,Joe_L,,sideboard,Pyroblast,1
+,deck_6,Joe_L,,sideboard,Red Elemental Blast,1
+,deck_6,Joe_L,,sideboard,Hexing Squelcher,1
+,deck_6,Joe_L,,sideboard,Blood Moon,2
+,deck_6,Joe_L,,sideboard,Leyline of the Void,4

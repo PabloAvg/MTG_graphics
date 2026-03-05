@@ -1,0 +1,35 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_4,ZeeSeeKay,,mainboard,Ad Nauseam,1
+,deck_4,ZeeSeeKay,,mainboard,Bayou,1
+,deck_4,ZeeSeeKay,,mainboard,Beseech the Mirror,2
+,deck_4,ZeeSeeKay,,mainboard,"Boseiju, Who Endures",1
+,deck_4,ZeeSeeKay,,mainboard,Brainstorm,4
+,deck_4,ZeeSeeKay,,mainboard,Chrome Mox,4
+,deck_4,ZeeSeeKay,,mainboard,Dark Ritual,4
+,deck_4,ZeeSeeKay,,mainboard,Death Wish,1
+,deck_4,ZeeSeeKay,,mainboard,Duress,2
+,deck_4,ZeeSeeKay,,mainboard,Gaea's Will,1
+,deck_4,ZeeSeeKay,,mainboard,Infernal Tutor,4
+,deck_4,ZeeSeeKay,,mainboard,Lion's Eye Diamond,4
+,deck_4,ZeeSeeKay,,mainboard,Lotus Petal,4
+,deck_4,ZeeSeeKay,,mainboard,Marsh Flats,2
+,deck_4,ZeeSeeKay,,mainboard,Mox Opal,4
+,deck_4,ZeeSeeKay,,mainboard,Polluted Delta,2
+,deck_4,ZeeSeeKay,,mainboard,Swamp,1
+,deck_4,ZeeSeeKay,,mainboard,Tendrils of Agony,1
+,deck_4,ZeeSeeKay,,mainboard,Thoughtseize,4
+,deck_4,ZeeSeeKay,,mainboard,Undercity Sewers,1
+,deck_4,ZeeSeeKay,,mainboard,Underground Mortuary,1
+,deck_4,ZeeSeeKay,,mainboard,Underground Sea,1
+,deck_4,ZeeSeeKay,,mainboard,Urza's Saga,3
+,deck_4,ZeeSeeKay,,mainboard,Veil of Summer,2
+,deck_4,ZeeSeeKay,,mainboard,Verdant Catacombs,2
+,deck_4,ZeeSeeKay,,mainboard,Wishclaw Talisman,3
+,deck_4,ZeeSeeKay,,sideboard,Tendrils of Agony,1
+,deck_4,ZeeSeeKay,,sideboard,Beseech the Mirror,1
+,deck_4,ZeeSeeKay,,sideboard,Leyline of the Void,4
+,deck_4,ZeeSeeKay,,sideboard,Abrupt Decay,2
+,deck_4,ZeeSeeKay,,sideboard,Carpet of Flowers,3
+,deck_4,ZeeSeeKay,,sideboard,Aetherflux Reservoir,1
+,deck_4,ZeeSeeKay,,sideboard,Boomerang Basics,2
+,deck_4,ZeeSeeKay,,sideboard,Helm of Obedience,1

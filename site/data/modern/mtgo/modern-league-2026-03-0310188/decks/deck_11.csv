@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_11,MultiformatSuperstar,,mainboard,Hallowed Fountain,1
+,deck_11,MultiformatSuperstar,,mainboard,Sacred Foundry,1
+,deck_11,MultiformatSuperstar,,mainboard,Steam Vents,1
+,deck_11,MultiformatSuperstar,,mainboard,Elegant Parlor,1
+,deck_11,MultiformatSuperstar,,mainboard,Meticulous Archive,1
+,deck_11,MultiformatSuperstar,,mainboard,Thundering Falls,1
+,deck_11,MultiformatSuperstar,,mainboard,Galvanic Discharge,4
+,deck_11,MultiformatSuperstar,,mainboard,"Phelia, Exuberant Shepherd",4
+,deck_11,MultiformatSuperstar,,mainboard,"Phlage, Titan of Fire's Fury",4
+,deck_11,MultiformatSuperstar,,mainboard,Arena of Glory,3
+,deck_11,MultiformatSuperstar,,mainboard,Flooded Strand,4
+,deck_11,MultiformatSuperstar,,mainboard,Wrath of the Skies,1
+,deck_11,MultiformatSuperstar,,mainboard,Consign to Memory,3
+,deck_11,MultiformatSuperstar,,mainboard,Arid Mesa,4
+,deck_11,MultiformatSuperstar,,mainboard,Scalding Tarn,3
+,deck_11,MultiformatSuperstar,,mainboard,Quantum Riddler,4
+,deck_11,MultiformatSuperstar,,mainboard,Plains,2
+,deck_11,MultiformatSuperstar,,mainboard,Island,1
+,deck_11,MultiformatSuperstar,,mainboard,Mountain,1
+,deck_11,MultiformatSuperstar,,mainboard,"Teferi, Time Raveler",2
+,deck_11,MultiformatSuperstar,,mainboard,Ephemerate,2
+,deck_11,MultiformatSuperstar,,mainboard,Prismatic Ending,2
+,deck_11,MultiformatSuperstar,,mainboard,Solitude,4
+,deck_11,MultiformatSuperstar,,mainboard,"Ragavan, Nimble Pilferer",4
+,deck_11,MultiformatSuperstar,,mainboard,Fable of the Mirror-Breaker,2
+,deck_11,MultiformatSuperstar,,sideboard,High Noon,2
+,deck_11,MultiformatSuperstar,,sideboard,Wrath of the Skies,2
+,deck_11,MultiformatSuperstar,,sideboard,Strix Serenade,2
+,deck_11,MultiformatSuperstar,,sideboard,Celestial Purge,1
+,deck_11,MultiformatSuperstar,,sideboard,Wear/Tear,1
+,deck_11,MultiformatSuperstar,,sideboard,Mystical Dispute,3
+,deck_11,MultiformatSuperstar,,sideboard,Obsidian Charmaw,4

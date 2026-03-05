@@ -1,0 +1,34 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_12,kyataoka,,mainboard,Island,1
+,deck_12,kyataoka,,mainboard,Island,1
+,deck_12,kyataoka,,mainboard,Swamp,1
+,deck_12,kyataoka,,mainboard,Polluted Delta,3
+,deck_12,kyataoka,,mainboard,Polluted Delta,1
+,deck_12,kyataoka,,mainboard,Underground Sea,2
+,deck_12,kyataoka,,mainboard,Undercity Sewers,1
+,deck_12,kyataoka,,mainboard,Ancient Tomb,4
+,deck_12,kyataoka,,mainboard,Flooded Strand,2
+,deck_12,kyataoka,,mainboard,Bloodstained Mire,1
+,deck_12,kyataoka,,mainboard,Ponder,4
+,deck_12,kyataoka,,mainboard,"Tamiyo, Inquisitive Student",1
+,deck_12,kyataoka,,mainboard,"Tamiyo, Inquisitive Student",3
+,deck_12,kyataoka,,mainboard,Brainstorm,4
+,deck_12,kyataoka,,mainboard,Fatal Push,3
+,deck_12,kyataoka,,mainboard,Thoughtseize,4
+,deck_12,kyataoka,,mainboard,Show and Tell,4
+,deck_12,kyataoka,,mainboard,Stock Up,4
+,deck_12,kyataoka,,mainboard,Sink into Stupor,1
+,deck_12,kyataoka,,mainboard,Force of Will,4
+,deck_12,kyataoka,,mainboard,Lórien Revealed,1
+,deck_12,kyataoka,,mainboard,Omniscience,3
+,deck_12,kyataoka,,mainboard,Brazen Borrower,2
+,deck_12,kyataoka,,mainboard,"Emrakul, the Aeons Torn",1
+,deck_12,kyataoka,,mainboard,"Atraxa, Grand Unifier",4
+,deck_12,kyataoka,,sideboard,Disruptor Flute,2
+,deck_12,kyataoka,,sideboard,Consign to Memory,3
+,deck_12,kyataoka,,sideboard,Nihil Spellbomb,1
+,deck_12,kyataoka,,sideboard,Force of Negation,2
+,deck_12,kyataoka,,sideboard,Barrowgoyf,1
+,deck_12,kyataoka,,sideboard,Barrowgoyf,3
+,deck_12,kyataoka,,sideboard,Grafdigger's Cage,1
+,deck_12,kyataoka,,sideboard,Murktide Regent,2

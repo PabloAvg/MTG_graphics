@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_11,Paradise_lost,,mainboard,Terravore,4
+,deck_11,Paradise_lost,,mainboard,Plains,1
+,deck_11,Paradise_lost,,mainboard,Naturalize,2
+,deck_11,Paradise_lost,,mainboard,Brushland,4
+,deck_11,Paradise_lost,,mainboard,Sylvan Library,4
+,deck_11,Paradise_lost,,mainboard,Exalted Angel,3
+,deck_11,Paradise_lost,,mainboard,Windswept Heath,4
+,deck_11,Paradise_lost,,mainboard,Oath of Druids,4
+,deck_11,Paradise_lost,,mainboard,Mox Diamond,4
+,deck_11,Paradise_lost,,mainboard,Wasteland,4
+,deck_11,Paradise_lost,,mainboard,Treetop Village,4
+,deck_11,Paradise_lost,,mainboard,Mishra's Factory,4
+,deck_11,Paradise_lost,,mainboard,Cataclysm,4
+,deck_11,Paradise_lost,,mainboard,Riftstone Portal,1
+,deck_11,Paradise_lost,,mainboard,Swords to Plowshares,4
+,deck_11,Paradise_lost,,mainboard,Call of the Herd,4
+,deck_11,Paradise_lost,,mainboard,Plains,2
+,deck_11,Paradise_lost,,mainboard,Forest,3
+,deck_11,Paradise_lost,,sideboard,Cursed Totem,2
+,deck_11,Paradise_lost,,sideboard,Zuran Orb,1
+,deck_11,Paradise_lost,,sideboard,Warmth,2
+,deck_11,Paradise_lost,,sideboard,Aura of Silence,4
+,deck_11,Paradise_lost,,sideboard,Krosan Reclamation,1
+,deck_11,Paradise_lost,,sideboard,Tormod's Crypt,2
+,deck_11,Paradise_lost,,sideboard,Ray of Revelation,1
+,deck_11,Paradise_lost,,sideboard,Compost,2

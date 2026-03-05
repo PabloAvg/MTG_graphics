@@ -1,0 +1,31 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_12,WaffleWiz,,mainboard,Wastescape Battlemage,3
+,deck_12,WaffleWiz,,mainboard,Sowing Mycospawn,4
+,deck_12,WaffleWiz,,mainboard,Devourer of Destiny,4
+,deck_12,WaffleWiz,,mainboard,Ugin's Labyrinth,4
+,deck_12,WaffleWiz,,mainboard,Secluded Courtyard,4
+,deck_12,WaffleWiz,,mainboard,Gemstone Caverns,1
+,deck_12,WaffleWiz,,mainboard,Glaring Fleshraker,4
+,deck_12,WaffleWiz,,mainboard,It That Heralds the End,4
+,deck_12,WaffleWiz,,mainboard,Sire of Seven Deaths,4
+,deck_12,WaffleWiz,,mainboard,Unclaimed Territory,1
+,deck_12,WaffleWiz,,mainboard,Mountain,1
+,deck_12,WaffleWiz,,mainboard,Eldrazi Temple,4
+,deck_12,WaffleWiz,,mainboard,Thought-Knot Seer,4
+,deck_12,WaffleWiz,,mainboard,Chalice of the Void,2
+,deck_12,WaffleWiz,,mainboard,Eldrazi Linebreaker,4
+,deck_12,WaffleWiz,,mainboard,Bojuka Bog,1
+,deck_12,WaffleWiz,,mainboard,Forest,1
+,deck_12,WaffleWiz,,mainboard,Cavern of Souls,4
+,deck_12,WaffleWiz,,mainboard,Kozilek's Command,4
+,deck_12,WaffleWiz,,mainboard,Snow-Covered Wastes,1
+,deck_12,WaffleWiz,,mainboard,Gathering Stone,1
+,deck_12,WaffleWiz,,sideboard,Chalice of the Void,1
+,deck_12,WaffleWiz,,sideboard,Wastescape Battlemage,1
+,deck_12,WaffleWiz,,sideboard,Grafdigger's Cage,2
+,deck_12,WaffleWiz,,sideboard,Damping Sphere,2
+,deck_12,WaffleWiz,,sideboard,Vexing Bauble,2
+,deck_12,WaffleWiz,,sideboard,Disruptor Flute,2
+,deck_12,WaffleWiz,,sideboard,Dismember,3
+,deck_12,WaffleWiz,,sideboard,Ghost Quarter,1
+,deck_12,WaffleWiz,,sideboard,Trinisphere,1

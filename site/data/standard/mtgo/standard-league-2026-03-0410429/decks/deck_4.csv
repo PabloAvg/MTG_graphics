@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_4,Gheroz,,mainboard,Boomerang Basics,4
+,deck_4,Gheroz,,mainboard,Sleight of Hand,4
+,deck_4,Gheroz,,mainboard,Island,1
+,deck_4,Gheroz,,mainboard,Into the Flood Maw,2
+,deck_4,Gheroz,,mainboard,Island,1
+,deck_4,Gheroz,,mainboard,Multiversal Passage,3
+,deck_4,Gheroz,,mainboard,Secret Identity,2
+,deck_4,Gheroz,,mainboard,Island,1
+,deck_4,Gheroz,,mainboard,Island,1
+,deck_4,Gheroz,,mainboard,Stock Up,4
+,deck_4,Gheroz,,mainboard,Stormchaser's Talent,4
+,deck_4,Gheroz,,mainboard,Wild Ride,1
+,deck_4,Gheroz,,mainboard,Willowrush Verge,2
+,deck_4,Gheroz,,mainboard,Opt,4
+,deck_4,Gheroz,,mainboard,Slickshot Show-Off,4
+,deck_4,Gheroz,,mainboard,Drake Hatcher,2
+,deck_4,Gheroz,,mainboard,Burst Lightning,4
+,deck_4,Gheroz,,mainboard,Elusive Otter,4
+,deck_4,Gheroz,,mainboard,Riverpyre Verge,4
+,deck_4,Gheroz,,mainboard,Spirebluff Canal,4
+,deck_4,Gheroz,,mainboard,Steam Vents,4
+,deck_4,Gheroz,,sideboard,"Ral, Crackling Wit",2
+,deck_4,Gheroz,,sideboard,Eddymurk Crab,2
+,deck_4,Gheroz,,sideboard,Soul-Guide Lantern,2
+,deck_4,Gheroz,,sideboard,Spell Pierce,2
+,deck_4,Gheroz,,sideboard,Roaring Furnace // Steaming Sauna,1
+,deck_4,Gheroz,,sideboard,Sear,1
+,deck_4,Gheroz,,sideboard,Annul,1
+,deck_4,Gheroz,,sideboard,"Ral, Crackling Wit",1
+,deck_4,Gheroz,,sideboard,Drake Hatcher,1
+,deck_4,Gheroz,,sideboard,Spell Snare,1
+,deck_4,Gheroz,,sideboard,Fire Magic,1

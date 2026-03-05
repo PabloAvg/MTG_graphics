@@ -1,0 +1,25 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_31,T1_Tinker,,mainboard,Lightning Bolt,4
+,deck_31,T1_Tinker,,mainboard,Cori-Steel Cutter,4
+,deck_31,T1_Tinker,,mainboard,Fiery Islet,2
+,deck_31,T1_Tinker,,mainboard,Mutagenic Growth,4
+,deck_31,T1_Tinker,,mainboard,Wooded Foothills,2
+,deck_31,T1_Tinker,,mainboard,Lava Dart,4
+,deck_31,T1_Tinker,,mainboard,Steam Vents,3
+,deck_31,T1_Tinker,,mainboard,Scalding Tarn,3
+,deck_31,T1_Tinker,,mainboard,Mountain,3
+,deck_31,T1_Tinker,,mainboard,Preordain,4
+,deck_31,T1_Tinker,,mainboard,Expressive Iteration,4
+,deck_31,T1_Tinker,,mainboard,Monastery Swiftspear,4
+,deck_31,T1_Tinker,,mainboard,Slickshot Show-Off,4
+,deck_31,T1_Tinker,,mainboard,Mishra's Bauble,4
+,deck_31,T1_Tinker,,mainboard,Thundering Falls,1
+,deck_31,T1_Tinker,,mainboard,Violent Urge,2
+,deck_31,T1_Tinker,,mainboard,Bloodstained Mire,2
+,deck_31,T1_Tinker,,mainboard,Dragon's Rage Channeler,4
+,deck_31,T1_Tinker,,mainboard,Arid Mesa,2
+,deck_31,T1_Tinker,,sideboard,Consign to Memory,4
+,deck_31,T1_Tinker,,sideboard,Spell Pierce,4
+,deck_31,T1_Tinker,,sideboard,Meltdown,2
+,deck_31,T1_Tinker,,sideboard,Unholy Heat,3
+,deck_31,T1_Tinker,,sideboard,Surgical Extraction,2

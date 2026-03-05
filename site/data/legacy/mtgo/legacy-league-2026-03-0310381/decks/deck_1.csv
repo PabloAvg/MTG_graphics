@@ -1,0 +1,38 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,BalenciagaNBoba,,mainboard,Flooded Strand,4
+,deck_1,BalenciagaNBoba,,mainboard,Volcanic Island,1
+,deck_1,BalenciagaNBoba,,mainboard,Tundra,1
+,deck_1,BalenciagaNBoba,,mainboard,Scalding Tarn,1
+,deck_1,BalenciagaNBoba,,mainboard,Prismatic Ending,3
+,deck_1,BalenciagaNBoba,,mainboard,Prismatic Vista,4
+,deck_1,BalenciagaNBoba,,mainboard,Stoneforge Mystic,4
+,deck_1,BalenciagaNBoba,,mainboard,Ponder,4
+,deck_1,BalenciagaNBoba,,mainboard,Brainstorm,4
+,deck_1,BalenciagaNBoba,,mainboard,Spell Pierce,1
+,deck_1,BalenciagaNBoba,,mainboard,Snapcaster Mage,3
+,deck_1,BalenciagaNBoba,,mainboard,Force of Will,4
+,deck_1,BalenciagaNBoba,,mainboard,"Jace, the Mind Sculptor",1
+,deck_1,BalenciagaNBoba,,mainboard,"Narset, Parter of Veils",1
+,deck_1,BalenciagaNBoba,,mainboard,"Teferi, Time Raveler",1
+,deck_1,BalenciagaNBoba,,mainboard,"Teferi, Time Raveler",1
+,deck_1,BalenciagaNBoba,,mainboard,Kaldra Compleat,1
+,deck_1,BalenciagaNBoba,,mainboard,Batterskull,1
+,deck_1,BalenciagaNBoba,,mainboard,Swords to Plowshares,4
+,deck_1,BalenciagaNBoba,,mainboard,Back to Basics,2
+,deck_1,BalenciagaNBoba,,mainboard,Dress Down,1
+,deck_1,BalenciagaNBoba,,mainboard,"Jace, the Mind Sculptor",2
+,deck_1,BalenciagaNBoba,,mainboard,Counterbalance,1
+,deck_1,BalenciagaNBoba,,mainboard,Plains,2
+,deck_1,BalenciagaNBoba,,mainboard,Cryptic Coat,1
+,deck_1,BalenciagaNBoba,,mainboard,Mountain,1
+,deck_1,BalenciagaNBoba,,mainboard,Island,6
+,deck_1,BalenciagaNBoba,,sideboard,Red Elemental Blast,1
+,deck_1,BalenciagaNBoba,,sideboard,"Lavinia, Azorius Renegade",2
+,deck_1,BalenciagaNBoba,,sideboard,Pyroblast,1
+,deck_1,BalenciagaNBoba,,sideboard,Hydroblast,1
+,deck_1,BalenciagaNBoba,,sideboard,Consign to Memory,2
+,deck_1,BalenciagaNBoba,,sideboard,Pyroblast,1
+,deck_1,BalenciagaNBoba,,sideboard,Meltdown,2
+,deck_1,BalenciagaNBoba,,sideboard,Surgical Extraction,2
+,deck_1,BalenciagaNBoba,,sideboard,Blue Elemental Blast,1
+,deck_1,BalenciagaNBoba,,sideboard,Fire Magic,2

@@ -1,0 +1,35 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,pagan20,,mainboard,"Tamiyo, Inquisitive Student",4
+,deck_1,pagan20,,mainboard,Polluted Delta,4
+,deck_1,pagan20,,mainboard,Murktide Regent,2
+,deck_1,pagan20,,mainboard,Undercity Sewers,1
+,deck_1,pagan20,,mainboard,Kolaghan's Command,2
+,deck_1,pagan20,,mainboard,Orcish Bowmasters,4
+,deck_1,pagan20,,mainboard,Sheoldred's Edict,2
+,deck_1,pagan20,,mainboard,Brainstorm,4
+,deck_1,pagan20,,mainboard,Brazen Borrower,1
+,deck_1,pagan20,,mainboard,Force of Will,4
+,deck_1,pagan20,,mainboard,Ponder,4
+,deck_1,pagan20,,mainboard,Underground Sea,2
+,deck_1,pagan20,,mainboard,Badlands,1
+,deck_1,pagan20,,mainboard,Thoughtseize,4
+,deck_1,pagan20,,mainboard,Island,1
+,deck_1,pagan20,,mainboard,Fatal Push,4
+,deck_1,pagan20,,mainboard,Swamp,1
+,deck_1,pagan20,,mainboard,Volcanic Island,1
+,deck_1,pagan20,,mainboard,Scalding Tarn,2
+,deck_1,pagan20,,mainboard,Barrowgoyf,3
+,deck_1,pagan20,,mainboard,Bloodstained Mire,2
+,deck_1,pagan20,,mainboard,Wasteland,4
+,deck_1,pagan20,,mainboard,Thundering Falls,1
+,deck_1,pagan20,,mainboard,"Kaito, Bane of Nightmares",2
+,deck_1,pagan20,,sideboard,Force of Negation,1
+,deck_1,pagan20,,sideboard,Hydroblast,1
+,deck_1,pagan20,,sideboard,Pyroblast,2
+,deck_1,pagan20,,sideboard,Toxic Deluge,2
+,deck_1,pagan20,,sideboard,Barrowgoyf,1
+,deck_1,pagan20,,sideboard,Red Elemental Blast,1
+,deck_1,pagan20,,sideboard,Consign to Memory,2
+,deck_1,pagan20,,sideboard,Meltdown,2
+,deck_1,pagan20,,sideboard,Surgical Extraction,2
+,deck_1,pagan20,,sideboard,Grafdigger's Cage,1

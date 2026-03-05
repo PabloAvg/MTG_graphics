@@ -1,0 +1,36 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_12,Lans_NL,,mainboard,Swamp,1
+,deck_12,Lans_NL,,mainboard,Forest,1
+,deck_12,Lans_NL,,mainboard,Verdant Catacombs,1
+,deck_12,Lans_NL,,mainboard,Thoughtseize,3
+,deck_12,Lans_NL,,mainboard,Bojuka Bog,1
+,deck_12,Lans_NL,,mainboard,Dryad Arbor,1
+,deck_12,Lans_NL,,mainboard,Polluted Delta,2
+,deck_12,Lans_NL,,mainboard,Bayou,2
+,deck_12,Lans_NL,,mainboard,Wasteland,3
+,deck_12,Lans_NL,,mainboard,Wasteland,1
+,deck_12,Lans_NL,,mainboard,Once Upon a Time,3
+,deck_12,Lans_NL,,mainboard,Wight of the Reliquary,4
+,deck_12,Lans_NL,,mainboard,"Hogaak, Arisen Necropolis",4
+,deck_12,Lans_NL,,mainboard,Nurturing Peatland,1
+,deck_12,Lans_NL,,mainboard,Sylvan Safekeeper,1
+,deck_12,Lans_NL,,mainboard,Witherbloom Command,2
+,deck_12,Lans_NL,,mainboard,Ignoble Hierarch,4
+,deck_12,Lans_NL,,mainboard,"Boseiju, Who Endures",1
+,deck_12,Lans_NL,,mainboard,Moonshadow,4
+,deck_12,Lans_NL,,mainboard,Underground Mortuary,1
+,deck_12,Lans_NL,,mainboard,Sylvan Safekeeper,2
+,deck_12,Lans_NL,,mainboard,Talon Gates of Madara,1
+,deck_12,Lans_NL,,mainboard,Verdant Catacombs,2
+,deck_12,Lans_NL,,mainboard,Verdant Catacombs,1
+,deck_12,Lans_NL,,mainboard,Orcish Bowmasters,4
+,deck_12,Lans_NL,,mainboard,Fatal Push,3
+,deck_12,Lans_NL,,mainboard,Misty Rainforest,2
+,deck_12,Lans_NL,,mainboard,Stitcher's Supplier,4
+,deck_12,Lans_NL,,sideboard,Thoughtseize,1
+,deck_12,Lans_NL,,sideboard,Fatal Push,1
+,deck_12,Lans_NL,,sideboard,Sheoldred's Edict,2
+,deck_12,Lans_NL,,sideboard,Disruptor Flute,2
+,deck_12,Lans_NL,,sideboard,Mindbreak Trap,2
+,deck_12,Lans_NL,,sideboard,Force of Vigor,3
+,deck_12,Lans_NL,,sideboard,Leyline of the Void,4

@@ -1,0 +1,39 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_9,SauTay,,mainboard,Badlands,2
+,deck_9,SauTay,,mainboard,Ponder,4
+,deck_9,SauTay,,mainboard,Polluted Delta,1
+,deck_9,SauTay,,mainboard,Polluted Delta,3
+,deck_9,SauTay,,mainboard,Brazen Borrower,1
+,deck_9,SauTay,,mainboard,Orcish Bowmasters,3
+,deck_9,SauTay,,mainboard,"Kaito, Bane of Nightmares",1
+,deck_9,SauTay,,mainboard,Force of Will,4
+,deck_9,SauTay,,mainboard,Hymn to Tourach,3
+,deck_9,SauTay,,mainboard,Molten Collapse,1
+,deck_9,SauTay,,mainboard,Murktide Regent,2
+,deck_9,SauTay,,mainboard,Fatal Push,4
+,deck_9,SauTay,,mainboard,Daze,3
+,deck_9,SauTay,,mainboard,Brainstorm,4
+,deck_9,SauTay,,mainboard,Scalding Tarn,4
+,deck_9,SauTay,,mainboard,"Tamiyo, Inquisitive Student",2
+,deck_9,SauTay,,mainboard,Barrowgoyf,2
+,deck_9,SauTay,,mainboard,Undercity Sewers,1
+,deck_9,SauTay,,mainboard,Underground Sea,2
+,deck_9,SauTay,,mainboard,Volcanic Island,1
+,deck_9,SauTay,,mainboard,Baleful Strix,2
+,deck_9,SauTay,,mainboard,Thoughtseize,2
+,deck_9,SauTay,,mainboard,Thoughtseize,2
+,deck_9,SauTay,,mainboard,Wasteland,4
+,deck_9,SauTay,,mainboard,"Tamiyo, Inquisitive Student",1
+,deck_9,SauTay,,mainboard,Underground Sea,1
+,deck_9,SauTay,,sideboard,Barrowgoyf,1
+,deck_9,SauTay,,sideboard,Consign to Memory,2
+,deck_9,SauTay,,sideboard,Force of Negation,2
+,deck_9,SauTay,,sideboard,Surgical Extraction,1
+,deck_9,SauTay,,sideboard,Pyroblast,1
+,deck_9,SauTay,,sideboard,Meltdown,1
+,deck_9,SauTay,,sideboard,Molten Collapse,1
+,deck_9,SauTay,,sideboard,Pyroblast,2
+,deck_9,SauTay,,sideboard,Sheoldred's Edict,1
+,deck_9,SauTay,,sideboard,Hydroblast,1
+,deck_9,SauTay,,sideboard,Grafdigger's Cage,1
+,deck_9,SauTay,,sideboard,Toxic Deluge,1

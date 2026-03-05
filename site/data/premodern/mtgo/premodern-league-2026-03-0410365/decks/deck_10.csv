@@ -1,0 +1,30 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_10,salvatorix,,mainboard,Akroma's Vengeance,1
+,deck_10,salvatorix,,mainboard,Barren Moor,1
+,deck_10,salvatorix,,mainboard,Cabal Therapy,2
+,deck_10,salvatorix,,mainboard,Caves of Koilos,4
+,deck_10,salvatorix,,mainboard,Decree of Justice,4
+,deck_10,salvatorix,,mainboard,Decree of Pain,1
+,deck_10,salvatorix,,mainboard,Duress,4
+,deck_10,salvatorix,,mainboard,Dust Bowl,2
+,deck_10,salvatorix,,mainboard,Eternal Dragon,3
+,deck_10,salvatorix,,mainboard,Gerrard's Verdict,4
+,deck_10,salvatorix,,mainboard,Renewed Faith,1
+,deck_10,salvatorix,,mainboard,Salt Flats,1
+,deck_10,salvatorix,,mainboard,Secluded Steppe,1
+,deck_10,salvatorix,,mainboard,Skeletal Scrying,3
+,deck_10,salvatorix,,mainboard,Swords to Plowshares,4
+,deck_10,salvatorix,,mainboard,Undead Gladiator,1
+,deck_10,salvatorix,,mainboard,Vindicate,4
+,deck_10,salvatorix,,mainboard,Wrath of God,2
+,deck_10,salvatorix,,mainboard,Plains,7
+,deck_10,salvatorix,,mainboard,Swamp,9
+,deck_10,salvatorix,,mainboard,Smother,1
+,deck_10,salvatorix,,sideboard,Aura of Silence,2
+,deck_10,salvatorix,,sideboard,Circle of Protection: Red,3
+,deck_10,salvatorix,,sideboard,Cleansing Meditation,1
+,deck_10,salvatorix,,sideboard,Haunting Echoes,1
+,deck_10,salvatorix,,sideboard,Infest,2
+,deck_10,salvatorix,,sideboard,Phyrexian Arena,2
+,deck_10,salvatorix,,sideboard,Stromgald Cabal,2
+,deck_10,salvatorix,,sideboard,Tormod's Crypt,2

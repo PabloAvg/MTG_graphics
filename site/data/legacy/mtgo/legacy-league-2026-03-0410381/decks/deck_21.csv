@@ -1,0 +1,36 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_21,FGC,,mainboard,Agatha's Soul Cauldron,1
+,deck_21,FGC,,mainboard,Thundering Falls,1
+,deck_21,FGC,,mainboard,Arid Mesa,1
+,deck_21,FGC,,mainboard,Bloodstained Mire,1
+,deck_21,FGC,,mainboard,Chaos Defiler,1
+,deck_21,FGC,,mainboard,Goblin Engineer,4
+,deck_21,FGC,,mainboard,Goblin Welder,4
+,deck_21,FGC,,mainboard,Ancient Tomb,4
+,deck_21,FGC,,mainboard,Grindstone,2
+,deck_21,FGC,,mainboard,Legion Extruder,1
+,deck_21,FGC,,mainboard,Lotus Petal,4
+,deck_21,FGC,,mainboard,Melded Moxite,4
+,deck_21,FGC,,mainboard,Wooded Foothills,1
+,deck_21,FGC,,mainboard,Volcanic Island,1
+,deck_21,FGC,,mainboard,Painter's Servant,4
+,deck_21,FGC,,mainboard,Phyrexian Dragon Engine,1
+,deck_21,FGC,,mainboard,Pyroblast,4
+,deck_21,FGC,,mainboard,Red Elemental Blast,2
+,deck_21,FGC,,mainboard,Scalding Tarn,2
+,deck_21,FGC,,mainboard,Sewer-veillance Cam,4
+,deck_21,FGC,,mainboard,Skateboard,1
+,deck_21,FGC,,mainboard,Urza's Saga,4
+,deck_21,FGC,,mainboard,Mox Opal,2
+,deck_21,FGC,,mainboard,Mountain,2
+,deck_21,FGC,,mainboard,Great Furnace,4
+,deck_21,FGC,,sideboard,Abrade,2
+,deck_21,FGC,,sideboard,Disruptor Flute,1
+,deck_21,FGC,,sideboard,Ensnaring Bridge,1
+,deck_21,FGC,,sideboard,Mindbreak Trap,3
+,deck_21,FGC,,sideboard,Soul-Guide Lantern,1
+,deck_21,FGC,,sideboard,Pithing Needle,1
+,deck_21,FGC,,sideboard,Sudden Demise,2
+,deck_21,FGC,,sideboard,Trinisphere,1
+,deck_21,FGC,,sideboard,Untimely Malfunction,1
+,deck_21,FGC,,sideboard,Tormod's Crypt,2

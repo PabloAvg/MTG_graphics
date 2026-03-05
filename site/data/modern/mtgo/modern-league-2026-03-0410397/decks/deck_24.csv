@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_24,MTGWojtek,,mainboard,Bojuka Bog,1
+,deck_24,MTGWojtek,,mainboard,Ugin's Labyrinth,4
+,deck_24,MTGWojtek,,mainboard,Chalice of the Void,4
+,deck_24,MTGWojtek,,mainboard,Eldrazi Linebreaker,4
+,deck_24,MTGWojtek,,mainboard,Eldrazi Temple,4
+,deck_24,MTGWojtek,,mainboard,Arena of Glory,2
+,deck_24,MTGWojtek,,mainboard,Kozilek's Command,4
+,deck_24,MTGWojtek,,mainboard,Devourer of Destiny,4
+,deck_24,MTGWojtek,,mainboard,Forest,1
+,deck_24,MTGWojtek,,mainboard,Sire of Seven Deaths,4
+,deck_24,MTGWojtek,,mainboard,Sowing Mycospawn,4
+,deck_24,MTGWojtek,,mainboard,Thought-Knot Seer,4
+,deck_24,MTGWojtek,,mainboard,Cavern of Souls,4
+,deck_24,MTGWojtek,,mainboard,Unclaimed Territory,4
+,deck_24,MTGWojtek,,mainboard,Wastes,2
+,deck_24,MTGWojtek,,mainboard,Wastescape Battlemage,3
+,deck_24,MTGWojtek,,mainboard,Glaring Fleshraker,3
+,deck_24,MTGWojtek,,mainboard,Mountain,1
+,deck_24,MTGWojtek,,mainboard,It That Heralds the End,3
+,deck_24,MTGWojtek,,sideboard,Vexing Bauble,2
+,deck_24,MTGWojtek,,sideboard,Eldrazi Obligator,2
+,deck_24,MTGWojtek,,sideboard,Trinisphere,3
+,deck_24,MTGWojtek,,sideboard,Dismember,2
+,deck_24,MTGWojtek,,sideboard,Unlicensed Hearse,2
+,deck_24,MTGWojtek,,sideboard,Disruptor Flute,2
+,deck_24,MTGWojtek,,sideboard,All Is Dust,2

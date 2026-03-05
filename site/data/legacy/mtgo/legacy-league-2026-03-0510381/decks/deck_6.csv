@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_6,temur4life,,mainboard,"Emry, Lurker of the Loch",4
+,deck_6,temur4life,,mainboard,Urza's Bauble,4
+,deck_6,temur4life,,mainboard,Island,1
+,deck_6,temur4life,,mainboard,Shadowspear,1
+,deck_6,temur4life,,mainboard,Kappa Cannoneer,4
+,deck_6,temur4life,,mainboard,Lavaspur Boots,1
+,deck_6,temur4life,,mainboard,Lotus Petal,4
+,deck_6,temur4life,,mainboard,Memory Guardian,4
+,deck_6,temur4life,,mainboard,Mox Opal,4
+,deck_6,temur4life,,mainboard,Pinnacle Emissary,4
+,deck_6,temur4life,,mainboard,Patchwork Automaton,4
+,deck_6,temur4life,,mainboard,Ancient Tomb,4
+,deck_6,temur4life,,mainboard,Sink into Stupor,4
+,deck_6,temur4life,,mainboard,Force of Will,4
+,deck_6,temur4life,,mainboard,Mishra's Bauble,4
+,deck_6,temur4life,,mainboard,Urza's Saga,4
+,deck_6,temur4life,,mainboard,Pithing Needle,1
+,deck_6,temur4life,,mainboard,Seat of the Synod,4
+,deck_6,temur4life,,sideboard,Pithing Needle,1
+,deck_6,temur4life,,sideboard,Force of Negation,3
+,deck_6,temur4life,,sideboard,Dismember,2
+,deck_6,temur4life,,sideboard,Tormod's Crypt,3
+,deck_6,temur4life,,sideboard,Harbinger of the Seas,2
+,deck_6,temur4life,,sideboard,Aether Spellbomb,1
+,deck_6,temur4life,,sideboard,Consign to Memory,2
+,deck_6,temur4life,,sideboard,Hydroblast,1

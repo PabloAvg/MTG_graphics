@@ -39,7 +39,7 @@ jobs:
         env:
           MTG_CI_MODE: full
         run: |
-          python src/01_fetch_mtgdecks_winrates.py
+          python src/run.py
 
       - name: Ensure site/index.html exists
         shell: bash
@@ -85,3 +85,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+

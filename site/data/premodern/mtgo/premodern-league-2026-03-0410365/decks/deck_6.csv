@@ -1,0 +1,31 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_6,Tenenbaum1,,mainboard,Counterspell,4
+,deck_6,Tenenbaum1,,mainboard,Island,5
+,deck_6,Tenenbaum1,,mainboard,Plains,4
+,deck_6,Tenenbaum1,,mainboard,Coastal Tower,1
+,deck_6,Tenenbaum1,,mainboard,Adarkar Wastes,4
+,deck_6,Tenenbaum1,,mainboard,Exalted Angel,2
+,deck_6,Tenenbaum1,,mainboard,Phyrexian Furnace,2
+,deck_6,Tenenbaum1,,mainboard,Wrath of God,2
+,deck_6,Tenenbaum1,,mainboard,Faerie Conclave,2
+,deck_6,Tenenbaum1,,mainboard,Powder Keg,1
+,deck_6,Tenenbaum1,,mainboard,Swords to Plowshares,4
+,deck_6,Tenenbaum1,,mainboard,Fact or Fiction,3
+,deck_6,Tenenbaum1,,mainboard,Flooded Strand,4
+,deck_6,Tenenbaum1,,mainboard,Decree of Justice,3
+,deck_6,Tenenbaum1,,mainboard,Humility,1
+,deck_6,Tenenbaum1,,mainboard,Mana Leak,3
+,deck_6,Tenenbaum1,,mainboard,Mishra's Factory,4
+,deck_6,Tenenbaum1,,mainboard,Absorb,1
+,deck_6,Tenenbaum1,,mainboard,Disenchant,1
+,deck_6,Tenenbaum1,,mainboard,Impulse,4
+,deck_6,Tenenbaum1,,mainboard,Dust Bowl,2
+,deck_6,Tenenbaum1,,mainboard,Standstill,3
+,deck_6,Tenenbaum1,,sideboard,Circle of Protection: Red,2
+,deck_6,Tenenbaum1,,sideboard,Annul,2
+,deck_6,Tenenbaum1,,sideboard,Wrath of God,1
+,deck_6,Tenenbaum1,,sideboard,Warmth,1
+,deck_6,Tenenbaum1,,sideboard,Meddling Mage,3
+,deck_6,Tenenbaum1,,sideboard,Tormod's Crypt,2
+,deck_6,Tenenbaum1,,sideboard,Brain Freeze,1
+,deck_6,Tenenbaum1,,sideboard,Hydroblast,3

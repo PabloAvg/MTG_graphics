@@ -1,0 +1,37 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_9,manu1234,,mainboard,Fire/Ice,4
+,deck_9,manu1234,,mainboard,Flooded Strand,4
+,deck_9,manu1234,,mainboard,Swords to Plowshares,4
+,deck_9,manu1234,,mainboard,Grand Coliseum,4
+,deck_9,manu1234,,mainboard,Plains,1
+,deck_9,manu1234,,mainboard,Miscalculation,2
+,deck_9,manu1234,,mainboard,Plains,1
+,deck_9,manu1234,,mainboard,Counterspell,4
+,deck_9,manu1234,,mainboard,Seafloor Debris,1
+,deck_9,manu1234,,mainboard,Fact or Fiction,3
+,deck_9,manu1234,,mainboard,Disenchant,2
+,deck_9,manu1234,,mainboard,Gaea's Blessing,1
+,deck_9,manu1234,,mainboard,Phyrexian Furnace,2
+,deck_9,manu1234,,mainboard,Gaea's Blessing,1
+,deck_9,manu1234,,mainboard,Dust Bowl,2
+,deck_9,manu1234,,mainboard,Decree of Justice,2
+,deck_9,manu1234,,mainboard,Impulse,4
+,deck_9,manu1234,,mainboard,Slice and Dice,3
+,deck_9,manu1234,,mainboard,Adarkar Wastes,1
+,deck_9,manu1234,,mainboard,Absorb,1
+,deck_9,manu1234,,mainboard,Akroma's Vengeance,1
+,deck_9,manu1234,,mainboard,Shivan Reef,4
+,deck_9,manu1234,,mainboard,Island,4
+,deck_9,manu1234,,mainboard,Reflecting Pool,4
+,deck_9,manu1234,,sideboard,Annul,1
+,deck_9,manu1234,,sideboard,Teferi's Response,1
+,deck_9,manu1234,,sideboard,Blue Elemental Blast,1
+,deck_9,manu1234,,sideboard,Hydroblast,1
+,deck_9,manu1234,,sideboard,Pyroblast,1
+,deck_9,manu1234,,sideboard,Sphere of Law,3
+,deck_9,manu1234,,sideboard,Pyroclasm,1
+,deck_9,manu1234,,sideboard,Warmth,1
+,deck_9,manu1234,,sideboard,Disenchant,1
+,deck_9,manu1234,,sideboard,Wing Shards,1
+,deck_9,manu1234,,sideboard,Annul,1
+,deck_9,manu1234,,sideboard,Red Elemental Blast,2

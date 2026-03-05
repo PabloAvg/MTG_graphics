@@ -1,0 +1,25 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_5,PyramidOfGreatness,,mainboard,Graveborn Muse,2
+,deck_5,PyramidOfGreatness,,mainboard,Duress,4
+,deck_5,PyramidOfGreatness,,mainboard,Mishra's Factory,4
+,deck_5,PyramidOfGreatness,,mainboard,Diabolic Edict,1
+,deck_5,PyramidOfGreatness,,mainboard,Cabal Therapy,3
+,deck_5,PyramidOfGreatness,,mainboard,Wasteland,3
+,deck_5,PyramidOfGreatness,,mainboard,Dark Ritual,4
+,deck_5,PyramidOfGreatness,,mainboard,Cursed Scroll,2
+,deck_5,PyramidOfGreatness,,mainboard,Swamp,17
+,deck_5,PyramidOfGreatness,,mainboard,Nantuko Shade,3
+,deck_5,PyramidOfGreatness,,mainboard,Smother,3
+,deck_5,PyramidOfGreatness,,mainboard,Snuff Out,1
+,deck_5,PyramidOfGreatness,,mainboard,Hypnotic Specter,4
+,deck_5,PyramidOfGreatness,,mainboard,Withered Wretch,4
+,deck_5,PyramidOfGreatness,,mainboard,Ravenous Rats,4
+,deck_5,PyramidOfGreatness,,mainboard,Funeral Charm,1
+,deck_5,PyramidOfGreatness,,sideboard,Contagion,1
+,deck_5,PyramidOfGreatness,,sideboard,Dystopia,3
+,deck_5,PyramidOfGreatness,,sideboard,Bottle Gnomes,2
+,deck_5,PyramidOfGreatness,,sideboard,Engineered Plague,4
+,deck_5,PyramidOfGreatness,,sideboard,Phyrexian Negator,2
+,deck_5,PyramidOfGreatness,,sideboard,Phyrexian Arena,1
+,deck_5,PyramidOfGreatness,,sideboard,Spinning Darkness,1
+,deck_5,PyramidOfGreatness,,sideboard,Vicious Hunger,1

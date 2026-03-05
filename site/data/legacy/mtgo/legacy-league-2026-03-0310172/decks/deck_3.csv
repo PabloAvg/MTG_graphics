@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_3,kyataoka,,mainboard,Animate Dead,3
+,deck_3,kyataoka,,mainboard,Undercity Sewers,2
+,deck_3,kyataoka,,mainboard,Island,1
+,deck_3,kyataoka,,mainboard,Polluted Delta,1
+,deck_3,kyataoka,,mainboard,Polluted Delta,3
+,deck_3,kyataoka,,mainboard,Swamp,1
+,deck_3,kyataoka,,mainboard,Underground Sea,3
+,deck_3,kyataoka,,mainboard,Brainstorm,4
+,deck_3,kyataoka,,mainboard,Hapless Researcher,4
+,deck_3,kyataoka,,mainboard,"Tamiyo, Inquisitive Student",3
+,deck_3,kyataoka,,mainboard,"Tamiyo, Inquisitive Student",1
+,deck_3,kyataoka,,mainboard,Reanimate,4
+,deck_3,kyataoka,,mainboard,Fatal Push,1
+,deck_3,kyataoka,,mainboard,Thoughtseize,4
+,deck_3,kyataoka,,mainboard,Daze,3
+,deck_3,kyataoka,,mainboard,Chart a Course,3
+,deck_3,kyataoka,,mainboard,Force of Will,4
+,deck_3,kyataoka,,mainboard,Archon of Cruelty,2
+,deck_3,kyataoka,,mainboard,Wasteland,2
+,deck_3,kyataoka,,mainboard,Scalding Tarn,2
+,deck_3,kyataoka,,mainboard,Misty Rainforest,1
+,deck_3,kyataoka,,mainboard,Bloodstained Mire,2
+,deck_3,kyataoka,,mainboard,Misty Rainforest,1
+,deck_3,kyataoka,,mainboard,"Atraxa, Grand Unifier",4
+,deck_3,kyataoka,,mainboard,Brazen Borrower,1
+,deck_3,kyataoka,,sideboard,Fatal Push,2
+,deck_3,kyataoka,,sideboard,Dauthi Voidwalker,3
+,deck_3,kyataoka,,sideboard,Brazen Borrower,2
+,deck_3,kyataoka,,sideboard,Barrowgoyf,2
+,deck_3,kyataoka,,sideboard,Barrowgoyf,1
+,deck_3,kyataoka,,sideboard,Show and Tell,4
+,deck_3,kyataoka,,sideboard,Snuff Out,1

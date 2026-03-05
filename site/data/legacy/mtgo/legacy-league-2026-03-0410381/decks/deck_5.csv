@@ -1,0 +1,31 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_5,Garraca,,mainboard,Vesuva,1
+,deck_5,Garraca,,mainboard,All Is Dust,2
+,deck_5,Garraca,,mainboard,The One Ring,4
+,deck_5,Garraca,,mainboard,Ancient Tomb,4
+,deck_5,Garraca,,mainboard,Planar Nexus,4
+,deck_5,Garraca,,mainboard,Grim Monolith,4
+,deck_5,Garraca,,mainboard,"Karn, the Great Creator",4
+,deck_5,Garraca,,mainboard,Kozilek's Command,4
+,deck_5,Garraca,,mainboard,Manifold Key,1
+,deck_5,Garraca,,mainboard,"Ugin, Eye of the Storms",3
+,deck_5,Garraca,,mainboard,Chalice of the Void,4
+,deck_5,Garraca,,mainboard,Cloudpost,4
+,deck_5,Garraca,,mainboard,Thought-Knot Seer,4
+,deck_5,Garraca,,mainboard,Eldrazi Temple,4
+,deck_5,Garraca,,mainboard,Glimmerpost,4
+,deck_5,Garraca,,mainboard,"Ugin, the Ineffable",1
+,deck_5,Garraca,,mainboard,"Ulamog, the Ceaseless Hunger",1
+,deck_5,Garraca,,mainboard,Eye of Ugin,1
+,deck_5,Garraca,,mainboard,Trinisphere,2
+,deck_5,Garraca,,mainboard,Urza's Tower,4
+,deck_5,Garraca,,sideboard,Walking Ballista,1
+,deck_5,Garraca,,sideboard,Tormod's Crypt,1
+,deck_5,Garraca,,sideboard,Ensnaring Bridge,1
+,deck_5,Garraca,,sideboard,Leyline of the Void,4
+,deck_5,Garraca,,sideboard,Liquimetal Coating,1
+,deck_5,Garraca,,sideboard,Mycosynth Lattice,1
+,deck_5,Garraca,,sideboard,Ratchet Bomb,1
+,deck_5,Garraca,,sideboard,Sorcerous Spyglass,1
+,deck_5,Garraca,,sideboard,Trinisphere,1
+,deck_5,Garraca,,sideboard,Warping Wail,3

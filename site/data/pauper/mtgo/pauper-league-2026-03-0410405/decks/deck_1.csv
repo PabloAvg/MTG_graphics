@@ -1,0 +1,31 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,VeryRedMan,,mainboard,Basilisk Gate,4
+,deck_1,VeryRedMan,,mainboard,Glint Hawk,4
+,deck_1,VeryRedMan,,mainboard,Heap Gate,2
+,deck_1,VeryRedMan,,mainboard,Mountain,2
+,deck_1,VeryRedMan,,mainboard,Cliffgate,4
+,deck_1,VeryRedMan,,mainboard,Thraben Charm,3
+,deck_1,VeryRedMan,,mainboard,Lembas,2
+,deck_1,VeryRedMan,,mainboard,Cryogen Relic,4
+,deck_1,VeryRedMan,,mainboard,Sea Gate,4
+,deck_1,VeryRedMan,,mainboard,Plains,2
+,deck_1,VeryRedMan,,mainboard,Citadel Gate,4
+,deck_1,VeryRedMan,,mainboard,Kor Skyfisher,4
+,deck_1,VeryRedMan,,mainboard,Guardian of the Guildpact,1
+,deck_1,VeryRedMan,,mainboard,Relic of Progenitus,1
+,deck_1,VeryRedMan,,mainboard,Experimental Synthesizer,4
+,deck_1,VeryRedMan,,mainboard,Relic of Progenitus,1
+,deck_1,VeryRedMan,,mainboard,Sacred Cat,4
+,deck_1,VeryRedMan,,mainboard,Navigator's Compass,2
+,deck_1,VeryRedMan,,mainboard,Galvanic Blast,4
+,deck_1,VeryRedMan,,mainboard,Lightning Bolt,1
+,deck_1,VeryRedMan,,mainboard,Lightning Bolt,3
+,deck_1,VeryRedMan,,sideboard,Red Elemental Blast,1
+,deck_1,VeryRedMan,,sideboard,Standard Bearer,1
+,deck_1,VeryRedMan,,sideboard,Red Elemental Blast,2
+,deck_1,VeryRedMan,,sideboard,Goliath Paladin,1
+,deck_1,VeryRedMan,,sideboard,Breath Weapon,1
+,deck_1,VeryRedMan,,sideboard,Pyroblast,1
+,deck_1,VeryRedMan,,sideboard,Blue Elemental Blast,4
+,deck_1,VeryRedMan,,sideboard,Breath Weapon,2
+,deck_1,VeryRedMan,,sideboard,Dust to Dust,2

@@ -1,0 +1,29 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,Jack-Z,,mainboard,Swamp,9
+,deck_1,Jack-Z,,mainboard,Watery Grave,4
+,deck_1,Jack-Z,,mainboard,Cavern of Souls,1
+,deck_1,Jack-Z,,mainboard,Duress,3
+,deck_1,Jack-Z,,mainboard,Bitter Triumph,3
+,deck_1,Jack-Z,,mainboard,Restless Reef,4
+,deck_1,Jack-Z,,mainboard,Undercity Sewers,1
+,deck_1,Jack-Z,,mainboard,Insatiable Avarice,3
+,deck_1,Jack-Z,,mainboard,Harvester of Misery,2
+,deck_1,Jack-Z,,mainboard,Doomsday Excruciator,3
+,deck_1,Jack-Z,,mainboard,Gloomlake Verge,4
+,deck_1,Jack-Z,,mainboard,Stock Up,3
+,deck_1,Jack-Z,,mainboard,Winternight Stories,2
+,deck_1,Jack-Z,,mainboard,"Kavaero, Mind-Bitten",4
+,deck_1,Jack-Z,,mainboard,Multiversal Passage,2
+,deck_1,Jack-Z,,mainboard,"Wan Shi Tong, Librarian",1
+,deck_1,Jack-Z,,mainboard,Day of Black Sun,3
+,deck_1,Jack-Z,,mainboard,Requiting Hex,4
+,deck_1,Jack-Z,,mainboard,Deceit,4
+,deck_1,Jack-Z,,sideboard,Annul,2
+,deck_1,Jack-Z,,sideboard,Flashfreeze,2
+,deck_1,Jack-Z,,sideboard,Duress,1
+,deck_1,Jack-Z,,sideboard,Soul-Guide Lantern,2
+,deck_1,Jack-Z,,sideboard,Shoot the Sheriff,1
+,deck_1,Jack-Z,,sideboard,Intimidation Tactics,2
+,deck_1,Jack-Z,,sideboard,Oildeep Gearhulk,1
+,deck_1,Jack-Z,,sideboard,Qarsi Revenant,2
+,deck_1,Jack-Z,,sideboard,Quantum Riddler,2

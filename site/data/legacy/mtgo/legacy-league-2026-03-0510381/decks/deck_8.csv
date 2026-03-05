@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_8,ellaone,,mainboard,Swamp,1
+,deck_8,ellaone,,mainboard,Forest,1
+,deck_8,ellaone,,mainboard,Verdant Catacombs,4
+,deck_8,ellaone,,mainboard,Thoughtseize,3
+,deck_8,ellaone,,mainboard,Bojuka Bog,1
+,deck_8,ellaone,,mainboard,Dryad Arbor,1
+,deck_8,ellaone,,mainboard,Polluted Delta,2
+,deck_8,ellaone,,mainboard,Wasteland,3
+,deck_8,ellaone,,mainboard,Orcish Bowmasters,4
+,deck_8,ellaone,,mainboard,Wasteland,1
+,deck_8,ellaone,,mainboard,Wight of the Reliquary,4
+,deck_8,ellaone,,mainboard,Stitcher's Supplier,4
+,deck_8,ellaone,,mainboard,"Hogaak, Arisen Necropolis",4
+,deck_8,ellaone,,mainboard,Eumidian Hatchery,1
+,deck_8,ellaone,,mainboard,Once Upon a Time,4
+,deck_8,ellaone,,mainboard,Elvish Reclaimer,4
+,deck_8,ellaone,,mainboard,"Boseiju, Who Endures",2
+,deck_8,ellaone,,mainboard,Moonshadow,4
+,deck_8,ellaone,,mainboard,Underground Mortuary,1
+,deck_8,ellaone,,mainboard,Misty Rainforest,1
+,deck_8,ellaone,,mainboard,Sylvan Safekeeper,3
+,deck_8,ellaone,,mainboard,Talon Gates of Madara,1
+,deck_8,ellaone,,mainboard,Misty Rainforest,1
+,deck_8,ellaone,,mainboard,Bayou,2
+,deck_8,ellaone,,mainboard,Fatal Push,3
+,deck_8,ellaone,,sideboard,Leyline of the Void,4
+,deck_8,ellaone,,sideboard,Thoughtseize,1
+,deck_8,ellaone,,sideboard,Fatal Push,1
+,deck_8,ellaone,,sideboard,Sheoldred's Edict,2
+,deck_8,ellaone,,sideboard,Disruptor Flute,2
+,deck_8,ellaone,,sideboard,Mindbreak Trap,2
+,deck_8,ellaone,,sideboard,Force of Vigor,3

@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_12,Kizdar,,mainboard,Forest,3
+,deck_12,Kizdar,,mainboard,Badgermole Cub,4
+,deck_12,Kizdar,,mainboard,Multiversal Passage,4
+,deck_12,Kizdar,,mainboard,Leyline Weaver,4
+,deck_12,Kizdar,,mainboard,Ouroboroid,3
+,deck_12,Kizdar,,mainboard,Gene Pollinator,4
+,deck_12,Kizdar,,mainboard,Quantum Riddler,4
+,deck_12,Kizdar,,mainboard,Llanowar Elves,4
+,deck_12,Kizdar,,mainboard,Craterhoof Behemoth,1
+,deck_12,Kizdar,,mainboard,Botanical Sanctum,4
+,deck_12,Kizdar,,mainboard,Keen-Eyed Curator,3
+,deck_12,Kizdar,,mainboard,Mockingbird,3
+,deck_12,Kizdar,,mainboard,Archdruid's Charm,2
+,deck_12,Kizdar,,mainboard,Willowrush Verge,3
+,deck_12,Kizdar,,mainboard,"Surrak, Elusive Hunter",1
+,deck_12,Kizdar,,mainboard,Nature's Rhythm,4
+,deck_12,Kizdar,,mainboard,Breeding Pool,4
+,deck_12,Kizdar,,mainboard,Marang River Regent,1
+,deck_12,Kizdar,,mainboard,Forest,1
+,deck_12,Kizdar,,mainboard,Forest,2
+,deck_12,Kizdar,,mainboard,Forest,1
+,deck_12,Kizdar,,sideboard,Soul-Guide Lantern,2
+,deck_12,Kizdar,,sideboard,"Surrak, Elusive Hunter",1
+,deck_12,Kizdar,,sideboard,Champion of the Weird,1
+,deck_12,Kizdar,,sideboard,Detect Intrusion,1
+,deck_12,Kizdar,,sideboard,"Oko, Lorwyn Liege",1
+,deck_12,Kizdar,,sideboard,Unable to Scream,2
+,deck_12,Kizdar,,sideboard,Into the Flood Maw,2
+,deck_12,Kizdar,,sideboard,Repulsive Mutation,1
+,deck_12,Kizdar,,sideboard,Kitesail Larcenist,1
+,deck_12,Kizdar,,sideboard,Wistfulness,2
+,deck_12,Kizdar,,sideboard,Spell Pierce,1

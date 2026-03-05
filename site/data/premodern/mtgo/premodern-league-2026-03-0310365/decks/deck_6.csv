@@ -1,0 +1,30 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_6,OrionOdin,,mainboard,Wooded Foothills,4
+,deck_6,OrionOdin,,mainboard,Forest,10
+,deck_6,OrionOdin,,mainboard,Mountain,1
+,deck_6,OrionOdin,,mainboard,Gaea's Cradle,4
+,deck_6,OrionOdin,,mainboard,Fyndhorn Elves,1
+,deck_6,OrionOdin,,mainboard,Fyndhorn Elves,3
+,deck_6,OrionOdin,,mainboard,Llanowar Elves,4
+,deck_6,OrionOdin,,mainboard,Quirion Ranger,3
+,deck_6,OrionOdin,,mainboard,Wirewood Symbiote,4
+,deck_6,OrionOdin,,mainboard,Multani's Acolyte,4
+,deck_6,OrionOdin,,mainboard,Priest of Titania,4
+,deck_6,OrionOdin,,mainboard,"Squee, Goblin Nabob",1
+,deck_6,OrionOdin,,mainboard,Yavimaya Granger,1
+,deck_6,OrionOdin,,mainboard,Deranged Hermit,2
+,deck_6,OrionOdin,,mainboard,"Kamahl, Fist of Krosa",1
+,deck_6,OrionOdin,,mainboard,Masticore,2
+,deck_6,OrionOdin,,mainboard,Nantuko Vigilante,2
+,deck_6,OrionOdin,,mainboard,Anger,1
+,deck_6,OrionOdin,,mainboard,Caller of the Claw,1
+,deck_6,OrionOdin,,mainboard,Survival of the Fittest,4
+,deck_6,OrionOdin,,mainboard,Wellwisher,1
+,deck_6,OrionOdin,,mainboard,Thornscape Battlemage,1
+,deck_6,OrionOdin,,mainboard,Timberwatch Elf,1
+,deck_6,OrionOdin,,sideboard,Wall of Blossoms,4
+,deck_6,OrionOdin,,sideboard,Naturalize,3
+,deck_6,OrionOdin,,sideboard,Call of the Herd,3
+,deck_6,OrionOdin,,sideboard,Tormod's Crypt,2
+,deck_6,OrionOdin,,sideboard,Caller of the Claw,1
+,deck_6,OrionOdin,,sideboard,Tranquil Domain,2

@@ -1,0 +1,33 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_10,ALBERTGE,,mainboard,Misty Rainforest,2
+,deck_10,ALBERTGE,,mainboard,Force of Will,4
+,deck_10,ALBERTGE,,mainboard,Mountain,1
+,deck_10,ALBERTGE,,mainboard,Lotus Petal,4
+,deck_10,ALBERTGE,,mainboard,Scalding Tarn,4
+,deck_10,ALBERTGE,,mainboard,"Atraxa, Grand Unifier",4
+,deck_10,ALBERTGE,,mainboard,Mistrise Village,1
+,deck_10,ALBERTGE,,mainboard,Island,2
+,deck_10,ALBERTGE,,mainboard,Stock Up,3
+,deck_10,ALBERTGE,,mainboard,Ancient Tomb,3
+,deck_10,ALBERTGE,,mainboard,Flusterstorm,2
+,deck_10,ALBERTGE,,mainboard,Omniscience,2
+,deck_10,ALBERTGE,,mainboard,Thundering Falls,1
+,deck_10,ALBERTGE,,mainboard,Sneak Attack,4
+,deck_10,ALBERTGE,,mainboard,Show and Tell,4
+,deck_10,ALBERTGE,,mainboard,Volcanic Island,3
+,deck_10,ALBERTGE,,mainboard,Simian Spirit Guide,1
+,deck_10,ALBERTGE,,mainboard,Brainstorm,4
+,deck_10,ALBERTGE,,mainboard,"Emrakul, the Aeons Torn",3
+,deck_10,ALBERTGE,,mainboard,Griselbrand,1
+,deck_10,ALBERTGE,,mainboard,Brazen Borrower,1
+,deck_10,ALBERTGE,,mainboard,City of Traitors,2
+,deck_10,ALBERTGE,,mainboard,Ponder,4
+,deck_10,ALBERTGE,,sideboard,Pyroblast,1
+,deck_10,ALBERTGE,,sideboard,Brotherhood's End,1
+,deck_10,ALBERTGE,,sideboard,Consign to Memory,2
+,deck_10,ALBERTGE,,sideboard,Abrade,2
+,deck_10,ALBERTGE,,sideboard,Grafdigger's Cage,2
+,deck_10,ALBERTGE,,sideboard,"Yggdrasil, Rebirth Engine",2
+,deck_10,ALBERTGE,,sideboard,Disruptor Flute,1
+,deck_10,ALBERTGE,,sideboard,Fury,1
+,deck_10,ALBERTGE,,sideboard,Hexing Squelcher,3

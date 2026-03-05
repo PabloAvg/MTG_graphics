@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_6,IgorFeitosa,,mainboard,Tolarian Terror,4
+,deck_6,IgorFeitosa,,mainboard,Island,10
+,deck_6,IgorFeitosa,,mainboard,Thought Scour,4
+,deck_6,IgorFeitosa,,mainboard,Snuff Out,4
+,deck_6,IgorFeitosa,,mainboard,Contaminated Aquifer,4
+,deck_6,IgorFeitosa,,mainboard,Lórien Revealed,4
+,deck_6,IgorFeitosa,,mainboard,Counterspell,4
+,deck_6,IgorFeitosa,,mainboard,Gurmag Angler,2
+,deck_6,IgorFeitosa,,mainboard,Mental Note,4
+,deck_6,IgorFeitosa,,mainboard,Cast Down,2
+,deck_6,IgorFeitosa,,mainboard,Brainstorm,4
+,deck_6,IgorFeitosa,,mainboard,Ice Tunnel,1
+,deck_6,IgorFeitosa,,mainboard,Cryptic Serpent,4
+,deck_6,IgorFeitosa,,mainboard,Dispel,2
+,deck_6,IgorFeitosa,,mainboard,Spell Pierce,2
+,deck_6,IgorFeitosa,,mainboard,Unexpected Fangs,2
+,deck_6,IgorFeitosa,,mainboard,Consider,2
+,deck_6,IgorFeitosa,,mainboard,Deep Analysis,1
+,deck_6,IgorFeitosa,,sideboard,Blue Elemental Blast,2
+,deck_6,IgorFeitosa,,sideboard,Annul,3
+,deck_6,IgorFeitosa,,sideboard,Nihil Spellbomb,1
+,deck_6,IgorFeitosa,,sideboard,Arms of Hadar,2
+,deck_6,IgorFeitosa,,sideboard,Rotten Reunion,1
+,deck_6,IgorFeitosa,,sideboard,Hydroblast,2
+,deck_6,IgorFeitosa,,sideboard,Murmuring Mystic,2
+,deck_6,IgorFeitosa,,sideboard,Extract a Confession,2

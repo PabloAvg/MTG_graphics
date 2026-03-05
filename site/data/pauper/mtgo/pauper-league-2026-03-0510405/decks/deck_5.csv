@@ -1,0 +1,28 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_5,True-Name-Nemesis,,mainboard,Nutrient Block,4
+,deck_5,True-Name-Nemesis,,mainboard,Eviscerator's Insight,4
+,deck_5,True-Name-Nemesis,,mainboard,Swamp,9
+,deck_5,True-Name-Nemesis,,mainboard,Fanatical Offering,4
+,deck_5,True-Name-Nemesis,,mainboard,Campfire,3
+,deck_5,True-Name-Nemesis,,mainboard,Lembas,4
+,deck_5,True-Name-Nemesis,,mainboard,Golgari Rot Farm,2
+,deck_5,True-Name-Nemesis,,mainboard,Cauldron Familiar,3
+,deck_5,True-Name-Nemesis,,mainboard,Ichor Wellspring,2
+,deck_5,True-Name-Nemesis,,mainboard,Pestilence,3
+,deck_5,True-Name-Nemesis,,mainboard,Khalni Garden,4
+,deck_5,True-Name-Nemesis,,mainboard,Nihil Spellbomb,2
+,deck_5,True-Name-Nemesis,,mainboard,Troll of Khazad-dûm,3
+,deck_5,True-Name-Nemesis,,mainboard,Cast Down,4
+,deck_5,True-Name-Nemesis,,mainboard,Haunted Mire,1
+,deck_5,True-Name-Nemesis,,mainboard,Tithing Blade,2
+,deck_5,True-Name-Nemesis,,mainboard,Bojuka Bog,2
+,deck_5,True-Name-Nemesis,,mainboard,Go for the Throat,1
+,deck_5,True-Name-Nemesis,,mainboard,Heritage Reclamation,1
+,deck_5,True-Name-Nemesis,,mainboard,Heaped Harvest,1
+,deck_5,True-Name-Nemesis,,mainboard,Suffocating Fumes,1
+,deck_5,True-Name-Nemesis,,sideboard,Weather the Storm,4
+,deck_5,True-Name-Nemesis,,sideboard,Tragic Slip,2
+,deck_5,True-Name-Nemesis,,sideboard,Troublemaker Ouphe,2
+,deck_5,True-Name-Nemesis,,sideboard,Drown in Sorrow,3
+,deck_5,True-Name-Nemesis,,sideboard,Faerie Macabre,2
+,deck_5,True-Name-Nemesis,,sideboard,Snuff Out,2

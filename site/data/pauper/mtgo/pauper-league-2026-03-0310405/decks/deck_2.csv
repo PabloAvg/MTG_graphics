@@ -1,0 +1,25 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_2,saidin.raken,,mainboard,Goblin Anarchomancer,4
+,deck_2,saidin.raken,,mainboard,Snow-Covered Mountain,5
+,deck_2,saidin.raken,,mainboard,Sandstone Needle,4
+,deck_2,saidin.raken,,mainboard,Manamorphose,4
+,deck_2,saidin.raken,,mainboard,Thornscape Familiar,4
+,deck_2,saidin.raken,,mainboard,Hickory Woodlot,4
+,deck_2,saidin.raken,,mainboard,Glimpse the Impossible,4
+,deck_2,saidin.raken,,mainboard,Seething Song,4
+,deck_2,saidin.raken,,mainboard,Big Score,4
+,deck_2,saidin.raken,,mainboard,Reckless Impulse,4
+,deck_2,saidin.raken,,mainboard,Geothermal Crevice,4
+,deck_2,saidin.raken,,mainboard,First Day of Class,3
+,deck_2,saidin.raken,,mainboard,Pirate's Pillage,4
+,deck_2,saidin.raken,,mainboard,Wrenn's Resolve,4
+,deck_2,saidin.raken,,mainboard,Seize the Storm,2
+,deck_2,saidin.raken,,mainboard,Burning Curiosity,2
+,deck_2,saidin.raken,,sideboard,Flaring Pain,1
+,deck_2,saidin.raken,,sideboard,Origin of Metalbending,1
+,deck_2,saidin.raken,,sideboard,Pyroblast,4
+,deck_2,saidin.raken,,sideboard,Red Elemental Blast,2
+,deck_2,saidin.raken,,sideboard,Waterbending Lesson,1
+,deck_2,saidin.raken,,sideboard,Firebending Lesson,1
+,deck_2,saidin.raken,,sideboard,Gruul Turf,2
+,deck_2,saidin.raken,,sideboard,Weather the Storm,3

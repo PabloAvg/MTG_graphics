@@ -1,0 +1,25 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_2,Toffs,,mainboard,Aether Spellbomb,1
+,deck_2,Toffs,,mainboard,Ancient Tomb,4
+,deck_2,Toffs,,mainboard,Island,1
+,deck_2,Toffs,,mainboard,"Emry, Lurker of the Loch",4
+,deck_2,Toffs,,mainboard,Force of Will,4
+,deck_2,Toffs,,mainboard,Kappa Cannoneer,4
+,deck_2,Toffs,,mainboard,Lavaspur Boots,1
+,deck_2,Toffs,,mainboard,Lotus Petal,4
+,deck_2,Toffs,,mainboard,Memory Guardian,4
+,deck_2,Toffs,,mainboard,Mishra's Bauble,4
+,deck_2,Toffs,,mainboard,Mox Opal,4
+,deck_2,Toffs,,mainboard,Patchwork Automaton,4
+,deck_2,Toffs,,mainboard,Pinnacle Emissary,4
+,deck_2,Toffs,,mainboard,Pithing Needle,1
+,deck_2,Toffs,,mainboard,Seat of the Synod,4
+,deck_2,Toffs,,mainboard,Sink into Stupor,4
+,deck_2,Toffs,,mainboard,Urza's Bauble,4
+,deck_2,Toffs,,mainboard,Urza's Saga,4
+,deck_2,Toffs,,sideboard,Haywire Mite,1
+,deck_2,Toffs,,sideboard,Force of Negation,4
+,deck_2,Toffs,,sideboard,Dismember,2
+,deck_2,Toffs,,sideboard,Tormod's Crypt,3
+,deck_2,Toffs,,sideboard,Shadowspear,1
+,deck_2,Toffs,,sideboard,Disruptor Flute,4

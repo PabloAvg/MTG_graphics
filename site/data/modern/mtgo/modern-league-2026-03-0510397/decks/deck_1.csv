@@ -1,0 +1,27 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_1,JeromeAlce,,mainboard,Arena of Glory,2
+,deck_1,JeromeAlce,,mainboard,Detective's Phoenix,4
+,deck_1,JeromeAlce,,mainboard,Blazing Rootwalla,4
+,deck_1,JeromeAlce,,mainboard,Wooded Foothills,1
+,deck_1,JeromeAlce,,mainboard,Vengevine,4
+,deck_1,JeromeAlce,,mainboard,Burning Inquiry,4
+,deck_1,JeromeAlce,,mainboard,Street Wraith,4
+,deck_1,JeromeAlce,,mainboard,Lightning Bolt,3
+,deck_1,JeromeAlce,,mainboard,Stomping Ground,2
+,deck_1,JeromeAlce,,mainboard,Hollow One,4
+,deck_1,JeromeAlce,,mainboard,Scalding Tarn,2
+,deck_1,JeromeAlce,,mainboard,Marauding Mako,4
+,deck_1,JeromeAlce,,mainboard,Faithless Looting,4
+,deck_1,JeromeAlce,,mainboard,Raucous Theater,1
+,deck_1,JeromeAlce,,mainboard,Ox of Agonas,1
+,deck_1,JeromeAlce,,mainboard,Arid Mesa,3
+,deck_1,JeromeAlce,,mainboard,Moonshadow,4
+,deck_1,JeromeAlce,,mainboard,Goblin Lore,2
+,deck_1,JeromeAlce,,mainboard,Bloodstained Mire,2
+,deck_1,JeromeAlce,,mainboard,Blood Crypt,2
+,deck_1,JeromeAlce,,mainboard,Mountain,3
+,deck_1,JeromeAlce,,sideboard,Meltdown,3
+,deck_1,JeromeAlce,,sideboard,Magebane Lizard,2
+,deck_1,JeromeAlce,,sideboard,Obsidian Charmaw,3
+,deck_1,JeromeAlce,,sideboard,Rough/Tumble,3
+,deck_1,JeromeAlce,,sideboard,Leyline of the Void,4

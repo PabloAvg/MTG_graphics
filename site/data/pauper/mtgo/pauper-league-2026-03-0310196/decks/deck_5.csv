@@ -1,0 +1,29 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_5,barreto,,mainboard,Augur of Bolas,4
+,deck_5,barreto,,mainboard,Azure Fleet Admiral,1
+,deck_5,barreto,,mainboard,Moon-Circuit Hacker,1
+,deck_5,barreto,,mainboard,Bojuka Bog,2
+,deck_5,barreto,,mainboard,Brainstorm,3
+,deck_5,barreto,,mainboard,Cast Down,3
+,deck_5,barreto,,mainboard,Contaminated Aquifer,4
+,deck_5,barreto,,mainboard,Counterspell,4
+,deck_5,barreto,,mainboard,Dispel,2
+,deck_5,barreto,,mainboard,Island,10
+,deck_5,barreto,,mainboard,Faerie Seer,4
+,deck_5,barreto,,mainboard,Lórien Revealed,4
+,deck_5,barreto,,mainboard,Mukotai Ambusher,1
+,deck_5,barreto,,mainboard,Ninja of the Deep Hours,3
+,deck_5,barreto,,mainboard,Preordain,2
+,deck_5,barreto,,mainboard,Swamp,1
+,deck_5,barreto,,mainboard,Seething Landscape,1
+,deck_5,barreto,,mainboard,Snuff Out,4
+,deck_5,barreto,,mainboard,Spellstutter Sprite,4
+,deck_5,barreto,,mainboard,Suffocating Fumes,1
+,deck_5,barreto,,mainboard,Thorn of the Black Rose,1
+,deck_5,barreto,,sideboard,Arms of Hadar,2
+,deck_5,barreto,,sideboard,Mukotai Ambusher,1
+,deck_5,barreto,,sideboard,Murmuring Mystic,1
+,deck_5,barreto,,sideboard,Annul,4
+,deck_5,barreto,,sideboard,Blue Elemental Blast,4
+,deck_5,barreto,,sideboard,Relic of Progenitus,2
+,deck_5,barreto,,sideboard,Extract a Confession,1

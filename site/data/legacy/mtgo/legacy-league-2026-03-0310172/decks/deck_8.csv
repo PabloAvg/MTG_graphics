@@ -1,0 +1,36 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_8,AndrewWa,,mainboard,Bayou,1
+,deck_8,AndrewWa,,mainboard,Brainstorm,4
+,deck_8,AndrewWa,,mainboard,Flooded Strand,4
+,deck_8,AndrewWa,,mainboard,Force of Negation,1
+,deck_8,AndrewWa,,mainboard,Force of Will,4
+,deck_8,AndrewWa,,mainboard,Island,1
+,deck_8,AndrewWa,,mainboard,Leyline Binding,4
+,deck_8,AndrewWa,,mainboard,Meticulous Archive,1
+,deck_8,AndrewWa,,mainboard,Misty Rainforest,3
+,deck_8,AndrewWa,,mainboard,Murktide Regent,1
+,deck_8,AndrewWa,,mainboard,Orcish Bowmasters,4
+,deck_8,AndrewWa,,mainboard,"Phelia, Exuberant Shepherd",1
+,deck_8,AndrewWa,,mainboard,Plains,1
+,deck_8,AndrewWa,,mainboard,Polluted Delta,2
+,deck_8,AndrewWa,,mainboard,Ponder,4
+,deck_8,AndrewWa,,mainboard,Quantum Riddler,4
+,deck_8,AndrewWa,,mainboard,Savannah,1
+,deck_8,AndrewWa,,mainboard,Scrubland,1
+,deck_8,AndrewWa,,mainboard,Swords to Plowshares,4
+,deck_8,AndrewWa,,mainboard,"Tamiyo, Inquisitive Student",4
+,deck_8,AndrewWa,,mainboard,Tropical Island,2
+,deck_8,AndrewWa,,mainboard,Tundra,2
+,deck_8,AndrewWa,,mainboard,Underground Sea,1
+,deck_8,AndrewWa,,mainboard,Up the Beanstalk,4
+,deck_8,AndrewWa,,mainboard,Xander's Lounge,1
+,deck_8,AndrewWa,,sideboard,Barrowgoyf,1
+,deck_8,AndrewWa,,sideboard,Terminus,2
+,deck_8,AndrewWa,,sideboard,Wrath of the Skies,2
+,deck_8,AndrewWa,,sideboard,"Lavinia, Azorius Renegade",1
+,deck_8,AndrewWa,,sideboard,Deafening Silence,1
+,deck_8,AndrewWa,,sideboard,Hydroblast,1
+,deck_8,AndrewWa,,sideboard,Spell Pierce,1
+,deck_8,AndrewWa,,sideboard,Carpet of Flowers,2
+,deck_8,AndrewWa,,sideboard,Thoughtseize,2
+,deck_8,AndrewWa,,sideboard,Surgical Extraction,2

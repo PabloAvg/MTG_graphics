@@ -1,0 +1,35 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_11,wakame,,mainboard,Verdant Catacombs,1
+,deck_11,wakame,,mainboard,Lion's Eye Diamond,1
+,deck_11,wakame,,mainboard,Consider,1
+,deck_11,wakame,,mainboard,Scalding Tarn,1
+,deck_11,wakame,,mainboard,Polluted Delta,4
+,deck_11,wakame,,mainboard,Thoughtseize,3
+,deck_11,wakame,,mainboard,Misty Rainforest,1
+,deck_11,wakame,,mainboard,Lotus Petal,2
+,deck_11,wakame,,mainboard,Swamp,1
+,deck_11,wakame,,mainboard,Flooded Strand,1
+,deck_11,wakame,,mainboard,Ponder,4
+,deck_11,wakame,,mainboard,Street Wraith,2
+,deck_11,wakame,,mainboard,Doomsday,4
+,deck_11,wakame,,mainboard,Brainstorm,1
+,deck_11,wakame,,mainboard,Thassa's Oracle,2
+,deck_11,wakame,,mainboard,"Tamiyo, Inquisitive Student",4
+,deck_11,wakame,,mainboard,Undercity Sewers,1
+,deck_11,wakame,,mainboard,Underground Sea,4
+,deck_11,wakame,,mainboard,Daze,4
+,deck_11,wakame,,mainboard,Force of Will,4
+,deck_11,wakame,,mainboard,Edge of Autumn,2
+,deck_11,wakame,,mainboard,Cavern of Souls,1
+,deck_11,wakame,,mainboard,Dark Ritual,4
+,deck_11,wakame,,mainboard,Island,1
+,deck_11,wakame,,mainboard,Wasteland,3
+,deck_11,wakame,,mainboard,Brainstorm,3
+,deck_11,wakame,,sideboard,Shelldock Isle,1
+,deck_11,wakame,,sideboard,Consign to Memory,2
+,deck_11,wakame,,sideboard,Fatal Push,2
+,deck_11,wakame,,sideboard,Leyline of the Void,3
+,deck_11,wakame,,sideboard,Force of Negation,2
+,deck_11,wakame,,sideboard,Spectral Restitching,2
+,deck_11,wakame,,sideboard,"Jace, Wielder of Mysteries",1
+,deck_11,wakame,,sideboard,Counterbalance,2

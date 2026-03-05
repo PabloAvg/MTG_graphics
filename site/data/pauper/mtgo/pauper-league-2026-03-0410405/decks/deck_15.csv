@@ -1,0 +1,22 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_15,fsst,,mainboard,Island,16
+,deck_15,fsst,,mainboard,Cryptic Serpent,4
+,deck_15,fsst,,mainboard,Deem Inferior,2
+,deck_15,fsst,,mainboard,Lórien Revealed,4
+,deck_15,fsst,,mainboard,Mental Note,4
+,deck_15,fsst,,mainboard,Force Spike,4
+,deck_15,fsst,,mainboard,Delver of Secrets,4
+,deck_15,fsst,,mainboard,Counterspell,4
+,deck_15,fsst,,mainboard,Brainstorm,4
+,deck_15,fsst,,mainboard,Thought Scour,4
+,deck_15,fsst,,mainboard,Tolarian Terror,4
+,deck_15,fsst,,mainboard,Sleep of the Dead,2
+,deck_15,fsst,,mainboard,Deep Analysis,1
+,deck_15,fsst,,mainboard,Ponder,3
+,deck_15,fsst,,sideboard,Dispel,1
+,deck_15,fsst,,sideboard,Hydroblast,1
+,deck_15,fsst,,sideboard,Envelop,1
+,deck_15,fsst,,sideboard,Gut Shot,4
+,deck_15,fsst,,sideboard,Annul,2
+,deck_15,fsst,,sideboard,Blue Elemental Blast,4
+,deck_15,fsst,,sideboard,Murmuring Mystic,2

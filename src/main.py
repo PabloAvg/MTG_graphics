@@ -44,7 +44,7 @@ def _build_range_url(base_url: str, path: str) -> str:
 
 
 def _range_csv_paths(format_key: str, range_key: str) -> Tuple[Path, Path]:
-    base_dir = Path(OUT_HTML).parent / "data" / format_key
+    base_dir = Path(OUT_HTML).parent / "data" / format_key / "mtgdecks"
     base_dir.mkdir(parents=True, exist_ok=True)
     return (
         base_dir / f"archetypes_{range_key}.csv",

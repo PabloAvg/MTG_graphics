@@ -1,0 +1,24 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_2,Paul16,,mainboard,Swamp,3
+,deck_2,Paul16,,mainboard,Krark-Clan Shaman,3
+,deck_2,Paul16,,mainboard,Vault of Whispers,2
+,deck_2,Paul16,,mainboard,Nihil Spellbomb,4
+,deck_2,Paul16,,mainboard,Ichor Wellspring,4
+,deck_2,Paul16,,mainboard,Cast Down,4
+,deck_2,Paul16,,mainboard,Cleansing Wildfire,4
+,deck_2,Paul16,,mainboard,Drossforge Bridge,4
+,deck_2,Paul16,,mainboard,Slagwoods Bridge,4
+,deck_2,Paul16,,mainboard,Lembas,3
+,deck_2,Paul16,,mainboard,Fanatical Offering,4
+,deck_2,Paul16,,mainboard,Eviscerator's Insight,2
+,deck_2,Paul16,,mainboard,Gixian Infiltrator,4
+,deck_2,Paul16,,mainboard,Writhing Chrysalis,4
+,deck_2,Paul16,,mainboard,Twisted Landscape,4
+,deck_2,Paul16,,mainboard,Mountain,2
+,deck_2,Paul16,,mainboard,Forest,1
+,deck_2,Paul16,,mainboard,Galvanic Blast,4
+,deck_2,Paul16,,sideboard,Duress,4
+,deck_2,Paul16,,sideboard,Weather the Storm,4
+,deck_2,Paul16,,sideboard,Fiery Cannonade,2
+,deck_2,Paul16,,sideboard,Troublemaker Ouphe,2
+,deck_2,Paul16,,sideboard,Red Elemental Blast,3

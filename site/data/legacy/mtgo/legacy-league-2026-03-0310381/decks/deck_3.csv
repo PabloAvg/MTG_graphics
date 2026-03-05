@@ -1,0 +1,29 @@
+event_id,deck_id,player_name,rank,deck_part,card_name,quantity
+,deck_3,ecobaronen,,mainboard,Nethergoyf,4
+,deck_3,ecobaronen,,mainboard,Moonshadow,4
+,deck_3,ecobaronen,,mainboard,Super Shredder,3
+,deck_3,ecobaronen,,mainboard,Wasteland,4
+,deck_3,ecobaronen,,mainboard,Underground Sea,4
+,deck_3,ecobaronen,,mainboard,Dauthi Voidwalker,4
+,deck_3,ecobaronen,,mainboard,Thoughtseize,4
+,deck_3,ecobaronen,,mainboard,Fatal Push,3
+,deck_3,ecobaronen,,mainboard,Snuff Out,2
+,deck_3,ecobaronen,,mainboard,Urza's Bauble,4
+,deck_3,ecobaronen,,mainboard,Mishra's Bauble,4
+,deck_3,ecobaronen,,mainboard,Stalactite Stalker,2
+,deck_3,ecobaronen,,mainboard,Daze,3
+,deck_3,ecobaronen,,mainboard,Swamp,1
+,deck_3,ecobaronen,,mainboard,Marsh Flats,2
+,deck_3,ecobaronen,,mainboard,Verdant Catacombs,2
+,deck_3,ecobaronen,,mainboard,Bloodstained Mire,2
+,deck_3,ecobaronen,,mainboard,Polluted Delta,3
+,deck_3,ecobaronen,,mainboard,Dark Ritual,3
+,deck_3,ecobaronen,,mainboard,Barrowgoyf,2
+,deck_3,ecobaronen,,sideboard,Disruptor Flute,2
+,deck_3,ecobaronen,,sideboard,"Mai, Scornful Striker",2
+,deck_3,ecobaronen,,sideboard,Faerie Macabre,2
+,deck_3,ecobaronen,,sideboard,Barrowgoyf,2
+,deck_3,ecobaronen,,sideboard,Sheoldred's Edict,2
+,deck_3,ecobaronen,,sideboard,Toxic Deluge,2
+,deck_3,ecobaronen,,sideboard,Fatal Push,1
+,deck_3,ecobaronen,,sideboard,Surgical Extraction,2

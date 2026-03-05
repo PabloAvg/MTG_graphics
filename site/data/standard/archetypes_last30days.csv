@@ -1,148 +1,109 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
-Simic Ouroboroid,0.52041043943788,4483,0.51,0.54,/Standard/simic-ouroboroid
-Izzet Lessons,0.50712250712251,4212,0.49,0.52,/Standard/izzet-lessons
-Jeskai Control,0.51009016745384,2329,0.49,0.53,/Standard/jeskai-control
-Dimir Midrange,0.48446389496718,2285,0.46,0.51,/Standard/dimir-midrange
-Sultai Reanimator,0.48289538919187,2017,0.46,0.5,/Standard/sultai-reanimator
-Bant Airbending,0.55937755937756,1221,0.53,0.59,/Standard/bant-airbending
-Mono Green Landfall,0.57543859649123,1140,0.55,0.6,/Standard/mono-green-landfall
-Mono-Red Aggro,0.49157054125998,1127,0.46,0.52,/Standard/mono-red-aggro
-Izzet Looting,0.48652118100128,779,0.45,0.52,/Standard/izzet-looting
-Boros Burn,0.46417910447761,670,0.43,0.5,/Standard/boros-burn
-Selesnya Landfall,0.53958333333333,480,0.49,0.58,/Standard/selesnya-landfall
-Azorius Control,0.49289099526066,422,0.44,0.54,/Standard/azorius-control
-4 Color Rhythm,0.45192307692308,416,0.4,0.5,/Standard/4-color-rhythm
-Golgari Ouroboroid,0.5,396,0.45,0.55,/Standard/golgari-ouroboroid
-Izzet Splash,0.4986301369863,365,0.45,0.55,/Standard/izzet-splash
-Allies,0.47486033519553,358,0.42,0.53,/Standard/allies
-Izzet Prowess,0.5,312,0.44,0.56,/Standard/izzet-prowess
-Izzet Elementals,0.63787375415282,301,0.58,0.69,/Standard/izzet-elementals
-Jeskai Artifacts,0.40925266903915,281,0.35,0.47,/Standard/jeskai-artifacts
-Azorius Flash,0.56877323420074,269,0.51,0.63,/Standard/azorius-flash
-4 Color Control,0.50602409638554,249,0.44,0.57,/Standard/4-color-control
-Simic Omniscience,0.4364406779661,236,0.37,0.5,/Standard/simic-omniscience
-Temur Lessons,0.55868544600939,213,0.49,0.63,/Standard/temur-lessons
-Esper Pixie,0.5,210,0.43,0.57,/Standard/esper-pixie
-Boros Dragons,0.48901098901099,182,0.41,0.56,/Standard/boros-dragons
-Mono Red Leyline,0.42675159235669,157,0.35,0.51,/Standard/mono-red-leyline
-Bant Omniscience,0.57046979865772,149,0.49,0.65,/Standard/bant-omniscience
-Sultai Elementals,0.47945205479452,146,0.4,0.56,/Standard/sultai-elementals
-Temur Otters,0.484375,128,0.4,0.57,/Standard/temur-otters
-Dimir Bounce,0.4070796460177,113,0.32,0.5,/Standard/dimir-bounce
-Gruul Delirium,0.49090909090909,110,0.39,0.59,/Standard/gruul-delirium
-Jeskai Pixie,0.53846153846154,104,0.44,0.64,/Standard/jeskai-pixie
-4 Color Songcrafter,0.53921568627451,102,0.44,0.64,/Standard/4-color-songcrafter
-Mono Black Midrange,0.39795918367347,98,0.3,0.5,/Standard/mono-black-midrange
-Boros Aggro,0.37234042553191,94,0.27,0.48,/Standard/boros-aggro
-Golgari Roots,0.45454545454545,88,0.35,0.56,/Standard/golgari-roots
-Grixis Elementals,0.59302325581395,86,0.48,0.7,/Standard/grixis-elementals
-Dimir Excruciator,0.58333333333333,84,0.47,0.69,/Standard/dimir-excruciator
-Dimir Control,0.51282051282051,78,0.4,0.63,/Standard/dimir-control
-Mono White Tokens,0.52,75,0.4,0.64,/Standard/mono-white-tokens
-Temur Landfall,0.65333333333333,75,0.53,0.76,/Standard/temur-landfall
-Mono Green Ouroboroid,0.49315068493151,73,0.37,0.61,/Standard/mono-green-ouroboroid
-Orzhov Midrange,0.40625,64,0.29,0.54,/Standard/orzhov-midrange
-Bant Rhythm,0.40983606557377,61,0.29,0.54,/Standard/bant-rhythm
-4 Color Elementals,0.57142857142857,56,0.43,0.7,/Standard/4-color-elementals
-Boros Mice,0.46296296296296,54,0.33,0.6,/Standard/boros-mice
-Izzet Omniscience,0.40740740740741,54,0.28,0.55,/Standard/izzet-omniscience
-Selesnya Gearhulk,0.61538461538462,52,0.47,0.75,/Standard/selesnya-gearhulk
-Gruul Ouroboroid,0.55769230769231,52,0.41,0.7,/Standard/gruul-ouroboroid
-Orzhov Lifegain,0.35294117647059,51,0.22,0.5,/Standard/orzhov-lifegain
-Boros Tokens,0.51020408163265,49,0.36,0.66,/Standard/boros-tokens
-Azorius Flyers,0.44897959183673,49,0.31,0.6,/Standard/azorius-flyers
-Selesnya Cage,0.45833333333333,48,0.31,0.61,/Standard/selesnya-cage
-Golgari Midrange,0.53191489361702,47,0.38,0.68,/Standard/golgari-midrange
-Rakdos Monument,0.57446808510638,47,0.42,0.72,/Standard/rakdos-monument
-Golgari Graveyard,0.51162790697674,43,0.35,0.67,/Standard/golgari-graveyard
-Sultai Rhythm,0.51219512195122,41,0.35,0.67,/Standard/sultai-rhythm
-Boros Weapons,0.43589743589744,39,0.28,0.6,/Standard/boros-weapons
-Mardu Iroh,0.61538461538462,39,0.45,0.77,/Standard/mardu-iroh
-Esper Control,0.36111111111111,36,0.21,0.54,/Standard/esper-control
-Orzhov Sacrifice,0.37142857142857,35,0.21,0.55,/Standard/orzhov-sacrifice
-Golgari Ramp,0.48571428571429,35,0.31,0.66,/Standard/golgari-ramp
-Temur Battlecrier,0.36363636363636,33,0.2,0.55,/Standard/temur-battlecrier
-Goblins,0.5,32,0.32,0.68,/Standard/goblins
-Gruul Leyline,0.375,32,0.21,0.56,/Standard/gruul-leyline
-Azorius Auras,0.25806451612903,31,0.12,0.45,/Standard/azorius-auras
-Golgari Dragons,0.2258064516129,31,0.1,0.41,/Standard/golgari-dragons
-Temur Elementals,0.6,30,0.41,0.77,/Standard/temur-elementals
-Orzhov Pixie,0.27586206896552,29,0.13,0.47,/Standard/orzhov-pixie
-Sultai Dragons,0.39285714285714,28,0.22,0.59,/Standard/sultai-dragons
-Azorius Pixie,0.35714285714286,28,0.19,0.56,/Standard/azorius-pixie
-Gruul Aggro,0.44444444444444,27,0.25,0.65,/Standard/gruul-aggro
-Sultai Control,0.51851851851852,27,0.32,0.71,/Standard/sultai-control
-Selesnya Counters,0.38461538461538,26,0.2,0.59,/Standard/selesnya-counters
-Boros Midrange,0.41666666666667,24,0.22,0.63,/Standard/boros-midrange
-Mono White Aggro,0.43478260869565,23,0.23,0.66,/Standard/mono-white-aggro
-Simic Otters,0.5,22,0.28,0.72,/Standard/simic-otters
-Rakdos Sacrifice,0.28571428571429,21,0.11,0.52,/Standard/rakdos-sacrifice
-Boros Arabella,0.38095238095238,21,0.18,0.62,/Standard/boros-arabella
-Esper Artifacts,0.4,20,0.19,0.64,/Standard/esper-artifacts
-Mardu Dragons,0.55,20,0.32,0.77,/Standard/mardu-dragons
-Temur Songcrafter,0.36842105263158,19,0.16,0.62,/Standard/temur-songcrafter
-4 Color Yuna,0.52631578947368,19,0.29,0.76,/Standard/4-color-yuna
-Temur Stormsplitter,0.26315789473684,19,0.09,0.51,/Standard/temur-stormsplitter
-Mono White Angels,0.33333333333333,18,0.13,0.59,/Standard/mono-white-angels
-Mono Black Skeletons,0.61111111111111,18,0.36,0.83,/Standard/mono-black-skeletons
-Jeskai Duplication,0.33333333333333,18,0.13,0.59,/Standard/jeskai-duplication
-Jeskai Dragons,0.41176470588235,17,0.18,0.67,/Standard/jeskai-dragons
-Esper Midrange,0.47058823529412,17,0.23,0.72,/Standard/esper-midrange
-Abzan Yuna,0.35294117647059,17,0.14,0.62,/Standard/abzan-yuna
-Naya Yuna,0.35294117647059,17,0.14,0.62,/Standard/naya-yuna
-Grixis Reanimator,0.125,16,0.02,0.38,/Standard/grixis-reanimator
-4 Color Reanimator,0.4375,16,0.2,0.7,/Standard/4-color-reanimator
-Mono White Auras,0.35714285714286,14,0.13,0.65,/Standard/mono-white-auras
-Golgari Control,0.5,14,0.23,0.77,/Standard/golgari-control
-Mardu Sacrifice,0.35714285714286,14,0.13,0.65,/Standard/mardu-sacrifice
-Bant Landfall,0.71428571428571,14,0.42,0.92,/Standard/bant-landfall
-Grixis Control,0.38461538461538,13,0.14,0.68,/Standard/grixis-control
-Mono Black Sacrifice,0.53846153846154,13,0.25,0.81,/Standard/mono-black-sacrifice
-Abzan Ketramose,0.23076923076923,13,0.05,0.54,/Standard/abzan-ketramose
-Abzan Control,0.5,12,0.21,0.79,/Standard/abzan-control
-Temur Surprise,0.63636363636364,11,0.31,0.89,/Standard/temur-surprise
-Bant Chocobo,0.36363636363636,11,0.11,0.69,/Standard/bant-chocobo
-Orzhov Ketramose,0.2,10,0.03,0.56,/Standard/orzhov-ketramose
-Mono Blue Flash,0.4,10,0.12,0.74,/Standard/mono-blue-flash
-Rakdos Aggro,0.44444444444444,9,0.14,0.79,/Standard/rakdos-aggro
-Orzhov Control,0.44444444444444,9,0.14,0.79,/Standard/orzhov-control
-Selesnya Aggro,0.33333333333333,9,0.07,0.7,/Standard/selesnya-aggro
-Jeskai Aggro,0.55555555555556,9,0.21,0.86,/Standard/jeskai-aggro
-Mono Blue Proft,0.55555555555556,9,0.21,0.86,/Standard/mono-blue-proft
-Golgari Earthbend,0.55555555555556,9,0.21,0.86,/Standard/golgari-earthbend
-Golgari Landfall,0.33333333333333,9,0.07,0.7,/Standard/golgari-landfall
-Sultai Graveyard,0.44444444444444,9,0.14,0.79,/Standard/sultai-graveyard
-Abzan Roots,0.25,8,0.03,0.65,/Standard/abzan-roots
-Esper Oculus,0.5,8,0.16,0.84,/Standard/esper-oculus
-Dimir Flash,0.625,8,0.24,0.91,/Standard/dimir-flash
-Esper Flyers,0.5,8,0.16,0.84,/Standard/esper-flyers
-Dimir Elementals,0.375,8,0.09,0.76,/Standard/dimir-elementals
-Gruul Surprise,0.71428571428571,7,0.29,0.96,/Standard/gruul-surprise
-Rakdos Lizards,0.42857142857143,7,0.1,0.82,/Standard/rakdos-lizards
-Mono Green Stompy,0.14285714285714,7,0.0,0.58,/Standard/mono-green-stompy
-Abzan Lifegain,0.42857142857143,7,0.1,0.82,/Standard/abzan-lifegain
-Rakdos Demons,0.42857142857143,7,0.1,0.82,/Standard/rakdos-demons
-Rakdos Weapons,0.42857142857143,7,0.1,0.82,/Standard/rakdos-weapons
-Mono White Pixie,0.42857142857143,7,0.1,0.82,/Standard/mono-white-pixie
-Izzet Flash,0.42857142857143,7,0.1,0.82,/Standard/izzet-flash
-Temur Ouroboroid,0.42857142857143,7,0.1,0.82,/Standard/temur-ouroboroid
-Cats Aggro,0.66666666666667,6,0.22,0.96,/Standard/cats-aggro
-Mardu Control,0.5,6,0.12,0.88,/Standard/mardu-control
-Grixis Oculus,0.33333333333333,6,0.04,0.78,/Standard/grixis-oculus
-Selesnya Kona,0.16666666666667,6,0.0,0.64,/Standard/selesnya-kona
-Dimir Conqueror,0.33333333333333,6,0.04,0.78,/Standard/dimir-conqueror
-Esper Aggro,0.33333333333333,6,0.04,0.78,/Standard/esper-aggro
-Jund Midrange,0.6,5,0.15,0.95,/Standard/jund-midrange
-Azorius Tempo,0.2,5,0.01,0.72,/Standard/azorius-tempo
-Mono Black Aggro,0.4,5,0.05,0.85,/Standard/mono-black-aggro
-Azorius Enchantments,0.2,5,0.01,0.72,/Standard/azorius-enchantments
-Golgari Chocobo,0.2,5,0.01,0.72,/Standard/golgari-chocobo
-Esper Blink,0.2,5,0.01,0.72,/Standard/esper-blink
-Sultai Landfall,0.4,5,0.05,0.85,/Standard/sultai-landfall
-Orzhov Artifacts,0.4,5,0.05,0.85,/Standard/orzhov-artifacts
-Mardu Midrange,0.25,4,0.01,0.81,/Standard/mardu-midrange
-Abzan Counters,0.25,4,0.01,0.81,/Standard/abzan-counters
-Mono Black Discard,0.25,4,0.01,0.81,/Standard/mono-black-discard
-Mono Black Moonshadow,0.25,4,0.01,0.81,/Standard/mono-black-moonshadow
-Mono White Ugin,0.33333333333333,3,0.01,0.91,/Standard/mono-white-ugin
-Simic Cauldron,0.33333333333333,3,0.01,0.91,/Standard/simic-cauldron
+Izzet Lessons,0.52641690682037,2082,0.5,0.55,/Standard/izzet-lessons
+Mono Green Landfall,0.56344086021505,1860,0.54,0.59,/Standard/mono-green-landfall
+Dimir Excruciator,0.49094567404427,1491,0.47,0.52,/Standard/dimir-excruciator
+Izzet Elementals,0.52361673414305,1482,0.5,0.55,/Standard/izzet-elementals
+Dimir Midrange,0.51894563426689,1214,0.49,0.55,/Standard/dimir-midrange
+Simic Rhythm,0.495,1200,0.47,0.52,/Standard/simic-rhythm
+Azorius Flash,0.51679841897233,1012,0.49,0.55,/Standard/azorius-flash
+Izzet Prowess,0.56117647058824,850,0.53,0.59,/Standard/izzet-prowess
+Boros Dragons,0.51308139534884,688,0.48,0.55,/Standard/boros-dragons
+Temur Landfall,0.51724137931034,580,0.48,0.56,/Standard/temur-landfall
+Jeskai Control,0.38502673796791,561,0.34,0.43,/Standard/jeskai-control
+Mono-Red Aggro,0.50810810810811,555,0.47,0.55,/Standard/mono-red-aggro
+Bant Airbending,0.50675675675676,444,0.46,0.55,/Standard/bant-airbending
+Sultai Reanimator,0.44817073170732,328,0.39,0.5,/Standard/sultai-reanimator
+Rakdos Monument,0.44272445820433,323,0.39,0.5,/Standard/rakdos-monument
+Gruul Landfall,0.53496503496504,286,0.48,0.59,/Standard/gruul-landfall
+Grixis Elementals,0.4982332155477,283,0.44,0.56,/Standard/grixis-elementals
+4 Color Control,0.49753694581281,203,0.43,0.57,/Standard/4-color-control
+Azorius Control,0.42541436464088,181,0.35,0.5,/Standard/azorius-control
+Dimir Control,0.44692737430168,179,0.37,0.52,/Standard/dimir-control
+Izzet Splash,0.38323353293413,167,0.31,0.46,/Standard/izzet-splash
+4 Color Rhythm,0.48979591836735,147,0.41,0.57,/Standard/4-color-rhythm
+Boros Burn,0.37234042553191,94,0.27,0.48,/Standard/boros-burn
+Temur Ouroboroid,0.52173913043478,92,0.42,0.63,/Standard/temur-ouroboroid
+Simic Omniscience,0.4390243902439,82,0.33,0.55,/Standard/simic-omniscience
+Selesnya Landfall,0.4375,80,0.33,0.55,/Standard/selesnya-landfall
+Mono Black Midrange,0.48,75,0.36,0.6,/Standard/mono-black-midrange
+Azorius Otters,0.58904109589041,73,0.47,0.7,/Standard/azorius-otters
+Dimir Reanimator,0.44285714285714,70,0.32,0.57,/Standard/dimir-reanimator
+Esper Oculus,0.26984126984127,63,0.17,0.4,/Standard/esper-oculus
+Dimir Bounce,0.49206349206349,63,0.36,0.62,/Standard/dimir-bounce
+Golgari Ouroboroid,0.40983606557377,61,0.29,0.54,/Standard/golgari-ouroboroid
+Bant Omniscience,0.48214285714286,56,0.35,0.62,/Standard/bant-omniscience
+Temur Battlecrier,0.43137254901961,51,0.29,0.58,/Standard/temur-battlecrier
+Esper Pixie,0.46,50,0.32,0.61,/Standard/esper-pixie
+Grixis Monument,0.48936170212766,47,0.34,0.64,/Standard/grixis-monument
+Jeskai Artifacts,0.42222222222222,45,0.28,0.58,/Standard/jeskai-artifacts
+Naya Yuna,0.39473684210526,38,0.24,0.57,/Standard/naya-yuna
+Izzet Looting,0.51351351351351,37,0.34,0.68,/Standard/izzet-looting
+Sultai Elementals,0.32432432432432,37,0.18,0.5,/Standard/sultai-elementals
+Mono Red Leyline,0.53125,32,0.35,0.71,/Standard/mono-red-leyline
+Goblins,0.25806451612903,31,0.12,0.45,/Standard/goblins
+Orzhov Superfriends,0.46666666666667,30,0.28,0.66,/Standard/orzhov-superfriends
+Rakdos Aggro,0.48275862068966,29,0.29,0.67,/Standard/rakdos-aggro
+Golgari Roots,0.38461538461538,26,0.2,0.59,/Standard/golgari-roots
+Mono White Tokens,0.38461538461538,26,0.2,0.59,/Standard/mono-white-tokens
+Grixis Reanimator,0.42307692307692,26,0.23,0.63,/Standard/grixis-reanimator
+4 Color Songcrafter,0.36,25,0.18,0.57,/Standard/4-color-songcrafter
+Sultai Rhythm,0.52,25,0.31,0.72,/Standard/sultai-rhythm
+Gruul Leyline,0.41666666666667,24,0.22,0.63,/Standard/gruul-leyline
+Sultai Dragons,0.625,24,0.41,0.81,/Standard/sultai-dragons
+Azorius Merfolks,0.31818181818182,22,0.14,0.55,/Standard/azorius-merfolks
+Mono White Shepherd,0.47368421052632,19,0.24,0.71,/Standard/mono-white-shepherd
+Temur Lessons,0.57894736842105,19,0.33,0.8,/Standard/temur-lessons
+Orzhov Sacrifice,0.52941176470588,17,0.28,0.77,/Standard/orzhov-sacrifice
+Orzhov Ketramose,0.25,16,0.07,0.52,/Standard/orzhov-ketramose
+Azorius Flyers,0.5,16,0.25,0.75,/Standard/azorius-flyers
+Allies,0.4375,16,0.2,0.7,/Standard/allies
+Golgari Midrange,0.6,15,0.32,0.84,/Standard/golgari-midrange
+Esper Control,0.35714285714286,14,0.13,0.65,/Standard/esper-control
+Mono White Auras,0.57142857142857,14,0.29,0.82,/Standard/mono-white-auras
+Orzhov Midrange,0.42857142857143,14,0.18,0.71,/Standard/orzhov-midrange
+4 Color Roots,0.5,14,0.23,0.77,/Standard/4-color-roots
+4 Color Reanimator,0.5,14,0.23,0.77,/Standard/4-color-reanimator
+Boros Weapons,0.21428571428571,14,0.05,0.51,/Standard/boros-weapons
+Mono Blue Tempo,0.46153846153846,13,0.19,0.75,/Standard/mono-blue-tempo
+Selesnya Aggro,0.53846153846154,13,0.25,0.81,/Standard/selesnya-aggro
+Gruul Delirium,0.53846153846154,13,0.25,0.81,/Standard/gruul-delirium
+Golgari Control,0.23076923076923,13,0.05,0.54,/Standard/golgari-control
+Sultai Control,0.69230769230769,13,0.39,0.91,/Standard/sultai-control
+Orzhov Aggro,0.38461538461538,13,0.14,0.68,/Standard/orzhov-aggro
+Gruul Aggro,0.41666666666667,12,0.15,0.72,/Standard/gruul-aggro
+Temur Midrange,0.25,12,0.05,0.57,/Standard/temur-midrange
+Random Encounter,0.25,12,0.05,0.57,/Standard/random-encounter
+Jeskai Prowess,0.45454545454545,11,0.17,0.77,/Standard/jeskai-prowess
+Selesnya Cage,0.4,10,0.12,0.74,/Standard/selesnya-cage
+Boros Tokens,0.2,10,0.03,0.56,/Standard/boros-tokens
+Esper Flash,0.3,10,0.07,0.65,/Standard/esper-flash
+Bant Rhythm,0.6,10,0.26,0.88,/Standard/bant-rhythm
+Dimir Demons,0.66666666666667,9,0.3,0.93,/Standard/dimir-demons
+Jeskai Flash,0.55555555555556,9,0.21,0.86,/Standard/jeskai-flash
+Selesnya Rhythm,0.55555555555556,9,0.21,0.86,/Standard/selesnya-rhythm
+Simic Frogs,0.375,8,0.09,0.76,/Standard/simic-frogs
+Boros Mice,0.125,8,0.0,0.53,/Standard/boros-mice
+Boros Aggro,0.5,8,0.16,0.84,/Standard/boros-aggro
+Jeskai Oculus,0.25,8,0.03,0.65,/Standard/jeskai-oculus
+Temur Cauldron,0.5,8,0.16,0.84,/Standard/temur-cauldron
+Rakdos Leyline,0.25,8,0.03,0.65,/Standard/rakdos-leyline
+Mono Black Ugin,0.5,8,0.16,0.84,/Standard/mono-black-ugin
+Esper Midrange,0.75,8,0.35,0.97,/Standard/esper-midrange
+Dimir Faeries,0.14285714285714,7,0.0,0.58,/Standard/dimir-faeries
+Jeskai Aggro,0.42857142857143,7,0.1,0.82,/Standard/jeskai-aggro
+Izzet Dragons,0.42857142857143,7,0.1,0.82,/Standard/izzet-dragons
+Bant Cage,0.28571428571429,7,0.04,0.71,/Standard/bant-cage
+Golgari Deathtouch,0.66666666666667,6,0.22,0.96,/Standard/golgari-deathtouch
+Boros Discover,0.16666666666667,6,0.0,0.64,/Standard/boros-discover
+Mardu Control,0.16666666666667,6,0.0,0.64,/Standard/mardu-control
+Jeskai Midrange,0.16666666666667,6,0.0,0.64,/Standard/jeskai-midrange
+Abzan Yuna,0.16666666666667,6,0.0,0.64,/Standard/abzan-yuna
+Boros Arabella,0.16666666666667,6,0.0,0.64,/Standard/boros-arabella
+Mardu Midrange,0.6,5,0.15,0.95,/Standard/mardu-midrange
+Mono Green Stompy,0.6,5,0.15,0.95,/Standard/mono-green-stompy
+Dimir Elementals,0.2,5,0.01,0.72,/Standard/dimir-elementals
+Temur Otters,0.25,4,0.01,0.81,/Standard/temur-otters
+Sultai Ramp,0.33333333333333,3,0.01,0.91,/Standard/sultai-ramp
+Izzet Artifacts,0.33333333333333,3,0.01,0.91,/Standard/izzet-artifacts
+Mono White Aggro,0.66666666666667,3,0.09,0.99,/Standard/mono-white-aggro
+Mono Green Ouroboroid,0.5,2,0.01,0.99,/Standard/mono-green-ouroboroid

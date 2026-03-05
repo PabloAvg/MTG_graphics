@@ -1,73 +1,57 @@
 archetype,overall_winrate,overall_matches,overall_ci_low,overall_ci_high,url_relative
-Boros Energy,0.55157894736842,475,0.51,0.6,/Modern/boros-energy
-Affinity,0.51785714285714,280,0.46,0.58,/Modern/affinity
-Domain Aggro,0.52709359605911,203,0.46,0.6,/Modern/domain-aggro
-Izzet Prowess,0.39572192513369,187,0.33,0.47,/Modern/izzet-prowess
-Ruby Storm,0.52727272727273,165,0.45,0.61,/Modern/ruby-storm
-Amulet Titan,0.44370860927152,151,0.36,0.53,/Modern/amulet-titan
-Golgari Yawgmoth,0.50993377483444,151,0.43,0.59,/Modern/golgari-yawgmoth
-Eldrazi Tron,0.5546875,128,0.46,0.64,/Modern/eldrazi-tron
-Esper Reanimator,0.46456692913386,127,0.38,0.56,/Modern/esper-reanimator
-Jeskai Control,0.42857142857143,126,0.34,0.52,/Modern/jeskai-control
-Jeskai Blink,0.50442477876106,113,0.41,0.6,/Modern/jeskai-blink
-Eldrazi Ramp,0.625,96,0.52,0.72,/Modern/eldrazi-ramp
-Esper Phelia,0.59340659340659,91,0.49,0.7,/Modern/esper-phelia
-Tameshi Belcher,0.63855421686747,83,0.53,0.74,/Modern/tameshi-belcher
-Azorius Control,0.44444444444444,72,0.33,0.57,/Modern/azorius-control
-Simic Ritual,0.46478873239437,71,0.35,0.59,/Modern/simic-ritual
-Neoform,0.58571428571429,70,0.46,0.7,/Modern/neoform
-Samwise Combo,0.45652173913043,46,0.31,0.61,/Modern/samwise-combo
-Eldrazi Bloodchief Combo,0.48837209302326,43,0.33,0.65,/Modern/eldrazi-bloodchief-combo
-Mill,0.36585365853659,41,0.22,0.53,/Modern/mill
-4 Color Omnath,0.525,40,0.36,0.68,/Modern/4-color-omnath
-Living End,0.61538461538462,39,0.45,0.77,/Modern/living-end
-Eldrazi Aggro,0.45454545454545,33,0.28,0.64,/Modern/eldrazi-aggro
-Grixis Reanimator,0.3125,32,0.16,0.5,/Modern/grixis-reanimator
-4 Color Ritual,0.59375,32,0.41,0.76,/Modern/4-color-ritual
-Dimir Frog,0.54166666666667,24,0.33,0.74,/Modern/dimir-frog
-Hollow One,0.52380952380952,21,0.3,0.74,/Modern/hollow-one
-Burn,0.33333333333333,18,0.13,0.59,/Modern/burn
-Grixis Frog,0.38888888888889,18,0.17,0.64,/Modern/grixis-frog
-Dimir Control,0.35294117647059,17,0.14,0.62,/Modern/dimir-control
-Hardened Scales,0.5,16,0.25,0.75,/Modern/hardened-scales
-Kethis Combo,0.5625,16,0.3,0.8,/Modern/kethis-combo
-Infect,0.4,15,0.16,0.68,/Modern/infect
-Temur Song,0.46666666666667,15,0.21,0.73,/Modern/temur-song
-Azorius Blink,0.46666666666667,15,0.21,0.73,/Modern/azorius-blink
-Merfolk,0.46153846153846,13,0.19,0.75,/Modern/merfolk
-Dredge,0.25,12,0.05,0.57,/Modern/dredge
-Splinter Twin,0.5,12,0.21,0.79,/Modern/splinter-twin
-Mardu Energy,0.5,12,0.21,0.79,/Modern/mardu-energy
-Izzet Metalcraft,0.58333333333333,12,0.28,0.85,/Modern/izzet-metalcraft
-Rakdos Channeler,0.45454545454545,11,0.17,0.77,/Modern/rakdos-channeler
-Jund Saga,0.36363636363636,11,0.11,0.69,/Modern/jund-saga
-Orzhov Blink,0.1,10,0.0,0.45,/Modern/orzhov-blink
-Esper Frog,0.7,10,0.35,0.93,/Modern/esper-frog
-Grixis Death's Shadow,0.33333333333333,9,0.07,0.7,/Modern/grixis-death-s-shadow
-Rakdos Burn,0.77777777777778,9,0.4,0.97,/Modern/rakdos-burn
-Izzet Murktide,0.55555555555556,9,0.21,0.86,/Modern/izzet-murktide
-Eldrazi Breach,0.33333333333333,9,0.07,0.7,/Modern/eldrazi-breach
-Thud Combo,0.44444444444444,9,0.14,0.79,/Modern/thud-combo
-Mono Green Tron,0.28571428571429,7,0.04,0.71,/Modern/mono-green-tron
-Mono Blue Eldrazi,0.71428571428571,7,0.29,0.96,/Modern/mono-blue-eldrazi
-Grixis Control,0.57142857142857,7,0.18,0.9,/Modern/grixis-control
-Gruul Ponza,0.28571428571429,7,0.04,0.71,/Modern/gruul-ponza
-Mono Black Necrodominance,0.85714285714286,7,0.42,1.0,/Modern/mono-black-necrodominance
-Mono Red Prowess,0.42857142857143,7,0.1,0.82,/Modern/mono-red-prowess
-Soultrader,0.42857142857143,7,0.1,0.82,/Modern/soultrader
-Mono Blue Tron,0.5,6,0.12,0.88,/Modern/mono-blue-tron
-Humans,0.66666666666667,6,0.22,0.96,/Modern/humans
-Gruul Aggro,0.5,6,0.12,0.88,/Modern/gruul-aggro
-Mardu Control,0.5,6,0.12,0.88,/Modern/mardu-control
-Izzet Control,0.83333333333333,6,0.36,1.0,/Modern/izzet-control
-Selesnya Ritual,0.33333333333333,6,0.04,0.78,/Modern/selesnya-ritual
-Heliod Company,0.4,5,0.05,0.85,/Modern/heliod-company
-Jeskai Ascendancy,0.8,5,0.28,0.99,/Modern/jeskai-ascendancy
-Esper Control,0.4,5,0.05,0.85,/Modern/esper-control
-Bant Ritual,0.4,5,0.05,0.85,/Modern/bant-ritual
-Dimir Oculus,0.8,5,0.28,0.99,/Modern/dimir-oculus
-Boros Wildfire,0.6,5,0.15,0.95,/Modern/boros-wildfire
-Grixis Weapons,0.25,4,0.01,0.81,/Modern/grixis-weapons
+Boros Energy,0.54692556634304,309,0.49,0.6,/Modern/boros-energy
+Affinity,0.5503355704698,149,0.47,0.63,/Modern/affinity
+Izzet Prowess,0.46728971962617,107,0.37,0.57,/Modern/izzet-prowess
+Domain Aggro,0.5631067961165,103,0.46,0.66,/Modern/domain-aggro
+Eldrazi Tron,0.49397590361446,83,0.38,0.61,/Modern/eldrazi-tron
+Eldrazi Ramp,0.52631578947368,76,0.41,0.64,/Modern/eldrazi-ramp
+Amulet Titan,0.49333333333333,75,0.38,0.61,/Modern/amulet-titan
+Esper Reanimator,0.58571428571429,70,0.46,0.7,/Modern/esper-reanimator
+Simic Ritual,0.53030303030303,66,0.4,0.65,/Modern/simic-ritual
+Ruby Storm,0.55384615384615,65,0.43,0.68,/Modern/ruby-storm
+Tameshi Belcher,0.53846153846154,65,0.41,0.66,/Modern/tameshi-belcher
+Jeskai Blink,0.46875,64,0.34,0.6,/Modern/jeskai-blink
+Golgari Yawgmoth,0.51851851851852,54,0.38,0.66,/Modern/golgari-yawgmoth
+Eldrazi Bloodchief Combo,0.55555555555556,54,0.41,0.69,/Modern/eldrazi-bloodchief-combo
+Mill,0.34782608695652,46,0.21,0.5,/Modern/mill
+Grixis Reanimator,0.43181818181818,44,0.28,0.59,/Modern/grixis-reanimator
+Esper Phelia,0.51282051282051,39,0.35,0.68,/Modern/esper-phelia
+Azorius Control,0.52631578947368,38,0.36,0.69,/Modern/azorius-control
+Dimir Control,0.44444444444444,36,0.28,0.62,/Modern/dimir-control
+Neoform,0.51724137931034,29,0.33,0.71,/Modern/neoform
+Living End,0.44,25,0.24,0.65,/Modern/living-end
+Eldrazi Aggro,0.57142857142857,21,0.34,0.78,/Modern/eldrazi-aggro
+Dimir Frog,0.52380952380952,21,0.3,0.74,/Modern/dimir-frog
+Jeskai Control,0.47058823529412,17,0.23,0.72,/Modern/jeskai-control
+Burn,0.47058823529412,17,0.23,0.72,/Modern/burn
+4 Color Phlage,0.375,16,0.15,0.65,/Modern/4-color-phlage
+Hollow One,0.26666666666667,15,0.08,0.55,/Modern/hollow-one
+Mono Black Necrodominance,0.64285714285714,14,0.35,0.87,/Modern/mono-black-necrodominance
+Dimir Death's Shadow,0.4,10,0.12,0.74,/Modern/dimir-death-s-shadow
+Rakdos Arcanist,0.4,10,0.12,0.74,/Modern/rakdos-arcanist
+Merfolk,0.55555555555556,9,0.21,0.86,/Modern/merfolk
+Mono Green Tron,0.33333333333333,9,0.07,0.7,/Modern/mono-green-tron
+Grixis Creativity,0.55555555555556,9,0.21,0.86,/Modern/grixis-creativity
+Hammer Time,0.375,8,0.09,0.76,/Modern/hammer-time
+Splinter Twin,0.625,8,0.24,0.91,/Modern/splinter-twin
+Jeskai Ascendancy,0.28571428571429,7,0.04,0.71,/Modern/jeskai-ascendancy
+Vizier,0.16666666666667,6,0.0,0.64,/Modern/vizier
+Saheeli Combo,0.5,6,0.12,0.88,/Modern/saheeli-combo
+4 Color Omnath,0.16666666666667,6,0.0,0.64,/Modern/4-color-omnath
+Dimir Reanimator,0.5,6,0.12,0.88,/Modern/dimir-reanimator
+Jund Creativity,0.33333333333333,6,0.04,0.78,/Modern/jund-creativity
+Goblins,0.4,5,0.05,0.85,/Modern/goblins
+Mono White Control,0.8,5,0.28,0.99,/Modern/mono-white-control
+Temur Song,0.4,5,0.05,0.85,/Modern/temur-song
+Grixis Tempo,0.4,5,0.05,0.85,/Modern/grixis-tempo
+Mardu Reanimator,0.2,5,0.01,0.72,/Modern/mardu-reanimator
+Twiddle Storm,0.6,5,0.15,0.95,/Modern/twiddle-storm
+Grixis Frog,0.2,5,0.01,0.72,/Modern/grixis-frog
+Mono Black Bones,0.6,5,0.15,0.95,/Modern/mono-black-bones
+Humans,0.5,4,0.07,0.93,/Modern/humans
+Elementals,0.75,4,0.19,0.99,/Modern/elementals
+Orzhov Blink,0.25,4,0.01,0.81,/Modern/orzhov-blink
+Lantern Control,0.66666666666667,3,0.09,0.99,/Modern/lantern-control
+Eldrazi Breach,0.33333333333333,3,0.01,0.91,/Modern/eldrazi-breach
+4 Color Ritual,0.66666666666667,3,0.09,0.99,/Modern/4-color-ritual
 Red Belcher,0.66666666666667,3,0.09,0.99,/Modern/red-belcher
-Elementals,0.5,2,0.01,0.99,/Modern/elementals
-Izzet Shapeshifters,0.5,2,0.01,0.99,/Modern/izzet-shapeshifters
